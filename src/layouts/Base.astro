@@ -1,0 +1,68 @@
+---
+import '../styles/global.css'
+import { hreflangs, pathFor, locales, type Locale } from '../i18n/utils'
+
+interface Props { locale: Locale; title: string; path?: string }
+const { locale, title, path = '' } = Astro.props
+
+// Gegenseitigkeit per Konstruktion — Google ignoriert die Gruppe, wenn ein Rückverweis fehlt.
+const alternates = hreflangs(Astro.site, path)
+const desc: Record<Locale, string> = {
+  tr: 'Alanya Gree Klima Yetkili Bayi ve Servisi. Satış, montaj, bakım. Ücretsiz keşif, faturalı hizmet, 7/24 destek.',
+  de: 'Autorisierter Gree-Händler in Alanya. Verkauf, Montage und Wartung. Kostenlose Besichtigung, deutschsprachiger Service.',
+  ru: 'Официальный дилер и сервис Gree в Алании. Продажа, монтаж, обслуживание. Говорим по-русски, бесплатный замер.',
+  en: 'Authorized Gree dealer in Alanya. Sales, installation and maintenance. Free survey, English-speaking service.',
+}
+const flag: Record<Locale, string> = { tr: 'TR', de: 'DE', ru: 'RU', en: 'EN' }
+---
+
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={desc[locale]} />
+    <title>{title}</title>
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc[locale]} />
+    <meta property="og:type" content="website" />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
+    <link rel="preload" href="/fonts/cormorant-600-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/jost-300-600-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="wrap tbin">
+        <a class="brand" href={pathFor(locale)}>
+          <span class="bm">GLOBAL TEKNİK</span>
+          <span class="bs">Gree · Alanya</span>
+        </a>
+        <nav class="lang" aria-label="Language">
+          {
+            locales.map((l) => (
+              <a href={pathFor(l, path)} aria-current={l === locale ? 'page' : undefined} hreflang={l}>
+                {flag[l]}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+
+    <slot />
+  </body>
+</html>
+
+<style>
+  .topbar{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--bg) 82%,transparent);
+    backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .tbin{display:flex;align-items:center;justify-content:space-between;padding:12px 24px}
+  .brand{text-decoration:none;display:flex;flex-direction:column;gap:1px;min-height:auto}
+  .bm{font-family:var(--serif);font-weight:600;font-size:1.15rem;color:var(--fg-strong);letter-spacing:.02em}
+  .bs{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent)}
+  .lang{display:flex;gap:2px}
+  .lang a{color:var(--fg-mute);text-decoration:none;font-size:.76rem;letter-spacing:.1em;padding:7px 10px;
+    min-height:auto;border-radius:2px;text-transform:uppercase}
+  .lang a[aria-current='page']{color:var(--accent-ink);background:var(--accent);font-weight:500}
+  .lang a:not([aria-current]):hover{color:var(--fg-strong)}
+</style>

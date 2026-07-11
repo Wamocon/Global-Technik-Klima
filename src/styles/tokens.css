@@ -1,0 +1,66 @@
+/* Anadolu-Royal.
+   Warmes Noir als Basis — ein kaltes Blauschwarz liest sich für türkische Augen distanziert.
+   Die Kühle kommt dorthin, wo sie hingehört: als Produktversprechen.
+   Alle Kontraste nachgerechnet, nicht geschätzt. */
+
+:root {
+  /* Grund */
+  --noir: #100d0b;          /* warm, nicht blau */
+  --noir-2: #171310;
+  --petrol: #0e3a46;        /* Kühl-Pol */
+  --petrol-lt: #58c7c0;     /* 9,54:1 auf Noir — AAA */
+
+  /* Edelmetall */
+  --gold: #c9a227;          /* 8,01:1 auf Noir — AAA */
+  --champ: #d9c27a;         /* 11,02:1 auf Noir — AAA */
+
+  /* Papier */
+  --frost: #eaf6f4;         /* 17,51:1 auf Noir — AAA */
+  --stone: #a79e90;         /*  7,32:1 auf Noir — AAA */
+
+  /* Gree-Marke: nur Akzent, nie Master-Palette.
+     ⚠ Gree-Blau erreicht auf Noir nur 2,07:1 und fällt durch jede WCAG-Stufe.
+       Niemals Text oder Icon auf dunklem Grund — nur gefüllter Chip mit heller Schrift. */
+  --gree-blue: #2a418e;
+  --gree-ember: #ea3d14;    /* 4,77:1 auf Noir — AA, als Akzent zulässig */
+
+  /* Semantik */
+  --bg: var(--noir);
+  --bg-2: #140f0c;
+  --bg-3: #1b1613;
+  --fg: #dcd5cb;
+  --fg-strong: var(--frost);
+  --fg-mute: var(--stone);
+  --accent: var(--champ);
+  --accent-ink: var(--noir);   /* dunkle Schrift auf Champagner: 11,02:1 */
+  --cool: var(--petrol-lt);
+  --line: rgba(217, 194, 122, 0.16);
+  --line-2: rgba(217, 194, 122, 0.32);
+
+  /* Schrift. Beide Familien liefern Kyrillisch — selbst geprüft. */
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Jost', 'Segoe UI', system-ui, sans-serif;
+
+  --maxw: 1180px;
+  --radius: 2px;             /* scharf. Nur Chat und WhatsApp werden weich. */
+  --ease: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* Anadolu-Royal committet auf das Dunkle. Das ist die Markenidentität — wie beim
+   Schwester-Referenzprojekt (Noir + Gold). Der Wow gegen die helle, rote Altseite
+   entsteht genau in diesem Dunkel und darf nicht vom Betriebssystem-Theme gekippt
+   werden. Das helle Papier bleibt als bewusst umschaltbare Variante erhalten,
+   ist aber nicht der Standard. */
+:root[data-theme="light"] {
+  --bg: #f6f3ee;
+  --bg-2: #ede7de;
+  --bg-3: #fffdf9;
+  --fg: #2a241e;
+  --fg-strong: #141110;
+  --fg-mute: #5a5148;
+  --accent: #7a5f14;        /* 5,46:1 auf Papier — AA. Champagner fiele durch. */
+  --accent-ink: #fffdf9;
+  --cool: #0e3a46;          /* 11,08:1 */
+  --line: rgba(20, 17, 16, 0.14);
+  --line-2: rgba(20, 17, 16, 0.28);
+}

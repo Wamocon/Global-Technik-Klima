@@ -1,0 +1,64 @@
+@import './fonts.css';
+@import './tokens.css';
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--fg-strong);
+  text-wrap: balance;
+  margin: 0;
+}
+
+.wrap { max-width: var(--maxw); margin-inline: auto; padding-inline: 24px; }
+
+/* Großschreibung ausschließlich hier. Bei gesetztem lang="tr" mappt der Browser
+   i → İ und I → ı korrekt. In JavaScript wäre das ein kaputter String.
+   Vom CSS-Text-Standard vorgeschrieben, in allen Engines seit 2014, per Web-Platform-Test
+   abgesichert. */
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+  color: var(--accent);
+}
+
+/* Berührungsziele. Auch ohne BFSG-Pflicht: die mobilen Anruf-Buttons sind die Conversion. */
+a, button { min-height: 44px; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-2);
+  color: var(--fg-strong);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-ink);   /* niemals Weiß auf Champagner: 1,59:1 */
+  border-color: transparent;
+  font-weight: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

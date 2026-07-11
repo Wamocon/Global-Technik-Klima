@@ -1,0 +1,16 @@
+{
+  "name": "alanya-global-teknik",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run guard && astro build",
+    "preview": "astro preview",
+    "guard": "node scripts/guard.mjs",
+    "pseudo": "node scripts/pseudo.mjs"
+  },
+  "devDependencies": {
+    "astro": "^7.0.7"
+  }
+}
