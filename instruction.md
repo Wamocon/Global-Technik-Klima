@@ -23,8 +23,12 @@ Stand: 11. Juli 2026 · Branch: `feat/deutscher-master`
 
 - **Phase 0 (Fundament):** Astro-Gerüst, i18n-Vertrag, Build-Leitplanken, Nullsprache (Pseudo-Locale), selbst gehostete Schriften.
 - **Erste Upgrade-Version (Startseite):** vollständige, lauffähige, viersprachige Startseite im Anadolu-Royal-Stil mit Frost-Hero, BTU-Rechner, Bewertungen, Kontakt, KI-Chat-Vorschau. Deploy-fertig für Vercel (`vercel.json` liegt).
+- **Bilder + KI-Assistent + WhatsApp:** echtes Ladenfoto aus dem Google-Profil (1600×1200) als Hero-Hook, Produktbilder, Freitext-Chat (`api/chat.js` mit echtem Claude, sonst clientseitige Intent-Maschine als Rückfall), schwebender WhatsApp-Knopf (Desktop) bzw. Sticky-Leiste (Mobil).
+- **Phase A (Königs-Erlebnis):** Explosionszeichnung eines Wandgeräts in 3D (`ExplodedUnit.astro`, Three.js) und Vorher-Nachher-Regler (`BeforeAfter.astro`).
 
 **Läuft:** `npm install` → `npm run dev` (oder `npm run build` → `dist/`). Vier Routen: `/` (TR), `/de`, `/ru`, `/en`.
+
+**Abnahme:** `scratchpad/acceptance.mjs` (Playwright) prüft 4 Sprachen × Desktop/Mobil auf JS-Fehler, horizontalen Überlauf, Kernelemente, WhatsApp je Viewport, Prominenz der Sternebewertung, Chat (öffnen/Freitext/schließen), Karte, Explosionszeichnung und Regler. Stand: **0 Fehler**.
 
 ---
 
@@ -141,10 +145,14 @@ Befehle: `npm run dev` · `npm run build` · `npm run guard` · `npm run pseudo`
 
 ## 10. Nächste Phasen (nach Freigabe)
 
-**Phase A — Königs-Erlebnis auf der Startseite vertiefen** (wenn die Richtung sitzt):
-- 3D-Explosionszeichnung eines Gree-Split-Geräts als Produktkapitel (Three.js + Scroll, lazy, unter dem Falz — nie im LCP).
-- Vorher-Nachher-Regler mit echten Montagebildern (sobald welche vorliegen).
-- Feinere scroll-getriebene Enthüllungen, seldschukischer Achtstern als Trenner.
+**Phase A — Königs-Erlebnis auf der Startseite** ✅ **gebaut**
+- **Explosionszeichnung** (`src/components/ExplodedUnit.astro`): fünf prozedural gebaute Bauteile (Frontblende, Filter, Wärmetauscher, Querstromlüfter, Gehäuse) auf einer gestrichelten Goldachse, beim Scrollen zerlegt, Legende leuchtet Teil für Teil mit.
+  - Three.js wird **dynamisch** geladen (IntersectionObserver, 300 px Vorlauf). Nachweis: der 707-KB-Brocken taucht **0×** in `dist/index.html` auf; anfangs laden nur ~22 KB. Diese Disziplin bei jeder Änderung neu belegen.
+  - Die Kamera wird **nicht geraten**, sondern eingepasst: echte Bauteil-Eckpunkte, über beide Drehstellungen vereinigt, dann im *Bildraum* nachkorrigiert. Grund: perspektivisch ist „in 3D mittig" nicht „im Bild mittig" — das nahe Frontteil wird vergrößert, das ferne Gehäuse verkleinert. Deshalb auch langes Objektiv (fov 14): fast parallelperspektivisch, wie eine technische Zeichnung.
+  - `prefers-reduced-motion`: ein statisches Bild, keine Schleife. rAF pausiert außer Sicht und bei verstecktem Tab.
+- **Vorher-Nachher-Regler** (`src/components/BeforeAfter.astro`): ziehbar, dazu ein unsichtbarer `<input type=range>` darüber — damit auch per Tastatur bedienbar. Nie automatisch (Karussells schneiden in Tests durchweg schlecht ab).
+  - ⛔ **Der Betrieb hat keine Montagefotos.** Der Regler zeigt eine als „Beispielbild/Örnek görsel/Иллюстрация" **gekennzeichnete** Illustration (Hitze→Kühle-Gradierung seines echten Produktbilds). Sobald echte Vorher/Nachher-Bilder vorliegen: Bildpfade tauschen, Label entfernen.
+- Offen aus Phase A: seldschukischer Achtstern als Trenner.
 
 **Phase B — Substanz auf Unterseiten** (Whitespark #1-Rankingfaktor: eigene Seite je Leistung):
 - Sieben echte Leistungsseiten (Montage, Wartung, Reinigung, Gaz Dolumu, Reparatur, Wärmepumpe, VRF) statt der 140 dünnen Tag-Archive der Altseite.

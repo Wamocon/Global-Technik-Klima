@@ -1,6 +1,8 @@
 ---
 import FrostHero from './FrostHero.astro'
 import Assistant from './Assistant.astro'
+import ExplodedUnit from './ExplodedUnit.astro'
+import BeforeAfter from './BeforeAfter.astro'
 import { content, biz, mission } from '../content/home'
 import type { Locale } from '../i18n/utils'
 interface Props { locale: Locale }
@@ -52,6 +54,12 @@ const mapEmbed = biz.mapEmbed
     <p class="note-line">{c.products.note}</p>
   </div>
 </section>
+
+<!-- Königs-Kapitel: das Gerät zerlegt sich beim Scrollen (Three.js, lazy). -->
+<ExplodedUnit locale={locale} />
+
+<!-- Referanslarımız — die Seite, die auf seiner Website leer ist. -->
+<BeforeAfter locale={locale} />
 
 <!-- BTU-Rechner -->
 <section class="sec" id="kesif">

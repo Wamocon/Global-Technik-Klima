@@ -455,11 +455,11 @@ const en: HomeContent = {
 export const content: Record<Locale, HomeContent> = { tr, ru, de, en }
 
 // Navigation (Anker) — die Original-Seite hatte ein Menü; hier als Ein-Seiten-Anker.
-export const nav: Record<Locale, { services: string; products: string; calc: string; about: string; contact: string }> = {
-  tr: { services: 'Hizmetler', products: 'Ürünler', calc: 'BTU Hesapla', about: 'Hakkımızda', contact: 'İletişim' },
-  ru: { services: 'Услуги', products: 'Товары', calc: 'Расчёт BTU', about: 'О нас', contact: 'Контакты' },
-  de: { services: 'Leistungen', products: 'Produkte', calc: 'BTU-Rechner', about: 'Über uns', contact: 'Kontakt' },
-  en: { services: 'Services', products: 'Products', calc: 'BTU', about: 'About', contact: 'Contact' },
+export const nav: Record<Locale, { services: string; products: string; tech: string; refs: string; calc: string; contact: string }> = {
+  tr: { services: 'Hizmetler', products: 'Ürünler', tech: 'Teknik', refs: 'Referanslar', calc: 'BTU Hesapla', contact: 'İletişim' },
+  ru: { services: 'Услуги', products: 'Товары', tech: 'Техника', refs: 'Примеры', calc: 'Расчёт BTU', contact: 'Контакты' },
+  de: { services: 'Leistungen', products: 'Produkte', tech: 'Technik', refs: 'Referenzen', calc: 'BTU-Rechner', contact: 'Kontakt' },
+  en: { services: 'Services', products: 'Products', tech: 'Technology', refs: 'References', calc: 'BTU', contact: 'Contact' },
 }
 
 // Mission / Hakkımızda — Inhalt der Original-Über-uns-Seite, lokalisiert.
@@ -480,6 +480,115 @@ export const mission: Record<Locale, { title: string; text: string }> = {
   en: {
     title: 'About us',
     text: 'As an authorized Gree dealer and service partner in Alanya, we deliver quality, reliable and fast service. Using Gree technology to its fullest, we aim for maximum customer satisfaction — and to be one of the leading climate-technology firms in Alanya.',
+  },
+}
+
+// ── Phase A: Explosionszeichnung ──────────────────────────────────────────────
+// Eine SCHEMATISCHE Darstellung (kein Produktfoto). Sie zeigt, was in einem
+// Wandgerät steckt — und dass wir es warten können. Ehrlich: Illustration, keine
+// Behauptung über ein konkretes Modell.
+export interface Exploded {
+  title: string
+  intro: string
+  hint: string
+  parts: { name: string; text: string }[]
+}
+export const exploded: Record<Locale, Exploded> = {
+  tr: {
+    title: 'Klimanızın içinde ne var?',
+    intro: 'Kaydırın — duvar tipi bir klima parçalarına ayrılsın. Baktığımız, temizlediğimiz ve gerektiğinde değiştirdiğimiz parçalar bunlar.',
+    hint: 'Şematik gösterimdir.',
+    parts: [
+      { name: 'Ön panel', text: 'Açılır kapak. Filtrelere buradan ulaşılır.' },
+      { name: 'Filtre', text: 'Toz ve poleni tutar. Bakımda temizlediğimiz ilk parça.' },
+      { name: 'Eşanjör', text: 'Isıyı alan bakır boru ve alüminyum kanatlar.' },
+      { name: 'Fan', text: 'Çapraz akışlı fan. Sessiz çalışmanın sırrı burada.' },
+      { name: 'Gövde ve montaj plakası', text: 'Duvara sabitlenen taşıyıcı. Doğru montajın temeli.' },
+    ],
+  },
+  ru: {
+    title: 'Что внутри кондиционера?',
+    intro: 'Листайте — настенный блок разбирается на части. Именно их мы обслуживаем, чистим и при необходимости меняем.',
+    hint: 'Схематичное изображение.',
+    parts: [
+      { name: 'Передняя панель', text: 'Откидная крышка. Через неё добираются до фильтров.' },
+      { name: 'Фильтр', text: 'Задерживает пыль и пыльцу. Первое, что мы чистим при ТО.' },
+      { name: 'Теплообменник', text: 'Медные трубки и алюминиевые рёбра — они забирают тепло.' },
+      { name: 'Вентилятор', text: 'Тангенциальный вентилятор. Здесь рождается тихая работа.' },
+      { name: 'Корпус и монтажная плита', text: 'Несущая пластина на стене. Основа правильного монтажа.' },
+    ],
+  },
+  de: {
+    title: 'Was steckt in Ihrer Klimaanlage?',
+    intro: 'Scrollen Sie — ein Wandgerät zerlegt sich in seine Teile. Genau diese warten, reinigen und tauschen wir.',
+    hint: 'Schematische Darstellung.',
+    parts: [
+      { name: 'Frontblende', text: 'Aufklappbare Abdeckung. Der Weg zu den Filtern.' },
+      { name: 'Filter', text: 'Hält Staub und Pollen zurück. Das Erste, was wir bei der Wartung reinigen.' },
+      { name: 'Wärmetauscher', text: 'Kupferrohre und Aluminiumlamellen — hier wird die Wärme entzogen.' },
+      { name: 'Querstromlüfter', text: 'Hier entsteht der leise Lauf.' },
+      { name: 'Gehäuse und Montageplatte', text: 'Der Träger an der Wand. Die Grundlage jeder sauberen Montage.' },
+    ],
+  },
+  en: {
+    title: 'What is inside your air conditioner?',
+    intro: 'Scroll — a wall unit takes itself apart. These are exactly the parts we service, clean and replace.',
+    hint: 'Schematic illustration.',
+    parts: [
+      { name: 'Front panel', text: 'The hinged cover. The way to the filters.' },
+      { name: 'Filter', text: 'Catches dust and pollen. The first thing we clean at a service.' },
+      { name: 'Heat exchanger', text: 'Copper tubes and aluminium fins — this is where heat is drawn off.' },
+      { name: 'Cross-flow fan', text: 'This is where the quiet running comes from.' },
+      { name: 'Housing and mounting plate', text: 'The carrier on the wall. The basis of every clean installation.' },
+    ],
+  },
+}
+
+// ── Phase A: Vorher-Nachher-Regler ────────────────────────────────────────────
+// ⛔ Der Betrieb hat KEINE öffentlichen Montagefotos. Bis echte Referenzbilder
+//    vorliegen, zeigt der Regler eine als solche gekennzeichnete Illustration der
+//    Wirkung (Hitze → Kühle) — keine Behauptung über eine konkrete Montage.
+//    Sobald echte Vorher/Nachher-Montagefotos da sind: Bilder tauschen, Label weg.
+export interface BeforeAfter {
+  title: string
+  intro: string
+  before: string
+  after: string
+  example: string
+  drag: string
+}
+export const beforeAfter: Record<Locale, BeforeAfter> = {
+  tr: {
+    title: 'Sıcaktan serinliğe',
+    intro: 'Kolu sürükleyin. Alanya sıcağı ile serinletilmiş bir oda arasındaki farkı görün.',
+    before: 'Öncesi · 34°C',
+    after: 'Sonrası · 22°C',
+    example: 'Örnek görsel',
+    drag: 'Sürükleyin',
+  },
+  ru: {
+    title: 'От жары к прохладе',
+    intro: 'Потяните ползунок. Разница между жарой Алании и охлаждённой комнатой.',
+    before: 'До · 34°C',
+    after: 'После · 22°C',
+    example: 'Иллюстрация',
+    drag: 'Потяните',
+  },
+  de: {
+    title: 'Von der Hitze zur Kühle',
+    intro: 'Ziehen Sie den Regler. Der Unterschied zwischen Alanyas Hitze und einem gekühlten Raum.',
+    before: 'Vorher · 34 °C',
+    after: 'Nachher · 22 °C',
+    example: 'Beispielbild',
+    drag: 'Ziehen',
+  },
+  en: {
+    title: 'From heat to cool',
+    intro: 'Drag the handle. The difference between Alanya’s heat and a cooled room.',
+    before: 'Before · 34°C',
+    after: 'After · 22°C',
+    example: 'Illustration',
+    drag: 'Drag',
   },
 }
 

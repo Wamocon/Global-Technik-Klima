@@ -1,0 +1,365 @@
+---
+// Königs-Kapitel: ein Wandgerät zerlegt sich beim Scrollen.
+//
+// PERFORMANCE-DISZIPLIN (aus der eigenen Recherche):
+//  · Liegt weit unter dem Falz — ist NIE das LCP-Element.
+//  · Three.js wird per dynamischem Import ERST geladen, wenn die Sektion
+//    in Sichtweite kommt (IntersectionObserver). Nicht im kritischen Pfad.
+//  · rAF pausiert, sobald die Sektion aus dem Blick oder der Tab versteckt ist.
+//  · prefers-reduced-motion: ein einziges statisches Bild, keine Scroll-Kopplung.
+//
+// EHRLICHKEIT: schematische Darstellung, kein Produktfoto, kein konkretes Modell.
+import { exploded } from '../content/home'
+import type { Locale } from '../i18n/utils'
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const e = exploded[locale]
+---
+
+<section class="sec exp" id="teknik">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">{e.title}</p>
+      <p class="lede">{e.intro}</p>
+    </div>
+
+    <div class="exp-grid">
+      <div class="exp-stage" id="expStage">
+        <canvas id="expCanvas" aria-hidden="true"></canvas>
+        <noscript><p class="exp-ns">{e.hint}</p></noscript>
+        <span class="exp-hint">{e.hint}</span>
+      </div>
+
+      <ol class="exp-legend" id="expLegend">
+        {e.parts.map((p, i) => (
+          <li data-part={i}>
+            <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <span class="txt"><b>{p.name}</b><span>{p.text}</span></span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </div>
+</section>
+
+<style>
+  .exp{background:
+    radial-gradient(120% 80% at 80% 0%, color-mix(in oklab,var(--petrol) 24%,transparent), transparent 58%),
+    linear-gradient(180deg,var(--bg-2),var(--bg))}
+  .exp-grid{display:grid;gap:28px;align-items:center}
+  @media(min-width:960px){.exp-grid{grid-template-columns:1.15fr .85fr}}
+  .exp-stage{position:relative;border:1px solid var(--line);border-radius:3px;overflow:hidden;
+    aspect-ratio:4/3;background:radial-gradient(120% 100% at 50% 10%, color-mix(in oklab,var(--petrol) 26%,transparent), var(--noir) 88%)}
+  /* Das zerlegte Gerät ist breit und flach — am Desktop ein flacherer Rahmen,
+     sonst steht viel tote Fläche über und unter der Zeichnung. */
+  @media(min-width:960px){.exp-stage{aspect-ratio:3/2}}
+  #expCanvas{display:block;width:100%;height:100%}
+  .exp-hint{position:absolute;left:14px;bottom:12px;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--fg-mute);opacity:.7}
+  .exp-ns{padding:24px;color:var(--fg-mute)}
+
+  .exp-legend{list-style:none;margin:0;padding:0;display:grid;gap:2px;counter-reset:none}
+  .exp-legend li{display:grid;grid-template-columns:auto 1fr;gap:16px;padding:14px 16px;border-radius:2px;
+    border-left:2px solid transparent;transition:background .35s var(--ease),border-color .35s var(--ease),opacity .35s var(--ease);
+    opacity:.45}
+  .exp-legend li.on{opacity:1;background:var(--card);border-left-color:var(--accent)}
+  .exp-legend .num{font-family:var(--serif);font-size:1.15rem;color:var(--accent);font-variant-numeric:tabular-nums;line-height:1.4}
+  .exp-legend .txt{display:flex;flex-direction:column;gap:3px}
+  .exp-legend .txt b{color:var(--fg-strong);font-weight:500;font-size:1rem}
+  .exp-legend .txt span{color:var(--fg-mute);font-size:.9rem;line-height:1.45}
+
+  @media (prefers-reduced-motion: reduce){
+    .exp-legend li{opacity:1;transition:none}
+  }
+</style>
+
+<script>
+  const stage = document.getElementById('expStage') as HTMLElement | null
+  const canvas = document.getElementById('expCanvas') as HTMLCanvasElement | null
+  const legend = document.getElementById('expLegend') as HTMLElement | null
+
+  if (stage && canvas && legend) {
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)')
+    const items = [...legend.querySelectorAll<HTMLElement>('li')]
+    let booted = false
+
+    // Three.js erst laden, wenn die Sektion naht — nie im kritischen Ladepfad.
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((en) => en.isIntersecting) && !booted) {
+          booted = true
+          io.disconnect()
+          boot()
+        }
+      },
+      { rootMargin: '300px 0px' }
+    )
+    io.observe(stage)
+
+    async function boot() {
+      const THREE = await import('three')
+
+      const scene = new THREE.Scene()
+      // Langes Objektiv: fast parallelperspektivisch, wie eine technische Zeichnung.
+      // Mit einem weiten Winkel bläht die Perspektive das nahe Frontteil auf und
+      // schrumpft das Gehäuse — die Bauteile lägen dann nicht mehr auf Augenhöhe.
+      // Der Abstand wird nicht geraten, sondern unten eingepasst.
+      const camera = new THREE.PerspectiveCamera(14, 4 / 3, 0.1, 400)
+
+      const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true })
+      renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2))
+
+      // Anadolu-Royal-Licht: warmes Gold von oben rechts, kühles Petrol von links.
+      scene.add(new THREE.AmbientLight(0xffffff, 0.55))
+      const gold = new THREE.DirectionalLight(0xd9c27a, 2.1)
+      gold.position.set(4, 5, 4)
+      scene.add(gold)
+      const cool = new THREE.DirectionalLight(0x58c7c0, 1.4)
+      cool.position.set(-5, -1, 3)
+      scene.add(cool)
+      const rim = new THREE.DirectionalLight(0xc9a227, 1.6)
+      rim.position.set(-2, 2, -5)
+      scene.add(rim)
+
+      const W = 4.4, H = 1.25
+
+      const mat = (color: number, metal = 0.15, rough = 0.55, opacity = 1) =>
+        new THREE.MeshStandardMaterial({
+          color, metalness: metal, roughness: rough,
+          transparent: opacity < 1, opacity,
+        })
+
+      const group = new THREE.Group()
+      scene.add(group)
+
+      type Part = { mesh: THREE.Object3D; z: number }
+      const parts: Part[] = []
+      const add = (obj: THREE.Object3D, z: number) => {
+        group.add(obj)
+        parts.push({ mesh: obj, z })
+        return obj
+      }
+
+      // Die Auszugsabstände müssen im Verhältnis zur Bauteilbreite (W) stehen.
+      // Zu eng = die Teile überdecken sich und alles liest sich als eine Platte.
+      // 01 Frontblende — die weiße Klappe
+      const front = new THREE.Mesh(new THREE.BoxGeometry(W, H, 0.16), mat(0xf2f4f3, 0.05, 0.35))
+      add(front, 5.6)
+
+      // 02 Filter — Gitter aus dünnen Lamellen
+      const filter = new THREE.Group()
+      const fFrame = new THREE.Mesh(new THREE.BoxGeometry(W * 0.9, H * 0.82, 0.05), mat(0x9fb2b5, 0.1, 0.7, 0.55))
+      filter.add(fFrame)
+      for (let i = 0; i < 16; i++) {
+        const s = new THREE.Mesh(new THREE.BoxGeometry(0.02, H * 0.78, 0.03), mat(0x58c7c0, 0.3, 0.4))
+        s.position.x = -W * 0.42 + (i * (W * 0.84)) / 15
+        filter.add(s)
+      }
+      add(filter, 2.9)
+
+      // 03 Wärmetauscher — Lamellenpaket mit Kupferrohren
+      const hx = new THREE.Group()
+      const fins = new THREE.Mesh(new THREE.BoxGeometry(W * 0.92, H * 0.8, 0.34), mat(0xb7c4c6, 0.55, 0.35))
+      hx.add(fins)
+      for (let i = 0; i < 5; i++) {
+        const t = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.07, 0.07, W * 0.94, 14),
+          mat(0xc9863f, 0.85, 0.28)
+        )
+        t.rotation.z = Math.PI / 2
+        t.position.y = -H * 0.3 + i * (H * 0.15)
+        t.position.z = 0.2
+        hx.add(t)
+      }
+      add(hx, 0.4)
+
+      // 04 Querstromlüfter — die Walze
+      const fan = new THREE.Group()
+      const drum = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.42, W * 0.88, 26, 1, true), mat(0xd8dee0, 0.4, 0.4))
+      drum.rotation.z = Math.PI / 2
+      fan.add(drum)
+      for (let i = 0; i < 22; i++) {
+        const blade = new THREE.Mesh(new THREE.BoxGeometry(W * 0.86, 0.09, 0.03), mat(0xeaf6f4, 0.2, 0.5))
+        const a = (i / 22) * Math.PI * 2
+        blade.position.y = Math.sin(a) * 0.4
+        blade.position.z = Math.cos(a) * 0.4
+        blade.rotation.x = -a
+        fan.add(blade)
+      }
+      add(fan, -2.2)
+
+      // 05 Gehäuse + Montageplatte
+      const body = new THREE.Group()
+      // Graphit statt Schwarz — auf dem Noir-Hintergrund verschwände das Gehäuse sonst.
+      const shell = new THREE.Mesh(new THREE.BoxGeometry(W * 1.02, H * 1.05, 0.5), mat(0x3c4145, 0.35, 0.6))
+      body.add(shell)
+      const plate = new THREE.Mesh(new THREE.BoxGeometry(W * 0.95, H * 0.9, 0.08), mat(0xc9a227, 0.8, 0.3))
+      plate.position.z = -0.3
+      body.add(plate)
+      add(body, -5.0)
+
+      // Die gestrichelte Achse, auf der die Teile sitzen — das Zeichen, an dem
+      // jeder eine Explosionszeichnung erkennt. Bewegt sich nicht mit.
+      const axisMat = new THREE.LineDashedMaterial({
+        color: 0xc9a227, dashSize: 0.24, gapSize: 0.18, transparent: true, opacity: 0,
+      })
+      const axis = new THREE.Line(
+        new THREE.BufferGeometry().setFromPoints([
+          new THREE.Vector3(0, 0, -5.9),
+          new THREE.Vector3(0, 0, 6.4),
+        ]),
+        axisMat
+      )
+      axis.computeLineDistances()
+      group.add(axis)
+
+      // Dreiviertel-Ansicht — so liest sich die Explosionszeichnung räumlich.
+      // Die Kamera blickt starr entlang -z; gedreht wird nur das Modell.
+      const YAW = -0.62          // Ausgangsdrehung
+      const YAW_SPAN = 0.26      // wie weit sie sich beim Zerlegen mitdreht
+      group.rotation.x = -0.3
+      group.rotation.y = YAW
+
+      let raf = 0
+      let visible = true
+      let progress = 0
+      let target = 0
+
+      // Kameraabstand nicht raten: das voll zerlegte Modell umschließen und den
+      // Abstand aus horizontalem UND vertikalem Öffnungswinkel ableiten. So sitzt
+      // die Zeichnung in jedem Seitenverhältnis mittig und formatfüllend — auf dem
+      // schmalen Handy genauso wie auf dem breiten Desktop.
+      const box = new THREE.Box3()
+      const mid = new THREE.Vector3()
+      const ndc = new THREE.Vector3()
+
+      // Die echten Ecken jedes Bauteils in Weltkoordinaten. Eine achsparallele Box
+      // um das schräg stehende Modell hätte Ecken weit neben der Geometrie — die
+      // Kamera wiche zu weit zurück und das Gerät bliebe klein.
+      const hullAt = (yaw: number) => {
+        group.rotation.y = yaw
+        group.updateMatrixWorld(true)
+        const pts: InstanceType<typeof THREE.Vector3>[] = []
+        group.traverse((o: any) => {
+          const g = o.geometry
+          if (!g) return
+          if (!g.boundingBox) g.computeBoundingBox()
+          const bb = g.boundingBox
+          for (let i = 0; i < 8; i++) {
+            pts.push(
+              new THREE.Vector3(
+                i & 1 ? bb.max.x : bb.min.x,
+                i & 2 ? bb.max.y : bb.min.y,
+                i & 4 ? bb.max.z : bb.min.z
+              ).applyMatrix4(o.matrixWorld)
+            )
+          }
+        })
+        return pts
+      }
+
+      const fitCamera = () => {
+        parts.forEach((p) => { p.mesh.position.z = p.z })   // voll zerlegt = der weiteste Fall
+
+        // Beide Drehstellungen zusammen: was in keiner davon anschneidet, schneidet
+        // während der ganzen Scroll-Drehung nicht an.
+        const pts = [...hullAt(YAW), ...hullAt(YAW + YAW_SPAN)]
+        group.rotation.y = YAW + YAW_SPAN / 2
+        group.updateMatrixWorld(true)
+
+        const tanV = Math.tan(((camera.fov * Math.PI) / 180) / 2)
+        const tanH = tanV * camera.aspect
+        box.setFromPoints(pts).getCenter(mid)
+
+        let dist = 0
+        for (const p of pts) {
+          const depth = p.z - mid.z
+          dist = Math.max(dist, Math.abs(p.x - mid.x) / tanH + depth, Math.abs(p.y - mid.y) / tanV + depth)
+        }
+        camera.position.set(mid.x, mid.y, mid.z + dist)
+
+        // Feinschliff im BILDraum. In 3D mittig heißt perspektivisch nicht mittig:
+        // das nahe Frontteil wird vergrößert, das ferne Gehäuse verkleinert. Also
+        // projizieren, den sichtbaren Rahmen messen, Kamera nachziehen — ein paar
+        // Runden, bis die Zeichnung zentriert steht und das Feld füllt.
+        const FILL = 0.9
+        for (let k = 0; k < 6; k++) {
+          camera.updateProjectionMatrix()
+          camera.updateMatrixWorld(true)
+          let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity
+          for (const p of pts) {
+            ndc.copy(p).project(camera)
+            x0 = Math.min(x0, ndc.x); x1 = Math.max(x1, ndc.x)
+            y0 = Math.min(y0, ndc.y); y1 = Math.max(y1, ndc.y)
+          }
+          const d = camera.position.z - mid.z
+          camera.position.x += ((x0 + x1) / 2) * d * tanH
+          camera.position.y += ((y0 + y1) / 2) * d * tanV
+          camera.position.z = mid.z + d * (Math.max(x1 - x0, y1 - y0) / (2 * FILL))
+        }
+        camera.updateProjectionMatrix()
+      }
+
+      const resize = () => {
+        const r = stage.getBoundingClientRect()
+        if (!r.width || !r.height) return
+        renderer.setSize(r.width, r.height, false)
+        camera.aspect = r.width / r.height
+        fitCamera()
+        camera.updateProjectionMatrix()
+      }
+      resize()
+      addEventListener('resize', resize)
+      // Nach dem ersten Layout noch einmal messen — Bilder/Schriften können die
+      // Bühnenhöhe verschieben, sonst rendert die Szene in einen falschen Rahmen.
+      requestAnimationFrame(resize)
+      setTimeout(resize, 400)
+
+      // Scroll-Fortschritt: 0 = zusammengebaut, 1 = voll zerlegt
+      const scrollProgress = () => {
+        const r = stage.getBoundingClientRect()
+        const vh = innerHeight
+        const start = vh * 0.92
+        const end = -r.height * 0.35
+        const p = (start - r.top) / (start - end)
+        return Math.max(0, Math.min(1, p))
+      }
+
+      const setLegend = (p: number) => {
+        const active = Math.min(items.length - 1, Math.floor(p * items.length * 1.05))
+        items.forEach((li, i) => li.classList.toggle('on', i <= active && p > 0.06))
+      }
+
+      const frame = () => {
+        target = reduce.matches ? 0.62 : scrollProgress()
+        progress += (target - progress) * (reduce.matches ? 1 : 0.09)
+
+        // Die Teile bleiben auf der Achse — kein Höhenversatz, sonst bricht die
+        // gestrichelte Linie und die Zeichnung verliert ihre Ordnung.
+        parts.forEach((p) => { p.mesh.position.z = p.z * progress })
+        axisMat.opacity = progress * 0.5
+        group.rotation.y = YAW + progress * YAW_SPAN
+
+        renderer.render(scene, camera)
+        if (!reduce.matches && visible) raf = requestAnimationFrame(frame)
+        setLegend(progress)
+      }
+
+      // Nur rendern, solange die Sektion sichtbar ist.
+      const vis = new IntersectionObserver((en) => {
+        visible = en.some((x) => x.isIntersecting)
+        if (visible && !raf && !reduce.matches) raf = requestAnimationFrame(frame)
+        if (!visible && raf) { cancelAnimationFrame(raf); raf = 0 }
+      }, { rootMargin: '120px 0px' })
+      vis.observe(stage)
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden && raf) { cancelAnimationFrame(raf); raf = 0 }
+        else if (!document.hidden && visible && !raf && !reduce.matches) raf = requestAnimationFrame(frame)
+      })
+
+      if (reduce.matches) frame()          // ein statisches Bild, keine Schleife
+      else raf = requestAnimationFrame(frame)
+    }
+  }
+</script>

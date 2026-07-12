@@ -11,6 +11,10 @@
     "pseudo": "node scripts/pseudo.mjs"
   },
   "devDependencies": {
+    "@types/three": "^0.185.1",
     "astro": "^7.0.7"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
   }
 }

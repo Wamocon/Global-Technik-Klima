@@ -1,0 +1,118 @@
+---
+// Vorher-Nachher-Regler. Vom Nutzer gezogen, nie automatisch — Karussells
+// schneiden in Tests durchweg schlecht ab (eigene Recherche).
+//
+// ⛔ EHRLICHKEIT: Der Betrieb hat keine öffentlichen Montagefotos. Bis echte
+//    Referenzbilder vorliegen, zeigt der Regler eine als solche GEKENNZEICHNETE
+//    Illustration der Wirkung (Hitze → Kühle), keine Behauptung über eine
+//    konkrete Montage. Sobald echte Vorher/Nachher-Bilder da sind:
+//    Bildpfade tauschen und das „Beispiel"-Label entfernen.
+import { beforeAfter } from '../content/home'
+import type { Locale } from '../i18n/utils'
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const b = beforeAfter[locale]
+---
+
+<section class="sec ba-sec" id="referanslar">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">{b.title}</p>
+      <p class="lede">{b.intro}</p>
+    </div>
+
+    <figure class="ba" id="ba" style="--pos:50%">
+      <!-- Basis = Nachher (kühl, rechts sichtbar). Darüber, links freigelegt = Vorher (heiß).
+           So passt die Seite zum Label: links Vorher, rechts Nachher. -->
+      <img class="ba-img" src="/images/ba-cool.webp" alt="" width="1100" height="1001" loading="lazy" />
+      <div class="ba-clip">
+        <img class="ba-img" src="/images/ba-hot.webp" alt="" width="1100" height="1001" loading="lazy" />
+      </div>
+
+      <span class="ba-lab ba-lab-l">{b.before}</span>
+      <span class="ba-lab ba-lab-r">{b.after}</span>
+      <span class="ba-ex">{b.example}</span>
+
+      <input
+        class="ba-range"
+        type="range" min="0" max="100" value="50" step="0.1"
+        aria-label={b.drag}
+        id="baRange"
+      />
+      <span class="ba-handle" aria-hidden="true">
+        <span class="ba-line"></span>
+        <span class="ba-grip"><span class="ba-arrows">‹ ›</span></span>
+        <span class="ba-line"></span>
+      </span>
+    </figure>
+  </div>
+</section>
+
+<style>
+  .ba-sec{background:var(--bg-2)}
+  .ba{position:relative;margin:0;border:1px solid var(--line);border-radius:3px;overflow:hidden;
+    aspect-ratio:1100/1001;max-height:680px;user-select:none;touch-action:pan-y}
+  /* 16/9 statt 16/10: sonst deckelt die Maximalhöhe die Breite und der Regler
+     bleibt schmaler als die Textspalte darüber — rechts stünde ein toter Streifen. */
+  @media(min-width:900px){.ba{aspect-ratio:16/9}}
+  .ba-img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none}
+  .ba-clip{position:absolute;inset:0;width:var(--pos);overflow:hidden}
+  .ba-clip .ba-img{width:auto;min-width:100%;height:100%}
+  @supports (clip-path: inset(0)) {
+    .ba-clip{width:100%;clip-path:inset(0 calc(100% - var(--pos)) 0 0)}
+    .ba-clip .ba-img{width:100%}
+  }
+
+  .ba-lab{position:absolute;top:16px;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    padding:7px 12px;border-radius:2px;backdrop-filter:blur(6px);font-weight:500}
+  .ba-lab-l{left:16px;color:var(--gold);background:color-mix(in oklab,var(--noir) 62%,transparent);
+    border:1px solid color-mix(in oklab,var(--gold) 40%,transparent)}
+  .ba-lab-r{right:16px;color:var(--cool);background:color-mix(in oklab,var(--noir) 62%,transparent);
+    border:1px solid color-mix(in oklab,var(--cool) 40%,transparent)}
+  .ba-ex{position:absolute;left:16px;bottom:14px;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--fg-mute);background:color-mix(in oklab,var(--noir) 62%,transparent);padding:4px 8px;border-radius:2px}
+
+  /* Der Regler selbst ist das Bedienelement — unsichtbar, aber voll bedienbar. */
+  .ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;z-index:3}
+  .ba-range:focus-visible + .ba-handle .ba-grip{outline:2px solid var(--accent);outline-offset:3px}
+
+  .ba-handle{position:absolute;top:0;bottom:0;left:var(--pos);width:2px;transform:translateX(-1px);
+    display:flex;flex-direction:column;align-items:center;pointer-events:none;z-index:2}
+  .ba-line{flex:1;width:2px;background:linear-gradient(180deg,transparent,var(--champ),transparent)}
+  .ba-grip{flex:none;width:46px;height:46px;border-radius:50%;background:var(--champ);color:var(--noir);
+    display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.45);font-weight:600}
+  .ba-arrows{font-size:1.1rem;letter-spacing:.08em;line-height:1}
+</style>
+
+<script>
+  const fig = document.getElementById('ba') as HTMLElement | null
+  const range = document.getElementById('baRange') as HTMLInputElement | null
+  if (fig && range) {
+    const set = (v: number) => fig.style.setProperty('--pos', `${Math.max(0, Math.min(100, v))}%`)
+    range.addEventListener('input', () => set(Number(range.value)))
+    set(Number(range.value))
+
+    // Ziehen mit Maus/Finger direkt auf dem Bild (der Range liegt darüber und
+    // bekommt die Events — hier nur die Feinheit: Klick springt zur Position).
+    const toPct = (clientX: number) => {
+      const r = fig.getBoundingClientRect()
+      return ((clientX - r.left) / r.width) * 100
+    }
+    let dragging = false
+    const move = (e: PointerEvent) => {
+      if (!dragging) return
+      const p = toPct(e.clientX)
+      range.value = String(p)
+      set(p)
+    }
+    fig.addEventListener('pointerdown', (e) => {
+      dragging = true
+      const p = toPct((e as PointerEvent).clientX)
+      range.value = String(p); set(p)
+      fig.setPointerCapture((e as PointerEvent).pointerId)
+    })
+    fig.addEventListener('pointermove', move)
+    fig.addEventListener('pointerup', () => { dragging = false })
+    fig.addEventListener('pointercancel', () => { dragging = false })
+  }
+</script>

@@ -43,8 +43,9 @@ const flag: Record<Locale, string> = { tr: 'TR', de: 'DE', ru: 'RU', en: 'EN' }
         <nav class="mainnav" aria-label="Menu">
           <a href={`${base}#hizmetler`}>{n.services}</a>
           <a href={`${base}#urunler`}>{n.products}</a>
+          <a href={`${base}#teknik`}>{n.tech}</a>
+          <a href={`${base}#referanslar`}>{n.refs}</a>
           <a href={`${base}#kesif`}>{n.calc}</a>
-          <a href={`${base}#hakkimizda`}>{n.about}</a>
           <a href={`${base}#kontakt`}>{n.contact}</a>
         </nav>
         <nav class="lang" aria-label="Language">
@@ -64,8 +65,9 @@ const flag: Record<Locale, string> = { tr: 'TR', de: 'DE', ru: 'RU', en: 'EN' }
 </html>
 
 <style>
-  .topbar{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--bg) 82%,transparent);
-    backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  /* Deutlich deckender — sonst scheinen Überschriften beim Scrollen durch die Leiste. */
+  .topbar{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--bg) 95%,transparent);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
   .tbin{display:flex;align-items:center;gap:20px;padding:12px 24px}
   .brand{text-decoration:none;display:flex;flex-direction:column;gap:1px;min-height:auto;margin-right:auto}
   .bm{font-family:var(--serif);font-weight:600;font-size:1.15rem;color:var(--fg-strong);letter-spacing:.02em}
