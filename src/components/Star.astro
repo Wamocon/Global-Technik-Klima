@@ -1,0 +1,25 @@
+---
+/**
+ * Seldschukischer Achtstern (rub el hizb) als Kapiteltrenner — zwei um 45° versetzte
+ * Quadrate. Dasselbe Motiv trägt das Favicon; die Marke bekommt damit ein Zeichen,
+ * das ohne Wort funktioniert.
+ *
+ * Rein dekorativ, deshalb aus dem Vorlesefluss genommen.
+ */
+---
+
+<div class="sdiv" aria-hidden="true">
+  <span class="rule"></span>
+  <svg viewBox="0 0 100 100" width="22" height="22">
+    <polygon points="96,50 50,96 4,50 50,4" />
+    <polygon points="82.5,17.5 82.5,82.5 17.5,82.5 17.5,17.5" />
+  </svg>
+  <span class="rule"></span>
+</div>
+
+<style>
+  .sdiv{display:flex;align-items:center;gap:20px;max-width:var(--maxw);margin-inline:auto;
+    padding:0 24px}
+  .rule{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--line-2),transparent)}
+  svg{flex:none;fill:var(--accent);opacity:.55}
+</style>

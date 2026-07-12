@@ -111,6 +111,8 @@ Er sitzt nicht am Schreibtisch. Er steht in einer vierunddreißig Grad heißen W
 
 Deshalb liegt am unteren Rand des Bildschirms eine feste Leiste, die immer sichtbar bleibt, egal wie weit er scrollt: **Anrufen** und **WhatsApp**. Genau dort, wo der Daumen ohnehin liegt. Er muss nichts suchen. Zwei Wege zu Ihnen, immer erreichbar, mit einer Bewegung.
 
+Und wenn er doch etwas Bestimmtes sucht — den Rechner, die Produkte, die Technik — dann tippt er oben auf das Menü und springt direkt hin. Auch das ist am Telefon gebaut, nicht nur am Schreibtisch.
+
 ---
 
 **⑦ [KERN] — Desire: das Produkt sichtbar machen**
@@ -150,6 +152,10 @@ Wie groß ist der Raum, wie viele Personen, Sonnenseite ja oder nein — und er 
 Und dann kommt der Teil, der den Unterschied macht: Er drückt **einen** Knopf, und **WhatsApp öffnet sich mit der fertigen Nachricht.** „Achtzehntausend BTU, zweiunddreißig Quadratmeter, drei Personen."
 
 Er muss nichts formulieren. Er muss nur auf Senden drücken. Und bei Ihnen liegt keine Anfrage — bei Ihnen liegt eine **fertige Kalkulation.**
+
+*(Bild: der Link wird auf WhatsApp weitergeschickt, die Vorschaukachel klappt auf)*
+
+Und noch etwas, das über WhatsApp läuft und das die meisten übersehen: Wenn ein Kunde Ihren Link **weiterschickt** — an seine Frau, an den Nachbarn, in die Hausgemeinschaft —, dann sieht der Empfänger **Ihr Ladenfoto, Ihren Namen und Ihre fünf Komma null Sterne.** Nicht ein graues Kästchen. In einem Land, in dem Empfehlungen über WhatsApp laufen, ist das kein Detail. Das ist Ihre Visitenkarte, tausendfach.
 
 ---
 
@@ -192,6 +198,10 @@ Das sieht Ihr Kunde nie. Aber Sie wissen jetzt, dass Ihre Sprache hier nicht als
 In Zahlen: **elf Kapitel** auf der Startseite. **Dreizehn Themen**, die der Assistent beherrscht. **Null Fehler** im Abnahmetest über vier Sprachen und zwei Geräteklassen.
 
 Und die 3D-Zeichnung, so aufwendig sie ist, **verzögert das Laden Ihrer Seite um keine Millisekunde.** Sie wird erst geladen, wenn der Besucher in ihre Nähe kommt. Eine langsame Seite ist eine leere Seite — das passiert hier nicht.
+
+*(Bild: der Datensatz, den die Seite an Google übergibt)*
+
+Und die Seite sagt Google Ihre Daten **in Googles eigener Sprache**: Ihre Adresse, Ihre Koordinaten, Ihre Öffnungszeiten, Ihre sechs Leistungen, Ihre Bewertung. Ob Google die Sterne dann im Suchergebnis anzeigt, entscheidet Google — das verspreche ich Ihnen nicht. Aber ohne diese Angabe **kann** Google sie gar nicht anzeigen. Ihre jetzige Seite macht diese Angabe nicht.
 
 ---
 
@@ -320,6 +330,10 @@ Geprüft gegen `docs/04-anforderungen.md`, Stand `d64fd97`. **31 Funktionen.**
 | **Sticky-Leiste Mobil, Daumenbereich** | D | **das Handy IST der Laden** | ❌ | ✅ ⑥ |
 | Telefon überall, aus einer Quelle | A/S | *güven* Nr. 1 | ✅ ② | ✅ ② |
 | **Kontakt + echte Google-Karte** | D | „so finden Sie mich" | ❌ | ✅ ⑨ |
+| **Mobil-Menü** (Burger, Sprungziele) | D | am Telefon nichts suchen müssen | ❌ | ✅ ⑥ |
+| **`og:image`** — Vorschau beim Weiterleiten | **LOVE** | ***ağızdan ağıza*** — die Empfehlung trägt sein Bild | ❌ | ✅ ⑧ |
+| **Strukturierte Daten** für Google | D/S | Kartenblock, ohne Versprechen | ❌ | ✅ ⑪ |
+| Rechtstexte als echte Seiten (12) | S | *güven* | ❌ | ❌ *(bewusst)* |
 | Über uns / Mission | I | — | ❌ | ❌ *(bewusst)* |
 | Facebook / Instagram im Fuß | — | — | ❌ | ❌ *(bewusst)* |
 | 4 Sprachen, TR an der Wurzel, URLs bleiben | D/S | kein Verlust | ✅ ⑩ | ✅ ⑩ |
@@ -335,10 +349,12 @@ Geprüft gegen `docs/04-anforderungen.md`, Stand `d64fd97`. **31 Funktionen.**
 | Konya-Nummer entfernt | A | *dikkat* | ✅ ② | ✅ ② |
 | Demo läuft, kein Zugriff auf seine Daten | S/A | *güven* | ✅ ⑮ | ✅ ⑮ |
 
-**Ergebnis: 23/31 → 28/31.** Die drei verbleibenden Auslassungen sind **Entscheidungen, keine Lücken**:
+**Ergebnis: 23/34 → 31/34.** Die drei verbleibenden Auslassungen sind **Entscheidungen, keine Lücken**:
 
 - **Über uns / Mission** — er kennt seine eigene Geschichte. Sie ihm vorzulesen wäre Zeitverschwendung und grenzte an Belehrung.
-- **Facebook / Instagram** — zu klein. Kostet Aufmerksamkeit, bringt kein Verlangen.
+- **Facebook / Instagram** und **die Rechtstexte** — zu klein fürs Gespräch. Kosten Aufmerksamkeit, bringen kein Verlangen. Er wird sie sehen, wenn er die Seite selbst anfasst.
 - **KI-Kennzeichnung / Barrierefreiheit** — richtig und wichtig, aber im Verkaufsgespräch Rauschen. Gehört ins Handbuch, nicht ins Skript. **Wenn er danach fragt**, ist die Antwort ein Gewinn; wenn nicht, hätte sie nur Zeit gekostet.
 
-**Nicht im Skript, weil sie noch fehlen** (`docs/04-anforderungen.md §9`): Mobil-Menü, strukturierte Daten, `og:image`. **Sie dürfen erst dann versprochen werden, wenn sie gebaut sind.** Das ist keine Formsache — das ganze Skript steht und fällt mit ⑫.
+**Die drei Funktionen, die in Stand 1 fehlten, durften damals nicht im Skript stehen** — sie waren noch nicht gebaut. Inzwischen sind sie es und im Abnahmetest verankert, also stehen sie drin. Diese Reihenfolge ist keine Formsache: **das ganze Skript steht und fällt mit ⑫.** Ein einziges Versprechen, das der erste Klick widerlegt, kostet mehr, als alle drei zusammen einbringen.
+
+**Neu in Stand 2, und bemerkenswert:** Das `og:image` ist keine Technik, es ist die **Love-Stufe in Dateiform.** Wenn ein zufriedener Kunde den Link in die Hausgemeinschaft schickt, trägt die Empfehlung sein Ladenfoto und seine fünf Sterne mit — automatisch, tausendfach. Genau deshalb steht es in ⑧ und nicht in einem Technik-Absatz.

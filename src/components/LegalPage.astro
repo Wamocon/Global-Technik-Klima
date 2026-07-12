@@ -1,0 +1,43 @@
+---
+import { legal, backHome, type LegalSlug } from '../content/legal'
+import { pathFor, type Locale } from '../i18n/utils'
+interface Props { locale: Locale; slug: LegalSlug }
+const { locale, slug } = Astro.props
+const d = legal[locale][slug]
+---
+
+<article class="legal">
+  <div class="wrap">
+    <h1>{d.title}</h1>
+    <p class="upd">{d.updated}</p>
+
+    <!-- Sichtbar, mit Absicht. Ein Entwurf, der sich als fertig ausgibt, wäre genau
+         die Sorte Behauptung, die diese Seite sonst überall vermeidet. -->
+    <p class="draft">{d.draft}</p>
+
+    {d.blocks.map((b) => (
+      <section class="lb">
+        <h2>{b.h}</h2>
+        {b.p.map((t) => <p>{t}</p>)}
+      </section>
+    ))}
+
+    <a class="back" href={pathFor(locale)}>← {backHome[locale]}</a>
+  </div>
+</article>
+
+<style>
+  .legal{padding:64px 0 96px}
+  .legal .wrap{max-width:74ch;margin-inline:auto;padding-inline:24px}
+  h1{font-family:var(--serif);font-size:clamp(1.9rem,4vw,2.7rem);font-weight:600;color:var(--fg-strong);
+    line-height:1.1;margin:0 0 10px}
+  .upd{margin:0 0 22px;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+  .draft{margin:0 0 44px;padding:14px 18px;border:1px solid var(--line-2);border-left:2px solid var(--warn);
+    border-radius:2px;background:var(--card);color:var(--fg-mute);font-size:.9rem}
+  .lb{margin-bottom:34px}
+  .lb h2{font-family:var(--serif);font-size:1.32rem;font-weight:600;color:var(--fg-strong);margin:0 0 12px}
+  .lb p{margin:0 0 12px;color:var(--fg-mute);font-size:.98rem;line-height:1.62}
+  .lb p:last-child{margin-bottom:0}
+  .back{display:inline-block;margin-top:18px;color:var(--accent);text-decoration:none;font-size:.94rem}
+  .back:hover{color:var(--fg-strong)}
+</style>

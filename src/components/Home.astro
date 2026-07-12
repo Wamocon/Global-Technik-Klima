@@ -3,8 +3,10 @@ import FrostHero from './FrostHero.astro'
 import Assistant from './Assistant.astro'
 import ExplodedUnit from './ExplodedUnit.astro'
 import BeforeAfter from './BeforeAfter.astro'
+import Star from './Star.astro'
 import { content, biz, mission } from '../content/home'
-import type { Locale } from '../i18n/utils'
+import { LEGAL_SLUGS } from '../content/legal'
+import { pathFor, type Locale } from '../i18n/utils'
 interface Props { locale: Locale }
 const { locale } = Astro.props
 const c = content[locale]
@@ -13,6 +15,9 @@ const wa = `https://wa.me/${biz.whatsapp.replace(/\D/g, '')}`
 const tel = `tel:${biz.phone.replace(/[^\d+]/g, '')}`
 const star = '★★★★★'
 const mapEmbed = biz.mapEmbed
+
+// Die drei Fußzeilen-Wörter waren bis eben nur Wörter. Jetzt haben sie Seiten. (L7)
+const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale, LEGAL_SLUGS[i]) }))
 ---
 
 <FrostHero locale={locale} c={c} />
@@ -55,11 +60,15 @@ const mapEmbed = biz.mapEmbed
   </div>
 </section>
 
+<Star />
+
 <!-- Königs-Kapitel: das Gerät zerlegt sich beim Scrollen (Three.js, lazy). -->
 <ExplodedUnit locale={locale} />
 
 <!-- Referanslarımız — die Seite, die auf seiner Website leer ist. -->
 <BeforeAfter locale={locale} />
+
+<Star />
 
 <!-- BTU-Rechner -->
 <section class="sec" id="kesif">
@@ -165,20 +174,41 @@ const mapEmbed = biz.mapEmbed
         <div class="crow"><span class="lab">{c.contact.hours}</span><span>{c.contact.hoursNote}</span></div>
       </div>
     </div>
-    <!-- Karte: sein echter Google-Place-Eintrag. Für die Demo direkt eingebettet;
-         in Produktion (KVKK) klick-zu-laden oder statisch. -->
-    <figure class="cmap">
-      <iframe src={mapEmbed} title="Global Teknik — Alanya" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    <!-- Karte: sein echter Google-Place-Eintrag.
+         `biz.mapMode` entscheidet. 'embed' = Demo (er wollte die Karte sehen).
+         'consent' = Livegang: ein Google-iframe ist eine Übermittlung ins Ausland
+         (KVKK Art. 9), also lädt er erst auf Klick. Ein Wort in home.ts umstellen. -->
+    <figure class="cmap" data-map={biz.mapMode}>
+      {biz.mapMode === 'embed' ? (
+        <iframe src={mapEmbed} title="Global Teknik — Alanya" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      ) : (
+        <button class="cmap-load" type="button" data-src={mapEmbed}>
+          <span class="cml-pin" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"/></svg>
+          </span>
+          <span class="cml-t">{c.contact.onMap}</span>
+          <span class="cml-s">{biz.address}</span>
+        </button>
+      )}
     </figure>
   </div>
 </section>
+
+<Star />
 
 <footer class="foot">
   <div class="wrap footin">
     <div>
       <p class="fd">{c.footer.dealer}</p>
-      <p class="fl">{c.footer.legal.join(' · ')}</p>
+      <p class="fl">
+        {legalLinks.map((l, i) => (
+          <>
+            {i > 0 && <span class="fsep" aria-hidden="true">·</span>}
+            <a href={l.href}>{l.text}</a>
+          </>
+        ))}
+      </p>
       <p class="fr">© 2026 · {c.footer.rights}</p>
     </div>
     <div class="fsoc">
@@ -306,13 +336,24 @@ const mapEmbed = biz.mapEmbed
   .cmap{margin:0;border:1px solid var(--line);border-radius:3px;overflow:hidden;height:440px;position:relative;
     background:radial-gradient(120% 100% at 50% 0%, color-mix(in oklab,var(--petrol) 34%,transparent), var(--noir) 92%)}
   @media(max-width:819px){.cmap{height:320px}}
-  .cmap iframe{display:block;width:100%;height:100%;border:0;filter:grayscale(.2) contrast(1.03)}
+  /* Klick-zum-Laden (mapMode 'consent'): erst nach Zustimmung verbindet sich der
+     Browser mit Google. Muss trotzdem einladend aussehen, nicht wie eine Sperre. */
+  .cmap-load{position:absolute;inset:0;width:100%;height:100%;border:0;background:transparent;cursor:pointer;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
+    font-family:var(--sans);color:var(--fg-mute);text-align:center;padding:24px}
+  .cmap-load .cml-pin{color:var(--accent);display:grid;place-items:center}
+  .cmap-load .cml-t{color:var(--fg-strong);font-size:1rem;border-bottom:1px solid var(--accent);padding-bottom:3px}
+  .cmap-load .cml-s{font-size:.86rem;max-width:32ch;line-height:1.5}
+  .cmap-load:hover .cml-t{color:var(--accent)}
 
   .foot{padding:44px 0 96px;color:var(--fg-mute);font-size:.85rem}
   @media(min-width:760px){.foot{padding-bottom:60px}}
   .footin{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
   .foot .fd{color:var(--fg);margin-bottom:10px}
-  .foot .fl{margin:0 0 6px;font-size:.8rem}
+  .foot .fl{margin:0 0 6px;font-size:.8rem;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .foot .fl a{color:var(--fg-mute);text-decoration:none;border-bottom:1px solid transparent}
+  .foot .fl a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .foot .fsep{opacity:.5}
   .foot .fr{margin:0;font-size:.76rem;opacity:.7}
   .fsoc{display:flex;gap:10px}
   .fsoc a{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--line-2);border-radius:2px;color:var(--fg-mute)}
@@ -335,6 +376,14 @@ const mapEmbed = biz.mapEmbed
   .mobar .mo-wa{background:var(--accent);color:var(--accent-ink)}
 
   @media (prefers-reduced-motion: reduce){.card:hover,.prod:hover{transform:none}}
+</style>
+
+<!-- GLOBAL, mit Absicht: im Zustimmungs-Modus erzeugt JavaScript das iframe. Astros
+     gekapselte Stile tragen einen Bauteil-Schlüssel, den ein per createElement
+     erzeugtes Element nicht hat — die Regel würde nicht greifen. Genau daran ist
+     diese Karte schon einmal gescheitert (sie blieb bei 154 px hängen). -->
+<style is:global>
+  .cmap iframe{display:block;width:100%;height:100%;border:0;filter:grayscale(.2) contrast(1.03)}
 </style>
 
 <script>
@@ -368,5 +417,22 @@ const mapEmbed = biz.mapEmbed
       cta.href = wa ? `${wa}?text=${encodeURIComponent(msg)}` : '#'
     }
     area.addEventListener('input', calc); ppl.addEventListener('input', calc); calc()
+  }
+
+  // Karte im Zustimmungs-Modus: erst der Klick verbindet den Browser mit Google.
+  // Im Demo-Modus ('embed') existiert dieser Knopf gar nicht — dann passiert hier nichts.
+  const mapBtn = document.querySelector('.cmap-load') as HTMLButtonElement | null
+  if (mapBtn) {
+    mapBtn.addEventListener('click', () => {
+      const src = mapBtn.dataset.src
+      if (!src) return
+      const f = document.createElement('iframe')
+      f.src = src
+      f.title = 'Global Teknik — Alanya'
+      f.loading = 'lazy'
+      f.referrerPolicy = 'no-referrer-when-downgrade'
+      f.allowFullscreen = true
+      mapBtn.replaceWith(f)
+    })
   }
 </script>

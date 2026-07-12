@@ -601,6 +601,17 @@ export const biz = {
   ratingValue: '5,0',
   ratingCount: 65,
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=36.5509274,32.0081833',
+  /**
+   * 'embed'   — die Karte lädt sofort. Für die DEMO: der Interessent hat ausdrücklich
+   *             verlangt, dass die Karte zu sehen ist, und es werden keine echten
+   *             Kundendaten verarbeitet.
+   * 'consent' — die Karte lädt erst auf Klick. Das ist der Stand für den LIVEGANG:
+   *             ein Google-iframe verbindet den Browser des Besuchers mit Google und
+   *             ist damit eine Übermittlung ins Ausland (KVKK Art. 9). Ein Wort hier
+   *             umstellen, und der Rechtstext stimmt wieder — er sagt bereits, dass
+   *             die Karte erst nach Zustimmung lädt.
+   */
+  mapMode: 'embed' as 'embed' | 'consent',
   // Exakte Karten-Einbettung von der Original-Seite (sein echter Google-Place-Eintrag).
   mapEmbed:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%3A0xa9a1e8359935df5a!2sAlanya%20Global%20Teknik%20-%20Gree%20klima%20alanya!5e0!3m2!1str!2str!4v1751437954026!5m2!1str!2str',

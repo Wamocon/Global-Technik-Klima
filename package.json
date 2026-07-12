@@ -8,11 +8,16 @@
     "build": "npm run guard && astro build",
     "preview": "astro preview",
     "guard": "node scripts/guard.mjs",
-    "pseudo": "node scripts/pseudo.mjs"
+    "pseudo": "node scripts/pseudo.mjs",
+    "assets": "node scripts/assets.mjs",
+    "abnahme": "node scripts/acceptance.mjs"
   },
   "devDependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "@types/three": "^0.185.1",
-    "astro": "^7.0.7"
+    "astro": "^7.0.7",
+    "playwright": "^1.61.1",
+    "sharp": "^0.35.3"
   },
   "dependencies": {
     "three": "^0.185.1"

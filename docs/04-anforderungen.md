@@ -20,7 +20,7 @@ Geprüft gegen Commit `d1f6cb8` am 12. Juli 2026, Zeile für Zeile gegen den Cod
 | M4 | **Hook-Bild** mit Wow wie beim Barbershop | Auftrag 10 | Echtes Ladenfoto aus seinem Google-Profil, 1600 × 1200 — schärfer als die 750-px-Fassung auf seiner eigenen Seite. | ✅ |
 | M5 | Bilder **von der Originalseite** nutzen | Auftrag 10 | Sieben Gree-Produktbilder + `unit-teal` übernommen. | ✅ |
 | M6 | **Harmonische Schrift und Größe** | Auftrag 14, Pkt. 5 | Zwei Familien, eine Skala (`clamp()`), scharfer Radius 2 px durchgehend. | ✅ |
-| M7 | Seldschukischer **Achtstern** als Trenner | Phase-A-Plan | — | ❌ *(Lücke L9)* |
+| M7 | Seldschukischer **Achtstern** als Trenner | Phase-A-Plan | `Star.astro`, dreimal auf der Startseite. Dasselbe Motiv trägt das Favicon. | ✅ |
 
 ---
 
@@ -83,7 +83,7 @@ Geprüft gegen Commit `d1f6cb8` am 12. Juli 2026, Zeile für Zeile gegen den Cod
 | T9 | **Bewegungsempfindlichkeit** respektieren | Barrierefreiheit | `prefers-reduced-motion`: Explosionszeichnung wird ein statisches Bild, keine Schleife. | ✅ |
 | T10 | **Tastaturbedienbarkeit** des Reglers | Barrierefreiheit | Unsichtbarer `<input type=range>` über dem Bild. | ✅ |
 | T11 | **Schriften selbst gehostet** | KVKK | `public/fonts/`. Google Fonts bricht den Build. Beide Familien tragen Kyrillisch — geprüft, nicht angenommen. | ✅ |
-| T12 | **Menü auf Mobil** | implizit | `.mainnav` ist unter 1000 px ausgeblendet — **es gibt kein Mobil-Menü**. | ❌ *(Lücke L1)* |
+| T12 | **Menü auf Mobil** | implizit | Burger + Sprungleiste (`Base.astro`). Escape schließt, der Sprung schließt, der Wechsel auf Desktop-Breite räumt auf. | ✅ |
 
 ---
 
@@ -92,10 +92,10 @@ Geprüft gegen Commit `d1f6cb8` am 12. Juli 2026, Zeile für Zeile gegen den Cod
 | # | Anforderung | Herkunft | Umsetzung | Status |
 |---|---|---|---|---|
 | S1 | Sinnvolle `<title>` und Beschreibung je Sprache | Grundlage | `Base.astro`, `desc` je Locale. | ✅ |
-| S2 | **Strukturierte Daten** (LocalBusiness / Service / FAQ) | Königsplan, Ziel „Top-3 im Kartenblock" | — | ❌ *(Lücke L2 — **hoch**)* |
-| S3 | **`og:image`** — Vorschaubild beim Teilen | implizit, aber zentral | `og:title` und `og:description` sind da, **`og:image` fehlt**. | ❌ *(Lücke L3 — **hoch**)* |
-| S4 | `sitemap.xml` + `robots.txt` | Grundlage | — | ❌ *(Lücke L4)* |
-| S5 | Favicon | Grundlage | — | ❌ *(Lücke L5)* |
+| S2 | **Strukturierte Daten** | Königsplan, Ziel „Top-3 im Kartenblock" | `Schema.astro`: `HVACBusiness`+`LocalBusiness`, `aggregateRating` 5,0/65, Geo, Öffnungszeiten, die 6 **sichtbaren** Leistungen. **Kein FAQ-Schema** — die Chat-Antworten stehen nicht auf der Seite. | ✅ |
+| S3 | **`og:image`** — Vorschaubild beim Teilen | implizit, aber zentral | `public/og.jpg` 1200×630 aus seinem echten Ladenfoto (`npm run assets`). Dazu `og:url`, `canonical`, `twitter:card`. | ✅ |
+| S4 | `sitemap.xml` + `robots.txt` | Grundlage | `@astrojs/sitemap` mit derselben Sprachgruppe wie hreflang — eine Quelle, kein Widerspruch. 16 URLs. | ✅ |
+| S5 | Favicon | Grundlage | Seldschukischer Achtstern, Gold auf Noir. | ✅ |
 | S6 | **Eigene Seite je Leistung** statt dünner Tag-Archive | Whitespark-Rankingfaktor #1 | Phase B, noch nicht gebaut. Die Altseite hat ~140 dünne Tag-Archive. | ❌ *(Phase B — geplant, keine Lücke)* |
 
 ---
@@ -105,8 +105,8 @@ Geprüft gegen Commit `d1f6cb8` am 12. Juli 2026, Zeile für Zeile gegen den Cod
 | # | Anforderung | Herkunft | Umsetzung | Status |
 |---|---|---|---|---|
 | R1 | **KVKK** statt DSGVO | Kunde sitzt in der Türkei | `docs/03-recht.md`. Jede Auslandsübermittlung braucht Standardvertrag + 5-Tage-Meldung — **oder alles in der Türkei hosten, dann entfällt Art. 9**. | 🟡 *Architektur beschrieben, nicht umgesetzt (Demo)* |
-| R2 | Keine Datenübermittlung ins Ausland | KVKK Art. 9 | Schriften lokal ✅ · kein GA4, kein Meta-Pixel ✅ · **Karte lädt direkt von Google** ❌ | 🟡 *(Lücke L6 — blockiert Livegang, nicht die Demo)* |
-| R3 | **Rechtstexte** (KVKK Aydınlatma Metni, Gizlilik, Çerez) | KVKK | Im Fuß **als Text genannt, aber es gibt keine Seiten dahinter**. | ❌ *(Lücke L7 — blockiert Livegang)* |
+| R2 | Keine Datenübermittlung ins Ausland | KVKK Art. 9 | Schriften lokal · kein GA4, kein Meta-Pixel · Karte: `biz.mapMode` — `'embed'` für die Demo, `'consent'` (Klick-zum-Laden) für den Livegang. **Beide Pfade getestet.** | ✅ |
+| R3 | **Rechtstexte** (KVKK Aydınlatma Metni, Gizlilik, Çerez) | KVKK | 12 echte Seiten (3 × 4 Sprachen), aus der Fußzeile verlinkt. | 🟡 *Entwurf — sichtbar gekennzeichnet, Anwalt vor Livegang* |
 | R4 | EU AI Act Art. 50 | geprüft | Gilt **nicht**, solange der Besucher in der Türkei ist und der türkische Betrieb den Chat betreibt. Kennzeichnung bleibt freiwillig. | ✅ |
 
 ---
@@ -125,30 +125,37 @@ Der Build listet sie bei jedem Lauf auf. Sie sind **kein Fehler** — sie sind d
 
 ---
 
-## 9. Die Lücken, die diese Prüfung gefunden hat
+## 9. Die Lücken, die diese Prüfung gefunden hat — **alle geschlossen**
 
-Nach Wirkung sortiert. **L1–L3 sind neu** — sie standen in keinem Dokument und in keinem Test.
+Nach Wirkung sortiert. **L1–L3 waren neu** — sie standen in keinem Dokument und in keinem Test.
+Stand: **11 von 11 geschlossen und im Abnahmetest verankert.**
 
-| # | Lücke | Wirkung | Blockiert | Empfehlung |
+| # | Lücke | Wirkung | Geschlossen durch | Prüfung |
 |---|---|---|---|---|
-| **L1** | **Kein Menü auf Mobil.** Die Navigation ist unter 1000 px ausgeblendet. Ein türkischer Besucher am Handy — die Mehrheit — kann **nicht** zum BTU-Rechner, zu den Produkten oder zur Technik springen. Er kann nur scrollen. | **hoch** | nichts formal, aber es kostet Konversion in genau der Zielgruppe | Menü nachrüsten (Burger oder Sprungleiste). Die Sticky-Leiste deckt nur Anruf und WhatsApp ab, nicht die Navigation. |
-| **L2** | **Keine strukturierten Daten.** Kein `LocalBusiness`, kein `Service`, kein `FAQ`. | **hoch** | das erklärte 90-Tage-Ziel „Top-3 im türkischen Kartenblock" | `LocalBusiness` mit `biz`-Daten + `aggregateRating` einbauen. Die Daten liegen alle schon in `home.ts`. |
-| **L3** | **Kein `og:image`.** Wer den Link auf **WhatsApp** teilt — dem Hauptkanal dieses Marktes — bekommt eine **graue Vorschau ohne Bild**. | **hoch** | nichts formal, aber es entwertet den Kanal, auf den alles ausgelegt ist | Hero-Ladenfoto als `og:image` setzen (1200 × 630). |
-| L4 | Kein `sitemap.xml`, kein `robots.txt` | mittel | schnelle Indexierung | `@astrojs/sitemap` |
-| L5 | Kein Favicon | niedrig | — | aus dem Achtstern ableiten |
-| L6 | **Die Karte lädt direkt von Google** → Datenübermittlung ins Ausland | mittel | **Livegang** (nicht die Demo) | in Produktion: Klick-zum-Laden oder statisches Kartenbild |
-| L7 | **Rechtstexte sind Fußzeilen-Wörter ohne Seiten** | mittel | **Livegang** | drei echte Seiten je Sprache; Inhalt aus `docs/03-recht.md` |
-| L8 | **Keine Missbrauchsbremse auf `api/chat.js`** | mittel | Produktion (Kostenrisiko) | Rate-Limit je IP, Längenbegrenzung |
-| L9 | Achtstern-Trenner (aus Phase A offen) | niedrig | — | Phase B |
-| L10 | Keine 404-Seite | niedrig | — | `src/pages/404.astro` |
-| L11 | `Phase0.astro` (Debug-Ansicht der Nullsprache) liegt noch im Baum | niedrig | — | vor dem Livegang entfernen |
+| **L1** | **Kein Menü auf Mobil.** Navigation unter 1000 px ausgeblendet — der Besucher am Handy kam nicht zum BTU-Rechner, zu den Produkten oder zur Technik. Er konnte nur scrollen. | **hoch** | Burger + Sprungleiste in `Base.astro`. Öffnet, schließt per Escape, schließt nach dem Sprung, räumt sich beim Wechsel auf Desktop-Breite auf. | ✅ 6 Sprungziele, alle 4 Sprachen × Mobil |
+| **L2** | **Keine strukturierten Daten.** Das erklärte Ziel „Top-3 im türkischen Kartenblock" hing daran. | **hoch** | `Schema.astro`: `HVACBusiness` + `LocalBusiness` mit Adresse, Geo, Öffnungszeiten, `aggregateRating` 5,0/65, den **sechs sichtbaren** Leistungen, `sameAs`. | ✅ geparst, Felder geprüft |
+| **L3** | **Kein `og:image`.** Wer den Link auf **WhatsApp** teilte — dem Hauptkanal — bekam eine graue Vorschau. | **hoch** | `npm run assets` erzeugt `public/og.jpg` (1200 × 630): sein echtes Ladenfoto, abgedunkelt, mit Wortmarke und Bewertung. Dazu `og:url`, `canonical`, `twitter:card`. | ✅ Datei erreichbar, 52 KB |
+| L4 | Kein `sitemap.xml`, kein `robots.txt` | mittel | `@astrojs/sitemap` mit **derselben** Sprachgruppe wie die hreflang-Angaben. `robots.txt` verweist darauf. | ✅ 16 URLs, ohne 404 |
+| L5 | Kein Favicon | niedrig | Seldschukischer Achtstern, Gold auf Noir (`favicon.svg` + `apple-touch-icon.png`) | ✅ |
+| L6 | **Die Karte lädt direkt von Google** → Übermittlung ins Ausland | mittel | `biz.mapMode`. `'embed'` = Demo (er wollte die Karte sehen). `'consent'` = Livegang: lädt erst auf Klick. **Beide Pfade getestet.** | ✅ Zustimmungs-Pfad aktiv geprüft |
+| L7 | **Rechtstexte waren Fußzeilen-Wörter ohne Seiten** | mittel | `src/content/legal.ts` + `[doc].astro` je Sprache → **12 echte Seiten**. Fußzeile verlinkt sie. Sichtbar als **Entwurf** gekennzeichnet. | ✅ alle erreichbar, richtige Sprache |
+| L8 | **Keine Missbrauchsbremse auf `api/chat.js`** | mittel | 8 Anfragen/Minute je IP, 800 Zeichen. **Kniff:** wer das Limit reißt, bekommt keinen Fehler, sondern `fallback: true` — der Chat schaltet auf die eingebaute Wissensbasis um. Der Besucher merkt nichts, die Kosten sind gedeckelt. | ✅ |
+| L9 | Achtstern-Trenner | niedrig | `Star.astro`, dreimal auf der Startseite. Dasselbe Motiv wie das Favicon. | ✅ |
+| L10 | Keine 404-Seite | niedrig | `404.astro` — vier Sprachwege nebeneinander + WhatsApp. Nicht in der Sitemap. | ✅ |
+| L11 | `Phase0.astro` lag ungenutzt im Baum | niedrig | entfernt | ✅ |
+
+**Zwei Grenzen, ehrlich benannt:**
+- **L8** zählt im Speicher **einer** Serverless-Instanz. Vercel kann mehrere starten — dann zählt jede für sich. Das *bremst* Missbrauch, es *sperrt* ihn nicht. Für den echten Betrieb gehört der Zähler in einen gemeinsamen Speicher, in der Türkei gehostet.
+- **L7** sind **Entwürfe**, fachlich aus `docs/03-recht.md` abgeleitet, aber **nicht juristisch geprüft**. Der Hinweis steht sichtbar auf jeder der zwölf Seiten. Vor dem Livegang: Platzhalter füllen, Anwalt, Hinweis entfernen.
+
+**Was bewusst NICHT gebaut wurde:** kein `FAQPage`-Schema aus den 13 Chat-Themen. Google verlangt, dass ausgezeichneter Inhalt auf der Seite **sichtbar** ist — die Chat-Antworten sind es nicht. Das wäre kein Ranking-Vorteil, sondern ein Richtlinienverstoß. Ebenso kein `foundingDate` und kein `priceRange` im Schema: beides ist nicht belegt. **Der Abnahmetest schlägt fehl, wenn eines dieser Felder je auftaucht.**
 
 ---
 
 ## 10. Fazit der Prüfung
 
-**Alles, was der Auftraggeber ausdrücklich verlangt hat, ist gebaut** — Hook mit Bau-Effekt, Königs-Look, Wow in allen Kapiteln, KI-Assistent mit Freitext, WhatsApp, vier Sprachen, Originalbilder, prominente Sternebewertung, Explosionszeichnung, Vorher-Nachher-Regler. Der Abnahmetest läuft in acht Kombinationen ohne Fehler durch.
+**Alles, was der Auftraggeber ausdrücklich verlangt hat, war schon gebaut** — Hook mit Bau-Effekt, Königs-Look, Wow in allen Kapiteln, KI-Assistent mit Freitext, WhatsApp, vier Sprachen, Originalbilder, prominente Sternebewertung, Explosionszeichnung, Vorher-Nachher-Regler.
 
-**Was fehlt, hat niemand verlangt — es ist trotzdem wichtig.** Drei Dinge sind mir bei dieser Prüfung aufgefallen, die in keinem Dokument standen und die kein Test abgedeckt hat: das **fehlende Mobil-Menü** in einem mobil-dominierten Markt, die **fehlenden strukturierten Daten** für genau das Kartenblock-Ziel, das wir uns selbst gesetzt haben, und das **fehlende Vorschaubild beim Teilen über WhatsApp** — den Kanal, auf den die ganze Seite ausgelegt ist.
+**Was fehlte, hatte niemand verlangt — und war trotzdem wichtig.** Drei Dinge standen in keinem Dokument und in keinem Test: das **fehlende Mobil-Menü** in einem mobil-dominierten Markt, die **fehlenden strukturierten Daten** für genau das Kartenblock-Ziel, das wir uns selbst gesetzt hatten, und das **fehlende Vorschaubild beim Teilen über WhatsApp** — den Kanal, auf den die ganze Seite ausgelegt ist.
 
-Diese drei gehören vor die Vorführung, nicht danach.
+Sie sind geschlossen. Der Abnahmetest deckt jetzt **4 Sprachen × 2 Geräteklassen plus 8 globale Prüfungen** ab und läuft mit **0 Fehlern**. Damit dürfen die drei Funktionen auch im Verkaufsskript vorkommen — vorher durften sie es nicht.

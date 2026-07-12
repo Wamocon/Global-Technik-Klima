@@ -43,14 +43,52 @@ PREISE: Keine festen Servicepreise online. Kostenlose Besichtigung, dann Angebot
 
 const MODEL = process.env.ANTHROPIC_MODEL || 'claude-haiku-4-5'
 
+// ---------------------------------------------------------------- Missbrauchsbremse
+//
+// Ein offener KI-Endpunkt ohne Bremse ist eine offene Rechnung. (Lücke L8)
+//
+// Der Kniff: Wer das Limit reißt, bekommt KEINEN Fehler, sondern `fallback: true` —
+// derselbe Weg wie bei fehlendem Schlüssel. Der Client schaltet dann auf die
+// eingebaute Wissensbasis um. Der Besucher merkt nichts, der Chat bleibt am Leben,
+// und die Kosten sind gedeckelt. Eine 429 hätte nur ein totes Fenster ergeben.
+//
+// ⚠️ Grenze, ehrlich benannt: Der Zähler lebt im Speicher EINER Serverless-Instanz.
+//    Vercel kann mehrere starten — dann zählt jede für sich. Das bremst Missbrauch
+//    ab, es sperrt ihn nicht. Für den echten Betrieb gehört der Zähler in einen
+//    gemeinsamen Speicher (Upstash/Redis) — in der Türkei gehostet (KVKK).
+const WINDOW_MS = 60_000
+const MAX_PER_WINDOW = 8      // ein Mensch tippt keine 8 Fragen in einer Minute
+const MAX_CHARS = 800         // eine echte Kundenfrage ist kürzer
+const hits = new Map()
+
+function tooMany(ip) {
+  const now = Date.now()
+  const bucket = (hits.get(ip) || []).filter((t) => now - t < WINDOW_MS)
+  bucket.push(now)
+  hits.set(ip, bucket)
+
+  // Aufräumen, damit die Map nicht unbegrenzt wächst.
+  if (hits.size > 5000) {
+    for (const [k, v] of hits) if (!v.some((t) => now - t < WINDOW_MS)) hits.delete(k)
+  }
+  return bucket.length > MAX_PER_WINDOW
+}
+
+const clientIp = (req) =>
+  (req.headers['x-forwarded-for'] || '').split(',')[0].trim() ||
+  req.headers['x-real-ip'] ||
+  'unknown'
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' })
   const key = process.env.ANTHROPIC_API_KEY
   if (!key) return res.status(200).json({ reply: null, fallback: true }) // → Client-Verstand
 
+  if (tooMany(clientIp(req))) return res.status(200).json({ reply: null, fallback: true })
+
   let body = req.body
   if (typeof body === 'string') { try { body = JSON.parse(body) } catch { body = {} } }
-  const message = (body && body.message ? String(body.message) : '').slice(0, 1500)
+  const message = (body && body.message ? String(body.message) : '').slice(0, MAX_CHARS)
   const locale = (body && body.locale) || 'tr'
   if (!message.trim()) return res.status(200).json({ reply: null, fallback: true })
 

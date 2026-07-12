@@ -1,0 +1,97 @@
+---
+/**
+ * Strukturierte Daten (Lücke L2).
+ *
+ * REGEL, die hier nicht gebrochen wird: Ausgezeichnet wird NUR, was auf der Seite
+ * auch SICHTBAR steht. Google verlangt das ausdrücklich; eine FAQPage aus den 13
+ * Chat-Themen zu bauen wäre kein Ranking-Vorteil, sondern ein Richtlinienverstoß —
+ * die Antworten stehen im Chat, nicht auf der Seite. Deshalb: kein FAQ-Schema.
+ *
+ * `aggregateRating` ist erlaubt, weil die Bewertung im Hero und bei „Über uns"
+ * sichtbar ist und auf sein echtes Google-Profil verlinkt.
+ *
+ * ⛔ Kein Gründungsjahr (`foundingDate`), kein `priceRange` — beides ist nicht belegt.
+ *    Lieber ein Feld weglassen als eine Zahl erfinden.
+ */
+import { content, biz } from '../content/home'
+import { pathFor, locales, type Locale } from '../i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const c = content[locale]
+
+const site = Astro.site?.origin ?? 'https://alanyagreeyetkilibayi.com.tr'
+const url = site + pathFor(locale)
+
+// '5,0' → 5.0 — im JSON-LD ist der Punkt der Dezimaltrenner, nicht das Komma.
+const ratingValue = Number(biz.ratingValue.replace(',', '.'))
+const [lat, lng] = biz.geo
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['HVACBusiness', 'LocalBusiness'],
+      '@id': `${site}/#business`,
+      name: 'Alanya Global Teknik',
+      alternateName: 'Global Teknik Klima',
+      description: c.hero.sub,
+      url,
+      image: [`${site}/og.jpg`, `${site}/images/hero-shop.webp`],
+      logo: `${site}/apple-touch-icon.png`,
+      telephone: biz.phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Hacet Mah., Alaiye Cad. No: 17/A',
+        addressLocality: 'Alanya',
+        addressRegion: 'Antalya',
+        addressCountry: 'TR',
+      },
+      geo: { '@type': 'GeoCoordinates', latitude: lat, longitude: lng },
+      hasMap: biz.mapsUrl,
+      areaServed: [
+        { '@type': 'City', name: 'Alanya' },
+        { '@type': 'AdministrativeArea', name: 'Antalya' },
+      ],
+      // Mo–Sa 08:00–20:00, Sonntag zu — genau das, was im Kontaktkapitel steht.
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          opens: '08:00',
+          closes: '20:00',
+        },
+      ],
+      brand: { '@type': 'Brand', name: 'Gree' },
+      // Sichtbar im Hero und bei „Über uns", verlinkt auf sein Google-Profil.
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue,
+        reviewCount: biz.ratingCount,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      sameAs: [biz.facebook, biz.instagram],
+      // Genau die sechs Leistungen, die im Kapitel „Leistungen" stehen.
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: c.services.title,
+        itemListElement: c.services.items.map((s) => ({
+          '@type': 'Offer',
+          itemOffered: { '@type': 'Service', name: s.title, description: s.text },
+        })),
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${site}/#website`,
+      url: site,
+      name: 'Alanya Global Teknik',
+      publisher: { '@id': `${site}/#business` },
+      inLanguage: locales,
+    },
+  ],
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

@@ -38,6 +38,7 @@ Türkisch liegt **an der Wurzel, ohne Präfix**. Das ist Absicht: es erhält die
 | `npm run build` | baut nach `dist/` — **hier greifen die Leitplanken** |
 | `npm run guard` | nur die Leitplanken prüfen, ohne zu bauen |
 | `npm run pseudo` | erzeugt die Nullsprache (siehe §7) |
+| `npm run assets` | erzeugt `og.jpg`, `favicon.svg`, `apple-touch-icon.png` (siehe §4) |
 
 **Wenn der Entwicklungsserver merkwürdige, alte Inhalte zeigt:** siehe §11, Falle 4. Das ist uns zweimal passiert und hat jedes Mal eine Stunde gekostet.
 
@@ -59,9 +60,13 @@ Von oben nach unten, so wie der Besucher sie erlebt.
 | 8 | **Bewertungen** | Echte türkische Google-Zitate. Fremdsprachige sind als „Beispiel" markiert, solange es keine echten gibt. |  |
 | 9 | **Über uns** | Mission + drei Kennzahlen (Bewertung, 7/24, Gree). |  |
 | 10 | **Kontakt** | Telefon, WhatsApp, Adresse, Öffnungszeiten + **seine echte Google-Karte**. |  |
-| 11 | **Fuß** | Händler-Zeile, Rechtstexte, Facebook + Instagram. |  |
+| 11 | **Fuß** | Händler-Zeile, **verlinkte** Rechtstexte, Facebook + Instagram. |  |
 | — | **KI-Assistent** | Schwebender Knopf unten rechts, öffnet den Chat. Siehe §5. | `Assistant.astro` |
 | — | **WhatsApp** | Drei Einstiege. Siehe §6. |  |
+| — | **Menü am Handy** | Unter 1000 px erscheint der Burger; das Menü öffnet, schließt per Escape und schließt nach dem Sprung. Ohne ihn käme am Telefon niemand zum BTU-Rechner. | `Base.astro` |
+| — | **Achtstern-Trenner** | Seldschukischer Achtstern (`rub el hizb`) zwischen den Kapiteln. Dasselbe Motiv trägt das Favicon. | `Star.astro` |
+| — | **Rechtstexte** | Zwölf echte Seiten (3 Dokumente × 4 Sprachen): `/kvkk`, `/gizlilik`, `/cerez`. Siehe §10. | `content/legal.ts` |
+| — | **404** | Vier Sprachwege nebeneinander + WhatsApp. | `pages/404.astro` |
 
 ---
 
@@ -112,6 +117,18 @@ Alle Bilder liegen in `public/images/` und werden mit `/images/…` referenziert
 
 **Regeln:** WebP, `width`/`height` im `<img>` immer mitgeben (sonst springt das Layout beim Laden), `loading="lazy"` für alles unter dem Falz — **nie** für das Hero-Bild.
 
+### Das Vorschaubild beim Teilen (`og.jpg`)
+
+`npm run assets` erzeugt drei Dateien aus **einer** Quelle:
+
+| Datei | Wofür |
+|---|---|
+| `public/og.jpg` | 1200 × 630 — **was der Empfänger sieht, wenn jemand den Link auf WhatsApp teilt.** Sein Ladenfoto, abgedunkelt, mit Wortmarke und der Bewertung. |
+| `public/favicon.svg` | seldschukischer Achtstern, Gold auf Noir |
+| `public/apple-touch-icon.png` | 180 × 180, dasselbe Motiv |
+
+WhatsApp ist der Hauptkanal dieses Betriebs. Wer den Link dort teilt und eine **graue Kachel** sieht, hat genau den Kanal entwertet, auf den die ganze Seite zielt. Deshalb ist das ein Skript und kein von Hand gebautes Bild: Ändert sich die Bewertung (`RATING`/`COUNT` in `scripts/assets.mjs`) oder das Ladenfoto, läuft man `npm run assets` — von Hand vergisst man es.
+
 **Wenn echte Montagefotos kommen:** `ba-hot.webp` und `ba-cool.webp` ersetzen, dann in `src/content/home.ts` bei `beforeAfter` das Feld `example` leeren und in `BeforeAfter.astro` das `⛔`-Kommentar entfernen. Erst dann darf das „Beispielbild"-Etikett weg.
 
 ---
@@ -127,6 +144,9 @@ Er läuft in **zwei Betriebsarten** — und zwar automatisch, ohne Umschalter.
 Die gesamte Wissensbasis steht in **`src/content/kb.ts`** — und zwar nur dort. Derselbe Text dient als Systemprompt für das Sprachmodell *und* als Antwortsatz für die Regelmaschine. Ein Wissen, zwei Betriebsarten, keine Abweichung.
 
 **Was der Assistent nicht darf:** keine Preise nennen (der Betrieb veröffentlicht keine), keine Termine fest zusagen, nichts erfinden. Bei Unsicherheit übergibt er an WhatsApp. Das steht so im Systemprompt und muss so bleiben.
+
+**Die Missbrauchsbremse.** `api/chat.js` lässt **8 Anfragen je Minute und IP** zu, höchstens 800 Zeichen. Wer das Limit reißt, bekommt **keinen Fehler**, sondern dieselbe Antwort wie bei fehlendem Schlüssel: `fallback: true`. Der Chat schaltet auf die eingebaute Wissensbasis um — der Besucher merkt nichts, die Kosten sind gedeckelt. Eine 429 hätte nur ein totes Fenster ergeben.
+*Grenze, ehrlich benannt:* der Zähler lebt im Speicher **einer** Serverless-Instanz. Vercel kann mehrere starten, dann zählt jede für sich. Das **bremst** Missbrauch, es **sperrt** ihn nicht. Für den echten Betrieb gehört der Zähler in einen gemeinsamen Speicher — in der Türkei gehostet.
 
 Über dem Chatfenster steht ein **KI-Hinweis**. Rechtlich ist er in der Türkei nicht erzwungen (siehe `docs/03-recht.md`), aber er ist ein Vertrauenssignal — er bleibt.
 
@@ -169,10 +189,11 @@ Türkisch hat ein punktloses ı und ein gepunktetes İ. `'İSTANBUL'.toLowerCase
 ## 8. Abnahmetest
 
 ```bash
-node scratchpad/acceptance.mjs      # braucht einen laufenden Server auf :4321
+npm run build && npm run preview   # in einem Fenster
+npm run abnahme                    # in einem zweiten
 ```
 
-Fährt **4 Sprachen × Desktop (1440) und Mobil (390)** ab und prüft je Kombination:
+Fährt **4 Sprachen × Desktop (1440) und Mobil (390)** ab, dazu **8 globale Prüfungen**, und prüft je Kombination:
 
 - keine JavaScript-Fehler in der Konsole
 - kein horizontaler Überlauf (die Seite muss dynamisch sein — *das* hat den russischen Mobil-Bruch gefunden)
@@ -183,6 +204,12 @@ Fährt **4 Sprachen × Desktop (1440) und Mobil (390)** ab und prüft je Kombina
 - Karte lädt und ist mindestens 200 px hoch
 - Explosionszeichnung rendert, Legende hebt hervor
 - Vorher-Nachher-Regler reagiert
+- **Mobil-Menü** öffnet, hat 6 Sprungziele, schließt per Escape und nach dem Sprung
+- **Strukturierte Daten** parsen, `aggregateRating` stimmt, die 6 Leistungen sind drin — und **kein `foundingDate`, kein `priceRange`**: der Test schlägt fehl, wenn je ein unbelegtes Feld ins Schema rutscht
+- **`og:image`** vorhanden und erreichbar, dazu `og:url`, `canonical`, Favicon
+- **Rechtstexte**: alle drei je Sprache erreichbar, mit Überschrift, richtige Sprache im Pfad
+- **Sitemap** (16 URLs, ohne die 404), **robots.txt** verweist darauf, **404-Seite** mit 4 Sprachwegen
+- **Achtstern-Trenner** vorhanden
 
 **Stand: 0 Fehler.** Nach jeder Änderung neu laufen lassen.
 
@@ -215,6 +242,16 @@ Das hier ist eine **Akquise-Demo**. Sie behauptet bewusst nichts, was nicht bele
 | **Montagefotos** | bis dahin zeigt der Regler eine gekennzeichnete Illustration. |
 
 **Was bereits korrigiert ist:** auf seiner Altseite steht eine Konya-Nummer (`+90 332 325 25 50`, falsche Vorwahl) als anklickbarer Telefonlink. Die ist raus. Es gelten `+90 242 513 86 51` und `+90 533 046 13 87`.
+
+### Die drei Schalter für den Livegang
+
+Dreimal ist der Livegang-Zustand **schon gebaut** und wartet nur darauf, angeschaltet zu werden:
+
+| Schalter | Wo | Demo | Livegang |
+|---|---|---|---|
+| **Karte** | `biz.mapMode` in `src/content/home.ts` | `'embed'` — die Karte lädt sofort (er wollte sie sehen) | `'consent'` — sie lädt erst auf Klick. Ein Google-iframe verbindet den Browser des Besuchers mit Google und ist damit eine Übermittlung ins Ausland (KVKK Art. 9). **Beide Pfade sind getestet**, und der Rechtstext sagt bereits, dass die Karte erst nach Zustimmung lädt. |
+| **Rechtstexte** | `src/content/legal.ts` | Entwurf, sichtbar als solcher gekennzeichnet | ⟨Platzhalter⟩ füllen (Ticaret unvanı, Mersis, E-Post-Adresse), **von einem türkischen Anwalt prüfen lassen**, dann das `draft`-Feld leeren |
+| **Chat-Bremse** | `api/chat.js` | In-Memory-Zähler je Instanz | gemeinsamer Speicher (Upstash/Redis), in der Türkei gehostet |
 
 **Recht:** KVKK, Türkei-Hosting, Postfach weg von Gmail, Sprachmodell auf türkischer GPU — alles in `docs/03-recht.md`. Das ist Produktionsarchitektur nach dem Ja, nicht Demo.
 
@@ -251,19 +288,24 @@ instruction.md              Regeln + nächste Phasen (für Entwickler/KI)
 docs/01-sprachvertrag.md    die vier Sprachentscheidungen, Schichten, Blockvarianten
 docs/02-glossar.md          Marktsprache TR/RU/DE/EN, Gree-Produktwahrheit
 docs/03-recht.md            KVKK, AI Act, Hosting — Produktionsarchitektur
-docs/04-anforderungen.md    Anforderungen + Vollständigkeitsprüfung + offene Lücken
-docs/05-video-skript-de.md  Sprechskript für Avatar/Video (deutsche Fassung)
+docs/04-anforderungen.md    Anforderungen + Rückverfolgung + die 11 (geschlossenen) Lücken
+docs/05-video-skript-de.md  Sprechskript für Avatar/Video (deutscher Master)
 content/de/master.md        deutscher Redaktions-Master (Textquelle, Register, Sperren)
 
-src/content/home.ts         >> ALLE sichtbaren Texte + Firmendaten (biz)
+src/content/home.ts         >> ALLE sichtbaren Texte + Firmendaten (biz) + mapMode
 src/content/kb.ts           >> das Wissen des KI-Assistenten (Prompt + Regelmaschine)
-src/components/             Hero, Home, Assistant, ExplodedUnit, BeforeAfter
-src/layouts/Base.astro      Kopfzeile, Sprachumschalter, hreflang, Meta
+src/content/legal.ts        >> die drei Rechtstexte × 4 Sprachen (Entwurf)
+src/components/             FrostHero, Home, Assistant, ExplodedUnit, BeforeAfter,
+                            Schema (JSON-LD), Star (Achtstern), LegalPage
+src/layouts/Base.astro      Kopfzeile, Mobil-Menü, Sprachumschalter, hreflang, og/Meta
+src/pages/                  index + [doc] (Rechtstexte) je Sprache, 404
 src/i18n/                   Sprachsystem, Leitplanken als Code
 src/styles/                 tokens (Palette), fonts (lokal), global
-api/chat.js                 Serverfunktion für den KI-Chat
+api/chat.js                 Serverfunktion für den KI-Chat + Missbrauchsbremse
 scripts/guard.mjs           die Leitplanken
 scripts/pseudo.mjs          die Nullsprache
-public/images/, public/fonts/
-scratchpad/acceptance.mjs   der Abnahmetest
+scripts/assets.mjs          og.jpg, favicon.svg, apple-touch-icon.png
+public/robots.txt           verweist auf die Sitemap (die Sitemap erzeugt der Build)
+public/images/, public/fonts/, public/og.jpg, public/favicon.svg
+scripts/acceptance.mjs      der Abnahmetest (npm run abnahme)
 ```

@@ -28,7 +28,7 @@ Stand: 11. Juli 2026 · Branch: `feat/deutscher-master`
 
 **Läuft:** `npm install` → `npm run dev` (oder `npm run build` → `dist/`). Vier Routen: `/` (TR), `/de`, `/ru`, `/en`.
 
-**Abnahme:** `scratchpad/acceptance.mjs` (Playwright) prüft 4 Sprachen × Desktop/Mobil auf JS-Fehler, horizontalen Überlauf, Kernelemente, WhatsApp je Viewport, Prominenz der Sternebewertung, Chat (öffnen/Freitext/schließen), Karte, Explosionszeichnung und Regler. Stand: **0 Fehler**.
+**Abnahme:** `npm run abnahme` (`scripts/acceptance.mjs`, Playwright) prüft 4 Sprachen × Desktop/Mobil **plus 8 globale Prüfungen**: JS-Fehler, horizontaler Überlauf, Kernelemente, WhatsApp je Viewport, Prominenz der Sternebewertung, Chat, Karte, Explosionszeichnung, Regler, Mobil-Menü, JSON-LD (**und dass kein unbelegtes Feld darin steht**), og:image, Rechtstexte, Sitemap, robots, 404. Stand: **0 Fehler**.
 
 ---
 
@@ -117,10 +117,14 @@ astro.config.mjs            i18n-Routing (TR an der Wurzel)
 vercel.json                 Deploy-Konfiguration (Astro, Font-Cache, Header)
 scripts/pseudo.mjs          erzeugt die Nullsprache src/i18n/xx.json
 scripts/guard.mjs           Build-Leitplanken (toUpperCase, Google-Fonts, verbotene Wörter)
+scripts/assets.mjs          og.jpg (WhatsApp-Vorschau), favicon.svg, apple-touch-icon
+scripts/acceptance.mjs      der Abnahmetest
+src/content/legal.ts        die drei Rechtstexte × 4 Sprachen (Entwurf)
+src/components/Schema.astro strukturierte Daten (nur was sichtbar ist!)
+src/components/Star.astro   seldschukischer Achtstern (Trenner + Favicon-Motiv)
 src/content/home.ts         >> INHALT der Startseite in 4 Sprachen + öffentliche Firmendaten (biz)
 src/components/Home.astro    alle Sektionen unter dem Hero + BTU-Rechner + Chat
 src/components/FrostHero.astro  Hero mit Frost-Bau-Effekt (Canvas)
-src/components/Phase0.astro  Debug-Ansicht der Nullsprache (kann später weg)
 src/layouts/Base.astro       Kopfzeile, Sprachumschalter, hreflang, Meta
 src/i18n/ui.ts, utils.ts     i18n-System, Leitplanken-Regeln als Code
 src/styles/*.css             tokens (Palette), fonts (lokal), global
@@ -134,7 +138,7 @@ docs/04-anforderungen.md     >> Anforderungen, Rückverfolgung, die 11 offenen L
 docs/05-video-skript-de.md   Sprechskript Avatar/Video (DE-Master, TR wird gesprochen)
 ```
 
-Befehle: `npm run dev` · `npm run build` · `npm run guard` · `npm run pseudo`
+Befehle: `npm run dev` · `npm run build` · `npm run guard` · `npm run pseudo` · `npm run assets` · `npm run abnahme`
 
 ---
 
@@ -157,12 +161,14 @@ Befehle: `npm run dev` · `npm run build` · `npm run guard` · `npm run pseudo`
   - ⛔ **Der Betrieb hat keine Montagefotos.** Der Regler zeigt eine als „Beispielbild/Örnek görsel/Иллюстрация" **gekennzeichnete** Illustration (Hitze→Kühle-Gradierung seines echten Produktbilds). Sobald echte Vorher/Nachher-Bilder vorliegen: Bildpfade tauschen, Label entfernen.
 - Offen aus Phase A: seldschukischer Achtstern als Trenner.
 
-**Phase A½ — die drei Lücken, die die Anforderungsprüfung gefunden hat** (vor der Vorführung, nicht danach):
-1. **Kein Mobil-Menü.** `.mainnav` ist unter 1000 px ausgeblendet — am Handy führt kein Weg zum BTU-Rechner oder zur Technik. In einem mobil-dominierten Markt die teuerste der drei.
-2. **Keine strukturierten Daten.** Kein `LocalBusiness`, kein `aggregateRating`. Das Ziel „Top-3 im türkischen Kartenblock" hängt daran. Die Daten liegen alle schon in `biz`.
-3. **Kein `og:image`.** Wer den Link auf WhatsApp teilt — dem Hauptkanal — bekommt eine graue Vorschau. Entwertet genau den Kanal, auf den die Seite ausgelegt ist.
+**Phase A½ — die 11 Lücken der Anforderungsprüfung** ✅ **alle geschlossen**
+- **Mobil-Menü** (`Base.astro`): Burger + Sprungleiste. Ohne es kam am Handy niemand zum BTU-Rechner — in einem Markt, der am Telefon einkauft.
+- **Strukturierte Daten** (`Schema.astro`): `HVACBusiness`+`LocalBusiness`, `aggregateRating` 5,0/65, Geo, Öffnungszeiten, die **sechs sichtbaren** Leistungen. **Kein FAQ-Schema** aus den Chat-Themen — die stehen nicht auf der Seite; das wäre ein Richtlinienverstoß, kein Ranking-Vorteil. Kein `foundingDate`, kein `priceRange`: **der Abnahmetest schlägt fehl, wenn eines dieser unbelegten Felder je auftaucht.**
+- **`og:image`** (`scripts/assets.mjs` → `npm run assets`): sein Ladenfoto, 1200×630, mit Wortmarke und Bewertung. Der Hauptkanal ist WhatsApp — eine graue Kachel dort hätte den Kanal entwertet.
+- Dazu: Sitemap + robots, Favicon (Achtstern), Karte mit `biz.mapMode` (`embed`/`consent`, **beide Pfade getestet**), 12 Rechtstext-Seiten (Entwurf, sichtbar gekennzeichnet), Chat-Bremse (8/min je IP, degradiert zur Regelmaschine statt zu einer 429), Achtstern-Trenner, 404, `Phase0.astro` entfernt.
 
-Vollständige Liste aller 11 Lücken mit Wirkung und Empfehlung: `docs/04-anforderungen.md §9`.
+Abnahmetest jetzt: 4 Sprachen × 2 Geräteklassen + 8 globale Prüfungen → **0 Fehler**.
+Vollständige Rückverfolgung: `docs/04-anforderungen.md §9`.
 
 **Phase B — Substanz auf Unterseiten** (Whitespark #1-Rankingfaktor: eigene Seite je Leistung):
 - Sieben echte Leistungsseiten (Montage, Wartung, Reinigung, Gaz Dolumu, Reparatur, Wärmepumpe, VRF) statt der 140 dünnen Tag-Archive der Altseite.

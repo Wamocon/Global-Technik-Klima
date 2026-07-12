@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro'
+import LegalPage from '../../components/LegalPage.astro'
+import { LEGAL_SLUGS, legal, type LegalSlug } from '../../content/legal'
+
+const locale = 'ru' as const
+
+export function getStaticPaths() {
+  return LEGAL_SLUGS.map((doc) => ({ params: { doc } }))
+}
+
+const doc = Astro.params.doc as LegalSlug
+const d = legal[locale][doc]
+---
+<Base locale={locale} title={`${d.title} | Global Teknik Klima`} path={doc}>
+  <LegalPage locale={locale} slug={doc} />
+</Base>

@@ -1,0 +1,5 @@
+# Alanya Global Teknik — Gree Yetkili Bayi ve Servisi
+User-agent: *
+Allow: /
+
+Sitemap: https://alanyagreeyetkilibayi.com.tr/sitemap-index.xml

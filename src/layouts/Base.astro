@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import Schema from '../components/Schema.astro'
 import { hreflangs, pathFor, locales, type Locale } from '../i18n/utils'
 import { nav } from '../content/home'
 
@@ -10,6 +11,9 @@ const base = pathFor(locale)
 
 // Gegenseitigkeit per Konstruktion — Google ignoriert die Gruppe, wenn ein Rückverweis fehlt.
 const alternates = hreflangs(Astro.site, path)
+const site = Astro.site?.origin ?? 'https://alanyagreeyetkilibayi.com.tr'
+const canonical = site + pathFor(locale, path)
+
 const desc: Record<Locale, string> = {
   tr: 'Alanya Gree Klima Yetkili Bayi ve Servisi. Satış, montaj, bakım. Ücretsiz keşif, faturalı hizmet, 7/24 destek.',
   de: 'Autorisierter Gree-Händler in Alanya. Verkauf, Montage und Wartung. Kostenlose Besichtigung, deutschsprachiger Service.',
@@ -17,6 +21,27 @@ const desc: Record<Locale, string> = {
   en: 'Authorized Gree dealer in Alanya. Sales, installation and maintenance. Free survey, English-speaking service.',
 }
 const flag: Record<Locale, string> = { tr: 'TR', de: 'DE', ru: 'RU', en: 'EN' }
+const ogLocale: Record<Locale, string> = { tr: 'tr_TR', de: 'de_DE', ru: 'ru_RU', en: 'en_US' }
+
+// Beim Teilen über WhatsApp — dem Hauptkanal dieses Betriebs — ist das hier das
+// Einzige, was der Empfänger zuerst sieht. Erzeugt von `npm run assets`.
+const ogImage = `${site}/og.jpg`
+const ogAlt: Record<Locale, string> = {
+  tr: 'Alanya Global Teknik — Gree Yetkili Bayi ve Servisi',
+  de: 'Alanya Global Teknik — autorisierter Gree-Händler in Alanya',
+  ru: 'Alanya Global Teknik — официальный дилер Gree в Алании',
+  en: 'Alanya Global Teknik — authorized Gree dealer in Alanya',
+}
+const menuLabel: Record<Locale, string> = { tr: 'Menü', de: 'Menü', ru: 'Меню', en: 'Menu' }
+
+const links = [
+  { href: `${base}#hizmetler`, text: n.services },
+  { href: `${base}#urunler`, text: n.products },
+  { href: `${base}#teknik`, text: n.tech },
+  { href: `${base}#referanslar`, text: n.refs },
+  { href: `${base}#kesif`, text: n.calc },
+  { href: `${base}#kontakt`, text: n.contact },
+]
 ---
 
 <html lang={locale}>
@@ -25,12 +50,31 @@ const flag: Record<Locale, string> = { tr: 'TR', de: 'DE', ru: 'RU', en: 'EN' }
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={desc[locale]} />
     <title>{title}</title>
+    <link rel="canonical" href={canonical} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#100D0B" />
+
+    <meta property="og:site_name" content="Alanya Global Teknik" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc[locale]} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={ogAlt[locale]} />
+    <meta property="og:locale" content={ogLocale[locale]} />
+    {locales.filter((l) => l !== locale).map((l) => <meta property="og:locale:alternate" content={ogLocale[l]} />)}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImage} />
+
     {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
     <link rel="preload" href="/fonts/cormorant-600-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/jost-300-600-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+
+    <Schema locale={locale} />
   </head>
 
   <body>
@@ -40,13 +84,8 @@ const flag: Record<Locale, string> = { tr: 'TR', de: 'DE', ru: 'RU', en: 'EN' }
           <span class="bm">GLOBAL TEKNİK</span>
           <span class="bs">Gree · Alanya</span>
         </a>
-        <nav class="mainnav" aria-label="Menu">
-          <a href={`${base}#hizmetler`}>{n.services}</a>
-          <a href={`${base}#urunler`}>{n.products}</a>
-          <a href={`${base}#teknik`}>{n.tech}</a>
-          <a href={`${base}#referanslar`}>{n.refs}</a>
-          <a href={`${base}#kesif`}>{n.calc}</a>
-          <a href={`${base}#kontakt`}>{n.contact}</a>
+        <nav class="mainnav" aria-label={menuLabel[locale]}>
+          {links.map((l) => <a href={l.href}>{l.text}</a>)}
         </nav>
         <nav class="lang" aria-label="Language">
           {
@@ -57,30 +96,94 @@ const flag: Record<Locale, string> = { tr: 'TR', de: 'DE', ru: 'RU', en: 'EN' }
             ))
           }
         </nav>
+        <!-- Ohne dieses Menü führte am Handy kein Weg zum BTU-Rechner oder zur Technik —
+             in einem Markt, der am Telefon einkauft. (Lücke L1) -->
+        <button class="burger" id="burger" aria-label={menuLabel[locale]} aria-expanded="false" aria-controls="mobnav">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
       </div>
+
+      <nav class="mobnav" id="mobnav" aria-label={menuLabel[locale]} hidden>
+        {links.map((l) => <a href={l.href}>{l.text}</a>)}
+      </nav>
     </header>
 
     <slot />
+
+    <script>
+      const burger = document.getElementById('burger')
+      const mobnav = document.getElementById('mobnav')
+      if (burger && mobnav) {
+        const set = (open: boolean) => {
+          mobnav.hidden = !open
+          burger.setAttribute('aria-expanded', String(open))
+          burger.classList.toggle('on', open)
+        }
+        burger.addEventListener('click', () => set(mobnav.hidden))
+        // Ein Sprungziel geöffnet → das Menü hat seine Arbeit getan.
+        mobnav.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => set(false)))
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && !mobnav.hidden) { set(false); burger.focus() }
+        })
+        // Zurück auf Desktop-Breite: das Menü darf nicht offen hängen bleiben.
+        matchMedia('(min-width:1000px)').addEventListener('change', (e) => { if (e.matches) set(false) })
+      }
+    </script>
   </body>
 </html>
 
 <style>
-  /* Deutlich deckender — sonst scheinen Überschriften beim Scrollen durch die Leiste. */
+  /* Deutlich deckend — sonst scheinen Überschriften beim Scrollen durch die Leiste. */
   .topbar{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--bg) 95%,transparent);
     backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
   .tbin{display:flex;align-items:center;gap:20px;padding:12px 24px}
   .brand{text-decoration:none;display:flex;flex-direction:column;gap:1px;min-height:auto;margin-right:auto}
-  .bm{font-family:var(--serif);font-weight:600;font-size:1.15rem;color:var(--fg-strong);letter-spacing:.02em}
-  .bs{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent)}
+  .bm{font-family:var(--serif);font-weight:600;font-size:1.15rem;color:var(--fg-strong);letter-spacing:.02em;
+    white-space:nowrap}
+  .bs{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);white-space:nowrap}
+  /* Am Telefon teilen sich Wortmarke, vier Sprachen und Burger eine Zeile.
+     Ohne dieses Zusammenrücken bricht „GLOBAL TEKNİK" um und die Leiste wird doppelt hoch. */
+  @media(max-width:480px){
+    .tbin{gap:8px;padding:10px 16px}
+    .bm{font-size:1rem}
+    .bs{font-size:.55rem;letter-spacing:.18em}
+    .lang a{padding:6px 6px;font-size:.72rem}
+    .mobnav a{padding:15px 16px}
+  }
+
   .mainnav{display:none;gap:24px}
   @media(min-width:1000px){.mainnav{display:flex}}
   .mainnav a{color:var(--fg-mute);text-decoration:none;font-size:.86rem;min-height:auto;padding:6px 0;position:relative}
   .mainnav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--accent);transition:right .3s var(--ease)}
   .mainnav a:hover{color:var(--fg-strong)}
   .mainnav a:hover::after{right:0}
+
   .lang{display:flex;gap:2px}
   .lang a{color:var(--fg-mute);text-decoration:none;font-size:.76rem;letter-spacing:.1em;padding:7px 10px;
     min-height:auto;border-radius:2px;text-transform:uppercase}
   .lang a[aria-current='page']{color:var(--accent-ink);background:var(--accent);font-weight:500}
   .lang a:not([aria-current]):hover{color:var(--fg-strong)}
+
+  /* Burger — nur unter 1000 px, dort wo die Hauptnavigation verschwindet. */
+  .burger{display:grid;place-content:center;gap:5px;width:44px;height:44px;padding:0;flex:none;
+    background:transparent;border:1px solid var(--line-2);border-radius:2px;cursor:pointer}
+  @media(min-width:1000px){.burger{display:none}}
+  .burger span{display:block;width:18px;height:1.5px;background:var(--fg-strong);
+    transition:transform .28s var(--ease),opacity .2s var(--ease)}
+  .burger.on span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+  .burger.on span:nth-child(2){opacity:0}
+  .burger.on span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+
+  .mobnav{display:flex;flex-direction:column;border-top:1px solid var(--line);
+    background:color-mix(in oklab,var(--bg-2) 97%,transparent)}
+  .mobnav[hidden]{display:none}
+  @media(min-width:1000px){.mobnav{display:none}}
+  .mobnav a{color:var(--fg);text-decoration:none;font-size:1rem;padding:15px 24px;
+    border-bottom:1px solid var(--line);display:flex;align-items:center}
+  .mobnav a:last-child{border-bottom:0}
+  .mobnav a:active,.mobnav a:hover{color:var(--accent-ink);background:var(--accent)}
+
+  @media (prefers-reduced-motion: reduce){.burger span{transition:none}}
 </style>
