@@ -126,9 +126,12 @@ src/i18n/ui.ts, utils.ts     i18n-System, Leitplanken-Regeln als Code
 src/styles/*.css             tokens (Palette), fonts (lokal), global
 public/fonts/*.woff2         selbst gehostete Schriften (latin/latin-ext/cyrillic)
 content/de/master.md         deutscher Redaktions-Master (Textquelle, Register, Sperren)
+HANDBUCH.md                 Bedienhandbuch für den Menschen (starten, ändern, prüfen, veröffentlichen)
 docs/01-sprachvertrag.md     die vier Entscheidungen, Schichten, Blockvarianten
 docs/02-glossar.md           Marktsprache TR/RU/DE/EN, Gree-Produktwahrheit
 docs/03-recht.md             KVKK, AI Act, Hosting — Nachkauf-Architektur
+docs/04-anforderungen.md     >> Anforderungen, Rückverfolgung, die 11 offenen Lücken
+docs/05-video-skript-de.md   Sprechskript Avatar/Video (DE-Master, TR wird gesprochen)
 ```
 
 Befehle: `npm run dev` · `npm run build` · `npm run guard` · `npm run pseudo`
@@ -153,6 +156,13 @@ Befehle: `npm run dev` · `npm run build` · `npm run guard` · `npm run pseudo`
 - **Vorher-Nachher-Regler** (`src/components/BeforeAfter.astro`): ziehbar, dazu ein unsichtbarer `<input type=range>` darüber — damit auch per Tastatur bedienbar. Nie automatisch (Karussells schneiden in Tests durchweg schlecht ab).
   - ⛔ **Der Betrieb hat keine Montagefotos.** Der Regler zeigt eine als „Beispielbild/Örnek görsel/Иллюстрация" **gekennzeichnete** Illustration (Hitze→Kühle-Gradierung seines echten Produktbilds). Sobald echte Vorher/Nachher-Bilder vorliegen: Bildpfade tauschen, Label entfernen.
 - Offen aus Phase A: seldschukischer Achtstern als Trenner.
+
+**Phase A½ — die drei Lücken, die die Anforderungsprüfung gefunden hat** (vor der Vorführung, nicht danach):
+1. **Kein Mobil-Menü.** `.mainnav` ist unter 1000 px ausgeblendet — am Handy führt kein Weg zum BTU-Rechner oder zur Technik. In einem mobil-dominierten Markt die teuerste der drei.
+2. **Keine strukturierten Daten.** Kein `LocalBusiness`, kein `aggregateRating`. Das Ziel „Top-3 im türkischen Kartenblock" hängt daran. Die Daten liegen alle schon in `biz`.
+3. **Kein `og:image`.** Wer den Link auf WhatsApp teilt — dem Hauptkanal — bekommt eine graue Vorschau. Entwertet genau den Kanal, auf den die Seite ausgelegt ist.
+
+Vollständige Liste aller 11 Lücken mit Wirkung und Empfehlung: `docs/04-anforderungen.md §9`.
 
 **Phase B — Substanz auf Unterseiten** (Whitespark #1-Rankingfaktor: eigene Seite je Leistung):
 - Sieben echte Leistungsseiten (Montage, Wartung, Reinigung, Gaz Dolumu, Reparatur, Wärmepumpe, VRF) statt der 140 dünnen Tag-Archive der Altseite.
