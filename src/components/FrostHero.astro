@@ -6,9 +6,14 @@ const { locale, c } = Astro.props
 const h = c.hero
 const wa = `https://wa.me/${biz.whatsapp.replace(/\D/g, '')}`
 const tel = `tel:${biz.phone.replace(/[^\d+]/g, '')}`
+const reviewsWord: Record<Locale, string> = {
+  tr: 'Google değerlendirmesi', ru: 'отзывов в Google', de: 'Google-Bewertungen', en: 'Google reviews',
+}
 ---
 
 <header class="hero">
+  <div class="hero-photo" aria-hidden="true"></div>
+  <div class="hero-scrim" aria-hidden="true"></div>
   <canvas id="frost" aria-hidden="true"></canvas>
   <div class="grain" aria-hidden="true"></div>
   <div class="wrap hero-in">
@@ -31,11 +36,20 @@ const tel = `tel:${biz.phone.replace(/[^\d+]/g, '')}`
       <a class="phone" href={wa}><span class="lab">{h.waLabel}</span> {biz.whatsapp}</a>
     </div>
 
-    <div class="micro">
-      <span class="rate"><b>★ {biz.ratingValue}</b> · {biz.ratingCount} Google</span>
+    <a class="ratingbig" data-rating href={biz.mapsUrl} target="_blank" rel="noopener"
+       aria-label={`${biz.ratingValue} / 5 · ${biz.ratingCount} ${reviewsWord[locale]}`}>
+      <span class="rnum">{biz.ratingValue}</span>
+      <span class="rcol">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span class="rcount">{biz.ratingCount} {reviewsWord[locale]}</span>
+      </span>
+    </a>
+
+    <div class="trustchips">
       <span>{c.trust.dealer}</span>
-      {c.trust.lang && <span class="langsig">{c.trust.lang}</span>}
+      {c.trust.lang && <span class="hl">{c.trust.lang}</span>}
       <span>{c.trust.faturali}</span>
+      <span>{c.trust.emergency}</span>
     </div>
   </div>
   <div class="scrollcue" aria-hidden="true"><span>{h.scroll}</span><span class="ln2"></span></div>
@@ -43,17 +57,34 @@ const tel = `tel:${biz.phone.replace(/[^\d+]/g, '')}`
 
 <style>
   .hero{position:relative;min-height:min(94svh,880px);display:grid;align-items:end;overflow:hidden;
-    border-bottom:1px solid var(--line);isolation:isolate;
+    border-bottom:1px solid var(--line);isolation:isolate;background:var(--noir)}
+  /* Hook: die echte Ladenaufnahme bei Nacht — der authentische Königs-Hero.
+     Rechts positioniert, damit die beleuchtete Signage glüht, links liegt der Text. */
+  .hero-photo{position:absolute;inset:0;z-index:0;
+    background:url('/images/hero-shop.webp') center right / cover no-repeat;
+    transform:scale(1.06);opacity:0;animation:heroReveal 2.4s var(--ease) .1s forwards}
+  @keyframes heroReveal{to{opacity:1;transform:scale(1)}}
+  /* Noir-Schleier: stark links (Textlesbarkeit, AAA), lichter rechts (Signage glüht),
+     dazu ein Gold-Schimmer oben rechts und Petrol-Kühle unten links. */
+  .hero-scrim{position:absolute;inset:0;z-index:1;pointer-events:none;
     background:
-      radial-gradient(120% 86% at 78% 2%, color-mix(in oklab, var(--gold) 16%, transparent), transparent 60%),
-      radial-gradient(98% 74% at 2% 106%, color-mix(in oklab, var(--petrol) 48%, transparent), transparent 62%),
-      linear-gradient(176deg,#1b1410,var(--bg) 72%)}
-  #frost{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:0;transition:opacity 1.6s var(--ease)}
+      radial-gradient(120% 90% at 80% 0%, color-mix(in oklab, var(--gold) 12%, transparent), transparent 55%),
+      radial-gradient(90% 80% at 0% 108%, color-mix(in oklab, var(--petrol) 30%, transparent), transparent 60%),
+      linear-gradient(96deg, var(--noir) 6%, color-mix(in oklab, var(--noir) 86%, transparent) 34%, color-mix(in oklab, var(--noir) 30%, transparent) 66%, transparent 100%),
+      linear-gradient(0deg, var(--noir) 2%, color-mix(in oklab, var(--noir) 55%, transparent) 22%, transparent 52%)}
+  #frost{position:absolute;inset:0;width:100%;height:100%;z-index:2;opacity:0;transition:opacity 1.6s var(--ease);mix-blend-mode:screen}
   #frost.on{opacity:1}
-  .grain{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.4;mix-blend-mode:overlay;
+  .grain{position:absolute;inset:0;z-index:3;pointer-events:none;opacity:.38;mix-blend-mode:overlay;
     background-image:radial-gradient(circle at 1px 1px, color-mix(in oklab, var(--fg) 22%, transparent) 1px, transparent 0);
     background-size:4px 4px}
-  .hero-in{position:relative;z-index:2;padding:104px 0 70px}
+  .hero-in{position:relative;z-index:4;padding:104px 0 70px}
+  @media(max-width:760px){
+    /* Mobil: Bild oben, Schleier von unten schwer, damit der Text unten sicher trägt. */
+    .hero-photo{background-position:center 18%}
+    .hero-scrim{background:
+      radial-gradient(120% 60% at 80% 0%, color-mix(in oklab, var(--gold) 12%, transparent), transparent 55%),
+      linear-gradient(0deg, var(--noir) 20%, color-mix(in oklab, var(--noir) 82%, transparent) 48%, color-mix(in oklab, var(--noir) 30%, transparent) 74%, transparent 100%)}
+  }
   .eyebrow{margin-bottom:28px;max-width:600px}
   .build{font-family:var(--serif);font-weight:600;color:var(--fg-strong);
     font-size:clamp(2.6rem,7.2vw,6rem);line-height:.98;letter-spacing:-.02em;margin:0}
@@ -78,16 +109,28 @@ const tel = `tel:${biz.phone.replace(/[^\d+]/g, '')}`
     display:inline-flex;align-items:baseline;gap:9px}
   .phone .lab{font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
   .phone:hover{color:var(--accent)}
-  .micro{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:30px;font-size:.8rem;color:var(--fg-mute);
-    align-items:center;opacity:0;animation:fade 1.2s var(--ease) 1.45s forwards}
-  .micro .rate b{color:var(--cool);font-family:var(--serif);font-size:1.15rem}
-  .micro .langsig{color:var(--accent);border:1px solid var(--line-2);padding:3px 9px;border-radius:2px;font-size:.72rem;letter-spacing:.04em}
+  /* Prominente Sternebewertung — auf einen Blick, mobil wie Desktop. */
+  .ratingbig{display:inline-flex;align-items:center;gap:14px;margin-top:30px;text-decoration:none;
+    background:color-mix(in oklab,var(--champ) 12%,transparent);border:1px solid var(--line-2);
+    border-radius:6px;padding:12px 18px;width:max-content;max-width:100%;
+    opacity:0;animation:fade 1.2s var(--ease) 1.45s forwards;transition:border-color .3s var(--ease)}
+  .ratingbig:hover{border-color:var(--accent)}
+  .ratingbig .rnum{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,4.4vw,2.9rem);line-height:1;
+    color:var(--champ);font-variant-numeric:tabular-nums}
+  .ratingbig .rcol{display:flex;flex-direction:column;gap:3px}
+  .ratingbig .stars{color:var(--gold);font-size:clamp(1rem,2.2vw,1.32rem);letter-spacing:.14em;line-height:1}
+  .ratingbig .rcount{font-size:clamp(.76rem,1.5vw,.9rem);color:var(--fg-strong);font-weight:500;letter-spacing:.01em}
+  .trustchips{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:18px;
+    opacity:0;animation:fade 1.2s var(--ease) 1.55s forwards}
+  .trustchips span{font-size:.76rem;color:var(--fg-mute);border:1px solid var(--line);border-radius:2px;padding:5px 10px;white-space:nowrap}
+  .trustchips .hl{color:var(--accent);border-color:var(--second-line,var(--line-2))}
   .scrollcue{position:absolute;left:24px;bottom:26px;z-index:2;display:flex;align-items:center;gap:12px;
     color:var(--fg-mute);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;opacity:0;animation:fade 1.4s var(--ease) 1.7s forwards}
   .scrollcue .ln2{width:44px;height:1px;background:var(--line-2)}
   @media (prefers-reduced-motion: reduce){
-    .build .ln>span,.claim,.sub,.cta,.phones,.micro,.scrollcue{animation:none;opacity:1;transform:none;filter:none}
+    .build .ln>span,.claim,.sub,.cta,.phones,.ratingbig,.trustchips,.scrollcue{animation:none;opacity:1;transform:none;filter:none}
     .hrule{transform:scaleX(1);animation:none}#frost{opacity:.5}
+    .hero-photo{animation:none;opacity:1;transform:none}
   }
 </style>
 

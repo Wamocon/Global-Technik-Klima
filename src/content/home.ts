@@ -30,7 +30,7 @@ export interface HomeContent {
   }
   trust: { dealer: string; rating: string; lang?: string; faturali: string; emergency: string }
   services: { title: string; intro: string; items: { key: string; title: string; text: string }[] }
-  products: { title: string; intro: string; note: string; lines: { name: string; tag: string }[] }
+  products: { title: string; intro: string; note: string; lines: { name: string; tag: string; img: string }[] }
   calc: {
     title: string; hint: string
     qArea: string; qPeople: string; qSun: string; sunYes: string; sunNo: string
@@ -79,12 +79,13 @@ const tr: HomeContent = {
     intro: 'Odanıza hangi cihazın uyduğunu, almadan önce net söyleriz.',
     note: 'Tüm duvar tipi modeller inverter ve R32 soğutucu akışkanlıdır.',
     lines: [
-      { name: 'Duvar tipi', tag: 'Aphro · Pular · Fairy · Airy' },
-      { name: 'Salon tipi', tag: 'I-Shine · 24.000–48.000 BTU' },
-      { name: 'Multi sistem', tag: 'Free Match · 5 iç üniteye kadar' },
-      { name: 'Isı pompası', tag: 'Versati · ısıtma + soğutma + sıcak su' },
-      { name: 'Ticari & VRF', tag: 'Kaset · kanal · GMV5 / GMV6' },
-      { name: 'Yedek parça', tag: 'Orijinal Gree' },
+      { name: 'Duvar tipi', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
+      { name: 'Salon tipi', tag: 'I-Shine · 24.000–48.000 BTU', img: '/images/p-salon.webp' },
+      { name: 'Multi sistem', tag: 'Free Match · 5 iç üniteye kadar', img: '/images/p-multi.webp' },
+      { name: 'Home tipi', tag: 'Ev tipi konfor serisi', img: '/images/p-home.webp' },
+      { name: 'Isı pompası', tag: 'Versati · ısıtma + soğutma + sıcak su', img: '/images/p-isipompasi.webp' },
+      { name: 'Ticari & VRF', tag: 'Kaset · kanal · GMV5 / GMV6', img: '/images/p-ticari.webp' },
+      { name: 'Yedek parça', tag: 'Orijinal Gree', img: '/images/p-yedek.webp' },
     ],
   },
   calc: {
@@ -181,12 +182,13 @@ const ru: HomeContent = {
     intro: 'Какой аппарат подходит вашей комнате — скажем чётко до покупки.',
     note: 'Все настенные модели — инверторные, на хладагенте R32.',
     lines: [
-      { name: 'Настенные', tag: 'Aphro · Pular · Fairy · Airy' },
-      { name: 'Напольные', tag: 'I-Shine · 24 000–48 000 BTU' },
-      { name: 'Мульти-сплит', tag: 'Free Match · до 5 блоков' },
-      { name: 'Тепловые насосы', tag: 'Versati · тепло + холод + ГВС' },
-      { name: 'Коммерч. и VRF', tag: 'Кассетные · канальные · GMV5 / GMV6' },
-      { name: 'Запчасти', tag: 'Оригинал Gree' },
+      { name: 'Настенные', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
+      { name: 'Напольные', tag: 'I-Shine · 24 000–48 000 BTU', img: '/images/p-salon.webp' },
+      { name: 'Мульти-сплит', tag: 'Free Match · до 5 блоков', img: '/images/p-multi.webp' },
+      { name: 'Home-серия', tag: 'Комфорт для дома', img: '/images/p-home.webp' },
+      { name: 'Тепловые насосы', tag: 'Versati · тепло + холод + ГВС', img: '/images/p-isipompasi.webp' },
+      { name: 'Коммерч. и VRF', tag: 'Кассетные · канальные · GMV5 / GMV6', img: '/images/p-ticari.webp' },
+      { name: 'Запчасти', tag: 'Оригинал Gree', img: '/images/p-yedek.webp' },
     ],
   },
   calc: {
@@ -282,12 +284,13 @@ const de: HomeContent = {
     intro: 'Welches Gerät zu Ihrem Raum passt, sagen wir klar vor dem Kauf — keine Überraschung hinterher.',
     note: 'Alle Wandgeräte mit Inverter und Kältemittel R32.',
     lines: [
-      { name: 'Wandgeräte', tag: 'Aphro · Pular · Fairy · Airy' },
-      { name: 'Standgeräte', tag: 'I-Shine · 24.000–48.000 BTU' },
-      { name: 'Multisplit', tag: 'Free Match · bis 5 Innengeräte' },
-      { name: 'Wärmepumpen', tag: 'Versati · Heizen + Kühlen + Warmwasser' },
-      { name: 'Gewerbe & VRF', tag: 'Kassette · Kanal · GMV5 / GMV6' },
-      { name: 'Ersatzteile', tag: 'Original Gree' },
+      { name: 'Wandgeräte', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
+      { name: 'Standgeräte', tag: 'I-Shine · 24.000–48.000 BTU', img: '/images/p-salon.webp' },
+      { name: 'Multisplit', tag: 'Free Match · bis 5 Innengeräte', img: '/images/p-multi.webp' },
+      { name: 'Home-Typ', tag: 'Komfortserie für Wohnräume', img: '/images/p-home.webp' },
+      { name: 'Wärmepumpen', tag: 'Versati · Heizen + Kühlen + Warmwasser', img: '/images/p-isipompasi.webp' },
+      { name: 'Gewerbe & VRF', tag: 'Kassette · Kanal · GMV5 / GMV6', img: '/images/p-ticari.webp' },
+      { name: 'Ersatzteile', tag: 'Original Gree', img: '/images/p-yedek.webp' },
     ],
   },
   calc: {
@@ -383,12 +386,13 @@ const en: HomeContent = {
     intro: 'Which unit fits your room — we tell you clearly, before you buy.',
     note: 'All wall units are inverter, on R32 refrigerant.',
     lines: [
-      { name: 'Wall-mounted', tag: 'Aphro · Pular · Fairy · Airy' },
-      { name: 'Floor standing', tag: 'I-Shine · 24,000–48,000 BTU' },
-      { name: 'Multi-split', tag: 'Free Match · up to 5 units' },
-      { name: 'Heat pumps', tag: 'Versati · heating + cooling + hot water' },
-      { name: 'Commercial & VRF', tag: 'Cassette · ducted · GMV5 / GMV6' },
-      { name: 'Spare parts', tag: 'Genuine Gree' },
+      { name: 'Wall-mounted', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
+      { name: 'Floor standing', tag: 'I-Shine · 24,000–48,000 BTU', img: '/images/p-salon.webp' },
+      { name: 'Multi-split', tag: 'Free Match · up to 5 units', img: '/images/p-multi.webp' },
+      { name: 'Home type', tag: 'Home comfort range', img: '/images/p-home.webp' },
+      { name: 'Heat pumps', tag: 'Versati · heating + cooling + hot water', img: '/images/p-isipompasi.webp' },
+      { name: 'Commercial & VRF', tag: 'Cassette · ducted · GMV5 / GMV6', img: '/images/p-ticari.webp' },
+      { name: 'Spare parts', tag: 'Genuine Gree', img: '/images/p-yedek.webp' },
     ],
   },
   calc: {
@@ -450,6 +454,35 @@ const en: HomeContent = {
 
 export const content: Record<Locale, HomeContent> = { tr, ru, de, en }
 
+// Navigation (Anker) — die Original-Seite hatte ein Menü; hier als Ein-Seiten-Anker.
+export const nav: Record<Locale, { services: string; products: string; calc: string; about: string; contact: string }> = {
+  tr: { services: 'Hizmetler', products: 'Ürünler', calc: 'BTU Hesapla', about: 'Hakkımızda', contact: 'İletişim' },
+  ru: { services: 'Услуги', products: 'Товары', calc: 'Расчёт BTU', about: 'О нас', contact: 'Контакты' },
+  de: { services: 'Leistungen', products: 'Produkte', calc: 'BTU-Rechner', about: 'Über uns', contact: 'Kontakt' },
+  en: { services: 'Services', products: 'Products', calc: 'BTU', about: 'About', contact: 'Contact' },
+}
+
+// Mission / Hakkımızda — Inhalt der Original-Über-uns-Seite, lokalisiert.
+// Die Fehlversion der Altseite sagte "Konya'da" — hier korrekt "Alanya".
+export const mission: Record<Locale, { title: string; text: string }> = {
+  tr: {
+    title: 'Hakkımızda',
+    text: 'Alanya Gree Klima Yetkili Bayi ve Servisi olarak müşterilerimize kaliteli, güvenilir ve hızlı hizmet sunuyoruz. Gree teknolojisini en verimli şekilde kullanarak iklimlendirme çözümlerinde maksimum memnuniyet sağlamayı ve Alanya’da sektörün lider firmalarından biri olmayı hedefliyoruz.',
+  },
+  ru: {
+    title: 'О нас',
+    text: 'Как официальный дилер и сервис Gree в Алании, мы предлагаем качественный, надёжный и быстрый сервис. Максимально эффективно используя технологии Gree, стремимся к полному удовлетворению клиентов и к тому, чтобы быть одной из ведущих фирм отрасли в Алании.',
+  },
+  de: {
+    title: 'Über uns',
+    text: 'Als autorisierter Gree-Händler und Servicepartner in Alanya bieten wir hochwertigen, zuverlässigen und schnellen Service. Wir nutzen die Gree-Technologie bestmöglich, um maximale Zufriedenheit zu erreichen — und zu den führenden Klimatechnik-Betrieben in Alanya zu gehören.',
+  },
+  en: {
+    title: 'About us',
+    text: 'As an authorized Gree dealer and service partner in Alanya, we deliver quality, reliable and fast service. Using Gree technology to its fullest, we aim for maximum customer satisfaction — and to be one of the leading climate-technology firms in Alanya.',
+  },
+}
+
 // Öffentliche, invariante Daten — von der Live-Startseite. Die Konya-Nummer fehlt bewusst.
 export const biz = {
   phone: '+90 242 513 86 51',
@@ -459,4 +492,10 @@ export const biz = {
   ratingValue: '5,0',
   ratingCount: 65,
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=36.5509274,32.0081833',
+  // Exakte Karten-Einbettung von der Original-Seite (sein echter Google-Place-Eintrag).
+  mapEmbed:
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%3A0xa9a1e8359935df5a!2sAlanya%20Global%20Teknik%20-%20Gree%20klima%20alanya!5e0!3m2!1str!2str!4v1751437954026!5m2!1str!2str',
+  // Echte Profile (die Altseite hatte tote Links auf die Plattform-Startseiten).
+  facebook: 'https://www.facebook.com/alanyaglobalteknik',
+  instagram: 'https://www.instagram.com/alanyaglobalteknik/',
 } as const

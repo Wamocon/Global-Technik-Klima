@@ -26,6 +26,11 @@ h1, h2, h3 {
 
 .wrap { max-width: var(--maxw); margin-inline: auto; padding-inline: 24px; }
 
+/* Anker-Sprünge nicht unter die Sticky-Kopfzeile schieben. */
+section[id] { scroll-margin-top: 74px; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
 /* Großschreibung ausschließlich hier. Bei gesetztem lang="tr" mappt der Browser
    i → İ und I → ı korrekt. In JavaScript wäre das ein kaputter String.
    Vom CSS-Text-Standard vorgeschrieben, in allen Engines seit 2014, per Web-Platform-Test
