@@ -1,6 +1,12 @@
 import { chromium } from 'playwright'
 
-const BASE = 'http://localhost:4321'
+// Standard ist der Astro-Standardport. Überschreibbar, damit der Abnahmetest gegen
+// die GEBAUTE Fassung laufen kann, während auf 4321 der Entwicklungsserver steht:
+//   BASE=http://localhost:4322 npm run abnahme
+// Wichtig, weil `astro dev` keine sitemap-index.xml erzeugt — die entsteht erst
+// beim Bauen. Gegen den Entwicklungsserver schlägt die Sitemap-Prüfung also zu
+// Recht fehl und sagt nichts über die Auslieferung.
+const BASE = process.env.BASE || 'http://localhost:4321'
 const locales = [['tr', '/'], ['de', '/de/'], ['ru', '/ru/'], ['en', '/en/']]
 const views = [['desktop', 1440, 900], ['mobil', 390, 844]]
 const b = await chromium.launch()

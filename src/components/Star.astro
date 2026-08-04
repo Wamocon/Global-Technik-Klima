@@ -20,6 +20,11 @@
 <style>
   .sdiv{display:flex;align-items:center;gap:20px;max-width:var(--maxw);margin-inline:auto;
     padding:0 24px}
+  /* Die Linien wachsen aus dem Stern nach AUSSEN, nicht aus ihrer Mitte. Ohne die
+     Ursprünge zöge jede Hälfte symmetrisch auf und der Stern schwebte in einer
+     Lücke, statt die Bewegung auszulösen. (Bewegung: src/scripts/motion.ts) */
   .rule{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--line-2),transparent)}
+  .rule:first-child{transform-origin:right center}
+  .rule:last-child{transform-origin:left center}
   svg{flex:none;fill:var(--accent);opacity:.55}
 </style>

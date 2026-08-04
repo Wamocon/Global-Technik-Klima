@@ -61,20 +61,20 @@ export const INTENTS: Intent[] = [
     id: 'greeting',
     kw: ['merhaba', 'selam', 'здравствуйте', 'привет', 'hallo', 'guten tag', 'hi', 'hello'],
     a: {
-      tr: 'Merhaba! Klima alımı, montaj, bakım ya da arıza — hangi konuda yardımcı olayım?',
+      tr: 'Merhaba! Klima alımı, montaj, bakım ya da arıza. Hangi konuda yardımcı olayım?',
       ru: 'Здравствуйте! Покупка кондиционера, монтаж, обслуживание или ремонт — чем помочь?',
-      de: 'Guten Tag! Kauf, Montage, Wartung oder Störung — womit kann ich helfen?',
-      en: 'Hello! Purchase, installation, maintenance or a fault — how can I help?',
+      de: 'Guten Tag! Kauf, Montage, Wartung oder Störung. Womit kann ich helfen?',
+      en: 'Hello! Purchase, installation, maintenance or a fault. How can I help?',
     },
   },
   {
     id: 'services',
     kw: ['hizmet', 'servis', 'ne yapıyorsunuz', 'услуг', 'сервис', 'leistung', 'service', 'was macht ihr', 'what do you'],
     a: {
-      tr: 'Montaj, bakım, temizlik, gaz dolumu, arıza onarımı ve sökme-takma yapıyoruz — hepsi orijinal Gree parçalarıyla. Keşif ücretsiz.',
+      tr: 'Montaj, bakım, temizlik, gaz dolumu, arıza onarımı ve sökme-takma yapıyoruz. Hepsi orijinal Gree parçalarıyla. Keşif ücretsiz.',
       ru: 'Монтаж, обслуживание, чистка, заправка фреоном, ремонт и демонтаж-перенос — всё с оригинальными деталями Gree. Замер бесплатный.',
-      de: 'Montage, Wartung, Reinigung, Kältemittel nachfüllen, Reparatur und Demontage/Umsetzen — mit Original-Gree-Teilen. Besichtigung kostenlos.',
-      en: 'Installation, maintenance, cleaning, refrigerant top-up, repair and removal/relocation — with genuine Gree parts. Free survey.',
+      de: 'Montage, Wartung, Reinigung, Kältemittel nachfüllen, Reparatur und Demontage/Umsetzen. Mit Original-Gree-Teilen. Besichtigung kostenlos.',
+      en: 'Installation, maintenance, cleaning, refrigerant top-up, repair and removal/relocation. With genuine Gree parts. Free survey.',
     },
   },
   {
@@ -101,10 +101,10 @@ export const INTENTS: Intent[] = [
     id: 'gaz',
     kw: ['gaz', 'gaz dolumu', 'soğutmuyor', 'фреон', 'заправк', 'не холодит', 'kältemittel', 'gas', 'kühlt nicht', 'refrigerant', 'not cooling'],
     a: {
-      tr: 'Klima eskisi kadar soğutmuyorsa genelde gaz eksiktir. Önce kaçağı buluruz, sonra doldururuz — geçici çözüm yapmayız. R32 gaz kullanıyoruz. WhatsApp’tan durumu yazın.',
+      tr: 'Klima eskisi kadar soğutmuyorsa genelde gaz eksiktir. Önce kaçağı buluruz, sonra doldururuz. Geçici çözüm yapmayız. R32 gaz kullanıyoruz. WhatsApp’tan durumu yazın.',
       ru: 'Если кондиционер холодит хуже, обычно не хватает фреона. Сначала находим утечку, потом заправляем — без временных решений. Используем R32. Опишите проблему в WhatsApp.',
-      de: 'Kühlt die Anlage schwächer, fehlt meist Kältemittel. Erst suchen wir die Leckage, dann füllen wir auf — keine Zwischenlösung. Wir nutzen R32. Schildern Sie es per WhatsApp.',
-      en: 'If it cools less than before, refrigerant is usually low. First we find the leak, then refill — no stopgaps. We use R32. Describe it on WhatsApp.',
+      de: 'Kühlt die Anlage schwächer, fehlt meist Kältemittel. Erst suchen wir die Leckage, dann füllen wir auf. Keine Zwischenlösung. Wir nutzen R32. Schildern Sie es per WhatsApp.',
+      en: 'If it cools less than before, refrigerant is usually low. First we find the leak, then refill. No stopgaps. We use R32. Describe it on WhatsApp.',
     },
   },
   {
@@ -131,10 +131,10 @@ export const INTENTS: Intent[] = [
     id: 'heatpump',
     kw: ['ısı pompası', 'isi pompasi', 'тепловой насос', 'wärmepumpe', 'waermepumpe', 'heat pump', 'versati', 'heizen', 'ısıtma', 'отопление'],
     a: {
-      tr: 'Gree Versati ısı pompası ısıtma, soğutma ve sıcak su sağlar — kışın da evi ısıtır. Kapasiteyi eviniz için birlikte belirleriz. Detay için WhatsApp.',
+      tr: 'Gree Versati ısı pompası ısıtma, soğutma ve sıcak su sağlar. Kışın da evi ısıtır. Kapasiteyi eviniz için birlikte belirleriz. Detay için WhatsApp.',
       ru: 'Тепловой насос Gree Versati даёт отопление, охлаждение и горячую воду — зимой греет дом. Мощность подберём под ваш дом. Подробности в WhatsApp.',
-      de: 'Die Gree-Versati-Wärmepumpe liefert Heizen, Kühlen und Warmwasser — heizt auch im Winter. Die Leistung legen wir für Ihr Haus aus. Details per WhatsApp.',
-      en: 'The Gree Versati heat pump provides heating, cooling and hot water — it heats the home in winter too. We size it for your home. Details on WhatsApp.',
+      de: 'Die Gree-Versati-Wärmepumpe liefert Heizen, Kühlen und Warmwasser. Heizt auch im Winter. Die Leistung legen wir für Ihr Haus aus. Details per WhatsApp.',
+      en: 'The Gree Versati heat pump provides heating, cooling and hot water. It heats the home in winter too. We size it for your home. Details on WhatsApp.',
     },
   },
   {
@@ -173,8 +173,8 @@ export const INTENTS: Intent[] = [
     a: {
       tr: 'Türkçe, Rusça, Almanca ve İngilizce hizmet veriyoruz.',
       ru: 'Да, мы говорим по-русски — а также по-турецки, по-немецки и по-английски.',
-      de: 'Ja, wir sprechen Deutsch — außerdem Türkisch, Russisch und Englisch.',
-      en: 'Yes, we speak English — as well as Turkish, Russian and German.',
+      de: 'Ja, wir sprechen Deutsch, außerdem Türkisch, Russisch und Englisch.',
+      en: 'Yes, we speak English, as well as Turkish, Russian and German.',
     },
   },
   {
@@ -195,29 +195,29 @@ export const HANDOFF_KW = ['insan', 'yetkili', 'müşteri temsilci', 'gerçek ki
 export const AREA_WORDS = ['m2', 'm²', 'metre', 'metrekare', 'oda', 'salon', 'кв', 'м2', 'м²', 'метр', 'комнат', 'зал', 'qm', 'quadrat', 'raum', 'zimmer', 'room', 'square']
 
 export const PRICE_A: Record<Locale, string> = {
-  tr: 'Montaj ve servis için sabit fiyat vermiyoruz; önce ücretsiz keşfe geliriz, sonra net teklif sunarız — sürprizle karşılaşmazsınız. Cihaz alımında taksit de var. Keşif için WhatsApp’tan yazın.',
+  tr: 'Montaj ve servis için sabit fiyat vermiyoruz; önce ücretsiz keşfe geliriz, sonra net teklif sunarız. Sürprizle karşılaşmazsınız. Cihaz alımında taksit de var. Keşif için WhatsApp’tan yazın.',
   ru: 'Фиксированную цену на монтаж и сервис не называем: сначала приезжаем на бесплатный замер, потом даём точную смету — без сюрпризов. При покупке аппарата есть рассрочка. Напишите в WhatsApp.',
-  de: 'Für Montage und Service nennen wir keinen Festpreis am Telefon; zuerst die kostenlose Besichtigung, dann ein klares Angebot — ohne Überraschungen. Beim Gerätekauf gibt es Ratenzahlung. Schreiben Sie per WhatsApp.',
-  en: 'We don’t quote a fixed price upfront; first the free site survey, then a clear quote — no surprises. Instalments available on units. Message us on WhatsApp.',
+  de: 'Für Montage und Service nennen wir keinen Festpreis am Telefon; zuerst die kostenlose Besichtigung, dann ein klares Angebot. Ohne Überraschungen. Beim Gerätekauf gibt es Ratenzahlung. Schreiben Sie per WhatsApp.',
+  en: 'We don’t quote a fixed price upfront; first the free site survey, then a clear quote. No surprises. Instalments available on units. Message us on WhatsApp.',
 }
 
 export const HANDOFF_A: Record<Locale, string> = {
-  tr: 'Tabii, sizi hemen bir yetkiliye bağlıyorum — WhatsApp’tan yazın, dakikalar içinde dönüş yaparız.',
+  tr: 'Tabii, sizi hemen bir yetkiliye bağlıyorum. WhatsApp’tan yazın, dakikalar içinde dönüş yaparız.',
   ru: 'Конечно, соединяю вас с менеджером — напишите в WhatsApp, ответим за пару минут.',
-  de: 'Natürlich, ich verbinde Sie mit einem Mitarbeiter — schreiben Sie per WhatsApp, wir antworten in Minuten.',
-  en: 'Of course, I’ll connect you to a person — message us on WhatsApp and we reply within minutes.',
+  de: 'Natürlich, ich verbinde Sie mit einem Mitarbeiter. Schreiben Sie per WhatsApp, wir antworten in Minuten.',
+  en: 'Of course, I’ll connect you to a person. Message us on WhatsApp and we reply within minutes.',
 }
 
 export const FALLBACK_A: Record<Locale, string> = {
-  tr: 'Bunu en iyi bir uzmanımız yanıtlar. WhatsApp’tan yazın, hemen yardımcı olalım — ya da yukarıdan arayın.',
+  tr: 'Bunu en iyi bir uzmanımız yanıtlar. WhatsApp’tan yazın, hemen yardımcı olalım, ya da yukarıdan arayın.',
   ru: 'На это лучше ответит наш специалист. Напишите в WhatsApp — поможем сразу, или позвоните по номеру выше.',
-  de: 'Das beantwortet am besten ein Fachmann von uns. Schreiben Sie per WhatsApp — wir helfen sofort, oder rufen Sie oben an.',
-  en: 'A specialist can answer that best. Message us on WhatsApp — we’ll help right away, or call the number above.',
+  de: 'Das beantwortet am besten ein Fachmann von uns. Schreiben Sie per WhatsApp. Wir helfen sofort, oder rufen Sie oben an.',
+  en: 'A specialist can answer that best. Message us on WhatsApp. We’ll help right away, or call the number above.',
 }
 
 export const BTU_A: Record<Locale, (btu: string) => string> = {
-  tr: (b) => `Yaklaşık ${b} BTU’luk bir cihaz uygun görünüyor — Alanya sıcağı için bir üst kademeyi öneririm. Kesin ölçümü ücretsiz keşifte yaparız. Sonucu WhatsApp’tan gönderelim mi?`,
+  tr: (b) => `Yaklaşık ${b} BTU’luk bir cihaz uygun görünüyor. Alanya sıcağı için bir üst kademeyi öneririm. Kesin ölçümü ücretsiz keşifte yaparız. Sonucu WhatsApp’tan gönderelim mi?`,
   ru: (b) => `Похоже, подойдёт аппарат примерно на ${b} BTU — для жары Алании беру на класс выше. Точный замер сделаем бесплатно на месте. Отправить результат в WhatsApp?`,
-  de: (b) => `Passend wäre ein Gerät mit etwa ${b} BTU — für die Hitze in Alanya eine Klasse höher. Die genaue Auslegung machen wir kostenlos vor Ort. Ergebnis per WhatsApp senden?`,
-  en: (b) => `A unit around ${b} BTU looks right — for Alanya’s heat I’d go one class higher. We do the exact sizing free on site. Send the result to WhatsApp?`,
+  de: (b) => `Passend wäre ein Gerät mit etwa ${b} BTU. Für die Hitze in Alanya eine Klasse höher. Die genaue Auslegung machen wir kostenlos vor Ort. Ergebnis per WhatsApp senden?`,
+  en: (b) => `A unit around ${b} BTU looks right. For Alanya’s heat I’d go one class higher. We do the exact sizing free on site. Send the result to WhatsApp?`,
 }

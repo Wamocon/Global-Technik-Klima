@@ -24,6 +24,23 @@
   --gree-blue: #2a418e;
   --gree-ember: #ea3d14;    /* 4,77:1 auf Noir — AA, als Akzent zulässig */
 
+  /* ── Kundenlogo: Marine-Pol ────────────────────────────────────────────────
+     Das echte Logo trägt eine Marine-Kugel und einen roten Balken. Beide Farben
+     lagen schon als --gree-blue / --gree-ember hier, ungenutzt.
+
+     WICHTIG — die Grundfarbe bleibt warmes Noir. Die Kopfnotiz dieser Datei sagt,
+     warum: ein kaltes Blauschwarz liest sich für türkische Augen distanziert. Das
+     Marine tritt deshalb NUR als Tiefe auf (Verläufe, Kartenkörper, Glanzlichter),
+     niemals als Seitenhintergrund. So kommt das Logo in die Fläche, ohne die
+     Entscheidung von damals umzudrehen. */
+  --navy-deep: #0c1220;     /* Verlauf-Boden, dunkler als Noir wirkt kalt-tief */
+  --navy: #16213d;          /* Kartenkörper, Sektionsglanz */
+  --navy-lt: var(--gree-blue);
+
+  /* Signalfarbe. EINE Aufgabe: Dringlichkeit (Notdienst, Live-Marke).
+     Niemals dekorativ — die Seltenheit ist die ganze Wirkung. */
+  --signal: var(--gree-ember);
+
   /* Semantik */
   --bg: var(--noir);
   --bg-2: #140f0c;
@@ -33,6 +50,17 @@
   --fg-mute: var(--stone);
   --accent: var(--champ);
   --accent-ink: var(--noir);   /* dunkle Schrift auf Champagner: 11,02:1 */
+
+  /* ⚠ FEHLTE. `var(--card)` stand an 11 Stellen — Karten, Kacheln, Bewertungen,
+     Garantie-Kasten, Kontaktliste, Produkte — war aber nie definiert. Jede dieser
+     Flächen rechnete zu `rgba(0,0,0,0)` aus, also vollständig durchsichtig. Genau
+     daran lag die Flachheit unterhalb des Heros: die Karten waren nur Umrisse.
+
+     Der Wert liegt ein Blau-Bit unter --noir-2 (#171310), und das ist kein Zufall:
+     --noir-2 bringt --stone auf 6,98:1 und verfehlt AAA um zwei Hundertstel.
+     #17120f hält 7,02:1. Nachgerechnet, nicht geschätzt — wie der Rest der Datei.
+       --fg 12,77:1 · --stone 7,02:1 · --champ 10,57:1 · --cool 9,16:1 — alle AAA. */
+  --card: #17120f;
   --cool: var(--petrol-lt);
   --line: rgba(217, 194, 122, 0.16);
   --line-2: rgba(217, 194, 122, 0.32);
@@ -43,7 +71,50 @@
 
   --maxw: 1180px;
   --radius: 2px;             /* scharf. Nur Chat und WhatsApp werden weich. */
+  --radius-soft: 6px;        /* die eine erlaubte Ausnahme — Bewertungsplakette, Chat */
   --ease: cubic-bezier(0.19, 1, 0.22, 1);
+
+  /* ── Bewegung ──────────────────────────────────────────────────────────────
+     CLAUDE.md: Bedien-Animationen bleiben unter 300 ms und nutzen NIE ein
+     CSS-Schlüsselwort. Scroll-GEBUNDENE Bewegung ist davon ausgenommen — sie
+     hängt an der Scrollposition, nicht an einer Dauer. */
+  --dur-fast: 160ms;
+  --dur: 240ms;
+  --dur-slow: 300ms;         /* Obergrenze für alles, was auf eine Eingabe antwortet */
+  --dur-reveal: 820ms;       /* Sektionseinzug — scrollgebunden, daher zulässig */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* ── Verläufe ──────────────────────────────────────────────────────────────
+     Eine Quelle für die Tiefe der Seite. Unter dem Hero war bisher alles flach;
+     genau hier entsteht der Unterschied. */
+  --grad-section:
+    radial-gradient(120% 80% at 50% -10%, color-mix(in oklab, var(--navy) 42%, transparent), transparent 62%);
+  --grad-section-alt:
+    radial-gradient(100% 70% at 15% 0%, color-mix(in oklab, var(--petrol) 26%, transparent), transparent 58%),
+    radial-gradient(90% 60% at 90% 100%, color-mix(in oklab, var(--navy) 34%, transparent), transparent 60%);
+  --grad-plate:
+    linear-gradient(158deg, color-mix(in oklab, var(--navy) 55%, var(--bg-3)), var(--bg-3) 72%);
+  /* Sektionskante. Eine durchgezogene 1-px-Linie von Rand zu Rand ist eine Naht;
+     eine, die an den Enden ausläuft, ist eine Fuge. Kein Akzent-Höhepunkt in der
+     Mitte — das wäre bei zehn Sektionen zehnmal zu viel. */
+  --grad-rule:
+    linear-gradient(90deg, transparent, var(--line) 12%, var(--line-2) 50%, var(--line) 88%, transparent);
+
+  /* ── Raumlicht ─────────────────────────────────────────────────────────────
+     Der Grund war eine einzige flache Farbe. Diese drei sehr weichen Tönungen
+     liegen am Fenster fest (nicht am Dokument), sind also überall gleich groß und
+     wandern beim Scrollen nicht mit. Sie geben der Fläche Tiefe, ohne irgendwo
+     als Verlauf erkennbar zu werden — das ist der Unterschied zwischen „getönt"
+     und „bunt". Marine kommt aus dem Kundenlogo, Petrol ist der Kühlpol. */
+  --grad-ambient:
+    radial-gradient(62% 44% at 6% 4%, color-mix(in oklab, var(--navy) 34%, transparent), transparent 72%),
+    radial-gradient(54% 40% at 96% 26%, color-mix(in oklab, var(--petrol) 22%, transparent), transparent 70%),
+    radial-gradient(78% 52% at 52% 104%, color-mix(in oklab, var(--navy-deep) 62%, transparent), transparent 74%);
+
+  /* ── Höhe ─────────────────────────────────────────────────────────────────── */
+  --shadow-1: 0 2px 10px rgba(0, 0, 0, 0.28);
+  --shadow-2: 0 18px 48px rgba(0, 0, 0, 0.46);
+  --lift: -2px;              /* der EINE Hover-Hub der ganzen Seite */
 }
 
 /* Anadolu-Royal committet auf das Dunkle. Das ist die Markenidentität — wie beim
@@ -63,4 +134,27 @@
   --cool: #0e3a46;          /* 11,08:1 */
   --line: rgba(20, 17, 16, 0.14);
   --line-2: rgba(20, 17, 16, 0.28);
+  /* Auf Papier hebt sich die Karte nach OBEN ab, nicht nach unten.
+     --fg 15,09:1 · --fg-mute 7,64:1 · --cool 12,07:1 — AAA. --accent 5,95:1 — AA,
+     und Akzent tritt hier nur als Auszeichnung auf, nie als Fließtext. */
+  --card: var(--bg-3);
+
+  /* Die Verläufe müssen mitkippen. Ein Marine-Glanz aus dem Dunkelthema läge auf
+     hellem Papier als schmutziger Fleck. Hier trägt dieselbe Tiefe deutlich
+     schwächer und kühl statt dunkel. */
+  --grad-section:
+    radial-gradient(120% 80% at 50% -10%, color-mix(in oklab, var(--gree-blue) 9%, transparent), transparent 62%);
+  --grad-section-alt:
+    radial-gradient(100% 70% at 15% 0%, color-mix(in oklab, var(--petrol) 8%, transparent), transparent 58%),
+    radial-gradient(90% 60% at 90% 100%, color-mix(in oklab, var(--gree-blue) 7%, transparent), transparent 60%);
+  --grad-plate:
+    linear-gradient(158deg, color-mix(in oklab, var(--gree-blue) 6%, var(--bg-3)), var(--bg-3) 72%);
+  --shadow-1: 0 2px 10px rgba(20, 17, 16, 0.10);
+  --shadow-2: 0 18px 48px rgba(20, 17, 16, 0.16);
+  /* Dasselbe Raumlicht, aber ein Zehntel so kräftig. Auf Papier wirkt jede Tönung
+     sofort wie Schmutz — hier darf man sie nur ahnen. */
+  --grad-ambient:
+    radial-gradient(62% 44% at 6% 4%, color-mix(in oklab, var(--gree-blue) 7%, transparent), transparent 72%),
+    radial-gradient(54% 40% at 96% 26%, color-mix(in oklab, var(--petrol) 6%, transparent), transparent 70%),
+    radial-gradient(78% 52% at 52% 104%, color-mix(in oklab, var(--gree-blue) 5%, transparent), transparent 74%);
 }

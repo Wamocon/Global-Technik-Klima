@@ -5,7 +5,13 @@
 
 body {
   margin: 0;
-  background: var(--bg);
+  /* Das Raumlicht liegt VOR der Grundfarbe, `fixed` bindet es an das Fenster
+     statt an das Dokument. Ohne `fixed` würden die Kreise über 7.800 px Seitenhöhe
+     gezogen und wären damit unsichtbar. Nur Verläufe, kein Bild — es gibt nichts zu
+     dekodieren, der Aufwand bleibt vernachlässigbar. */
+  background: var(--grad-ambient), var(--bg);
+  background-attachment: fixed, fixed;
+  background-repeat: no-repeat, no-repeat;
   color: var(--fg);
   font-family: var(--sans);
   font-weight: 300;
@@ -13,6 +19,68 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
+
+/* ── Sektionsprimitive ──────────────────────────────────────────────────────────
+   Diese Regeln lagen in Home.astro und waren damit auf Home.astro GESCOPED. Astro
+   hängt an gescopte Stile einen Bauteil-Schlüssel; `.eyebrow` aus Home traf deshalb
+   die gleichnamigen Elemente in ExplodedUnit und BeforeAfter NIE. Ergebnis: deren
+   Titel standen als 17-px-Grotesk statt als 42-px-Serife da, und beide Sektionen
+   hatten gar keinen Rand. Hier gehören sie hin — eine Quelle für den Sektionsrhythmus. */
+.sec { padding: 82px 0; position: relative; }
+/* Kante als auslaufende Fuge statt harter Naht. */
+.sec::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px;
+  background: var(--grad-rule); pointer-events: none;
+}
+.sec-alt { background: var(--bg-2); }
+.sec-alt::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: var(--grad-section); opacity: .9;
+}
+.sec-alt > .wrap { position: relative; }
+
+.head { max-width: 70ch; margin-bottom: 38px; display: flex; flex-direction: column; gap: 14px; }
+/* Der EINE Überschriftentyp des Seitenkörpers. Der Hero-Kicker heißt bewusst anders. */
+.eyebrow {
+  font-family: var(--serif); font-size: clamp(1.7rem, 3.4vw, 2.6rem); font-weight: 600;
+  color: var(--fg-strong); line-height: 1.08; letter-spacing: -.01em; text-transform: none; display: block;
+}
+.lede { font-size: 1.24rem; color: var(--fg-mute); margin: 0; max-width: 62ch; }
+.hint { font-size: .95rem; color: var(--fg-mute); margin: 0; max-width: 56ch; }
+
+/* ── Dunkle Schau-Inseln ────────────────────────────────────────────────────────
+   Nur DREI Dinge bleiben in jedem Thema dunkel, und zwar nicht mehr ganze Sektionen,
+   sondern nur die Elemente, die es wirklich sein MÜSSEN:
+     .hero       — das Vollbild-Nachtfoto mit Text darüber
+     .exp-stage  — die 3D-Bühne (Materialien in Graphit und Gold, auf Schwarz gebaut)
+     .ba         — der Vorher-Nachher-Rahmen (die Bilder füllen ihn)
+   Das war die Ursache der Bänder im hellen Thema: vorher lag der dunkle Grund auf der
+   ganzen Sektion, jetzt nur auf der Insel. Die Sektion ringsum atmet mit dem Thema —
+   im Hellen also hell, mit einem dunklen Kasten darin, genau wie die Produktbilder.
+
+   Der `color`-Neustart ist kein Beiwerk: `color` steht auf `body` und vererbt den
+   bereits AUSGERECHNETEN Wert, nicht die Variable. Ein hier neu gesetztes `--fg`
+   erreicht die Kinder sonst nicht — sie trügen weiter die Körperfarbe (im hellen
+   Thema dunkel) und verschwänden auf dem dunklen Grund der Insel. */
+.hero,
+.exp-stage,
+.ba {
+  --bg: var(--noir);
+  --bg-2: var(--noir-2);
+  --bg-3: #1b1613;
+  --fg: #dcd5cb;
+  --fg-strong: var(--frost);
+  --fg-mute: var(--stone);
+  --accent: var(--champ);
+  --accent-ink: var(--noir);
+  --cool: var(--petrol-lt);
+  --card: #17120f;
+  --line: rgba(217, 194, 122, 0.16);
+  --line-2: rgba(217, 194, 122, 0.32);
+  color: var(--fg);
+}
+/* Damit während des Bildladens nichts Helles durch die Insel blitzt. */
+.ba { background-color: var(--noir); }
 
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
@@ -26,10 +94,37 @@ h1, h2, h3 {
 
 .wrap { max-width: var(--maxw); margin-inline: auto; padding-inline: 24px; }
 
-/* Anker-Sprünge nicht unter die Sticky-Kopfzeile schieben. */
-section[id] { scroll-margin-top: 74px; }
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+/* Anker-Sprünge nicht unter die Sticky-Kopfzeile schieben.
+   Der Wert war fest auf 74 px — und lag damit falsch, sobald die Kopfzeile ihre Höhe
+   änderte (das echte Logo machte sie zu 80 px, jedes Sprungziel verschwand 6 px
+   darunter). `--topbar-h` wird in src/scripts/motion.ts aus der gemessenen Leiste
+   gesetzt und bei jeder Größenänderung nachgeführt. Der Rückfallwert deckt die
+   höchste bekannte Fassung ab, damit es auch ohne JavaScript nie darunter liegt. */
+section[id] { scroll-margin-top: calc(var(--topbar-h, 84px) + 10px); }
+
+/* KEIN globales `scroll-behavior: smooth`.
+   Es konkurriert mit scrollgebundener Bewegung um dieselbe Scrollposition: die
+   Browser-Eigenglättung und die Interpolation von ScrollTrigger überlagern sich
+   und ergeben Zittern. Das weiche Springen bleibt trotzdem erhalten — es wird pro
+   Anker-Klick in JavaScript ausgelöst (src/scripts/motion.ts), also nur dort, wo
+   der Nutzer es angefordert hat, und nicht während des normalen Scrollens. */
+
+/* ── Sektionseinzug ─────────────────────────────────────────────────────────────
+   Fortschrittliche Verbesserung, mit Absicht in dieser Richtung:
+   Verborgen wird NUR, wenn JavaScript `html.motion` gesetzt hat. Bleibt das Skript
+   aus — Fehler, altes Gerät, blockiertes Bundle — steht der Inhalt einfach da.
+   Andernfalls wäre ein fehlgeschlagenes Bundle eine leere Seite, und der
+   Abnahmetest prüft genau diese Sichtbarkeit (#kontakt, footer). */
+html.motion [data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  will-change: opacity, transform;
+}
+html.motion [data-reveal].shown {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
 
 /* Großschreibung ausschließlich hier. Bei gesetztem lang="tr" mappt der Browser
    i → İ und I → ı korrekt. In JavaScript wäre das ein kaputter String.

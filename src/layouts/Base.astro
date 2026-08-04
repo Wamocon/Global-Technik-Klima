@@ -33,6 +33,12 @@ const ogAlt: Record<Locale, string> = {
   en: 'Alanya Global Teknik — authorized Gree dealer in Alanya',
 }
 const menuLabel: Record<Locale, string> = { tr: 'Menü', de: 'Menü', ru: 'Меню', en: 'Menu' }
+const themeLabel: Record<Locale, string> = {
+  tr: 'Temayı değiştir',
+  de: 'Thema wechseln',
+  ru: 'Сменить тему',
+  en: 'Switch theme',
+}
 
 const links = [
   { href: `${base}#hizmetler`, text: n.services },
@@ -54,7 +60,25 @@ const links = [
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta name="theme-color" content="#100D0B" />
+    <!-- Wird beim Themawechsel mitgeführt (siehe Skript unten) — sonst behielte die
+         Browserleiste am Telefon das Nachtblau, während die Seite Papier ist. -->
+    <meta name="theme-color" content="#100D0B" id="tcolor" />
+
+    <!-- Thema VOR dem ersten Bild setzen. Läuft absichtlich hier oben und
+         absichtlich synchron: käme das später, sähe der Besucher erst die dunkle
+         Fassung und dann den Umschlag ins Helle.
+         Vorgabe ist dunkel — tokens.css nennt das die Markenidentität. Hell ist
+         eine Entscheidung des Besuchers, und die halten wir fest. -->
+    <script is:inline>
+      ;(function () {
+        try {
+          var t = localStorage.getItem('theme')
+          if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+        } catch (e) {
+          /* Privater Modus ohne Speicher: dann bleibt es beim dunklen Standard. */
+        }
+      })()
+    </script>
 
     <meta property="og:site_name" content="Alanya Global Teknik" />
     <meta property="og:title" content={title} />
@@ -75,18 +99,62 @@ const links = [
     <link rel="preload" href="/fonts/jost-300-600-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
 
     <Schema locale={locale} />
+
+    <!-- Bewegungssystem, Teil 1 von 2 — muss VOR dem ersten Bild laufen.
+         Setzt `html.motion`, damit der Sektionsinhalt nicht kurz erscheint und
+         sich dann wieder versteckt. Der Rettungs-Timer ist die Gegenprobe: meldet
+         sich src/scripts/motion.ts nicht binnen 2,5 s (Bundle blockiert, altes
+         Gerät, GSAP nicht erreichbar), wird alles sichtbar. Ohne ihn wäre ein
+         fehlgeschlagenes Bundle eine leere Seite. -->
+    <script is:inline>
+      ;(function () {
+        try {
+          if (matchMedia('(prefers-reduced-motion: reduce)').matches) return
+          var r = document.documentElement
+          r.classList.add('motion')
+          window.__motionFailsafe = setTimeout(function () {
+            r.classList.remove('motion')
+            var n = document.querySelectorAll('[data-reveal]')
+            for (var i = 0; i < n.length; i++) n[i].classList.add('shown')
+          }, 2500)
+        } catch (e) {
+          /* Kein matchMedia, kein Bewegungssystem. Der Inhalt steht trotzdem. */
+        }
+      })()
+    </script>
   </head>
 
   <body>
     <header class="topbar">
       <div class="wrap tbin">
-        <a class="brand" href={pathFor(locale)}>
-          <span class="bm">GLOBAL TEKNİK</span>
+        <!-- Das echte Kundenlogo, freigestellt aus der Vorlage im Fragebogen.
+             Erzeugt von `node scripts/logo.mjs` — dort steht, wie und warum.
+             Das Logo trägt "GLOBAL TEKNİK" selbst, die Beizeile ergänzt die
+             Einordnung, die es nicht trägt: Marke und Ort.
+             `alt` bleibt leer, weil die Beschriftung am Link hängt — sonst hörte
+             ein Screenreader den Namen zweimal. -->
+        <a class="brand" href={pathFor(locale)} aria-label="Global Teknik — Gree Alanya">
+          <!-- Als CSS-Hintergrundbild, nicht als Bildelement: das Thema entscheidet,
+               welche der beiden Fassungen gilt, und so lädt der Browser
+               AUSSCHLIESSLICH die benötigte. Zwei Bildelemente mit display:none holt
+               Chrome trotzdem beide (~100 KB statt ~50 KB).
+               Beschriftung hängt am Link, deshalb ist das hier rein dekorativ. -->
+          <span class="blogo" aria-hidden="true"></span>
           <span class="bs">Gree · Alanya</span>
         </a>
         <nav class="mainnav" aria-label={menuLabel[locale]}>
           {links.map((l) => <a href={l.href}>{l.text}</a>)}
         </nav>
+        <button class="themetog" id="themetog" type="button" aria-label={themeLabel[locale]} title={themeLabel[locale]}>
+          <!-- Sonne im dunklen Thema (Klick führt ins Helle), Mond im hellen. -->
+          <svg class="ic-sun" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" />
+            <path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4L17 7M7 17l-1.6 1.6" />
+          </svg>
+          <svg class="ic-moon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 019.5 4a7 7 0 108.9 10.4 8.6 8.6 0 011.6.1z" />
+          </svg>
+        </button>
         <nav class="lang" aria-label="Language">
           {
             locales.map((l) => (
@@ -112,7 +180,34 @@ const links = [
 
     <slot />
 
+    <!-- Bewegungssystem, Teil 2 von 2. Lädt GSAP im Leerlauf und entschärft dann
+         den Rettungs-Timer von oben. -->
     <script>
+      import '../scripts/motion'
+    </script>
+
+    <script>
+      // Themawechsel. Das Setzen VOR dem ersten Bild macht das Inline-Skript im
+      // <head>; hier hängt nur der Knopf daran.
+      const tog = document.getElementById('themetog')
+      if (tog) {
+        // Die Farbe der Browserleiste am Telefon muss mitgehen, sonst bleibt oben
+        // ein Nachtblau-Streifen über einer Papierseite stehen.
+        const BAR = { dark: '#100D0B', light: '#f6f3ee' }
+        const meta = document.getElementById('tcolor')
+        tog.addEventListener('click', () => {
+          const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light'
+          if (next === 'dark') delete document.documentElement.dataset.theme
+          else document.documentElement.dataset.theme = 'light'
+          meta?.setAttribute('content', BAR[next])
+          try {
+            localStorage.setItem('theme', next)
+          } catch {
+            /* Kein Speicher, kein Gedächtnis — der Wechsel gilt trotzdem für diesen Besuch. */
+          }
+        })
+      }
+
       const burger = document.getElementById('burger')
       const mobnav = document.getElementById('mobnav')
       if (burger && mobnav) {
@@ -139,16 +234,28 @@ const links = [
   .topbar{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--bg) 95%,transparent);
     backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
   .tbin{display:flex;align-items:center;gap:20px;padding:12px 24px}
-  .brand{text-decoration:none;display:flex;flex-direction:column;gap:1px;min-height:auto;margin-right:auto}
-  .bm{font-family:var(--serif);font-weight:600;font-size:1.15rem;color:var(--fg-strong);letter-spacing:.02em;
-    white-space:nowrap}
-  .bs{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);white-space:nowrap}
-  /* Am Telefon teilen sich Wortmarke, vier Sprachen und Burger eine Zeile.
-     Ohne dieses Zusammenrücken bricht „GLOBAL TEKNİK" um und die Leiste wird doppelt hoch. */
+  /* Logo und Beizeile stehen NEBENeinander, nicht übereinander. Gestapelt wuchs die
+     Leiste auf 80 px — für eine mitlaufende Kopfzeile zu schwer, und jedes Sprungziel
+     hätte darunter gelegen. Nebeneinander bestimmt die Logohöhe allein die Leiste. */
+  .brand{text-decoration:none;display:flex;flex-direction:row;align-items:center;gap:11px;
+    min-height:auto;margin-right:auto}
+  /* Höhe führt, `aspect-ratio` liefert die Breite — damit steht der Platz vor dem
+     Laden fest und es gibt keinen Layout-Sprung. 600×213 ist die echte Größe der
+     erzeugten Datei (scripts/logo.mjs). */
+  .blogo{display:block;height:34px;aspect-ratio:600/213;
+    background:url('/images/logo-light.png') center/contain no-repeat}
+  /* Auf Papier braucht es die Graphit-Fassung — die Frostweiße wäre unsichtbar. */
+  :root[data-theme='light'] .blogo{background-image:url('/images/logo-dark.png')}
+  .bs{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);white-space:nowrap;
+    padding-left:11px;border-left:1px solid var(--line-2)}
+  /* Am Telefon teilen sich Logo, vier Sprachen und Burger eine Zeile. Ohne das
+     Zusammenrücken wird die Leiste doppelt hoch. */
   @media(max-width:480px){
     .tbin{gap:8px;padding:10px 16px}
-    .bm{font-size:1rem}
-    .bs{font-size:.55rem;letter-spacing:.18em}
+    .blogo{height:26px}
+    /* Am Telefon konkurrieren Logo, vier Sprachen und Burger um eine Zeile.
+       Die Beizeile ist hier das Entbehrlichste — „Gree" steht ohnehin im Hero. */
+    .bs{display:none}
     .lang a{padding:6px 6px;font-size:.72rem}
     .mobnav a{padding:15px 16px}
   }
@@ -159,6 +266,16 @@ const links = [
   .mainnav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--accent);transition:right .3s var(--ease)}
   .mainnav a:hover{color:var(--fg-strong)}
   .mainnav a:hover::after{right:0}
+
+  /* Der Umschalter sitzt VOR den Sprachen: er ist eine Einstellung, keine Navigation. */
+  .themetog{display:grid;place-items:center;width:38px;height:38px;flex:none;padding:0;min-height:38px;
+    background:transparent;border:1px solid var(--line);border-radius:var(--radius);color:var(--fg-mute);
+    cursor:pointer;transition:color var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+  .themetog:hover{color:var(--accent);border-color:var(--line-2)}
+  /* Immer nur EIN Zeichen. Die Sonne führt ins Helle, der Mond zurück ins Dunkle. */
+  .themetog .ic-moon{display:none}
+  :root[data-theme='light'] .themetog .ic-sun{display:none}
+  :root[data-theme='light'] .themetog .ic-moon{display:block}
 
   .lang{display:flex;gap:2px}
   .lang a{color:var(--fg-mute);text-decoration:none;font-size:.76rem;letter-spacing:.1em;padding:7px 10px;

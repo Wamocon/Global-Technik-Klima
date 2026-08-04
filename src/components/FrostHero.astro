@@ -12,12 +12,18 @@ const reviewsWord: Record<Locale, string> = {
 ---
 
 <header class="hero">
-  <div class="hero-photo" aria-hidden="true"></div>
+  <!-- Zwei Ebenen, mit Absicht: die Einblende-Animation und die Parallaxe wollen
+       BEIDE `transform`. Eine CSS-Animation mit `forwards` schlägt in der Kaskade
+       jeden Inline-Stil — GSAP schrieb also ins Leere, und die Parallaxe blieb bei
+       0 px stehen. Außen die Verschiebung, innen die Einblende. -->
+  <div class="hero-parallax" aria-hidden="true">
+    <div class="hero-photo"></div>
+  </div>
   <div class="hero-scrim" aria-hidden="true"></div>
   <canvas id="frost" aria-hidden="true"></canvas>
   <div class="grain" aria-hidden="true"></div>
   <div class="wrap hero-in">
-    <p class="eyebrow">{h.eyebrow}</p>
+    <p class="hero-kicker">{h.eyebrow}</p>
     <h1 class="build">
       <span class="ln"><span>{h.lines[0]}</span></span>
       <span class="ln"><span class="cool">{h.lines[1]}</span></span>
@@ -49,6 +55,7 @@ const reviewsWord: Record<Locale, string> = {
       <span>{c.trust.dealer}</span>
       {c.trust.lang && <span class="hl">{c.trust.lang}</span>}
       <span>{c.trust.faturali}</span>
+      <span>{c.trust.taksit}</span>
       <span>{c.trust.emergency}</span>
     </div>
   </div>
@@ -60,7 +67,12 @@ const reviewsWord: Record<Locale, string> = {
     border-bottom:1px solid var(--line);isolation:isolate;background:var(--noir)}
   /* Hook: die echte Ladenaufnahme bei Nacht — der authentische Königs-Hero.
      Rechts positioniert, damit die beleuchtete Signage glüht, links liegt der Text. */
-  .hero-photo{position:absolute;inset:0;z-index:0;
+  /* Die Trägerebene. GSAP verschiebt SIE (src/scripts/motion.ts). */
+  .hero-parallax{position:absolute;inset:0;z-index:0}
+  /* Höher als der Rahmen: die Parallaxe schiebt nach unten, und ohne Überstand
+     läge oben eine nackte Kante frei. -10 % Kopf plus 120 % Höhe deckt die
+     maximale Verschiebung von 6 % mit Reserve ab. */
+  .hero-photo{position:absolute;left:0;right:0;top:-10%;height:120%;
     background:url('/images/hero-shop.webp') center right / cover no-repeat;
     transform:scale(1.06);opacity:0;animation:heroReveal 2.4s var(--ease) .1s forwards}
   @keyframes heroReveal{to{opacity:1;transform:scale(1)}}
@@ -70,6 +82,9 @@ const reviewsWord: Record<Locale, string> = {
     background:
       radial-gradient(120% 90% at 80% 0%, color-mix(in oklab, var(--gold) 12%, transparent), transparent 55%),
       radial-gradient(90% 80% at 0% 108%, color-mix(in oklab, var(--petrol) 30%, transparent), transparent 60%),
+      /* Marine aus dem Kundenlogo — bewusst unten RECHTS. Der Text steht links;
+         dort darf nichts dazukommen, was die nachgerechneten AAA-Werte antastet. */
+      radial-gradient(85% 72% at 100% 100%, color-mix(in oklab, var(--navy-lt) 26%, transparent), transparent 62%),
       linear-gradient(96deg, var(--noir) 6%, color-mix(in oklab, var(--noir) 86%, transparent) 34%, color-mix(in oklab, var(--noir) 30%, transparent) 66%, transparent 100%),
       linear-gradient(0deg, var(--noir) 2%, color-mix(in oklab, var(--noir) 55%, transparent) 22%, transparent 52%)}
   #frost{position:absolute;inset:0;width:100%;height:100%;z-index:2;opacity:0;transition:opacity 1.6s var(--ease);mix-blend-mode:screen}
@@ -81,21 +96,59 @@ const reviewsWord: Record<Locale, string> = {
   @media(max-width:760px){
     /* Mobil: Bild oben, Schleier von unten schwer, damit der Text unten sicher trägt. */
     .hero-photo{background-position:center 18%}
+    /* Der Schleier war unten schwer und oben offen. Genau dort, wo die Beizeile
+       („Gree Yetkili Bayi ve Servisi · Alanya") beginnt, lag am Telefon die
+       beleuchtete Ladenbeschriftung des Fotos — heller Text auf hellem Grund,
+       unlesbar. Der Verlauf trägt jetzt bis über die Beizeile hinauf.
+       Am Schreibtisch stellt sich das Problem nicht: dort liegt der Text links,
+       und die Beschriftung glüht rechts. */
     .hero-scrim{background:
-      radial-gradient(120% 60% at 80% 0%, color-mix(in oklab, var(--gold) 12%, transparent), transparent 55%),
-      linear-gradient(0deg, var(--noir) 20%, color-mix(in oklab, var(--noir) 82%, transparent) 48%, color-mix(in oklab, var(--noir) 30%, transparent) 74%, transparent 100%)}
+      radial-gradient(120% 60% at 80% 0%, color-mix(in oklab, var(--gold) 10%, transparent), transparent 55%),
+      linear-gradient(0deg,
+        var(--noir) 30%,
+        color-mix(in oklab, var(--noir) 95%, transparent) 58%,
+        color-mix(in oklab, var(--noir) 88%, transparent) 80%,
+        color-mix(in oklab, var(--noir) 66%, transparent) 93%,
+        transparent 100%)}
   }
-  .eyebrow{margin-bottom:28px;max-width:600px}
+  /* Der Hero-Kicker ist eine KLEINE Beschriftung, keine Überschrift. Er hieß bis
+     eben auch `.eyebrow` — derselbe Name, den der Seitenkörper für die großen
+     Serifen-Titel benutzt. Diese Doppelbelegung hat die Titel in ExplodedUnit und
+     BeforeAfter stumm gelassen: die Titelregel lag in Home.astro gefangen und
+     erreichte die anderen Bausteine nie. Jetzt trägt der Kicker einen eigenen
+     Namen, und `.eyebrow` ist global der eine Überschriftentyp. */
+  .hero-kicker{margin-bottom:28px;max-width:600px;font-size:.92rem;letter-spacing:.02em;color:var(--fg-mute)}
   .build{font-family:var(--serif);font-weight:600;color:var(--fg-strong);
     font-size:clamp(2.6rem,7.2vw,6rem);line-height:.98;letter-spacing:-.02em;margin:0}
-  .build .ln{display:block;overflow:hidden}
-  .build .ln>span{display:inline-block;transform:translateY(106%);opacity:0;filter:blur(14px);
+  /* Die Maske für den Einzug MUSS `overflow:hidden` haben — sonst gäbe es nichts,
+     hinter dem die Zeile wartet. Zusammen mit `line-height:.98` war die Zeilenbox
+     aber flacher als die Unterlängen von Cormorant: das „g" in „güvenilir" wurde
+     unten abgeschnitten.
+     Also die Maske unten um eine Unterlänge verlängern und denselben Betrag per
+     negativem Rand wieder aus dem Layout nehmen — die Zeilen rücken dadurch nicht
+     auseinander. */
+  .build .ln{display:block;overflow:hidden;padding-bottom:.18em;margin-bottom:-.18em}
+  /* 125 % statt 106 %: die Maske ist jetzt tiefer als die Zeile selbst, und bei
+     106 % hätte die Oberkante der Zeile im Startzustand in die neue Unterkante
+     hineingeschaut. */
+  .build .ln>span{display:inline-block;transform:translateY(125%);opacity:0;filter:blur(14px);
     animation:settle 1.5s var(--ease) forwards}
   .build .ln:nth-child(2)>span{animation-delay:.15s}
-  .build .cool{color:transparent;background:linear-gradient(94deg,var(--gold),var(--champ) 30%,var(--cool) 70%,var(--frost));
-    background-size:230% 100%;-webkit-background-clip:text;background-clip:text;animation:sheen 11s linear 2s infinite}
-  @keyframes settle{0%{transform:translateY(106%);opacity:0;filter:blur(14px)}60%{opacity:1}100%{transform:translateY(0);opacity:1;filter:blur(0)}}
-  @keyframes sheen{to{background-position:230% 0}}
+  /* War ein Verlauf im Text (gold → champagner → kühl → frost) mit langsamem Glanz.
+     Das Argument dafür war, der Verlauf erzähle Hitze → Kühle, also das
+     Produktversprechen. Am gerenderten Ergebnis hält es nicht: über 230 % Breite
+     und in Bewegung ist von der Kühle nichts zu lesen. Übrig blieb Verlaufstext auf
+     einer Überschrift — die bekannteste Handschrift maschinell gebauter Seiten.
+
+     Die Grenze, die diese Seite jetzt konsequent zieht:
+       Verläufe auf FLÄCHEN (Sektionen, Produktplatten, Hero-Schleier) — teuer.
+       Verläufe auf SCHRIFT — die Handschrift, die wir nicht wollen.
+
+     Die Betonung macht ab hier der Farbkontrast: Zeile 1 in Frostweiß, Zeile 2 in
+     Champagner. 11,02:1 auf Noir, AAA. Die Bewegung liefert der Einzug, nicht die
+     Füllfarbe. */
+  .build .cool{color:var(--accent)}
+  @keyframes settle{0%{transform:translateY(125%);opacity:0;filter:blur(14px)}60%{opacity:1}100%{transform:translateY(0);opacity:1;filter:blur(0)}}
   .hrule{height:1px;width:min(100%,520px);background:linear-gradient(90deg,var(--accent),transparent);
     transform-origin:left;transform:scaleX(0);animation:draw 1.7s var(--ease) .7s forwards;margin:26px 0 22px}
   @keyframes draw{to{transform:scaleX(1)}}
@@ -112,7 +165,7 @@ const reviewsWord: Record<Locale, string> = {
   /* Prominente Sternebewertung — auf einen Blick, mobil wie Desktop. */
   .ratingbig{display:inline-flex;align-items:center;gap:14px;margin-top:30px;text-decoration:none;
     background:color-mix(in oklab,var(--champ) 12%,transparent);border:1px solid var(--line-2);
-    border-radius:6px;padding:12px 18px;width:max-content;max-width:100%;
+    border-radius:var(--radius-soft);padding:12px 18px;width:max-content;max-width:100%;
     opacity:0;animation:fade 1.2s var(--ease) 1.45s forwards;transition:border-color .3s var(--ease)}
   .ratingbig:hover{border-color:var(--accent)}
   .ratingbig .rnum{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,4.4vw,2.9rem);line-height:1;

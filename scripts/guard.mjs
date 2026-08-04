@@ -56,15 +56,57 @@ for (const f of files) {
 }
 
 // ─── 3. Verbotene Wörter aus dem Glossar ───────────────────────────────────
-const FORBIDDEN = [
-  ['Kühlmittel', 'Sachlich falsch. Ein Kühlmittel transportiert Wärme; ein Kältemittel erzeugt Kälte.'],
-  ['Instandhaltung', 'Facility-Management-Sprache. Für Endkunden heißt es "Wartung".'],
-  ['кондей', 'Umgangssprache, liest sich billig. Niemals sichtbar.'],
-  ['soğutucu akışkan', 'Fachwort. Im Verkaufstext heißt es "klima gazı".'],
-]
+// Glossar Abschnitt 1, die Kundensprache-Regel: der Kunde und der Techniker
+// benutzen verschiedene Wörter. Verkaufstext nimmt das Kundenwort.
+//
+// Je Sprache verboten. Vorher lief diese Prüfung nur über `entry.de` in ui.ts —
+// also über die Redaktionsquelle, in der ohnehin nur Deutsch steht. Die tatsächlich
+// ausgelieferte Prosa in src/content/ hat sie nie gesehen. Genau dort stand dann
+// auch "soğutucu akışkan": eine Regel, die das Glossar aufstellt, der Wächter
+// benennt, und die trotzdem im Produkt landete.
+const FORBIDDEN = {
+  de: [
+    ['Kühlmittel', 'Sachlich falsch. Ein Kühlmittel transportiert Wärme; ein Kältemittel erzeugt Kälte.'],
+    ['Instandhaltung', 'Facility-Management-Sprache. Für Endkunden heißt es "Wartung".'],
+  ],
+  ru: [['кондей', 'Umgangssprache, liest sich billig. Niemals sichtbar.']],
+  tr: [['soğutucu akışkan', 'Fachwort. Im Verkaufstext heißt es "klima gazı".']],
+  en: [],
+}
+
+// Die Redaktionsquelle trägt nur Deutsch.
 for (const [key, entry] of Object.entries(source)) {
-  for (const [word, why] of FORBIDDEN) {
+  for (const [word, why] of FORBIDDEN.de) {
     if (entry.de.includes(word)) errors.push(`ui.ts "${key}" enthält "${word}" — ${why}`)
+  }
+}
+
+// Und jetzt die Prosa, die der Besucher wirklich liest.
+const { content, exploded, beforeAfter, mission } = await import('../src/content/home.ts')
+
+/** Jeden String in einem verschachtelten Objekt einsammeln, mit Pfad. */
+function strings(node, path = '', acc = []) {
+  if (typeof node === 'string') acc.push([path, node])
+  else if (Array.isArray(node)) node.forEach((v, i) => strings(v, `${path}[${i}]`, acc))
+  else if (node && typeof node === 'object') {
+    for (const [k, v] of Object.entries(node)) strings(v, path ? `${path}.${k}` : k, acc)
+  }
+  return acc
+}
+
+for (const [bundleName, bundle] of Object.entries({ content, exploded, beforeAfter, mission })) {
+  for (const [loc, tree] of Object.entries(bundle)) {
+    const bans = FORBIDDEN[loc] || []
+    if (!bans.length) continue
+    for (const [path, text] of strings(tree)) {
+      // Bildpfade und Modellnamen sind keine Prosa.
+      if (path.endsWith('.img')) continue
+      for (const [word, why] of bans) {
+        if (text.toLocaleLowerCase(loc === 'tr' ? 'tr-TR' : loc).includes(word.toLocaleLowerCase(loc === 'tr' ? 'tr-TR' : loc))) {
+          errors.push(`home.ts ${bundleName}.${loc}.${path} enthält "${word}" — ${why}`)
+        }
+      }
+    }
   }
 }
 

@@ -28,7 +28,11 @@ export interface HomeContent {
     waLabel: string
     scroll: string
   }
-  trust: { dealer: string; rating: string; lang?: string; faturali: string; emergency: string }
+  // `taksit` — Kundenwunsch aus dem Fragebogen, Frage 3: "kredi kartına taksit
+  // imkânı". Stand bisher nur im Wissensspeicher des Chat-Assistenten (kb.ts) und
+  // war auf der Seite selbst nirgends zu sehen. Das Glossar (Abschnitt 4) führt
+  // `taksit` als starkes Kaufsignal — es gehört in den Vertrauensblock.
+  trust: { dealer: string; rating: string; lang?: string; faturali: string; emergency: string; taksit: string }
   services: { title: string; intro: string; items: { key: string; title: string; text: string }[] }
   products: { title: string; intro: string; note: string; lines: { name: string; tag: string; img: string }[] }
   calc: {
@@ -48,7 +52,7 @@ const tr: HomeContent = {
   hero: {
     eyebrow: 'Gree Yetkili Bayi ve Servisi · Alanya',
     lines: ['Alanya’da klimanın', 'güvenilir adresi'],
-    claim: 'Satış, montaj ve servis tek elden — faturalı, garantili, zamanında.',
+    claim: 'Satış, montaj ve servis tek elden. Faturalı, garantili, zamanında.',
     sub: 'Uzman ve tecrübeli ekibimizle Gree klimalarınızı kuruyor, bakımını yapıyoruz. Keşif ücretsiz.',
     ctaPrimary: 'WhatsApp’tan yazın',
     ctaSecondary: 'Ücretsiz keşif isteyin',
@@ -61,23 +65,35 @@ const tr: HomeContent = {
     rating: 'Google’da 65 değerlendirmede 5,0 puan',
     faturali: 'Faturalı hizmet',
     emergency: '7/24 teknik destek',
+    taksit: 'Kredi kartına taksit',
   },
   services: {
     title: 'Hizmetlerimiz',
-    intro: 'Montajdan bakıma, gaz dolumundan arıza onarımına — hepsi orijinal Gree parçalarıyla.',
+    intro: 'Montajdan bakıma, gaz dolumundan arıza onarımına. Hepsi orijinal Gree parçalarıyla.',
     items: [
-      { key: 'montaj', title: 'Montaj', text: 'Delme, boru, tahliye, vakum, devreye alma. Arkamızda tertemiz bir iş bırakırız.' },
+      // War eine Monteur-Checkliste ("delme, boru, tahliye, vakum, devreye alma").
+      // Der Kunde will kein Arbeitsverzeichnis, er will ein Versprechen. Der Text
+      // steht als bessere Fassung längst in ui.ts `service.montage.text` und war
+      // nie in die Seite gewandert.
+      { key: 'montaj', title: 'Montaj', text: 'Duvarı delmeden önce tesisatı arar, çevreyi örteriz. Fayans, boru ya da sıva zarar görürse masrafı bizden. Biz giderken klima çalışır, ortalık tertemiz.' },
       { key: 'bakim', title: 'Bakım', text: 'Klimanızın uzun ömürlü ve verimli çalışması için düzenli bakım şart.' },
-      { key: 'temizlik', title: 'Temizlik', text: 'İç ünite, filtre, tahliye. Kıştan sonra, sezondan önce.' },
+      { key: 'temizlik', title: 'Temizlik', text: 'İç üniteyi, filtreleri ve su tahliyesini temizleriz. En doğru zaman: kıştan sonra, sezon başlamadan.' },
       { key: 'gaz', title: 'Gaz dolumu', text: 'Önce kaçağı buluruz, sonra doldururuz. Geçici çözüm yok.' },
-      { key: 'ariza', title: 'Arıza & onarım', text: 'Önce tespit, sonra teklif, sonra onarım. Orijinal Gree parçası.' },
+      // Glossar 3: `tamir` ist das Kundenwort, `onarım` das Fachwort. Auf einer
+      // Kundenkarte gehört das Kundenwort hin. Und "sürpriz fatura yok" ist in
+      // diesem Markt ein echtes Vertrauenssignal — der Ablauf allein war nur ein
+      // Verfahren, kein Versprechen.
+      { key: 'ariza', title: 'Arıza & tamir', text: 'Önce arızayı buluruz, sonra fiyatını söyleriz, sonra tamir ederiz. Sürpriz fatura yok. Her zaman orijinal Gree parçası.' },
       { key: 'tasima', title: 'Sökme & takma', text: 'Taşınıyor musunuz? Klimanızı söker, yeni evinizde kurarız.' },
     ],
   },
   products: {
     title: 'Gree ürün ailesi',
     intro: 'Odanıza hangi cihazın uyduğunu, almadan önce net söyleriz.',
-    note: 'Tüm duvar tipi modeller inverter ve R32 soğutucu akışkanlıdır.',
+    // War: "inverter ve R32 soğutucu akışkanlıdır" — ein Datenblattsatz, und
+    // "soğutucu akışkan" steht im Glossar auf der Verbotsliste. Ein Wohnungsbesitzer
+    // liest daraus nichts. Jetzt steht da, was die Technik für ihn TUT.
+    note: 'Tüm duvar tipi modellerde inverter var. Sessiz çalışır, daha az elektrik harcar. Klima gazı olarak yeni nesil R32 kullanılıyor.',
     lines: [
       { name: 'Duvar tipi', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
       { name: 'Salon tipi', tag: 'I-Shine · 24.000–48.000 BTU', img: '/images/p-salon.webp' },
@@ -140,7 +156,7 @@ const tr: HomeContent = {
     q3: 'Hangi klimayı almalıyım?',
   },
   footer: {
-    dealer: 'Global Teknik Klima — Alanya Gree Klima Yetkili Bayi ve Servisi',
+    dealer: 'Global Teknik Klima · Alanya Gree Klima Yetkili Bayi ve Servisi',
     rights: 'Tüm hakları saklıdır.',
     legal: ['KVKK Aydınlatma Metni', 'Gizlilik Politikası', 'Çerez Politikası'],
   },
@@ -164,12 +180,13 @@ const ru: HomeContent = {
     lang: 'Говорим по-русски',
     faturali: 'Договор и чек',
     emergency: 'Техподдержка 7/24',
+    taksit: 'Рассрочка по карте',
   },
   services: {
     title: 'Услуги',
     intro: 'От монтажа до обслуживания, от дозаправки фреоном до ремонта — только оригинальные детали Gree.',
     items: [
-      { key: 'montaj', title: 'Монтаж «под ключ»', text: 'Бурение, трасса, дренаж, вакуумирование, запуск. Оставляем чистую работу.' },
+      { key: 'montaj', title: 'Монтаж «под ключ»', text: 'Перед сверлением находим скрытые трубы и всё укрываем. Повредим плитку, трубу или штукатурку — исправим за свой счёт. Уходим тогда, когда кондиционер работает, а в квартире чисто.' },
       { key: 'bakim', title: 'Техобслуживание', text: 'Регулярное ТО — чтобы кондиционер работал дольше и экономичнее.' },
       { key: 'temizlik', title: 'Чистка', text: 'Внутренний блок, фильтры, дренаж. После зимы и перед сезоном.' },
       { key: 'gaz', title: 'Заправка фреоном', text: 'Сначала находим утечку, потом заправляем. Без временных решений.' },
@@ -180,7 +197,8 @@ const ru: HomeContent = {
   products: {
     title: 'Модельный ряд Gree',
     intro: 'Какой аппарат подходит вашей комнате — скажем чётко до покупки.',
-    note: 'Все настенные модели — инверторные, на хладагенте R32.',
+    // `фреон` ist das Kundenwort, `хладагент` das Datenblattwort (Glossar 1).
+    note: 'Все настенные модели инверторные — работают тихо и экономят электричество. Фреон R32: современное поколение, более безопасное для природы.',
     lines: [
       { name: 'Настенные', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
       { name: 'Напольные', tag: 'I-Shine · 24 000–48 000 BTU', img: '/images/p-salon.webp' },
@@ -252,7 +270,7 @@ const de: HomeContent = {
   hero: {
     eyebrow: 'Gree Vertragshändler und Servicepartner · Alanya',
     lines: ['Ihre Klimaanlage', 'in Alanya'],
-    claim: 'Verkauf, Montage und Service aus einer Hand — mit Rechnung und Garantie.',
+    claim: 'Verkauf, Montage und Service aus einer Hand. Mit Rechnung und Garantie.',
     sub: 'Wir sprechen Deutsch. Montage und Wartung Ihrer Gree-Anlage. Die Besichtigung ist kostenlos.',
     ctaPrimary: 'Über WhatsApp schreiben',
     ctaSecondary: 'Kostenlose Besichtigung',
@@ -262,16 +280,17 @@ const de: HomeContent = {
   },
   trust: {
     dealer: 'Gree Vertragshändler und Servicepartner',
-    rating: '5,0 von 5 — 65 Google-Bewertungen',
+    rating: '5,0 von 5 · 65 Google-Bewertungen',
     lang: 'Wir sprechen Deutsch',
     faturali: 'Rechnung und Garantiepapiere',
     emergency: '7/24 technischer Dienst',
+    taksit: 'Ratenzahlung per Karte',
   },
   services: {
     title: 'Leistungen',
-    intro: 'Von der Montage bis zur Wartung, vom Kältemittel bis zur Reparatur — mit Original-Gree-Teilen.',
+    intro: 'Von der Montage bis zur Wartung, vom Kältemittel bis zur Reparatur. Mit Original-Gree-Teilen.',
     items: [
-      { key: 'montaj', title: 'Montage', text: 'Bohrung, Leitungen, Kondensatablauf, Vakuumieren, Probelauf. Wir hinterlassen saubere Arbeit.' },
+      { key: 'montaj', title: 'Montage', text: 'Vor dem Bohren suchen wir nach Leitungen und decken ab. Geht dabei eine Fliese, ein Rohr oder der Putz kaputt, bringen wir das auf unsere Kosten in Ordnung. Wenn wir gehen, läuft die Anlage, und die Wohnung ist sauber.' },
       { key: 'bakim', title: 'Wartung', text: 'Regelmäßige Wartung hält die Anlage effizient und langlebig.' },
       { key: 'temizlik', title: 'Reinigung', text: 'Innengerät, Filter, Kondensatwanne. Nach dem Winter, vor der Saison.' },
       { key: 'gaz', title: 'Kältemittel nachfüllen', text: 'Erst suchen wir die Leckage, dann füllen wir auf. Keine Zwischenlösung.' },
@@ -281,8 +300,8 @@ const de: HomeContent = {
   },
   products: {
     title: 'Gree-Programm',
-    intro: 'Welches Gerät zu Ihrem Raum passt, sagen wir klar vor dem Kauf — keine Überraschung hinterher.',
-    note: 'Alle Wandgeräte mit Inverter und Kältemittel R32.',
+    intro: 'Welches Gerät zu Ihrem Raum passt, sagen wir klar vor dem Kauf. Keine Überraschung hinterher.',
+    note: 'Alle Wandgeräte arbeiten mit Inverter. Sie laufen leise und sparen Strom. Als Kältemittel dient R32, die aktuelle und umweltschonendere Generation.',
     lines: [
       { name: 'Wandgeräte', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
       { name: 'Standgeräte', tag: 'I-Shine · 24.000–48.000 BTU', img: '/images/p-salon.webp' },
@@ -321,9 +340,9 @@ const de: HomeContent = {
   },
   reviews: {
     title: 'Was unsere Kunden sagen',
-    sub: '5,0 von 5 — 65 Google-Bewertungen.',
+    sub: '5,0 von 5 · 65 Google-Bewertungen.',
     items: [
-      { text: 'Drei Gree-Geräte gekauft — sie laufen so leise, dass ich manchmal denke, ich hätte sie gar nicht eingeschaltet.', name: 'Adem T.', place: 'Google' },
+      { text: 'Drei Gree-Geräte gekauft. Sie laufen so leise, dass ich manchmal denke, ich hätte sie gar nicht eingeschaltet.', name: 'Adem T.', place: 'Google' },
       { text: 'Beispiel: sauber, pünktlich, alles auf Deutsch erklärt, die Garantiepapiere korrekt ausgefüllt.', name: 'Beispiel-Bewertung', place: 'Beispiel', example: true },
     ],
   },
@@ -344,7 +363,7 @@ const de: HomeContent = {
     q3: 'Welche Anlage passt zu mir?',
   },
   footer: {
-    dealer: 'Global Teknik Klima — Gree Vertragshändler und Servicepartner Alanya',
+    dealer: 'Global Teknik Klima · Gree Vertragshändler und Servicepartner Alanya',
     rights: 'Alle Rechte vorbehalten.',
     legal: ['Datenschutzhinweis', 'Datenschutzerklärung', 'Cookie-Richtlinie'],
   },
@@ -354,7 +373,7 @@ const en: HomeContent = {
   hero: {
     eyebrow: 'Authorized Gree Dealer & Service · Alanya',
     lines: ['Air conditioning', 'in Alanya'],
-    claim: 'Sales, installation and service from one hand — with invoice and warranty.',
+    claim: 'Sales, installation and service from one hand. With invoice and warranty.',
     sub: 'We speak English. Installation and maintenance of your Gree system. The site survey is free.',
     ctaPrimary: 'Message on WhatsApp',
     ctaSecondary: 'Free site survey',
@@ -364,16 +383,17 @@ const en: HomeContent = {
   },
   trust: {
     dealer: 'Authorized Gree dealer & service',
-    rating: '5.0 out of 5 — 65 Google reviews',
+    rating: '5.0 out of 5 · 65 Google reviews',
     lang: 'We speak English',
     faturali: 'Invoice & warranty papers',
     emergency: '7/24 technical support',
+    taksit: 'Card instalments',
   },
   services: {
     title: 'Services',
-    intro: 'From installation to maintenance, from refrigerant to repair — with genuine Gree parts.',
+    intro: 'From installation to maintenance, from refrigerant to repair. With genuine Gree parts.',
     items: [
-      { key: 'montaj', title: 'Installation', text: 'Drilling, lines, drainage, vacuuming, commissioning. We leave clean work behind.' },
+      { key: 'montaj', title: 'Installation', text: 'Before drilling we trace what runs behind the wall and cover everything up. If a tile, a pipe or the plaster takes damage, we put it right at our own cost. We leave when the unit runs and your home is clean.' },
       { key: 'bakim', title: 'Maintenance', text: 'Regular servicing keeps the unit efficient and long-lasting.' },
       { key: 'temizlik', title: 'Cleaning', text: 'Indoor unit, filters, drain pan. After winter, before the season.' },
       { key: 'gaz', title: 'Refrigerant top-up', text: 'First we find the leak, then we refill. No stopgaps.' },
@@ -383,8 +403,8 @@ const en: HomeContent = {
   },
   products: {
     title: 'The Gree range',
-    intro: 'Which unit fits your room — we tell you clearly, before you buy.',
-    note: 'All wall units are inverter, on R32 refrigerant.',
+    intro: 'Which unit fits your room. We tell you clearly, before you buy.',
+    note: 'All wall units run on inverter technology: quiet, and easier on the electricity bill. The refrigerant is R32, the current and more environmentally friendly generation.',
     lines: [
       { name: 'Wall-mounted', tag: 'Aphro · Pular · Fairy · Airy', img: '/images/p-duvar.webp' },
       { name: 'Floor standing', tag: 'I-Shine · 24,000–48,000 BTU', img: '/images/p-salon.webp' },
@@ -423,9 +443,9 @@ const en: HomeContent = {
   },
   reviews: {
     title: 'What our customers say',
-    sub: '5.0 out of 5 — 65 Google reviews.',
+    sub: '5.0 out of 5 · 65 Google reviews.',
     items: [
-      { text: 'Bought three Gree units — they run so quietly I sometimes wonder if I even switched them on.', name: 'Adem T.', place: 'Google' },
+      { text: 'Bought three Gree units. They run so quietly I sometimes wonder if I even switched them on.', name: 'Adem T.', place: 'Google' },
       { text: 'Example: clean, on time, everything explained in English, warranty papers filled in correctly.', name: 'Example review', place: 'Example', example: true },
     ],
   },
@@ -446,7 +466,7 @@ const en: HomeContent = {
     q3: 'Which unit should I choose?',
   },
   footer: {
-    dealer: 'Global Teknik Klima — Authorized Gree Dealer & Service, Alanya',
+    dealer: 'Global Teknik Klima · Authorized Gree Dealer & Service, Alanya',
     rights: 'All rights reserved.',
     legal: ['KVKK notice', 'Privacy policy', 'Cookie policy'],
   },
@@ -475,11 +495,11 @@ export const mission: Record<Locale, { title: string; text: string }> = {
   },
   de: {
     title: 'Über uns',
-    text: 'Als autorisierter Gree-Händler und Servicepartner in Alanya bieten wir hochwertigen, zuverlässigen und schnellen Service. Wir nutzen die Gree-Technologie bestmöglich, um maximale Zufriedenheit zu erreichen — und zu den führenden Klimatechnik-Betrieben in Alanya zu gehören.',
+    text: 'Als autorisierter Gree-Händler und Servicepartner in Alanya bieten wir hochwertigen, zuverlässigen und schnellen Service. Wir nutzen die Gree-Technologie bestmöglich, um maximale Zufriedenheit zu erreichen, und zu den führenden Klimatechnik-Betrieben in Alanya zu gehören.',
   },
   en: {
     title: 'About us',
-    text: 'As an authorized Gree dealer and service partner in Alanya, we deliver quality, reliable and fast service. Using Gree technology to its fullest, we aim for maximum customer satisfaction — and to be one of the leading climate-technology firms in Alanya.',
+    text: 'As an authorized Gree dealer and service partner in Alanya, we deliver quality, reliable and fast service. Using Gree technology to its fullest, we aim for maximum customer satisfaction, and to be one of the leading climate-technology firms in Alanya.',
   },
 }
 
@@ -496,13 +516,16 @@ export interface Exploded {
 export const exploded: Record<Locale, Exploded> = {
   tr: {
     title: 'Klimanızın içinde ne var?',
-    intro: 'Kaydırın — duvar tipi bir klima parçalarına ayrılsın. Baktığımız, temizlediğimiz ve gerektiğinde değiştirdiğimiz parçalar bunlar.',
+    intro: 'Kaydırın. Duvar tipi bir klima parçalarına ayrılsın. Baktığımız, temizlediğimiz ve gerektiğinde değiştirdiğimiz parçalar bunlar.',
     hint: 'Şematik gösterimdir.',
     parts: [
       { name: 'Ön panel', text: 'Açılır kapak. Filtrelere buradan ulaşılır.' },
       { name: 'Filtre', text: 'Toz ve poleni tutar. Bakımda temizlediğimiz ilk parça.' },
-      { name: 'Eşanjör', text: 'Isıyı alan bakır boru ve alüminyum kanatlar.' },
-      { name: 'Fan', text: 'Çapraz akışlı fan. Sessiz çalışmanın sırrı burada.' },
+      // "Eşanjör" und "çapraz akışlı" sind Werkstattwörter. Das Kapitel erklärt dem
+      // Wohnungsbesitzer sein Gerät — also benennen wir die Teile so, wie er sie
+      // benennen würde, und sagen, was sie tun.
+      { name: 'Soğutma peteği', text: 'Havayı soğutan bakır borular ve ince alüminyum kanatlar. Tozlanınca verim düşer.' },
+      { name: 'Fan', text: 'Bir silindir gibi döner, soğuyan havayı odaya üfler. Sessiz çalışmanın sırrı burada.' },
       { name: 'Gövde ve montaj plakası', text: 'Duvara sabitlenen taşıyıcı. Doğru montajın temeli.' },
     ],
   },
@@ -513,32 +536,32 @@ export const exploded: Record<Locale, Exploded> = {
     parts: [
       { name: 'Передняя панель', text: 'Откидная крышка. Через неё добираются до фильтров.' },
       { name: 'Фильтр', text: 'Задерживает пыль и пыльцу. Первое, что мы чистим при ТО.' },
-      { name: 'Теплообменник', text: 'Медные трубки и алюминиевые рёбра — они забирают тепло.' },
-      { name: 'Вентилятор', text: 'Тангенциальный вентилятор. Здесь рождается тихая работа.' },
+      { name: 'Теплообменник', text: 'Медные трубки с тонкими алюминиевыми рёбрами — здесь воздух охлаждается. Забьётся пылью — упадёт мощность.' },
+      { name: 'Вентилятор', text: 'Вращается как валик и подаёт охлаждённый воздух в комнату. Отсюда и тихая работа.' },
       { name: 'Корпус и монтажная плита', text: 'Несущая пластина на стене. Основа правильного монтажа.' },
     ],
   },
   de: {
     title: 'Was steckt in Ihrer Klimaanlage?',
-    intro: 'Scrollen Sie — ein Wandgerät zerlegt sich in seine Teile. Genau diese warten, reinigen und tauschen wir.',
+    intro: 'Scrollen Sie. Ein Wandgerät zerlegt sich in seine Teile. Genau diese warten, reinigen und tauschen wir.',
     hint: 'Schematische Darstellung.',
     parts: [
       { name: 'Frontblende', text: 'Aufklappbare Abdeckung. Der Weg zu den Filtern.' },
       { name: 'Filter', text: 'Hält Staub und Pollen zurück. Das Erste, was wir bei der Wartung reinigen.' },
-      { name: 'Wärmetauscher', text: 'Kupferrohre und Aluminiumlamellen — hier wird die Wärme entzogen.' },
-      { name: 'Querstromlüfter', text: 'Hier entsteht der leise Lauf.' },
+      { name: 'Wärmetauscher', text: 'Kupferrohre mit feinen Aluminiumlamellen. Hier wird die Luft gekühlt. Verstauben sie, sinkt die Leistung.' },
+      { name: 'Lüfter', text: 'Eine Walze, die sich dreht und die gekühlte Luft in den Raum bläst. Hier entsteht der leise Lauf.' },
       { name: 'Gehäuse und Montageplatte', text: 'Der Träger an der Wand. Die Grundlage jeder sauberen Montage.' },
     ],
   },
   en: {
     title: 'What is inside your air conditioner?',
-    intro: 'Scroll — a wall unit takes itself apart. These are exactly the parts we service, clean and replace.',
+    intro: 'Scroll. A wall unit takes itself apart. These are exactly the parts we service, clean and replace.',
     hint: 'Schematic illustration.',
     parts: [
       { name: 'Front panel', text: 'The hinged cover. The way to the filters.' },
       { name: 'Filter', text: 'Catches dust and pollen. The first thing we clean at a service.' },
-      { name: 'Heat exchanger', text: 'Copper tubes and aluminium fins — this is where heat is drawn off.' },
-      { name: 'Cross-flow fan', text: 'This is where the quiet running comes from.' },
+      { name: 'Heat exchanger', text: 'Copper tubes with fine aluminium fins. This is where the air gets cold. Let them clog with dust and the performance drops.' },
+      { name: 'Fan', text: 'A roller that spins and pushes the cooled air into the room. This is where the quiet running comes from.' },
       { name: 'Housing and mounting plate', text: 'The carrier on the wall. The basis of every clean installation.' },
     ],
   },
