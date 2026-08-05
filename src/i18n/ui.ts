@@ -40,7 +40,10 @@ export const source = {
     register: 'sachlich',
     maxLen: 42,
     de: 'Autorisierter Gree-Händler · Alanya',
-    blocked: '"seit 1998" unbelegt. "Servicepartner" (yetkili servis) unbelegt.',
+    // Freigegeben 05.08.2026: Der Kunde hat schriftlich bestätigt, GREE/TLC
+    // Yetkili Bayi UND Yetkili Servis zu sein, und kann das Zertifikat vorlegen
+    // (Antwort Frage 6). "seit 1998" war nie im Einsatz; Gründungsjahr ist jetzt
+    // belegt 2021. Damit fällt die Sperre.
   },
   'hero.claim': {
     tier: 'stimme',

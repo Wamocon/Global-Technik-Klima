@@ -3,6 +3,8 @@ import FrostHero from './FrostHero.astro'
 import Assistant from './Assistant.astro'
 import ExplodedUnit from './ExplodedUnit.astro'
 import BeforeAfter from './BeforeAfter.astro'
+import Projects from './Projects.astro'
+import RequestForm from './RequestForm.astro'
 import Star from './Star.astro'
 import { content, biz, mission } from '../content/home'
 import { LEGAL_SLUGS } from '../content/legal'
@@ -13,6 +15,16 @@ const c = content[locale]
 const m = mission[locale]
 const wa = `https://wa.me/${biz.whatsapp.replace(/\D/g, '')}`
 const tel = `tel:${biz.phone.replace(/[^\d+]/g, '')}`
+
+// Gründungsjahr sichtbar machen — die Regel im Schema (nur auszeichnen, was auch
+// sichtbar steht) verlangt es, und „seit 2021" ist ein echtes Vertrauenssignal.
+// Ganze Sätze pro Sprache, damit die Wortstellung überall stimmt.
+const foundedLine: Record<Locale, string> = {
+  tr: `${biz.founded}’den beri Alanya’da`,
+  ru: `В Алании с ${biz.founded} года`,
+  de: `Seit ${biz.founded} in Alanya`,
+  en: `In Alanya since ${biz.founded}`,
+}
 const star = '★★★★★'
 const mapEmbed = biz.mapEmbed
 
@@ -51,7 +63,10 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
     <div class="prods">
       {c.products.lines.map((p) => (
         <article class="prod" data-reveal data-reveal-group="urunler">
-          <div class="pimg"><img src={p.img} alt={p.name} loading="lazy" width="225" height="200" /></div>
+          <!-- Zwei Ebenen: die Parallaxe schiebt `.pimg-par` (GSAP, scrollgebunden),
+               der Hover-Zoom skaliert das `img` (CSS). Getrennt, damit sich nicht
+               beide um `transform` streiten — derselbe Fehler wie beim Hero-Foto. -->
+          <div class="pimg"><div class="pimg-par"><img src={p.img} alt={p.name} loading="lazy" width="480" height="300" /></div></div>
           <div class="pbody"><span class="pn">{p.name}</span><span class="pt">{p.tag}</span></div>
         </article>
       ))}
@@ -59,6 +74,10 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
     <p class="note-line">{c.products.note}</p>
   </div>
 </section>
+
+<!-- Projekte / B2B — Oteller, siteler, işletmeler. Direkt nach den Wohnprodukten,
+     damit beide Zielgruppen nebeneinander stehen. (Antwort Frage 2) -->
+<Projects locale={locale} />
 
 <Star />
 
@@ -111,6 +130,37 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
   </div>
 </section>
 
+<!-- Kampagne — taksit + Altgeräte-Rücknahme (Antwort Frage 11). Zwei bestätigte
+     Verkaufshebel, kein erfundener Preis. Direkt nach dem Rechner: der Besucher hat
+     gerade die Größe gesehen, jetzt kommt „so wird es bezahlbar". -->
+<section class="sec camp">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="eyebrow">{c.campaign.eyebrow}</p>
+    </div>
+    <div class="camp-grid">
+      <article class="camp-card" data-reveal data-reveal-group="camp">
+        <span class="camp-ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 9.5h19"/><path d="M6 15.5h4"/></svg>
+        </span>
+        <h3>{c.campaign.taksitTitle}</h3>
+        <p>{c.campaign.taksitText}</p>
+      </article>
+      <article class="camp-card" data-reveal data-reveal-group="camp">
+        <span class="camp-ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8l4-4h10l4 4"/><path d="M3 8v9a2 2 0 002 2h14a2 2 0 002-2V8"/><path d="M9 12h6"/><path d="M12 9v6"/></svg>
+        </span>
+        <h3>{c.campaign.tradeTitle}</h3>
+        <p>{c.campaign.tradeText}</p>
+      </article>
+      <a class="camp-cta" href={wa} target="_blank" rel="noopener" data-reveal data-reveal-group="camp">
+        <span>{c.campaign.cta}</span>
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- Warum wir. Bis eben ohne id — nicht verlinkbar. (F13) -->
 <section class="sec sec-alt" id="neden">
   <div class="wrap">
@@ -120,9 +170,20 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
         <article class="tile" data-reveal data-reveal-group="neden"><h3>{t.title}</h3><p>{t.text}</p></article>
       ))}
     </div>
+    <!-- Garanti — jetzt gestaffelt mit den echten Fristen (Antwort Frage 5). -->
     <div class="warranty" data-reveal>
-      <span class="wb">{c.warranty.badge}</span>
-      <p>{c.warranty.text}</p>
+      <div class="wb-col">
+        <span class="wb">{c.warranty.badge}</span>
+      </div>
+      <div class="wbody">
+        <p class="wintro">{c.warranty.intro}</p>
+        <ul class="wtiers">
+          {c.warranty.tiers.map((tt) => (
+            <li><span class="wy">{tt.years}</span><span class="ww">{tt.who}</span></li>
+          ))}
+        </ul>
+        <p class="wnote">{c.warranty.note}</p>
+      </div>
     </div>
   </div>
 </section>
@@ -146,11 +207,16 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
   </div>
 </section>
 
+<!-- Randevu / Ücretsiz Keşif — die eigentliche Conversion, nach dem Vertrauensgipfel
+     (Bewertungen). WhatsApp-gestützt, ohne Server. (Antwort Frage 9) -->
+<RequestForm locale={locale} />
+
 <!-- Über uns / Hakkımızda -->
-<section class="sec sec-alt" id="hakkimizda">
+<section class="sec" id="hakkimizda">
   <div class="wrap about">
     <div class="ab-l" data-reveal>
       <p class="eyebrow">{m.title}</p>
+      <p class="ab-since">{foundedLine[locale]}</p>
       <p class="ab-text">{m.text}</p>
     </div>
     <div class="ab-r">
@@ -282,11 +348,14 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
      ⚠ Ersetzt der Kunde die Banner durch freigestellte Produktfotos, gehört
        `object-fit` zurück auf `contain`. */
   .prod .pimg{aspect-ratio:16/10;background:var(--navy-deep);overflow:hidden;position:relative;
-    border-bottom:1px solid var(--line);display:grid;place-items:center}
-  .prod .pimg img{width:100%;height:100%;object-fit:cover;filter:saturate(.9) contrast(1.05);
-    transform:scale(1.01);
+    border-bottom:1px solid var(--line)}
+  /* Träger für die Parallaxe: 118 % hoch, mittig — so bleibt beim Verschieben oben
+     und unten Bildreserve, keine nackte Kante. */
+  .prod .pimg-par{position:absolute;inset:-9% 0}
+  .prod .pimg img{width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.04);
+    transform:scale(1.02);
     transition:transform var(--dur-slow) var(--ease),filter var(--dur-slow) var(--ease)}
-  .prod:hover .pimg img{transform:scale(1.05);filter:saturate(1) contrast(1.07)}
+  .prod:hover .pimg img{transform:scale(1.06);filter:saturate(1) contrast(1.06)}
   .prod .pimg::after{content:"";position:absolute;inset:0;pointer-events:none;
     background:
       linear-gradient(180deg,transparent 38%,color-mix(in oklab,var(--navy-deep) 82%,transparent) 100%),
@@ -332,16 +401,43 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
      im Textbereich — und die bekannteste Handschrift generischer Oberflächen.
      Stattdessen dieselbe Sprache wie die Hero-Linie (`.hrule`): ein Verlauf, der
      ausläuft. Die Betonung bleibt, das Klischee geht. */
-  .warranty{display:flex;gap:20px;align-items:flex-start;margin-top:28px;border:1px solid var(--line);
-    border-radius:2px;padding:20px 22px;background:var(--card);position:relative;box-shadow:var(--shadow-1)}
-  .warranty::before{content:"";position:absolute;left:0;top:0;bottom:0;width:1px;
-    background:linear-gradient(180deg,var(--accent),transparent)}
-  /* Auf denselben Schriftgrad wie die übrigen Serifen-Auszeichnungen (1,24rem).
-     Vorher lag er mit 1,15rem als einziger Wert zwischen Grundschrift und
-     Auszeichnungsgrad — ein Zwischenschritt, den niemand als Stufe wahrnimmt. */
-  .warranty .wb{font-family:var(--serif);color:var(--accent);font-size:1.24rem;flex:none}
-  .warranty p{margin:0;font-size:.92rem;color:var(--fg-mute);min-width:0}
-  @media(max-width:640px){.warranty{flex-direction:column;gap:10px}}
+  /* Garanti — jetzt gestaffelt (Antwort Frage 5). Die Plakette trägt die Hierarchie,
+     die gestaffelte Liste die Fakten. Kein Akzent-Balken, kein Zwischengrad. */
+  .warranty{margin-top:28px;border:1px solid var(--line);border-radius:4px;
+    padding:24px 26px;background:var(--grad-plate);box-shadow:var(--shadow-1);display:grid;gap:18px}
+  @media(min-width:720px){.warranty{grid-template-columns:auto 1fr;gap:34px;align-items:start}}
+  .wb-col{display:flex}
+  .warranty .wb{font-family:var(--serif);color:var(--accent);font-size:1.4rem;line-height:1.15;
+    font-weight:600;max-width:11ch}
+  .wbody{min-width:0;display:grid;gap:15px}
+  .wintro{margin:0;font-size:.94rem;color:var(--fg)}
+  .wtiers{list-style:none;margin:0;padding:0;display:grid}
+  .wtiers li{display:grid;grid-template-columns:5.5rem 1fr;gap:16px;align-items:baseline;
+    padding:12px 0;border-top:1px solid var(--line)}
+  .wtiers li:first-child{border-top:0;padding-top:0}
+  .wy{font-family:var(--serif);font-size:1.18rem;color:var(--fg-strong);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .ww{font-size:.9rem;color:var(--fg-mute);line-height:1.5}
+  .wnote{margin:0;font-size:.8rem;color:var(--fg-mute);border-top:1px solid var(--line);padding-top:13px}
+
+  /* Kampagne — taksit + Altgeräte-Rücknahme (Antwort Frage 11) */
+  .camp-grid{display:grid;gap:16px;grid-template-columns:1fr}
+  @media(min-width:760px){.camp-grid{grid-template-columns:1fr 1fr 1fr}}
+  .camp-card{border:1px solid var(--line);border-radius:3px;padding:24px 24px;background:var(--card);
+    display:flex;flex-direction:column;gap:9px;transition:border-color var(--dur) var(--ease),transform var(--dur) var(--ease)}
+  .camp-card:hover{border-color:var(--line-2);transform:translateY(var(--lift))}
+  .camp-ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;
+    background:color-mix(in oklab,var(--accent) 14%,transparent);color:var(--accent);margin-bottom:6px}
+  .camp-card h3{font-size:1.14rem;color:var(--fg-strong);margin:0}
+  .camp-card p{margin:0;font-size:.9rem;color:var(--fg-mute);line-height:1.55}
+  .camp-cta{display:flex;align-items:center;justify-content:space-between;gap:14px;
+    border:1px solid var(--accent);border-radius:3px;padding:22px 24px;color:var(--accent);text-decoration:none;
+    background:color-mix(in oklab,var(--accent) 8%,transparent);font-weight:500;
+    transition:background var(--dur) var(--ease),color var(--dur) var(--ease)}
+  .camp-cta span{font-family:var(--serif);font-size:1.14rem}
+  .camp-cta svg{flex:none}
+  .camp-cta:hover{background:var(--accent);color:var(--accent-ink)}
+  @media(min-width:760px){.camp-cta{flex-direction:column;text-align:center;justify-content:center;gap:14px}}
+  @media (prefers-reduced-motion: reduce){.camp-card:hover{transform:none}}
 
   .revs{display:grid;gap:16px;grid-template-columns:1fr}
   @media(min-width:820px){.revs{grid-template-columns:repeat(3,1fr)}}
@@ -355,6 +451,11 @@ const legalLinks = c.footer.legal.map((text, i) => ({ text, href: pathFor(locale
   /* Über uns */
   .about{display:grid;gap:30px}
   @media(min-width:820px){.about{grid-template-columns:1.4fr .6fr;align-items:center}}
+  /* „Seit 2021" — vom Kunden belegt, sichtbar (die Schema-Regel verlangt Sichtbarkeit)
+     und ein echtes Vertrauenssignal. */
+  .ab-since{display:inline-flex;align-items:center;margin:0 0 16px;font-size:.82rem;
+    letter-spacing:.06em;color:var(--accent);border:1px solid var(--line-2);border-radius:100px;
+    padding:6px 14px;font-variant-numeric:tabular-nums;width:max-content}
   .ab-text{font-size:1.24rem;line-height:1.6;color:var(--fg);max-width:60ch;margin:0}
   .ab-r{display:grid;gap:14px}
   .ab-stat{border:1px solid var(--line);border-radius:2px;padding:16px 18px;background:var(--card);display:flex;align-items:baseline;gap:12px}

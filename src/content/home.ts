@@ -41,7 +41,32 @@ export interface HomeContent {
     result: string; resultSuffix: string; cta: string
   }
   why: { title: string; tiles: { title: string; text: string }[] }
-  warranty: { title: string; text: string; badge: string }
+  // Garanti — jetzt gestaffelt, mit den echten, vom Kunden bestätigten Fristen
+  // (Antwort Frage 5, 05.08.2026). Der 6-Jahre-Satz läuft am 31.12.2026 aus; das
+  // Datum steht sichtbar dabei, damit niemand eine abgelaufene Frist bewirbt.
+  warranty: { title: string; badge: string; intro: string; tiers: { years: string; who: string }[]; note: string }
+  // Kampagne — taksit und Altgeräte-Rücknahme (eski klima geri alım). Beides sind
+  // echte, bestätigte Verkaufshebel (Antwort Frage 11). Kein erfundener Preis.
+  campaign: { eyebrow: string; taksitTitle: string; taksitText: string; tradeTitle: string; tradeText: string; cta: string }
+  // Proje/B2B — Oteller, siteler, işletmeler (Antwort Frage 2). Die größte Lücke
+  // zwischen dem, was der Betrieb kann, und dem, was die alte Seite zeigte.
+  projects: {
+    eyebrow: string; title: string; intro: string
+    segments: { name: string }[]
+    systems: { name: string; text: string }[]
+    steps: { title: string; text: string }[]
+    cta: string; ctaSub: string
+  }
+  // Randevu-/Keşif-Formular — genau der Ablauf, den der Kunde beschrieben hat
+  // (Antwort Frage 9): der Besucher wählt Wunschtag und -zeit, die Nachricht geht
+  // per WhatsApp raus, der Betrieb bestätigt selbst. Kein Server nötig.
+  request: {
+    eyebrow: string; title: string; intro: string
+    fName: string; fPhone: string; fPlace: string; fPlacePh: string
+    fService: string; services: string[]
+    fWhen: string; fNote: string; fNotePh: string
+    consent: string; submit: string; hint: string
+  }
   reviews: { title: string; sub: string; items: Review[] }
   contact: { title: string; sub: string; hours: string; hoursNote: string; addressLabel: string; onMap: string }
   chat: { launcher: string; disclosure: string; greeting: string; q1: string; q2: string; q3: string }
@@ -127,8 +152,63 @@ const tr: HomeContent = {
   },
   warranty: {
     title: 'Garanti',
-    text: 'Gree üretici garantisi tüm parçaları kapsar; azami tamir süresi 20 iş günü. Duvar tipi cihazlarda, yetkili servis montajında Gree’nin genişletilmiş garanti kampanyası geçerlidir.',
-    badge: '3 yıl üretici garantisi',
+    badge: '6 yıla varan üretici garantisi',
+    intro: 'TLC Klima yetkili servis montajıyla, cihaz tipine göre garanti süresi:',
+    tiers: [
+      { years: '6 yıl', who: 'Duvar tipi split, multi split ve I-Shine — 31 Aralık 2026’ya kadar geçerli kampanya' },
+      { years: '3 yıl', who: 'Ticari tip ve diğer salon tipi cihazlar' },
+      { years: '2 yıl', who: 'Karavan ve Home serisi ürünler' },
+    ],
+    note: 'Tüm montaj ve işçiliğimiz yetkili servis standartlarına göre yapılır. Azami tamir süresi 20 iş günü.',
+  },
+  campaign: {
+    eyebrow: 'Kampanya',
+    taksitTitle: 'Kredi kartına taksit',
+    taksitText: 'Yeni klimanızı bütçenizi zorlamadan alın. Uygun taksit seçeneklerini keşifte netleştiririz.',
+    tradeTitle: 'Eski klimanızı getirin',
+    tradeText: 'Eski klimanızı değerlendirip yeni cihazınızdan düşüyoruz. Şartları WhatsApp’tan öğrenin.',
+    cta: 'Kampanyayı WhatsApp’tan sorun',
+  },
+  projects: {
+    eyebrow: 'Projeler ve İşletmeler',
+    title: 'Otel, site ve işletmeler için tek çözüm ortağı',
+    intro: 'Bireysel dairelerden büyük projelere. Keşiften devreye almaya, tek elden ve sözleşmeli.',
+    segments: [
+      { name: 'Oteller' }, { name: 'Apart oteller' }, { name: 'Siteler' },
+      { name: 'Restoranlar' }, { name: 'Ofisler' }, { name: 'Villalar' },
+    ],
+    systems: [
+      { name: 'VRF sistemler', text: 'Çok sayıda iç üniteyi tek dış üniteyle yöneten, büyük binalar için verimli çözüm.' },
+      { name: 'Multi split', text: 'Bir dış üniteye 5 iç üniteye kadar — daire ve küçük işletmeler için ideal.' },
+      { name: 'Isı pompası', text: 'Isıtma, soğutma ve sıcak su bir arada. Versati serisiyle kışın da konfor.' },
+      { name: 'Merkezi sistemler', text: 'Kaset ve kanal tipi cihazlarla toplu alanlarda dengeli iklimlendirme.' },
+    ],
+    steps: [
+      { title: 'Ücretsiz keşif', text: 'Yerinde geliyor, ihtiyacı ve alanı ölçüyoruz.' },
+      { title: 'Projelendirme', text: 'Sisteme ve bütçeye uygun çözümü planlıyoruz.' },
+      { title: 'Satış', text: 'Faturalı, garantili, net teklifle.' },
+      { title: 'Montaj', text: 'Uzman ekiple temiz ve zamanında kurulum.' },
+      { title: 'Servis', text: 'Devreye alma sonrası bakım ve teknik destek.' },
+    ],
+    cta: 'Proje teklifi alın',
+    ctaSub: 'Keşif ücretsiz — WhatsApp’tan yazın ya da formu doldurun.',
+  },
+  request: {
+    eyebrow: 'Randevu / Ücretsiz Keşif',
+    title: 'Size uygun günü yazın, gerisini biz halledelim',
+    intro: 'Tercih ettiğiniz gün ve saati bırakın. Kesin randevuyu telefon ya da WhatsApp’tan biz onaylayalım.',
+    fName: 'Adınız',
+    fPhone: 'Telefon',
+    fPlace: 'Semt / Mahalle',
+    fPlacePh: 'Örn. Mahmutlar, Oba, Kestel…',
+    fService: 'Konu',
+    services: ['Klima alımı', 'Montaj', 'Bakım / Temizlik', 'Arıza / Servis', 'Proje / VRF', 'Diğer'],
+    fWhen: 'Tercih ettiğiniz gün / saat',
+    fNote: 'Kısa not (isteğe bağlı)',
+    fNotePh: 'Oda sayısı, cihaz markası, kısa bilgi…',
+    consent: 'İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.',
+    submit: 'WhatsApp’tan gönder',
+    hint: 'Form bilgilerinizi hazır bir WhatsApp mesajına dönüştürür — göndermeden önce görürsünüz.',
   },
   reviews: {
     title: 'Müşterilerimiz ne diyor?',
@@ -232,8 +312,63 @@ const ru: HomeContent = {
   },
   warranty: {
     title: 'Гарантия',
-    text: 'Заводская гарантия Gree распространяется на все детали; максимальный срок ремонта — 20 рабочих дней. Для настенных блоков при монтаже официальным сервисом действует расширенная программа гарантии Gree.',
-    badge: '3 года гарантии производителя',
+    badge: 'до 6 лет гарантии производителя',
+    intro: 'При монтаже авторизованным сервисом TLC Klima срок гарантии зависит от типа устройства:',
+    tiers: [
+      { years: '6 лет', who: 'Настенные сплит, мульти-сплит и I-Shine — акция действует до 31 декабря 2026' },
+      { years: '3 года', who: 'Коммерческие и прочие напольные модели' },
+      { years: '2 года', who: 'Серии для караванов и Home' },
+    ],
+    note: 'Весь монтаж выполняется по стандартам авторизованного сервиса. Максимальный срок ремонта — 20 рабочих дней.',
+  },
+  campaign: {
+    eyebrow: 'Акция',
+    taksitTitle: 'Рассрочка по карте',
+    taksitText: 'Новый кондиционер без удара по бюджету. Удобные варианты рассрочки обсудим на замере.',
+    tradeTitle: 'Сдайте старый кондиционер',
+    tradeText: 'Оценим ваш старый кондиционер и вычтем из стоимости нового. Условия — в WhatsApp.',
+    cta: 'Спросить об акции в WhatsApp',
+  },
+  projects: {
+    eyebrow: 'Проекты и бизнес',
+    title: 'Один партнёр для отелей, комплексов и бизнеса',
+    intro: 'От отдельной квартиры до крупного проекта. От замера до запуска — под ключ, по договору.',
+    segments: [
+      { name: 'Отели' }, { name: 'Апарт-отели' }, { name: 'ЖК и комплексы' },
+      { name: 'Рестораны' }, { name: 'Офисы' }, { name: 'Виллы' },
+    ],
+    systems: [
+      { name: 'Системы VRF', text: 'Один внешний блок управляет множеством внутренних — эффективно для больших зданий.' },
+      { name: 'Мульти-сплит', text: 'До 5 внутренних блоков на один внешний — идеально для квартир и небольшого бизнеса.' },
+      { name: 'Тепловые насосы', text: 'Отопление, охлаждение и горячая вода вместе. С серией Versati комфортно и зимой.' },
+      { name: 'Центральные системы', text: 'Кассетные и канальные блоки для равномерного климата в больших помещениях.' },
+    ],
+    steps: [
+      { title: 'Бесплатный замер', text: 'Выезжаем на место, оцениваем задачу и площадь.' },
+      { title: 'Проектирование', text: 'Подбираем решение под систему и бюджет.' },
+      { title: 'Продажа', text: 'С договором, гарантией и чётким предложением.' },
+      { title: 'Монтаж', text: 'Опытная бригада, чисто и в срок.' },
+      { title: 'Сервис', text: 'Обслуживание и техподдержка после запуска.' },
+    ],
+    cta: 'Запросить смету проекта',
+    ctaSub: 'Замер бесплатный — напишите в WhatsApp или заполните форму.',
+  },
+  request: {
+    eyebrow: 'Запись / Бесплатный замер',
+    title: 'Напишите удобный день — остальное сделаем мы',
+    intro: 'Оставьте предпочтительный день и время. Точную запись подтвердим по телефону или в WhatsApp.',
+    fName: 'Ваше имя',
+    fPhone: 'Телефон',
+    fPlace: 'Район',
+    fPlacePh: 'Напр. Махмутлар, Оба, Кестель…',
+    fService: 'Тема',
+    services: ['Покупка кондиционера', 'Монтаж', 'Обслуживание / Чистка', 'Ремонт / Сервис', 'Проект / VRF', 'Другое'],
+    fWhen: 'Предпочтительный день / время',
+    fNote: 'Короткое примечание (по желанию)',
+    fNotePh: 'Число комнат, марка устройства, детали…',
+    consent: 'Согласен на использование моих контактов для ответа на заявку.',
+    submit: 'Отправить в WhatsApp',
+    hint: 'Форма превратит данные в готовое сообщение WhatsApp — вы увидите его перед отправкой.',
   },
   reviews: {
     title: 'Отзывы клиентов',
@@ -335,8 +470,63 @@ const de: HomeContent = {
   },
   warranty: {
     title: 'Garantie',
-    text: 'Die Gree-Herstellergarantie umfasst alle Teile; maximale Reparaturdauer 20 Werktage. Für Wandgeräte gilt bei Montage durch den Vertragsservice das erweiterte Gree-Garantieprogramm.',
-    badge: '3 Jahre Herstellergarantie',
+    badge: 'bis zu 6 Jahre Herstellergarantie',
+    intro: 'Bei Montage durch den TLC-Vertragsservice richtet sich die Garantie nach dem Gerätetyp:',
+    tiers: [
+      { years: '6 Jahre', who: 'Wandgeräte Split, Multisplit und I-Shine — Aktion gültig bis 31. Dezember 2026' },
+      { years: '3 Jahre', who: 'Gewerbegeräte und übrige Standgeräte' },
+      { years: '2 Jahre', who: 'Wohnmobil- und Home-Serie' },
+    ],
+    note: 'Alle Montage- und Handwerksarbeiten erfolgen nach Vertragsservice-Standard. Maximale Reparaturdauer 20 Werktage.',
+  },
+  campaign: {
+    eyebrow: 'Aktion',
+    taksitTitle: 'Ratenzahlung per Karte',
+    taksitText: 'Ihre neue Klimaanlage, ohne das Budget zu sprengen. Passende Raten klären wir bei der Besichtigung.',
+    tradeTitle: 'Altgerät in Zahlung geben',
+    tradeText: 'Wir bewerten Ihr altes Gerät und ziehen es vom neuen ab. Konditionen per WhatsApp.',
+    cta: 'Aktion per WhatsApp erfragen',
+  },
+  projects: {
+    eyebrow: 'Projekte und Gewerbe',
+    title: 'Ein Partner für Hotels, Anlagen und Gewerbe',
+    intro: 'Von der einzelnen Wohnung bis zum großen Projekt. Von der Besichtigung bis zur Inbetriebnahme — aus einer Hand, mit Vertrag.',
+    segments: [
+      { name: 'Hotels' }, { name: 'Aparthotels' }, { name: 'Wohnanlagen' },
+      { name: 'Restaurants' }, { name: 'Büros' }, { name: 'Villen' },
+    ],
+    systems: [
+      { name: 'VRF-Systeme', text: 'Ein Außengerät steuert viele Innengeräte — effizient für große Gebäude.' },
+      { name: 'Multisplit', text: 'Bis zu 5 Innengeräte an einem Außengerät — ideal für Wohnungen und kleines Gewerbe.' },
+      { name: 'Wärmepumpen', text: 'Heizen, Kühlen und Warmwasser in einem. Mit der Versati-Serie auch im Winter komfortabel.' },
+      { name: 'Zentrale Systeme', text: 'Kassetten- und Kanalgeräte für ausgeglichenes Klima in großen Flächen.' },
+    ],
+    steps: [
+      { title: 'Kostenlose Besichtigung', text: 'Wir kommen vor Ort, messen Bedarf und Fläche.' },
+      { title: 'Planung', text: 'Wir planen die Lösung passend zu System und Budget.' },
+      { title: 'Verkauf', text: 'Mit Rechnung, Garantie und klarem Angebot.' },
+      { title: 'Montage', text: 'Erfahrenes Team, sauber und pünktlich.' },
+      { title: 'Service', text: 'Wartung und technischer Support nach der Inbetriebnahme.' },
+    ],
+    cta: 'Projektangebot anfordern',
+    ctaSub: 'Die Besichtigung ist kostenlos — per WhatsApp schreiben oder Formular ausfüllen.',
+  },
+  request: {
+    eyebrow: 'Termin / Kostenlose Besichtigung',
+    title: 'Nennen Sie Ihren Wunschtag — den Rest übernehmen wir',
+    intro: 'Hinterlassen Sie Wunschtag und -zeit. Den festen Termin bestätigen wir per Telefon oder WhatsApp.',
+    fName: 'Ihr Name',
+    fPhone: 'Telefon',
+    fPlace: 'Stadtteil',
+    fPlacePh: 'z. B. Mahmutlar, Oba, Kestel…',
+    fService: 'Anliegen',
+    services: ['Klimakauf', 'Montage', 'Wartung / Reinigung', 'Störung / Service', 'Projekt / VRF', 'Sonstiges'],
+    fWhen: 'Wunschtag / -zeit',
+    fNote: 'Kurze Notiz (optional)',
+    fNotePh: 'Anzahl Räume, Gerätemarke, kurze Info…',
+    consent: 'Ich bin einverstanden, dass meine Kontaktdaten zur Beantwortung meiner Anfrage genutzt werden.',
+    submit: 'Per WhatsApp senden',
+    hint: 'Das Formular macht aus Ihren Angaben eine fertige WhatsApp-Nachricht — Sie sehen sie vor dem Senden.',
   },
   reviews: {
     title: 'Was unsere Kunden sagen',
@@ -438,8 +628,63 @@ const en: HomeContent = {
   },
   warranty: {
     title: 'Warranty',
-    text: 'The Gree manufacturer warranty covers all parts; maximum repair time 20 working days. For wall units, the extended Gree warranty programme applies when installed by the authorized service.',
-    badge: '3-year manufacturer warranty',
+    badge: 'up to 6-year manufacturer warranty',
+    intro: 'Installed by the TLC authorized service, the warranty depends on the unit type:',
+    tiers: [
+      { years: '6 years', who: 'Wall split, multi-split and I-Shine — campaign valid until 31 December 2026' },
+      { years: '3 years', who: 'Commercial and other floor-standing units' },
+      { years: '2 years', who: 'Caravan and Home series' },
+    ],
+    note: 'All installation and workmanship follows authorized-service standards. Maximum repair time 20 working days.',
+  },
+  campaign: {
+    eyebrow: 'Offer',
+    taksitTitle: 'Card instalments',
+    taksitText: 'Your new air conditioner without straining the budget. We settle the instalment options at the survey.',
+    tradeTitle: 'Trade in your old unit',
+    tradeText: 'We value your old air conditioner and take it off the new one. Terms on WhatsApp.',
+    cta: 'Ask about the offer on WhatsApp',
+  },
+  projects: {
+    eyebrow: 'Projects & Business',
+    title: 'One partner for hotels, complexes and business',
+    intro: 'From a single flat to a large project. From survey to commissioning — turnkey, under contract.',
+    segments: [
+      { name: 'Hotels' }, { name: 'Apart-hotels' }, { name: 'Residences' },
+      { name: 'Restaurants' }, { name: 'Offices' }, { name: 'Villas' },
+    ],
+    systems: [
+      { name: 'VRF systems', text: 'One outdoor unit drives many indoor units — efficient for large buildings.' },
+      { name: 'Multi-split', text: 'Up to 5 indoor units on one outdoor unit — ideal for flats and small business.' },
+      { name: 'Heat pumps', text: 'Heating, cooling and hot water in one. The Versati range keeps you comfortable in winter too.' },
+      { name: 'Central systems', text: 'Cassette and ducted units for balanced climate across large spaces.' },
+    ],
+    steps: [
+      { title: 'Free survey', text: 'We come on site and measure the need and the space.' },
+      { title: 'Design', text: 'We plan the solution to fit the system and the budget.' },
+      { title: 'Sale', text: 'With invoice, warranty and a clear quote.' },
+      { title: 'Installation', text: 'Experienced team, clean and on time.' },
+      { title: 'Service', text: 'Maintenance and technical support after commissioning.' },
+    ],
+    cta: 'Request a project quote',
+    ctaSub: 'The survey is free — message on WhatsApp or fill in the form.',
+  },
+  request: {
+    eyebrow: 'Appointment / Free Survey',
+    title: 'Tell us your preferred day — we handle the rest',
+    intro: 'Leave your preferred day and time. We confirm the firm appointment by phone or WhatsApp.',
+    fName: 'Your name',
+    fPhone: 'Phone',
+    fPlace: 'District',
+    fPlacePh: 'e.g. Mahmutlar, Oba, Kestel…',
+    fService: 'Topic',
+    services: ['Buying a unit', 'Installation', 'Maintenance / Cleaning', 'Fault / Service', 'Project / VRF', 'Other'],
+    fWhen: 'Preferred day / time',
+    fNote: 'Short note (optional)',
+    fNotePh: 'Number of rooms, unit brand, brief info…',
+    consent: 'I agree that my contact details may be used to answer my request.',
+    submit: 'Send on WhatsApp',
+    hint: 'The form turns your details into a ready WhatsApp message — you see it before sending.',
   },
   reviews: {
     title: 'What our customers say',
@@ -475,11 +720,11 @@ const en: HomeContent = {
 export const content: Record<Locale, HomeContent> = { tr, ru, de, en }
 
 // Navigation (Anker) — die Original-Seite hatte ein Menü; hier als Ein-Seiten-Anker.
-export const nav: Record<Locale, { services: string; products: string; tech: string; refs: string; calc: string; contact: string }> = {
-  tr: { services: 'Hizmetler', products: 'Ürünler', tech: 'Teknik', refs: 'Referanslar', calc: 'BTU Hesapla', contact: 'İletişim' },
-  ru: { services: 'Услуги', products: 'Товары', tech: 'Техника', refs: 'Примеры', calc: 'Расчёт BTU', contact: 'Контакты' },
-  de: { services: 'Leistungen', products: 'Produkte', tech: 'Technik', refs: 'Referenzen', calc: 'BTU-Rechner', contact: 'Kontakt' },
-  en: { services: 'Services', products: 'Products', tech: 'Technology', refs: 'References', calc: 'BTU', contact: 'Contact' },
+export const nav: Record<Locale, { services: string; products: string; projects: string; tech: string; calc: string; request: string; contact: string }> = {
+  tr: { services: 'Hizmetler', products: 'Ürünler', projects: 'Projeler', tech: 'Teknik', calc: 'BTU Hesapla', request: 'Randevu', contact: 'İletişim' },
+  ru: { services: 'Услуги', products: 'Товары', projects: 'Проекты', tech: 'Техника', calc: 'Расчёт BTU', request: 'Запись', contact: 'Контакты' },
+  de: { services: 'Leistungen', products: 'Produkte', projects: 'Projekte', tech: 'Technik', calc: 'BTU-Rechner', request: 'Termin', contact: 'Kontakt' },
+  en: { services: 'Services', products: 'Products', projects: 'Projects', tech: 'Technology', calc: 'BTU', request: 'Appointment', contact: 'Contact' },
 }
 
 // Mission / Hakkımızda — Inhalt der Original-Über-uns-Seite, lokalisiert.
@@ -617,6 +862,9 @@ export const beforeAfter: Record<Locale, BeforeAfter> = {
 
 // Öffentliche, invariante Daten — von der Live-Startseite. Die Konya-Nummer fehlt bewusst.
 export const biz = {
+  // Gründungsjahr — vom Kunden bestätigt (Antwort Frage 1, 05.08.2026): „2021
+  // yılından beri". Vorher bewusst leer, weil unbelegt; jetzt belegt und im Schema.
+  founded: 2021,
   phone: '+90 242 513 86 51',
   whatsapp: '+90 533 046 13 87',
   address: 'Hacet Mah., Alaiye Cad. No: 17/A, Alanya / Antalya',

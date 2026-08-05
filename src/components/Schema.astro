@@ -10,8 +10,9 @@
  * `aggregateRating` ist erlaubt, weil die Bewertung im Hero und bei „Über uns"
  * sichtbar ist und auf sein echtes Google-Profil verlinkt.
  *
- * ⛔ Kein Gründungsjahr (`foundingDate`), kein `priceRange` — beides ist nicht belegt.
- *    Lieber ein Feld weglassen als eine Zahl erfinden.
+ * `foundingDate` ist seit 05.08.2026 belegt (Kunde: „2021 yılından beri") und
+ * darf jetzt ins Schema. `priceRange` bleibt weg — der Betrieb nennt bewusst
+ * keinen festen Preis, sondern „ücretsiz keşif sonrası teklif".
  */
 import { content, biz } from '../content/home'
 import { pathFor, locales, type Locale } from '../i18n/utils'
@@ -40,6 +41,7 @@ const schema = {
       image: [`${site}/og.jpg`, `${site}/images/hero-shop.webp`],
       logo: `${site}/apple-touch-icon.png`,
       telephone: biz.phone,
+      foundingDate: String(biz.founded),
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'Hacet Mah., Alaiye Cad. No: 17/A',

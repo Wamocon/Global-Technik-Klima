@@ -1,0 +1,210 @@
+---
+/**
+ * Randevu / Ücretsiz Keşif — genau der Ablauf, den der Kunde beschrieben hat
+ * (Antwort Frage 9): „Siteye müşterinin tercih ettiği gün ve saati yazabileceği
+ * bir form ekleyelim. Kesin randevuyu telefon veya WhatsApp üzerinden biz
+ * onaylayalım."
+ *
+ * Bewusst OHNE Server:
+ *   Das Formular sammelt die Angaben und baut daraus eine fertige WhatsApp-Nachricht.
+ *   Es gibt (noch) kein Postfach und keine Hosting-Entscheidung — die klärt das
+ *   Kundengespräch. WhatsApp ist ohnehin der Hauptkanal des Betriebs, und die
+ *   Bestätigung bleibt beim Menschen, genau wie gewünscht.
+ *   Sobald ein Postfach steht, tritt zusätzlich ein E-Mail-Versand daneben; die
+ *   Feldstruktur hier bleibt dieselbe.
+ *
+ * KVKK: eine ausdrückliche Einwilligung ist Pflicht, sonst wird nicht gesendet.
+ * Ein Honeypot (verstecktes Feld) hält einfache Bots ab.
+ */
+import { content, biz } from '../content/home'
+import type { Locale } from '../i18n/utils'
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const r = content[locale].request
+const wa = biz.whatsapp.replace(/\D/g, '')
+---
+
+<section class="sec sec-alt req" id="randevu">
+  <div class="wrap req-grid">
+    <!-- Linke Spalte: warum -->
+    <div class="req-l" data-reveal>
+      <p class="kicker">{r.eyebrow}</p>
+      <h2 class="rtitle">{r.title}</h2>
+      <p class="lede">{r.intro}</p>
+      <!-- Drei saubere Vertrauens-Signale statt des imperativen „Ücretsiz keşif
+           isteyin", das als Häkchen-Zeile schief klang. -->
+      <ul class="req-assure">
+        <li><span aria-hidden="true">✓</span>{content[locale].trust.faturali}</li>
+        <li><span aria-hidden="true">✓</span>{content[locale].trust.taksit}</li>
+        <li><span aria-hidden="true">✓</span>{content[locale].trust.emergency}</li>
+      </ul>
+    </div>
+
+    <!-- Rechte Spalte: das Formular -->
+    <form class="req-form" id="reqForm" data-reveal data-wa={wa} novalidate>
+      <div class="rf-grid">
+        <label class="rf">
+          <span>{r.fName}<b aria-hidden="true">*</b></span>
+          <input type="text" name="name" autocomplete="name" required maxlength="80" />
+        </label>
+        <label class="rf">
+          <span>{r.fPhone}<b aria-hidden="true">*</b></span>
+          <input type="tel" name="phone" autocomplete="tel" required maxlength="30" inputmode="tel" />
+        </label>
+        <label class="rf">
+          <span>{r.fPlace}</span>
+          <input type="text" name="place" maxlength="60" placeholder={r.fPlacePh} />
+        </label>
+        <label class="rf">
+          <span>{r.fService}</span>
+          <select name="service">
+            {r.services.map((s) => <option value={s}>{s}</option>)}
+          </select>
+        </label>
+        <label class="rf rf-wide">
+          <span>{r.fWhen}</span>
+          <input type="text" name="when" maxlength="60" placeholder="Örn. Cumartesi öğleden sonra" />
+        </label>
+        <label class="rf rf-wide">
+          <span>{r.fNote}</span>
+          <textarea name="note" rows="2" maxlength="400" placeholder={r.fNotePh}></textarea>
+        </label>
+      </div>
+
+      <!-- Honeypot: für Menschen unsichtbar, Bots füllen es aus -->
+      <div class="rf-hp" aria-hidden="true">
+        <label>Web sitesi<input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+      </div>
+
+      <label class="rf-consent">
+        <input type="checkbox" name="consent" required />
+        <span>{r.consent}<b aria-hidden="true">*</b></span>
+      </label>
+
+      <p class="rf-err" id="reqErr" role="alert" hidden></p>
+
+      <button type="submit" class="btn btn-primary rf-submit">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.35A10 10 0 1012 2zm0 2a8 8 0 016.9 12.05l-.28.46.83 3-3.08-.8-.44.24A8 8 0 1112 4zm-2.9 4.3c-.15 0-.4.06-.6.28-.2.22-.78.76-.78 1.86s.8 2.15.92 2.3c.12.15 1.57 2.5 3.9 3.4 1.94.75 2.34.6 2.76.56.42-.04 1.36-.55 1.55-1.08.2-.53.2-.98.14-1.08-.06-.1-.22-.15-.46-.27z"/></svg>
+        {r.submit}
+      </button>
+      <p class="rf-hint">{r.hint}</p>
+    </form>
+  </div>
+</section>
+
+<style>
+  .req-grid{display:grid;gap:34px}
+  @media(min-width:900px){.req-grid{grid-template-columns:.85fr 1.15fr;align-items:start;gap:48px}}
+
+  .kicker{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+  .rtitle{font-family:var(--serif);font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:600;line-height:1.1;
+    letter-spacing:-.01em;color:var(--fg-strong);margin:0;max-width:16ch}
+  .req-l .lede{margin-top:14px}
+  .req-assure{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:11px}
+  .req-assure li{display:flex;align-items:center;gap:11px;font-size:.95rem;color:var(--fg)}
+  .req-assure span{width:22px;height:22px;flex:none;display:grid;place-items:center;border-radius:50%;
+    background:color-mix(in oklab,var(--accent) 20%,transparent);color:var(--accent);font-size:.7rem}
+
+  .req-form{border:1px solid var(--line-2);border-radius:4px;padding:26px 26px 24px;
+    background:var(--grad-plate);box-shadow:var(--shadow-2)}
+  .rf-grid{display:grid;gap:16px;grid-template-columns:1fr}
+  @media(min-width:560px){.rf-grid{grid-template-columns:1fr 1fr}}
+  .rf{display:flex;flex-direction:column;gap:7px;min-width:0}
+  .rf-wide{grid-column:1/-1}
+  .rf > span{font-size:.82rem;color:var(--fg);letter-spacing:.01em}
+  .rf > span b{color:var(--accent);margin-left:2px;font-weight:400}
+  .rf input,.rf select,.rf textarea{background:var(--bg);border:1px solid var(--line-2);color:var(--fg-strong);
+    font-family:var(--sans);font-size:1rem;padding:11px 13px;border-radius:2px;width:100%;
+    transition:border-color var(--dur) var(--ease)}
+  .rf textarea{resize:vertical;min-height:52px}
+  .rf input:focus,.rf select:focus,.rf textarea:focus{outline:none;border-color:var(--accent)}
+  /* `:user-invalid` statt `:invalid`: die rote Kante erscheint ERST, nachdem der
+     Nutzer das Feld berührt und leer gelassen hat — nicht schon beim Laden. Mit
+     `:invalid` leuchteten Name und Telefon von Anfang an rot, obwohl niemand einen
+     Fehler gemacht hatte. */
+  .rf input:user-invalid{border-color:color-mix(in oklab,var(--signal) 60%,var(--line-2))}
+
+  /* Honeypot — aus dem Layout und aus dem Vorlese-Fluss genommen. */
+  .rf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+  .rf-consent{display:flex;gap:11px;align-items:flex-start;margin-top:18px;cursor:pointer}
+  .rf-consent input{margin-top:3px;width:17px;height:17px;flex:none;accent-color:var(--accent)}
+  .rf-consent span{font-size:.82rem;color:var(--fg-mute);line-height:1.5}
+  .rf-consent span b{color:var(--accent);margin-left:2px;font-weight:400}
+
+  .rf-err{margin:14px 0 0;font-size:.84rem;color:var(--signal);
+    background:color-mix(in oklab,var(--signal) 10%,transparent);border:1px solid color-mix(in oklab,var(--signal) 34%,transparent);
+    border-radius:2px;padding:9px 12px}
+  .rf-err[hidden]{display:none}
+
+  .rf-submit{margin-top:18px;width:100%}
+  .rf-hint{margin:12px 0 0;font-size:.78rem;color:var(--fg-mute);text-align:center;line-height:1.5}
+
+  @media (prefers-reduced-motion: reduce){
+    .rf input,.rf select,.rf textarea{transition:none}
+  }
+</style>
+
+<script>
+  // Formular → fertige WhatsApp-Nachricht. Verlässt den Browser erst, wenn der
+  // Nutzer in WhatsApp auf Senden tippt — die Bestätigung bleibt beim Menschen.
+  const form = document.getElementById('reqForm') as HTMLFormElement | null
+  if (form) {
+    const err = document.getElementById('reqErr') as HTMLElement
+    const wa = form.dataset.wa || ''
+    const val = (n: string) =>
+      (form.elements.namedItem(n) as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement | null)?.value.trim() || ''
+
+    const labelFor = (n: string) => {
+      const el = form.querySelector(`[name="${n}"]`)?.closest('.rf')?.querySelector('span')
+      return el ? el.textContent!.replace('*', '').trim() : n
+    }
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault()
+      err.hidden = true
+
+      // Honeypot: ausgefüllt = Bot. Still abbrechen, so tut die Seite „nichts".
+      if (val('website')) return
+
+      const name = val('name')
+      const phone = val('phone')
+      const consent = (form.elements.namedItem('consent') as HTMLInputElement)?.checked
+
+      // Erste Pflichtlücke finden und benennen — nicht nur „Fehler".
+      const miss: string[] = []
+      if (!name) miss.push(labelFor('name'))
+      if (!phone) miss.push(labelFor('phone'))
+      if (miss.length || !consent) {
+        const parts: string[] = []
+        if (miss.length) parts.push(miss.join(', '))
+        err.textContent = (miss.length ? miss.join(', ') + '' : '') +
+          (!consent ? (miss.length ? ' · ' : '') + (form.querySelector('.rf-consent span')?.textContent?.replace('*', '').trim() || '') : '')
+        // Kurz und klar: was fehlt.
+        err.textContent = [
+          miss.length ? '⚠ ' + miss.join(' · ') : '',
+          !consent ? '☐ ' + (form.querySelector('.rf-consent span')?.textContent?.replace('*', '').trim() || '') : '',
+        ].filter(Boolean).join('  —  ')
+        err.hidden = false
+        ;(miss.length ? (form.elements.namedItem(!name ? 'name' : 'phone') as HTMLElement)
+          : (form.elements.namedItem('consent') as HTMLElement)).focus()
+        return
+      }
+
+      // Nachricht bauen — mit Herkunft, damit der Betrieb sie einordnet.
+      const lines = [
+        '🌐 Web sitesi — ' + (document.querySelector('.req .kicker')?.textContent || 'Randevu'),
+        '',
+        `${labelFor('name')}: ${name}`,
+        `${labelFor('phone')}: ${phone}`,
+      ]
+      const place = val('place'); if (place) lines.push(`${labelFor('place')}: ${place}`)
+      lines.push(`${labelFor('service')}: ${val('service')}`)
+      const when = val('when'); if (when) lines.push(`${labelFor('when')}: ${when}`)
+      const note = val('note'); if (note) lines.push(`${labelFor('note')}: ${note}`)
+
+      const url = `https://wa.me/${wa}?text=${encodeURIComponent(lines.join('\n'))}`
+      window.open(url, '_blank', 'noopener')
+    })
+  }
+</script>

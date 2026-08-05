@@ -93,9 +93,11 @@ for (const [loc, path] of locales) {
       else if (!biz.aggregateRating || biz.aggregateRating.ratingValue !== 5) fail(ctx, 'L2: aggregateRating fehlt/falsch')
       else if (!biz.geo || !biz.openingHoursSpecification) fail(ctx, 'L2: geo oder Öffnungszeiten fehlen')
       else if (!biz.hasOfferCatalog || biz.hasOfferCatalog.itemListElement.length !== 6) fail(ctx, 'L2: die 6 Leistungen fehlen im Katalog')
-      // Erfundenes darf NICHT drinstehen:
-      else if (biz.foundingDate || biz.priceRange) fail(ctx, 'L2: unbelegtes Feld (foundingDate/priceRange) im Schema!')
-      else ok(ctx, `L2: LocalBusiness ${biz.aggregateRating.ratingValue}★/${biz.aggregateRating.reviewCount}, 6 Leistungen`)
+      // Gründungsjahr ist seit 05.08.2026 belegt (2021) und MUSS jetzt stimmen;
+      // priceRange bleibt verboten (kein Festpreis).
+      else if (biz.foundingDate !== '2021') fail(ctx, `L2: foundingDate ist ${biz.foundingDate}, erwartet 2021`)
+      else if (biz.priceRange) fail(ctx, 'L2: priceRange im Schema — es wird kein Festpreis genannt!')
+      else ok(ctx, `L2: LocalBusiness ${biz.aggregateRating.ratingValue}★/${biz.aggregateRating.reviewCount}, seit ${biz.foundingDate}, 6 Leistungen`)
     }
 
     // ---------------- L3: og:image ----------------

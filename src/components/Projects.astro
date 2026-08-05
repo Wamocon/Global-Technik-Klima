@@ -1,0 +1,142 @@
+---
+/**
+ * Proje / B2B — die größte Lücke zwischen dem, was der Betrieb kann, und dem, was
+ * die alte Seite zeigte. Der Kunde hat schriftlich bestätigt (Antwort Frage 2):
+ * Oteller, apart, site, restoran, ofis, villa → VRF, Multi Split, Isı pompası,
+ * merkezi sistem, mit ücretsiz keşif · projelendirme · satış · montaj · servis.
+ *
+ * Aufbau, bewusst anders als die Wohnkunden-Sektionen, damit „Geschäft" sich auch
+ * geschäftlich anfühlt:
+ *   1. Segment-Chips (wen wir bedienen)
+ *   2. Systeme (was wir bauen) — zwei ruhige Karten-Reihen
+ *   3. Eine NUMMERIERTE Prozess-Schiene — hier ist die Nummerierung ehrlich, weil
+ *      es eine echte Reihenfolge ist (Keşif → Proje → Satış → Montaj → Servis),
+ *      keine Deko.
+ *   4. Ein eigener CTA, der zum Formular und zu WhatsApp führt.
+ */
+import { content, biz } from '../content/home'
+import type { Locale } from '../i18n/utils'
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const p = content[locale].projects
+const wa = `https://wa.me/${biz.whatsapp.replace(/\D/g, '')}`
+---
+
+<section class="sec proj" id="projeler">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="kicker">{p.eyebrow}</p>
+      <h2 class="ptitle">{p.title}</h2>
+      <p class="lede">{p.intro}</p>
+    </div>
+
+    <!-- Wen wir bedienen -->
+    <ul class="segs" data-reveal aria-label={p.eyebrow}>
+      {p.segments.map((s) => (
+        <li class="seg">
+          <span class="seg-dot" aria-hidden="true"></span>{s.name}
+        </li>
+      ))}
+    </ul>
+
+    <!-- Was wir bauen -->
+    <div class="systems">
+      {p.systems.map((s) => (
+        <article class="sys" data-reveal data-reveal-group="systems">
+          <h3>{s.name}</h3>
+          <p>{s.text}</p>
+        </article>
+      ))}
+    </div>
+
+    <!-- Wie wir arbeiten — echte Reihenfolge, deshalb nummeriert -->
+    <ol class="flow" aria-label="Süreç">
+      {p.steps.map((s, i) => (
+        <li class="step" data-reveal data-reveal-group="flow">
+          <span class="step-n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <div class="step-b">
+            <h4>{s.title}</h4>
+            <p>{s.text}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <!-- Eigener Projekt-CTA -->
+    <div class="pcta" data-reveal>
+      <div class="pcta-t">
+        <strong>{p.cta}</strong>
+        <span>{p.ctaSub}</span>
+      </div>
+      <div class="pcta-b">
+        <a class="btn btn-primary" href="#randevu">{p.cta}</a>
+        <a class="btn btn-ghost" href={wa} target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Die Sektion trägt eine eigene, kühlere Tiefe als die Wohnkunden-Bänder —
+     Marine + Petrol, damit „Projekt" sich technischer und größer anfühlt. */
+  .proj{position:relative;overflow:hidden}
+  .proj::before{content:"";position:absolute;inset:0;pointer-events:none;background:var(--grad-section-alt);opacity:.9}
+  .proj > .wrap{position:relative}
+
+  .kicker{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+  .ptitle{font-family:var(--serif);font-size:clamp(1.8rem,3.6vw,2.9rem);font-weight:600;line-height:1.08;
+    letter-spacing:-.01em;color:var(--fg-strong);max-width:20ch;margin:0}
+  .head .lede{margin-top:14px}
+
+  /* Segment-Chips */
+  .segs{list-style:none;margin:34px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+  .seg{display:inline-flex;align-items:center;gap:9px;padding:9px 15px;border:1px solid var(--line-2);
+    border-radius:100px;background:color-mix(in oklab,var(--card) 70%,transparent);font-size:.92rem;color:var(--fg)}
+  .seg-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none}
+
+  /* Systeme */
+  .systems{display:grid;gap:14px;grid-template-columns:1fr;margin-top:26px}
+  @media(min-width:640px){.systems{grid-template-columns:1fr 1fr}}
+  .sys{position:relative;border:1px solid var(--line);border-radius:3px;padding:22px 22px 24px;
+    background:var(--grad-plate);overflow:hidden;transition:border-color var(--dur) var(--ease),transform var(--dur) var(--ease)}
+  .sys::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--accent);
+    opacity:.5;transform:scaleY(0);transform-origin:top;transition:transform var(--dur-slow) var(--ease)}
+  .sys:hover{border-color:var(--line-2);transform:translateY(var(--lift))}
+  .sys:hover::before{transform:scaleY(1)}
+  .sys h3{font-family:var(--serif);font-size:1.28rem;color:var(--fg-strong);margin:0 0 7px}
+  .sys p{margin:0;font-size:.94rem;color:var(--fg-mute);line-height:1.55}
+
+  /* Prozess-Schiene — nummeriert, mit durchgehender Linie */
+  .flow{list-style:none;margin:40px 0 0;padding:0;display:grid;gap:0;
+    grid-template-columns:1fr;counter-reset:none;position:relative}
+  @media(min-width:900px){.flow{grid-template-columns:repeat(5,1fr);gap:12px}}
+  .step{position:relative;display:flex;gap:16px;padding:20px 0;align-items:flex-start}
+  @media(min-width:900px){.step{flex-direction:column;gap:14px;padding:0 4px}}
+  /* Verbindungslinie: vertikal am Handy, horizontal am Desktop */
+  .step:not(:last-child)::after{content:"";position:absolute;background:var(--line-2)}
+  .step:not(:last-child)::after{left:19px;top:44px;bottom:-4px;width:1px}
+  @media(min-width:900px){
+    .step:not(:last-child)::after{left:auto;top:19px;bottom:auto;right:-6px;width:auto;left:44px;height:1px}
+  }
+  .step-n{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+    font-family:var(--serif);font-size:1.05rem;color:var(--accent);border:1px solid var(--line-2);
+    background:var(--bg);font-variant-numeric:tabular-nums;position:relative;z-index:1}
+  .step-b h4{font-size:1.02rem;color:var(--fg-strong);margin:0 0 5px}
+  .step-b p{margin:0;font-size:.86rem;color:var(--fg-mute);line-height:1.5}
+
+  /* Projekt-CTA */
+  .pcta{margin-top:44px;border:1px solid var(--line-2);border-radius:4px;padding:26px 28px;
+    background:color-mix(in oklab,var(--navy) 24%,var(--card));
+    display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+  .pcta-t{display:flex;flex-direction:column;gap:5px;min-width:0}
+  .pcta-t strong{font-family:var(--serif);font-size:1.3rem;color:var(--fg-strong);font-weight:600}
+  .pcta-t span{font-size:.92rem;color:var(--fg-mute)}
+  .pcta-b{display:flex;gap:10px;flex-wrap:wrap}
+  .btn-ghost{background:transparent;border:1px solid var(--line-2);color:var(--fg-strong)}
+  .btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+  @media (prefers-reduced-motion: reduce){
+    .sys:hover{transform:none}
+    .sys::before{transition:none}
+  }
+</style>

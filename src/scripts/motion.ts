@@ -42,7 +42,7 @@ const root = document.documentElement
 const showAll = () => {
   root.classList.remove('motion')
   document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((el) => el.classList.add('shown'))
-  document.querySelectorAll<HTMLElement>('.sdiv .rule, .sdiv svg, .hero-parallax').forEach((el) => {
+  document.querySelectorAll<HTMLElement>('.sdiv .rule, .sdiv svg, .hero-parallax, .prod .pimg-par, .calc-viz img').forEach((el) => {
     el.style.transform = ''
     el.style.opacity = ''
   })
@@ -212,6 +212,39 @@ const setupReveals = (gsap: Gsap, ScrollTrigger: ST) => {
       ease: 'none',
       scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: true },
     })
+  }
+
+  // ── Parallaxe-Tiefe auf den Produktbildern ─────────────────────────────────
+  // Jedes Bild wandert langsam gegen die Scrollrichtung — die Kacheln bekommen
+  // Tiefe, das echte Foto-Set wird zum Blickfang. scrollgebunden (scrub), daher
+  // von der 300-ms-Grenze ausgenommen. Bewegt `.pimg-par`, nicht das `img` selbst,
+  // damit der Hover-Zoom (CSS) ungestört bleibt.
+  document.querySelectorAll<HTMLElement>('.prod .pimg-par').forEach((par) => {
+    const card = par.closest('.prod')
+    if (!card) return
+    gsap.fromTo(
+      par,
+      { yPercent: -6 },
+      {
+        yPercent: 6,
+        ease: 'none',
+        scrollTrigger: { trigger: card, start: 'top bottom', end: 'bottom top', scrub: true },
+      }
+    )
+  })
+
+  // Dieselbe ruhige Tiefe auf dem Rechner-Gerätebild.
+  const calcViz = document.querySelector<HTMLElement>('.calc-viz img')
+  if (calcViz) {
+    gsap.fromTo(
+      calcViz,
+      { yPercent: -5 },
+      {
+        yPercent: 5,
+        ease: 'none',
+        scrollTrigger: { trigger: '.calc-viz', start: 'top bottom', end: 'bottom top', scrub: true },
+      }
+    )
   }
 
   // Bilder und Schriften verschieben die Seitenhöhe, nachdem die Auslöser
