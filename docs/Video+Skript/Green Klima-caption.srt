@@ -1,0 +1,171 @@
+1
+00:00:00,200 --> 00:00:01,895
+Merhaba, hoş geldiniz.
+
+2
+00:00:02,095 --> 00:00:07,652
+Alanya’da klima arayan bir müşteri çoğu zaman sıcak bir odada,
+telefonu elinde ve hızlı karar vermek zorunda.
+
+3
+00:00:07,652 --> 00:00:10,998
+[curious] İlk birkaç saniyede üç şeyi anlamak istiyor: Bu firmaya
+
+4
+00:00:10,998 --> 00:00:15,479
+güvenebilir miyim, ihtiyacıma uygun çözümü bulabilir miyim ve hemen
+ulaşabilir miyim?
+
+5
+00:00:15,479 --> 00:00:19,004
+Global Teknik’in sahadaki gücünü dijitale taşımak için yalnızca bir
+
+6
+00:00:19,004 --> 00:00:24,979
+tasarım hazırlamadık; mağazanız, hizmetleriniz ve müşteri
+yolculuğunuzla çalışan, size özel bir demo oluşturduk.
+
+7
+00:00:24,979 --> 00:00:27,011
+[excited] Şimdi birlikte inceleyelim.
+
+8
+00:00:27,011 --> 00:00:31,319
+İlk ekranda müşteriyi Global Teknik’in gerçek
+mağaza görüntüsü karşılıyor.
+
+9
+00:00:31,319 --> 00:00:38,631
+[curious] Gree yetkili bayi kimliğiniz, Google puanınız, telefon,
+WhatsApp ve ücretsiz keşif seçenekleri tek bakışta görülüyor.
+
+10
+00:00:38,631 --> 00:00:44,833
+Böylece ziyaretçi kim olduğunuzu, neden güvenebileceğini ve size
+nasıl ulaşacağını aramak zorunda kalmıyor.
+
+11
+00:00:44,833 --> 00:00:51,036
+Alanya’nın çok dilli müşteri yapısı için Türkçe, Rusça, Almanca ve
+İngilizce sürümler tek dokunuşla açılıyor.
+
+12
+00:00:51,036 --> 00:00:57,042
+[excited] Dil değiştiğinde yalnızca menü değil, bütün müşteri
+deneyimi ziyaretçinin diline uyarlanıyor.
+
+13
+00:00:57,042 --> 00:01:02,526
+Aşağıda altı hizmetiniz ve yedi Gree ürün grubunuz düzenli, kolay
+anlaşılır kartlarla sunuluyor.
+
+14
+00:01:02,526 --> 00:01:07,683
+Müşteri seçenekler arasında kaybolmadan ihtiyacına uygun hizmeti veya
+ürünü bulabiliyor.
+
+15
+00:01:07,683 --> 00:01:10,525
+Teknik bölümde klima beş ana parçaya ayrılıyor.
+
+16
+00:01:10,525 --> 00:01:14,267
+Filtre, eşanjör, fan ve diğer bileşenler görünür hâle gelirken
+
+17
+00:01:14,267 --> 00:01:19,395
+uzmanlığınız soyut bir vaat olmaktan çıkıyor; müşteri yapılan işin
+değerini anlıyor.
+
+18
+00:01:19,395 --> 00:01:27,573
+Ardından örnek olarak açıkça işaretlenen öncesi-sonrası alanı, sıcak
+ortamdan konforlu ortama geçişi etkileşimli biçimde gösteriyor.
+
+19
+00:01:27,573 --> 00:01:30,484
+Şimdi doğrudan talebe dönüşen bölüme geliyoruz.
+
+20
+00:01:30,484 --> 00:01:37,206
+Ziyaretçi oda büyüklüğünü, kişi sayısını ve güneş durumunu giriyor;
+sistem yaklaşık BTU ihtiyacını hesaplıyor.
+
+21
+00:01:37,206 --> 00:01:42,473
+Sonuç ücretsiz keşifle doğrulanmak üzere, tek tıkla hazır WhatsApp
+mesajına dönüşüyor.
+
+22
+00:01:42,473 --> 00:01:45,869
+Müşteri ne yazacağını düşünmüyor; yalnızca gönderiyor.
+
+23
+00:01:45,869 --> 00:01:49,542
+Bir sorusu varsa yapay zekâ destekli asistan devreye giriyor.
+
+24
+00:01:49,542 --> 00:01:54,324
+Dört dilde soruyu anlayıp hizmetleriniz ve
+ürünleriniz hakkında yanıt veriyor.
+
+25
+00:01:54,324 --> 00:02:01,809
+Fiyat, randevu veya kesinlik gerektiren konularda bilgi uydurmak
+yerine görüşmeyi WhatsApp üzerinden ekibinize aktarıyor.
+
+26
+00:02:01,809 --> 00:02:08,663
+Son bölümde gerçek müşteri değerlendirmeleri, iletişim bilgileri,
+çalışma saatleri ve Google haritası güveni tamamlıyor.
+
+27
+00:02:08,663 --> 00:02:14,685
+Mobil görünümde menü, telefonla arama ve WhatsApp düğmeleri
+başparmağın erişebileceği yerde sürekli hazır.
+
+28
+00:02:14,685 --> 00:02:21,283
+Site bağlantısı WhatsApp’ta paylaşıldığında da mağaza görseliniz ve
+marka kimliğiniz düzgün bir önizlemeyle görünür.
+
+29
+00:02:21,283 --> 00:02:28,010
+Yani bu demo yalnızca güzel görünmüyor; müşteriyi güven, doğru bilgi
+ve kolay iletişim üzerinden adım adım talebe taşıyor.
+
+30
+00:02:28,010 --> 00:02:31,743
+Global Teknik’in uzmanlığı, itibarı ve müşteri memnuniyeti zaten var.
+
+31
+00:02:31,743 --> 00:02:34,681
+Biz bu gücü, Alanya’daki müşterilerin anlayabileceği,
+
+32
+00:02:34,681 --> 00:02:39,822
+hatırlayabileceği ve kolayca paylaşabileceği modern bir dijital satış
+deneyimine dönüştürdük.
+
+33
+00:02:39,822 --> 00:02:43,189
+[excited] Bu çalışan demo, Premium çözümümüzün başlangıcıdır.
+
+34
+00:02:43,189 --> 00:02:46,739
+Onayınızla gerçek montaj fotoğraflarınızı ve doğrulanmış işletme
+
+35
+00:02:46,739 --> 00:02:50,411
+bilgilerinizi ekleyebilir; özel hizmet ve ürün sayfaları, Instagram
+
+36
+00:02:50,411 --> 00:02:54,818
+entegrasyonu, yorum yönetimi ve düzenli SEO
+geliştirmelerini devreye alabiliriz.
+
+37
+00:02:54,818 --> 00:03:01,734
+[enthusiastic] Hazırsanız demoyu birlikte değerlendirelim ve Global
+Teknik’i dijitalde hak ettiği seviyeye birlikte taşıyalım.
+
