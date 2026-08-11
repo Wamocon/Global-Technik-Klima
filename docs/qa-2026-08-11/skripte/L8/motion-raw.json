@@ -1,0 +1,156 @@
+{
+  "reduce-dark": {
+    "vis": {
+      "htmlHasMotionClass": false,
+      "revealHidden": 0,
+      "revealTotal": 50,
+      "probe": {
+        "#kontakt": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 752
+        },
+        "footer.foot": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 220
+        },
+        "#randevu": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 725
+        },
+        "#kesif": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 877
+        },
+        "#urunler": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 1417
+        },
+        "#projeler": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 1078
+        }
+      },
+      "runningAnimations": []
+    },
+    "counter1": "★ 5,0",
+    "counter2": "★ 5,0",
+    "counterN": "65",
+    "framesIn1s": 52,
+    "canvasStable": {
+      "same": true,
+      "a": "9378:AAAABklEQVQDAPY",
+      "b": "9378:AAAABklEQVQDAPY"
+    },
+    "parallax": {
+      "atTop": "none",
+      "at500": "none",
+      "moved": false
+    },
+    "errors": []
+  },
+  "reduce-light": {
+    "vis": {
+      "htmlHasMotionClass": false,
+      "revealHidden": 0,
+      "revealTotal": 50,
+      "probe": {
+        "#kontakt": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 752
+        },
+        "footer.foot": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 220
+        },
+        "#randevu": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 725
+        },
+        "#kesif": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 877
+        },
+        "#urunler": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 1417
+        },
+        "#projeler": {
+          "opacity": "1",
+          "transform": "none",
+          "height": 1078
+        }
+      },
+      "runningAnimations": []
+    },
+    "counter1": "★ 5,0",
+    "counter2": "★ 5,0",
+    "counterN": "65",
+    "framesIn1s": 52,
+    "canvasStable": {
+      "same": true,
+      "a": "9378:AAAABklEQVQDAPY",
+      "b": "9378:AAAABklEQVQDAPY"
+    },
+    "parallax": {
+      "atTop": "none",
+      "at500": "none",
+      "moved": false
+    },
+    "errors": []
+  },
+  "flash": {
+    "luminanceSamples": [
+      0.00571,
+      0.01121,
+      0.01756,
+      0.0241,
+      0.03097,
+      0.03308,
+      0.03342,
+      0.03364,
+      0.03371,
+      0.03375,
+      0.03377,
+      0.03378,
+      0.03378,
+      0.03379,
+      0.03379,
+      0.03379,
+      0.03379,
+      0.03379,
+      0.03379,
+      0.03379
+    ],
+    "min": 0.00571,
+    "max": 0.03379,
+    "swing": 0.02808,
+    "relativeSwingPct": 83.1,
+    "directionReversals": 3
+  },
+  "revealNoPref": {
+    "before": {
+      "hidden": 50,
+      "total": 50
+    },
+    "after": {
+      "hidden": 3,
+      "total": 50,
+      "list": [
+        "ab-stat",
+        "ab-stat",
+        "cl"
+      ]
+    }
+  }
+}

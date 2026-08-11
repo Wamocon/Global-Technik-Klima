@@ -1,0 +1,182 @@
+{
+  "200pct-zoom-640x360": [
+    {
+      "pre": {
+        "panelScrollTop": 0,
+        "panelScrollH": 348,
+        "panelClientH": 268,
+        "overflowStyle": "hidden",
+        "inputTop": 369,
+        "inputBottom": 415,
+        "panelBottom": 348,
+        "inputHitTestable": null
+      },
+      "afterWheel": {
+        "panelScrollTop": 0,
+        "bodyScrollTop": 0,
+        "windowScrollY": 0,
+        "inputTop": 369
+      },
+      "afterTouch": {
+        "panelScrollTop": 80,
+        "inputTop": 289
+      },
+      "afterTab": {
+        "active": "cin",
+        "panelScrollTop": 80,
+        "inputTop": 289,
+        "inputVisible": true,
+        "headerStillVisible": false
+      }
+    },
+    {
+      "pre": {
+        "panelScrollTop": 0,
+        "panelScrollH": 348,
+        "panelClientH": 268,
+        "overflowStyle": "hidden",
+        "inputTop": 369,
+        "inputBottom": 415,
+        "panelBottom": 348,
+        "inputHitTestable": null
+      },
+      "afterWheel": {
+        "panelScrollTop": 0,
+        "bodyScrollTop": 0,
+        "windowScrollY": 0,
+        "inputTop": 369
+      },
+      "afterTouch": {
+        "panelScrollTop": 0,
+        "inputTop": 369
+      },
+      "afterTab": {
+        "active": "cin",
+        "panelScrollTop": 80,
+        "inputTop": 289,
+        "inputVisible": true,
+        "headerStillVisible": false
+      }
+    }
+  ],
+  "landscape-844x390": [
+    {
+      "pre": {
+        "panelScrollTop": 0,
+        "panelScrollH": 408,
+        "panelClientH": 268,
+        "overflowStyle": "hidden",
+        "inputTop": 393,
+        "inputBottom": 439,
+        "panelBottom": 312,
+        "inputHitTestable": null
+      },
+      "afterWheel": {
+        "panelScrollTop": 0,
+        "bodyScrollTop": 0,
+        "windowScrollY": 0,
+        "inputTop": 393
+      },
+      "afterTouch": {
+        "panelScrollTop": 0,
+        "inputTop": 393
+      },
+      "afterTab": {
+        "active": "cin",
+        "panelScrollTop": 140,
+        "inputTop": 253,
+        "inputVisible": true,
+        "headerStillVisible": false
+      }
+    },
+    {
+      "pre": {
+        "panelScrollTop": 0,
+        "panelScrollH": 408,
+        "panelClientH": 268,
+        "overflowStyle": "hidden",
+        "inputTop": 393,
+        "inputBottom": 439,
+        "panelBottom": 312,
+        "inputHitTestable": null
+      },
+      "afterWheel": {
+        "panelScrollTop": 0,
+        "bodyScrollTop": 0,
+        "windowScrollY": 0,
+        "inputTop": 393
+      },
+      "afterTouch": {
+        "panelScrollTop": 0,
+        "inputTop": 393
+      },
+      "afterTab": {
+        "active": "cin",
+        "panelScrollTop": 140,
+        "inputTop": 253,
+        "inputVisible": true,
+        "headerStillVisible": false
+      }
+    }
+  ],
+  "portrait-390x844": [
+    {
+      "pre": {
+        "panelScrollTop": 0,
+        "panelScrollH": 408,
+        "panelClientH": 408,
+        "overflowStyle": "hidden",
+        "inputTop": 773,
+        "inputBottom": 819,
+        "panelBottom": 832,
+        "inputHitTestable": "cin"
+      },
+      "afterWheel": {
+        "panelScrollTop": 0,
+        "bodyScrollTop": 0,
+        "windowScrollY": 0,
+        "inputTop": 773
+      },
+      "afterTouch": {
+        "panelScrollTop": 0,
+        "inputTop": 773
+      },
+      "afterTab": {
+        "active": "cin",
+        "panelScrollTop": 0,
+        "inputTop": 773,
+        "inputVisible": true,
+        "headerStillVisible": true
+      }
+    },
+    {
+      "pre": {
+        "panelScrollTop": 0,
+        "panelScrollH": 408,
+        "panelClientH": 408,
+        "overflowStyle": "hidden",
+        "inputTop": 773,
+        "inputBottom": 819,
+        "panelBottom": 832,
+        "inputHitTestable": "cin"
+      },
+      "afterWheel": {
+        "panelScrollTop": 0,
+        "bodyScrollTop": 0,
+        "windowScrollY": 0,
+        "inputTop": 773
+      },
+      "afterTouch": {
+        "panelScrollTop": 0,
+        "inputTop": 773
+      },
+      "afterTab": {
+        "active": "cin",
+        "panelScrollTop": 0,
+        "inputTop": 773,
+        "inputVisible": true,
+        "headerStillVisible": true
+      }
+    }
+  ]
+}

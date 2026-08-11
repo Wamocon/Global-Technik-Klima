@@ -1,0 +1,465 @@
+{
+ "zoom-dark-200pct-1280": {
+  "note": "200% page zoom at 1280 CSS px  => 640x360 layout viewport",
+  "docScrollW": 640,
+  "innerW": 640,
+  "hScroll": false,
+  "bodyScrollW": 640,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 678
+   }
+  ],
+  "clipped": [],
+  "topbarH": 69,
+  "mobarVisible": true,
+  "chat": {
+   "panel": {
+    "w": 616,
+    "h": 270,
+    "top": 78,
+    "bottom": 348
+   },
+   "viewport": {
+    "w": 640,
+    "h": 360
+   },
+   "pctOfViewportH": 75,
+   "bodyH": 120,
+   "inputVisible": false
+  },
+  "errors": []
+ },
+ "zoom-dark-400pct-1280": {
+  "note": "400% page zoom at 1280 CSS px  => 320x180 layout viewport (1.4.10 reflow)",
+  "docScrollW": 348,
+  "innerW": 320,
+  "hScroll": true,
+  "bodyScrollW": 348,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 339
+   }
+  ],
+  "clipped": [],
+  "topbarH": 65,
+  "mobarVisible": true,
+  "chat": {
+   "panel": {
+    "w": 296,
+    "h": 90,
+    "top": 78,
+    "bottom": 168
+   },
+   "viewport": {
+    "w": 320,
+    "h": 180
+   },
+   "pctOfViewportH": 50,
+   "bodyH": 120,
+   "inputVisible": false
+  },
+  "errors": []
+ },
+ "zoom-dark-320w": {
+  "note": "320 CSS px wide (reflow reference)",
+  "docScrollW": 348,
+  "innerW": 320,
+  "hScroll": true,
+  "bodyScrollW": 348,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 339
+   }
+  ],
+  "clipped": [],
+  "topbarH": 65,
+  "mobarVisible": true,
+  "chat": {
+   "panel": {
+    "w": 296,
+    "h": 410,
+    "top": 90,
+    "bottom": 500
+   },
+   "viewport": {
+    "w": 320,
+    "h": 512
+   },
+   "pctOfViewportH": 80,
+   "bodyH": 120,
+   "inputVisible": true
+  },
+  "errors": []
+ },
+ "zoom-dark-landscape-phone": {
+  "note": "390x844 phone rotated to landscape",
+  "docScrollW": 844,
+  "innerW": 844,
+  "hScroll": false,
+  "bodyScrollW": 844,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 895
+   }
+  ],
+  "clipped": [],
+  "topbarH": 69,
+  "mobarVisible": false,
+  "chat": {
+   "panel": {
+    "w": 380,
+    "h": 270,
+    "top": 42,
+    "bottom": 312
+   },
+   "viewport": {
+    "w": 844,
+    "h": 390
+   },
+   "pctOfViewportH": 69,
+   "bodyH": 120,
+   "inputVisible": false
+  },
+  "errors": []
+ },
+ "zoom-light-200pct-1280": {
+  "note": "200% page zoom at 1280 CSS px  => 640x360 layout viewport",
+  "docScrollW": 640,
+  "innerW": 640,
+  "hScroll": false,
+  "bodyScrollW": 640,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 678
+   }
+  ],
+  "clipped": [],
+  "topbarH": 69,
+  "mobarVisible": true,
+  "chat": {
+   "panel": {
+    "w": 616,
+    "h": 270,
+    "top": 78,
+    "bottom": 348
+   },
+   "viewport": {
+    "w": 640,
+    "h": 360
+   },
+   "pctOfViewportH": 75,
+   "bodyH": 120,
+   "inputVisible": false
+  },
+  "errors": []
+ },
+ "zoom-light-400pct-1280": {
+  "note": "400% page zoom at 1280 CSS px  => 320x180 layout viewport (1.4.10 reflow)",
+  "docScrollW": 348,
+  "innerW": 320,
+  "hScroll": true,
+  "bodyScrollW": 348,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 339
+   }
+  ],
+  "clipped": [],
+  "topbarH": 65,
+  "mobarVisible": true,
+  "chat": {
+   "panel": {
+    "w": 296,
+    "h": 90,
+    "top": 78,
+    "bottom": 168
+   },
+   "viewport": {
+    "w": 320,
+    "h": 180
+   },
+   "pctOfViewportH": 50,
+   "bodyH": 120,
+   "inputVisible": false
+  },
+  "errors": []
+ },
+ "zoom-light-320w": {
+  "note": "320 CSS px wide (reflow reference)",
+  "docScrollW": 348,
+  "innerW": 320,
+  "hScroll": true,
+  "bodyScrollW": 348,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 339
+   }
+  ],
+  "clipped": [],
+  "topbarH": 65,
+  "mobarVisible": true,
+  "chat": {
+   "panel": {
+    "w": 296,
+    "h": 410,
+    "top": 90,
+    "bottom": 500
+   },
+   "viewport": {
+    "w": 320,
+    "h": 512
+   },
+   "pctOfViewportH": 80,
+   "bodyH": 120,
+   "inputVisible": true
+  },
+  "errors": []
+ },
+ "zoom-light-landscape-phone": {
+  "note": "390x844 phone rotated to landscape",
+  "docScrollW": 844,
+  "innerW": 844,
+  "hScroll": false,
+  "bodyScrollW": 844,
+  "wide": [
+   {
+    "tag": "DIV",
+    "cls": "hero-photo",
+    "w": 895
+   }
+  ],
+  "clipped": [],
+  "topbarH": 69,
+  "mobarVisible": false,
+  "chat": {
+   "panel": {
+    "w": 380,
+    "h": 270,
+    "top": 42,
+    "bottom": 312
+   },
+   "viewport": {
+    "w": 844,
+    "h": 390
+   },
+   "pctOfViewportH": 69,
+   "bodyH": 120,
+   "inputVisible": false
+  },
+  "errors": []
+ },
+ "textzoom-dark": {
+  "hScroll": true,
+  "docScrollW": 1515,
+  "innerW": 1280,
+  "clipped": [
+   {
+    "cls": "hero",
+    "text": "Gree Yetkili Bayi ve Servisi · Ala",
+    "sw": 1312,
+    "cw": 1280,
+    "sh": 1243,
+    "ch": 1100
+   },
+   {
+    "cls": "ln",
+    "text": "Alanya’da klimanın",
+    "sw": 980,
+    "cw": 980,
+    "sh": 149,
+    "ch": 107
+   },
+   {
+    "cls": "ln",
+    "text": "güvenilir adresi",
+    "sw": 980,
+    "cw": 980,
+    "sh": 200,
+    "ch": 107
+   },
+   {
+    "cls": "rf-hp",
+    "text": "Web sitesi",
+    "sw": 177,
+    "cw": 1,
+    "sh": 84,
+    "ch": 1
+   }
+  ],
+  "topbarH": 133
+ },
+ "textzoom-light": {
+  "hScroll": true,
+  "docScrollW": 1515,
+  "innerW": 1280,
+  "clipped": [
+   {
+    "cls": "hero",
+    "text": "Gree Yetkili Bayi ve Servisi · Ala",
+    "sw": 1318,
+    "cw": 1280,
+    "sh": 1250,
+    "ch": 1100
+   },
+   {
+    "cls": "ln",
+    "text": "Alanya’da klimanın",
+    "sw": 980,
+    "cw": 980,
+    "sh": 193,
+    "ch": 107
+   },
+   {
+    "cls": "ln",
+    "text": "güvenilir adresi",
+    "sw": 980,
+    "cw": 980,
+    "sh": 213,
+    "ch": 107
+   },
+   {
+    "cls": "rf-hp",
+    "text": "Web sitesi",
+    "sw": 177,
+    "cw": 1,
+    "sh": 84,
+    "ch": 1
+   }
+  ],
+  "topbarH": 133
+ },
+ "revealSettle": {
+  "settle": "all revealed",
+  "stillHidden": []
+ },
+ "iframeTabs": {
+  "pressesToReachIframe": 40,
+  "tabPressesSpentInsideIframe": 1,
+  "landedOn": {
+   "tag": "A",
+   "text": "KVKK Aydınlatma Metni"
+  }
+ },
+ "rangeSteps": {
+  "start": "50",
+  "afterPageUp": "60",
+  "afterArrowRight": "60.1"
+ },
+ "chipFocus": {
+  "beforeChip": "Fiyat teklifi istiyorum",
+  "afterChip": {
+   "tag": "BUTTON",
+   "id": "",
+   "text": "Fiyat teklifi istiyorum",
+   "isBody": false,
+   "insideHidden": true
+  },
+  "nextAfterChip": {
+   "tag": "INPUT",
+   "id": "cin",
+   "text": ""
+  }
+ },
+ "reducedExploded": {
+  "drawn": true,
+  "info": {
+   "w": 634,
+   "h": 423,
+   "dataLen": 9378,
+   "legendOn": 4,
+   "legendTotal": 5,
+   "legendOpacities": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  }
+ }
+}
+
+===== TARGET SIZES (390x844) =====
+--- under 24x24 (WCAG 2.5.8 AA):
+--- under 44x44 (recommended / 2.5.5 AAA):
+   language switcher      35.8x34      eff 35.8x34 via self  "TR"
+   language switcher      37x34        eff 37x34 via self  "DE"
+   language switcher      36.2x34      eff 36.2x34 via self  "RU"
+   language switcher      38.1x34      eff 38.1x34 via self  "EN"
+   theme toggle           38x38        eff 38x38 via self  "Temayı değiştir"
+   consent checkbox       17x17        eff 288x39.4 via wrapping <label>  "[label] İletişim bilgilerimin talebi"
+   chat close             32x44        eff 32x44 via self  "×"
+   chat chips             129.8x34     eff 129.8x34 via self  "Fiyat teklifi istiyorum"
+   chat chips             112.7x34     eff 112.7x34 via self  "Bakım randevusu"
+   chat chips             154.1x34     eff 154.1x34 via self  "Hangi klimayı almalıyım?"
+   footer social links    40x44        eff 40x44 via self  "Facebook"
+   footer social links    40x44        eff 40x44 via self  "Instagram"
+--- all measured:
+   language switcher        35.8x34, 37x34, 36.2x34, 38.1x34
+   theme toggle             38x38
+   burger                   44x44
+   mobile menu links        390x57.4, 390x56.4
+   hero CTAs                171.4x50.3, 162x50.3
+   hero phones              243.5x44, 216.6x44
+   rating badge             243.1x65
+   calc inputs              140x48
+   sun toggle               68.9x44, 77.9x44
+   calc CTA                 237.3x50.3
+   before/after slider      340x309.2
+   form text fields         288x47, 288x49, 288x70, 177x21
+   consent checkbox         17x17
+   form submit              288x44
+   chat FAB                 212x44
+   chat close               32x44
+   chat chips               129.8x34, 112.7x34, 154.1x34
+   chat send                44x46
+   chat input               284x46
+   mobar links              195x51.8
+   footer legal links       122x44, 83.1x44, 79.3x44
+   footer social links      40x44
+   contact list links       170x44
+   project CTA buttons      142.5x50.3, 105.5x50.3
+   campaign CTA             342x76.1
+--- adjacent pairs closer than 8px:
+   2px  "TR" (36x34)  <->  "DE" (37x34)
+   2px  "DE" (37x34)  <->  "RU" (36x34)
+   2px  "RU" (36x34)  <->  "EN" (38x34)
+   3px  "Sorunuz mu var? Yazın." (212x44)  <->  "Sorunuzu yazın…" (284x46)
+   3px  "Sorunuz mu var? Yazın." (212x44)  <->  "Gönder" (44x46)
+   7px  "Fiyat teklifi istiyoru" (130x34)  <->  "Bakım randevusu" (113x34)
+   7px  "Fiyat teklifi istiyoru" (130x34)  <->  "Hangi klimayı almalıyı" (154x34)
+   7px  "Bakım randevusu" (113x34)  <->  "Hangi klimayı almalıyı" (154x34)
+--- fixed overlay overlaps (element scrolled to centre):
+   #reqForm .rf-submit covered by #chatpanel: 288x22 (50% of it)
+   #reqForm .rf-submit covered by .topbar: 288x44 (100% of it)
+   .rf-consent covered by #chatpanel: 288x20 (50% of it)
+   .rf-consent covered by .topbar: 288x39 (100% of it)
+   .foot .fl a covered by #chatpanel: 122x44 (100% of it)
+   .fsoc a covered by #chatpanel: 40x44 (100% of it)
+   .foot .fr covered by #chatpanel: 342x20 (100% of it)
+   #ccta covered by #chatpanel: 237x25 (49% of it)
+   #ccta covered by .topbar: 237x50 (100% of it)
+   .crow a covered by #chatpanel: 170x22 (49% of it)
+   .crow a covered by .topbar: 170x44 (100% of it)
+--- at the natural bottom of the page:
+   "KVKK Aydınlatma Metni" (.foot .fl a) covered by #chatpanel: 122x44 = 100%
+   "Gizlilik Politikası" (.foot .fl a) covered by #chatpanel: 83x44 = 100%
+   "Çerez Politikası" (.foot .fl a) covered by #chatpanel: 79x44 = 100%
+   "© 2026 · Tüm hakları sak" (.foot .fr) covered by #chatpanel: 342x20 = 100%
+   "" (.fsoc a) covered by #chatpanel: 40x44 = 100%
+   "" (.fsoc a) covered by #chatpanel: 40x44 = 100%

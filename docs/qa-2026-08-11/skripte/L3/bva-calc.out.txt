@@ -1,0 +1,237 @@
+=== RAW RESULTS ===
+tr|BVA-area|a="5" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="5" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+tr|BVA-area|a="6" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="6" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+tr|BVA-area|a="7" p="2" sun=0 -> clamped(7,2) raw=3850 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="7" p="2" | link="BTU: 9000 BTU · 7 m² · 2 kişi/чел./Pers."
+tr|BVA-area|a="199" p="2" sun=0 -> clamped(199,2) raw=109450 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="199" p="2" | link="BTU: 48000 BTU · 199 m² · 2 kişi/чел./Pers."
+tr|BVA-area|a="200" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="200" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+tr|BVA-area|a="201" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="201" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+tr|BVA-area-neg|a="0" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="0" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+tr|BVA-area-neg|a="-1" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="-1" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+tr|BVA-area-neg|a="" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+tr|BVA-area-neg|a="1e3" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="1e3" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+tr|BVA-area-neg|a="6.5" p="2" sun=0 -> clamped(6.5,2) raw=3575 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="6.5" p="2" | link="BTU: 9000 BTU · 6.5 m² · 2 kişi/чел./Pers."
+tr|BVA-area-neg|a="5.9999" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="5.9999" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+tr|BVA-people|a="25" p="0" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="25" p="0" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+tr|BVA-people|a="25" p="1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="25" p="1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+tr|BVA-people|a="25" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="25" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+tr|BVA-people|a="25" p="11" sun=0 -> clamped(25,11) raw=19150 expSnap=18000 obs="18.000" intl(tr)="18.000" tie-up-would-be=18000 | field shows a="25" p="11" | link="BTU: 18000 BTU · 25 m² · 11 kişi/чел./Pers."
+tr|BVA-people|a="25" p="12" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(tr)="18.000" tie-up-would-be=18000 | field shows a="25" p="12" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+tr|BVA-people|a="25" p="13" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(tr)="18.000" tie-up-would-be=18000 | field shows a="25" p="13" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+tr|BVA-people-neg|a="25" p="-1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="25" p="-1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+tr|BVA-people-neg|a="25" p="" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="25" p="" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+tr|SNAP-mid|a="17" p="3" sun=0 -> clamped(17,3) raw=9950 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="17" p="3" | link="BTU: 9000 BTU · 17 m² · 3 kişi/чел./Pers."  [below mid 10500]
+tr|SNAP-mid|a="18" p="3" sun=0 -> clamped(18,3) raw=10500 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=12000 | field shows a="18" p="3" | link="BTU: 9000 BTU · 18 m² · 3 kişi/чел./Pers."  [EXACT mid 10500 (tie 9000/12000)]
+tr|SNAP-mid|a="19" p="3" sun=0 -> clamped(19,3) raw=11050 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="19" p="3" | link="BTU: 12000 BTU · 19 m² · 3 kişi/чел./Pers."  [above mid 10500]
+tr|SNAP-mid|a="23" p="5" sun=0 -> clamped(23,5) raw=14450 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=12000 | field shows a="23" p="5" | link="BTU: 12000 BTU · 23 m² · 5 kişi/чел./Pers."  [below mid 15000]
+tr|SNAP-mid|a="24" p="5" sun=0 -> clamped(24,5) raw=15000 expSnap=12000 obs="12.000" intl(tr)="12.000" tie-up-would-be=18000 | field shows a="24" p="5" | link="BTU: 12000 BTU · 24 m² · 5 kişi/чел./Pers."  [EXACT mid 15000 (tie 12000/18000)]
+tr|SNAP-mid|a="25" p="5" sun=0 -> clamped(25,5) raw=15550 expSnap=18000 obs="18.000" intl(tr)="18.000" tie-up-would-be=18000 | field shows a="25" p="5" | link="BTU: 18000 BTU · 25 m² · 5 kişi/чел./Pers."  [above mid 15000]
+tr|SNAP-mid|a="35" p="4" sun=0 -> clamped(35,4) raw=20450 expSnap=18000 obs="18.000" intl(tr)="18.000" tie-up-would-be=18000 | field shows a="35" p="4" | link="BTU: 18000 BTU · 35 m² · 4 kişi/чел./Pers."  [below mid 21000]
+tr|SNAP-mid|a="36" p="4" sun=0 -> clamped(36,4) raw=21000 expSnap=18000 obs="18.000" intl(tr)="18.000" tie-up-would-be=24000 | field shows a="36" p="4" | link="BTU: 18000 BTU · 36 m² · 4 kişi/чел./Pers."  [EXACT mid 21000 (tie 18000/24000)]
+tr|SNAP-mid|a="37" p="4" sun=0 -> clamped(37,4) raw=21550 expSnap=24000 obs="24.000" intl(tr)="24.000" tie-up-would-be=24000 | field shows a="37" p="4" | link="BTU: 24000 BTU · 37 m² · 4 kişi/чел./Pers."  [above mid 21000]
+tr|SNAP-mid|a="47" p="8" sun=0 -> clamped(47,8) raw=29450 expSnap=24000 obs="24.000" intl(tr)="24.000" tie-up-would-be=24000 | field shows a="47" p="8" | link="BTU: 24000 BTU · 47 m² · 8 kişi/чел./Pers."  [below mid 30000]
+tr|SNAP-mid|a="48" p="8" sun=0 -> clamped(48,8) raw=30000 expSnap=24000 obs="24.000" intl(tr)="24.000" tie-up-would-be=36000 | field shows a="48" p="8" | link="BTU: 24000 BTU · 48 m² · 8 kişi/чел./Pers."  [EXACT mid 30000 (tie 24000/36000)]
+tr|SNAP-mid|a="49" p="8" sun=0 -> clamped(49,8) raw=30550 expSnap=36000 obs="36.000" intl(tr)="36.000" tie-up-would-be=36000 | field shows a="49" p="8" | link="BTU: 36000 BTU · 49 m² · 8 kişi/чел./Pers."  [above mid 30000]
+tr|SNAP-mid|a="71" p="6" sun=0 -> clamped(71,6) raw=41450 expSnap=36000 obs="36.000" intl(tr)="36.000" tie-up-would-be=36000 | field shows a="71" p="6" | link="BTU: 36000 BTU · 71 m² · 6 kişi/чел./Pers."  [below mid 42000]
+tr|SNAP-mid|a="72" p="6" sun=0 -> clamped(72,6) raw=42000 expSnap=36000 obs="36.000" intl(tr)="36.000" tie-up-would-be=48000 | field shows a="72" p="6" | link="BTU: 36000 BTU · 72 m² · 6 kişi/чел./Pers."  [EXACT mid 42000 (tie 36000/48000)]
+tr|SNAP-mid|a="73" p="6" sun=0 -> clamped(73,6) raw=42550 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="73" p="6" | link="BTU: 48000 BTU · 73 m² · 6 kişi/чел./Pers."  [above mid 42000]
+tr|EXTREME|a="6" p="1" sun=0 -> clamped(6,1) raw=3300 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [absolute minimum]
+tr|EXTREME|a="6" p="1" sun=1 -> clamped(6,1) raw=3795 expSnap=9000 obs="9.000" intl(tr)="9.000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [minimum + sun]
+tr|EXTREME|a="200" p="12" sun=0 -> clamped(200,12) raw=116000 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [maximum, no sun]
+tr|EXTREME|a="200" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [absolute maximum]
+tr|EXTREME|a="500" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="500" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [over max -> silently clamped]
+tr|EXTREME|a="87" p="2" sun=0 -> clamped(87,2) raw=47850 expSnap=48000 obs="48.000" intl(tr)="48.000" tie-up-would-be=48000 | field shows a="87" p="2" | link="BTU: 48000 BTU · 87 m² · 2 kişi/чел./Pers."  [first area that reaches 48000 step?]
+de|BVA-area|a="5" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="5" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+de|BVA-area|a="6" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="6" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+de|BVA-area|a="7" p="2" sun=0 -> clamped(7,2) raw=3850 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="7" p="2" | link="BTU: 9000 BTU · 7 m² · 2 kişi/чел./Pers."
+de|BVA-area|a="199" p="2" sun=0 -> clamped(199,2) raw=109450 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="199" p="2" | link="BTU: 48000 BTU · 199 m² · 2 kişi/чел./Pers."
+de|BVA-area|a="200" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="200" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+de|BVA-area|a="201" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="201" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+de|BVA-area-neg|a="0" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="0" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+de|BVA-area-neg|a="-1" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="-1" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+de|BVA-area-neg|a="" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+de|BVA-area-neg|a="1e3" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="1e3" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+de|BVA-area-neg|a="6.5" p="2" sun=0 -> clamped(6.5,2) raw=3575 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="6.5" p="2" | link="BTU: 9000 BTU · 6.5 m² · 2 kişi/чел./Pers."
+de|BVA-area-neg|a="5.9999" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="5.9999" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+de|BVA-people|a="25" p="0" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="25" p="0" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+de|BVA-people|a="25" p="1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="25" p="1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+de|BVA-people|a="25" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="25" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+de|BVA-people|a="25" p="11" sun=0 -> clamped(25,11) raw=19150 expSnap=18000 obs="18.000" intl(de)="18.000" tie-up-would-be=18000 | field shows a="25" p="11" | link="BTU: 18000 BTU · 25 m² · 11 kişi/чел./Pers."
+de|BVA-people|a="25" p="12" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(de)="18.000" tie-up-would-be=18000 | field shows a="25" p="12" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+de|BVA-people|a="25" p="13" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(de)="18.000" tie-up-would-be=18000 | field shows a="25" p="13" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+de|BVA-people-neg|a="25" p="-1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="25" p="-1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+de|BVA-people-neg|a="25" p="" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="25" p="" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+de|SNAP-mid|a="17" p="3" sun=0 -> clamped(17,3) raw=9950 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="17" p="3" | link="BTU: 9000 BTU · 17 m² · 3 kişi/чел./Pers."  [below mid 10500]
+de|SNAP-mid|a="18" p="3" sun=0 -> clamped(18,3) raw=10500 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=12000 | field shows a="18" p="3" | link="BTU: 9000 BTU · 18 m² · 3 kişi/чел./Pers."  [EXACT mid 10500 (tie 9000/12000)]
+de|SNAP-mid|a="19" p="3" sun=0 -> clamped(19,3) raw=11050 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="19" p="3" | link="BTU: 12000 BTU · 19 m² · 3 kişi/чел./Pers."  [above mid 10500]
+de|SNAP-mid|a="23" p="5" sun=0 -> clamped(23,5) raw=14450 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=12000 | field shows a="23" p="5" | link="BTU: 12000 BTU · 23 m² · 5 kişi/чел./Pers."  [below mid 15000]
+de|SNAP-mid|a="24" p="5" sun=0 -> clamped(24,5) raw=15000 expSnap=12000 obs="12.000" intl(de)="12.000" tie-up-would-be=18000 | field shows a="24" p="5" | link="BTU: 12000 BTU · 24 m² · 5 kişi/чел./Pers."  [EXACT mid 15000 (tie 12000/18000)]
+de|SNAP-mid|a="25" p="5" sun=0 -> clamped(25,5) raw=15550 expSnap=18000 obs="18.000" intl(de)="18.000" tie-up-would-be=18000 | field shows a="25" p="5" | link="BTU: 18000 BTU · 25 m² · 5 kişi/чел./Pers."  [above mid 15000]
+de|SNAP-mid|a="35" p="4" sun=0 -> clamped(35,4) raw=20450 expSnap=18000 obs="18.000" intl(de)="18.000" tie-up-would-be=18000 | field shows a="35" p="4" | link="BTU: 18000 BTU · 35 m² · 4 kişi/чел./Pers."  [below mid 21000]
+de|SNAP-mid|a="36" p="4" sun=0 -> clamped(36,4) raw=21000 expSnap=18000 obs="18.000" intl(de)="18.000" tie-up-would-be=24000 | field shows a="36" p="4" | link="BTU: 18000 BTU · 36 m² · 4 kişi/чел./Pers."  [EXACT mid 21000 (tie 18000/24000)]
+de|SNAP-mid|a="37" p="4" sun=0 -> clamped(37,4) raw=21550 expSnap=24000 obs="24.000" intl(de)="24.000" tie-up-would-be=24000 | field shows a="37" p="4" | link="BTU: 24000 BTU · 37 m² · 4 kişi/чел./Pers."  [above mid 21000]
+de|SNAP-mid|a="47" p="8" sun=0 -> clamped(47,8) raw=29450 expSnap=24000 obs="24.000" intl(de)="24.000" tie-up-would-be=24000 | field shows a="47" p="8" | link="BTU: 24000 BTU · 47 m² · 8 kişi/чел./Pers."  [below mid 30000]
+de|SNAP-mid|a="48" p="8" sun=0 -> clamped(48,8) raw=30000 expSnap=24000 obs="24.000" intl(de)="24.000" tie-up-would-be=36000 | field shows a="48" p="8" | link="BTU: 24000 BTU · 48 m² · 8 kişi/чел./Pers."  [EXACT mid 30000 (tie 24000/36000)]
+de|SNAP-mid|a="49" p="8" sun=0 -> clamped(49,8) raw=30550 expSnap=36000 obs="36.000" intl(de)="36.000" tie-up-would-be=36000 | field shows a="49" p="8" | link="BTU: 36000 BTU · 49 m² · 8 kişi/чел./Pers."  [above mid 30000]
+de|SNAP-mid|a="71" p="6" sun=0 -> clamped(71,6) raw=41450 expSnap=36000 obs="36.000" intl(de)="36.000" tie-up-would-be=36000 | field shows a="71" p="6" | link="BTU: 36000 BTU · 71 m² · 6 kişi/чел./Pers."  [below mid 42000]
+de|SNAP-mid|a="72" p="6" sun=0 -> clamped(72,6) raw=42000 expSnap=36000 obs="36.000" intl(de)="36.000" tie-up-would-be=48000 | field shows a="72" p="6" | link="BTU: 36000 BTU · 72 m² · 6 kişi/чел./Pers."  [EXACT mid 42000 (tie 36000/48000)]
+de|SNAP-mid|a="73" p="6" sun=0 -> clamped(73,6) raw=42550 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="73" p="6" | link="BTU: 48000 BTU · 73 m² · 6 kişi/чел./Pers."  [above mid 42000]
+de|EXTREME|a="6" p="1" sun=0 -> clamped(6,1) raw=3300 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [absolute minimum]
+de|EXTREME|a="6" p="1" sun=1 -> clamped(6,1) raw=3795 expSnap=9000 obs="9.000" intl(de)="9.000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [minimum + sun]
+de|EXTREME|a="200" p="12" sun=0 -> clamped(200,12) raw=116000 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [maximum, no sun]
+de|EXTREME|a="200" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [absolute maximum]
+de|EXTREME|a="500" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="500" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [over max -> silently clamped]
+de|EXTREME|a="87" p="2" sun=0 -> clamped(87,2) raw=47850 expSnap=48000 obs="48.000" intl(de)="48.000" tie-up-would-be=48000 | field shows a="87" p="2" | link="BTU: 48000 BTU · 87 m² · 2 kişi/чел./Pers."  [first area that reaches 48000 step?]
+ru|BVA-area|a="5" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="5" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+ru|BVA-area|a="6" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="6" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+ru|BVA-area|a="7" p="2" sun=0 -> clamped(7,2) raw=3850 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="7" p="2" | link="BTU: 9000 BTU · 7 m² · 2 kişi/чел./Pers."
+ru|BVA-area|a="199" p="2" sun=0 -> clamped(199,2) raw=109450 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="199" p="2" | link="BTU: 48000 BTU · 199 m² · 2 kişi/чел./Pers."
+ru|BVA-area|a="200" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="200" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+ru|BVA-area|a="201" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="201" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+ru|BVA-area-neg|a="0" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="0" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+ru|BVA-area-neg|a="-1" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="-1" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+ru|BVA-area-neg|a="" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+ru|BVA-area-neg|a="1e3" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="1e3" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+ru|BVA-area-neg|a="6.5" p="2" sun=0 -> clamped(6.5,2) raw=3575 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="6.5" p="2" | link="BTU: 9000 BTU · 6.5 m² · 2 kişi/чел./Pers."
+ru|BVA-area-neg|a="5.9999" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="5.9999" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+ru|BVA-people|a="25" p="0" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="25" p="0" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+ru|BVA-people|a="25" p="1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="25" p="1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+ru|BVA-people|a="25" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="25" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+ru|BVA-people|a="25" p="11" sun=0 -> clamped(25,11) raw=19150 expSnap=18000 obs="18.000" intl(ru)="18 000" tie-up-would-be=18000 | field shows a="25" p="11" | link="BTU: 18000 BTU · 25 m² · 11 kişi/чел./Pers."
+ru|BVA-people|a="25" p="12" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(ru)="18 000" tie-up-would-be=18000 | field shows a="25" p="12" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+ru|BVA-people|a="25" p="13" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(ru)="18 000" tie-up-would-be=18000 | field shows a="25" p="13" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+ru|BVA-people-neg|a="25" p="-1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="25" p="-1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+ru|BVA-people-neg|a="25" p="" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="25" p="" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+ru|SNAP-mid|a="17" p="3" sun=0 -> clamped(17,3) raw=9950 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="17" p="3" | link="BTU: 9000 BTU · 17 m² · 3 kişi/чел./Pers."  [below mid 10500]
+ru|SNAP-mid|a="18" p="3" sun=0 -> clamped(18,3) raw=10500 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=12000 | field shows a="18" p="3" | link="BTU: 9000 BTU · 18 m² · 3 kişi/чел./Pers."  [EXACT mid 10500 (tie 9000/12000)]
+ru|SNAP-mid|a="19" p="3" sun=0 -> clamped(19,3) raw=11050 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="19" p="3" | link="BTU: 12000 BTU · 19 m² · 3 kişi/чел./Pers."  [above mid 10500]
+ru|SNAP-mid|a="23" p="5" sun=0 -> clamped(23,5) raw=14450 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=12000 | field shows a="23" p="5" | link="BTU: 12000 BTU · 23 m² · 5 kişi/чел./Pers."  [below mid 15000]
+ru|SNAP-mid|a="24" p="5" sun=0 -> clamped(24,5) raw=15000 expSnap=12000 obs="12.000" intl(ru)="12 000" tie-up-would-be=18000 | field shows a="24" p="5" | link="BTU: 12000 BTU · 24 m² · 5 kişi/чел./Pers."  [EXACT mid 15000 (tie 12000/18000)]
+ru|SNAP-mid|a="25" p="5" sun=0 -> clamped(25,5) raw=15550 expSnap=18000 obs="18.000" intl(ru)="18 000" tie-up-would-be=18000 | field shows a="25" p="5" | link="BTU: 18000 BTU · 25 m² · 5 kişi/чел./Pers."  [above mid 15000]
+ru|SNAP-mid|a="35" p="4" sun=0 -> clamped(35,4) raw=20450 expSnap=18000 obs="18.000" intl(ru)="18 000" tie-up-would-be=18000 | field shows a="35" p="4" | link="BTU: 18000 BTU · 35 m² · 4 kişi/чел./Pers."  [below mid 21000]
+ru|SNAP-mid|a="36" p="4" sun=0 -> clamped(36,4) raw=21000 expSnap=18000 obs="18.000" intl(ru)="18 000" tie-up-would-be=24000 | field shows a="36" p="4" | link="BTU: 18000 BTU · 36 m² · 4 kişi/чел./Pers."  [EXACT mid 21000 (tie 18000/24000)]
+ru|SNAP-mid|a="37" p="4" sun=0 -> clamped(37,4) raw=21550 expSnap=24000 obs="24.000" intl(ru)="24 000" tie-up-would-be=24000 | field shows a="37" p="4" | link="BTU: 24000 BTU · 37 m² · 4 kişi/чел./Pers."  [above mid 21000]
+ru|SNAP-mid|a="47" p="8" sun=0 -> clamped(47,8) raw=29450 expSnap=24000 obs="24.000" intl(ru)="24 000" tie-up-would-be=24000 | field shows a="47" p="8" | link="BTU: 24000 BTU · 47 m² · 8 kişi/чел./Pers."  [below mid 30000]
+ru|SNAP-mid|a="48" p="8" sun=0 -> clamped(48,8) raw=30000 expSnap=24000 obs="24.000" intl(ru)="24 000" tie-up-would-be=36000 | field shows a="48" p="8" | link="BTU: 24000 BTU · 48 m² · 8 kişi/чел./Pers."  [EXACT mid 30000 (tie 24000/36000)]
+ru|SNAP-mid|a="49" p="8" sun=0 -> clamped(49,8) raw=30550 expSnap=36000 obs="36.000" intl(ru)="36 000" tie-up-would-be=36000 | field shows a="49" p="8" | link="BTU: 36000 BTU · 49 m² · 8 kişi/чел./Pers."  [above mid 30000]
+ru|SNAP-mid|a="71" p="6" sun=0 -> clamped(71,6) raw=41450 expSnap=36000 obs="36.000" intl(ru)="36 000" tie-up-would-be=36000 | field shows a="71" p="6" | link="BTU: 36000 BTU · 71 m² · 6 kişi/чел./Pers."  [below mid 42000]
+ru|SNAP-mid|a="72" p="6" sun=0 -> clamped(72,6) raw=42000 expSnap=36000 obs="36.000" intl(ru)="36 000" tie-up-would-be=48000 | field shows a="72" p="6" | link="BTU: 36000 BTU · 72 m² · 6 kişi/чел./Pers."  [EXACT mid 42000 (tie 36000/48000)]
+ru|SNAP-mid|a="73" p="6" sun=0 -> clamped(73,6) raw=42550 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="73" p="6" | link="BTU: 48000 BTU · 73 m² · 6 kişi/чел./Pers."  [above mid 42000]
+ru|EXTREME|a="6" p="1" sun=0 -> clamped(6,1) raw=3300 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [absolute minimum]
+ru|EXTREME|a="6" p="1" sun=1 -> clamped(6,1) raw=3795 expSnap=9000 obs="9.000" intl(ru)="9 000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [minimum + sun]
+ru|EXTREME|a="200" p="12" sun=0 -> clamped(200,12) raw=116000 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [maximum, no sun]
+ru|EXTREME|a="200" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [absolute maximum]
+ru|EXTREME|a="500" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="500" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [over max -> silently clamped]
+ru|EXTREME|a="87" p="2" sun=0 -> clamped(87,2) raw=47850 expSnap=48000 obs="48.000" intl(ru)="48 000" tie-up-would-be=48000 | field shows a="87" p="2" | link="BTU: 48000 BTU · 87 m² · 2 kişi/чел./Pers."  [first area that reaches 48000 step?]
+en|BVA-area|a="5" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="5" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+en|BVA-area|a="6" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="6" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+en|BVA-area|a="7" p="2" sun=0 -> clamped(7,2) raw=3850 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="7" p="2" | link="BTU: 9000 BTU · 7 m² · 2 kişi/чел./Pers."
+en|BVA-area|a="199" p="2" sun=0 -> clamped(199,2) raw=109450 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="199" p="2" | link="BTU: 48000 BTU · 199 m² · 2 kişi/чел./Pers."
+en|BVA-area|a="200" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="200" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+en|BVA-area|a="201" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="201" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+en|BVA-area-neg|a="0" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="0" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+en|BVA-area-neg|a="-1" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="-1" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+en|BVA-area-neg|a="" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+en|BVA-area-neg|a="1e3" p="2" sun=0 -> clamped(200,2) raw=110000 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="1e3" p="2" | link="BTU: 48000 BTU · 200 m² · 2 kişi/чел./Pers."
+en|BVA-area-neg|a="6.5" p="2" sun=0 -> clamped(6.5,2) raw=3575 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="6.5" p="2" | link="BTU: 9000 BTU · 6.5 m² · 2 kişi/чел./Pers."
+en|BVA-area-neg|a="5.9999" p="2" sun=0 -> clamped(6,2) raw=3300 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="5.9999" p="2" | link="BTU: 9000 BTU · 6 m² · 2 kişi/чел./Pers."
+en|BVA-people|a="25" p="0" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="25" p="0" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+en|BVA-people|a="25" p="1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="25" p="1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+en|BVA-people|a="25" p="2" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="25" p="2" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+en|BVA-people|a="25" p="11" sun=0 -> clamped(25,11) raw=19150 expSnap=18000 obs="18.000" intl(en)="18,000" tie-up-would-be=18000 | field shows a="25" p="11" | link="BTU: 18000 BTU · 25 m² · 11 kişi/чел./Pers."
+en|BVA-people|a="25" p="12" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(en)="18,000" tie-up-would-be=18000 | field shows a="25" p="12" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+en|BVA-people|a="25" p="13" sun=0 -> clamped(25,12) raw=19750 expSnap=18000 obs="18.000" intl(en)="18,000" tie-up-would-be=18000 | field shows a="25" p="13" | link="BTU: 18000 BTU · 25 m² · 12 kişi/чел./Pers."
+en|BVA-people-neg|a="25" p="-1" sun=0 -> clamped(25,1) raw=13750 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="25" p="-1" | link="BTU: 12000 BTU · 25 m² · 1 kişi/чел./Pers."
+en|BVA-people-neg|a="25" p="" sun=0 -> clamped(25,2) raw=13750 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="25" p="" | link="BTU: 12000 BTU · 25 m² · 2 kişi/чел./Pers."
+en|SNAP-mid|a="17" p="3" sun=0 -> clamped(17,3) raw=9950 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="17" p="3" | link="BTU: 9000 BTU · 17 m² · 3 kişi/чел./Pers."  [below mid 10500]
+en|SNAP-mid|a="18" p="3" sun=0 -> clamped(18,3) raw=10500 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=12000 | field shows a="18" p="3" | link="BTU: 9000 BTU · 18 m² · 3 kişi/чел./Pers."  [EXACT mid 10500 (tie 9000/12000)]
+en|SNAP-mid|a="19" p="3" sun=0 -> clamped(19,3) raw=11050 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="19" p="3" | link="BTU: 12000 BTU · 19 m² · 3 kişi/чел./Pers."  [above mid 10500]
+en|SNAP-mid|a="23" p="5" sun=0 -> clamped(23,5) raw=14450 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=12000 | field shows a="23" p="5" | link="BTU: 12000 BTU · 23 m² · 5 kişi/чел./Pers."  [below mid 15000]
+en|SNAP-mid|a="24" p="5" sun=0 -> clamped(24,5) raw=15000 expSnap=12000 obs="12.000" intl(en)="12,000" tie-up-would-be=18000 | field shows a="24" p="5" | link="BTU: 12000 BTU · 24 m² · 5 kişi/чел./Pers."  [EXACT mid 15000 (tie 12000/18000)]
+en|SNAP-mid|a="25" p="5" sun=0 -> clamped(25,5) raw=15550 expSnap=18000 obs="18.000" intl(en)="18,000" tie-up-would-be=18000 | field shows a="25" p="5" | link="BTU: 18000 BTU · 25 m² · 5 kişi/чел./Pers."  [above mid 15000]
+en|SNAP-mid|a="35" p="4" sun=0 -> clamped(35,4) raw=20450 expSnap=18000 obs="18.000" intl(en)="18,000" tie-up-would-be=18000 | field shows a="35" p="4" | link="BTU: 18000 BTU · 35 m² · 4 kişi/чел./Pers."  [below mid 21000]
+en|SNAP-mid|a="36" p="4" sun=0 -> clamped(36,4) raw=21000 expSnap=18000 obs="18.000" intl(en)="18,000" tie-up-would-be=24000 | field shows a="36" p="4" | link="BTU: 18000 BTU · 36 m² · 4 kişi/чел./Pers."  [EXACT mid 21000 (tie 18000/24000)]
+en|SNAP-mid|a="37" p="4" sun=0 -> clamped(37,4) raw=21550 expSnap=24000 obs="24.000" intl(en)="24,000" tie-up-would-be=24000 | field shows a="37" p="4" | link="BTU: 24000 BTU · 37 m² · 4 kişi/чел./Pers."  [above mid 21000]
+en|SNAP-mid|a="47" p="8" sun=0 -> clamped(47,8) raw=29450 expSnap=24000 obs="24.000" intl(en)="24,000" tie-up-would-be=24000 | field shows a="47" p="8" | link="BTU: 24000 BTU · 47 m² · 8 kişi/чел./Pers."  [below mid 30000]
+en|SNAP-mid|a="48" p="8" sun=0 -> clamped(48,8) raw=30000 expSnap=24000 obs="24.000" intl(en)="24,000" tie-up-would-be=36000 | field shows a="48" p="8" | link="BTU: 24000 BTU · 48 m² · 8 kişi/чел./Pers."  [EXACT mid 30000 (tie 24000/36000)]
+en|SNAP-mid|a="49" p="8" sun=0 -> clamped(49,8) raw=30550 expSnap=36000 obs="36.000" intl(en)="36,000" tie-up-would-be=36000 | field shows a="49" p="8" | link="BTU: 36000 BTU · 49 m² · 8 kişi/чел./Pers."  [above mid 30000]
+en|SNAP-mid|a="71" p="6" sun=0 -> clamped(71,6) raw=41450 expSnap=36000 obs="36.000" intl(en)="36,000" tie-up-would-be=36000 | field shows a="71" p="6" | link="BTU: 36000 BTU · 71 m² · 6 kişi/чел./Pers."  [below mid 42000]
+en|SNAP-mid|a="72" p="6" sun=0 -> clamped(72,6) raw=42000 expSnap=36000 obs="36.000" intl(en)="36,000" tie-up-would-be=48000 | field shows a="72" p="6" | link="BTU: 36000 BTU · 72 m² · 6 kişi/чел./Pers."  [EXACT mid 42000 (tie 36000/48000)]
+en|SNAP-mid|a="73" p="6" sun=0 -> clamped(73,6) raw=42550 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="73" p="6" | link="BTU: 48000 BTU · 73 m² · 6 kişi/чел./Pers."  [above mid 42000]
+en|EXTREME|a="6" p="1" sun=0 -> clamped(6,1) raw=3300 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [absolute minimum]
+en|EXTREME|a="6" p="1" sun=1 -> clamped(6,1) raw=3795 expSnap=9000 obs="9.000" intl(en)="9,000" tie-up-would-be=9000 | field shows a="6" p="1" | link="BTU: 9000 BTU · 6 m² · 1 kişi/чел./Pers."  [minimum + sun]
+en|EXTREME|a="200" p="12" sun=0 -> clamped(200,12) raw=116000 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [maximum, no sun]
+en|EXTREME|a="200" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="200" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [absolute maximum]
+en|EXTREME|a="500" p="12" sun=1 -> clamped(200,12) raw=133400 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="500" p="12" | link="BTU: 48000 BTU · 200 m² · 12 kişi/чел./Pers."  [over max -> silently clamped]
+en|EXTREME|a="87" p="2" sun=0 -> clamped(87,2) raw=47850 expSnap=48000 obs="48.000" intl(en)="48,000" tie-up-would-be=48000 | field shows a="87" p="2" | link="BTU: 48000 BTU · 87 m² · 2 kişi/чел./Pers."  [first area that reaches 48000 step?]
+
+=== SSR (pre-JS) VALUES PER LOCALE ===
+tr (lang=tr): #cbtu SSR="12.000"  rating SSR="★ 5,0"  reviewN SSR="65"
+de (lang=de): #cbtu SSR="12.000"  rating SSR="★ 5,0"  reviewN SSR="65"
+ru (lang=ru): #cbtu SSR="12.000"  rating SSR="★ 5,0"  reviewN SSR="65"
+en (lang=en): #cbtu SSR="12.000"  rating SSR="★ 5,0"  reviewN SSR="65"
+
+=== MISMATCH: rendered output vs locale-correct Intl ===
+  ru: value 9000 rendered as "9.000" — locale-correct would be "9 000"
+  ru: value 48000 rendered as "48.000" — locale-correct would be "48 000"
+  ru: value 12000 rendered as "12.000" — locale-correct would be "12 000"
+  ru: value 18000 rendered as "18.000" — locale-correct would be "18 000"
+  ru: value 24000 rendered as "24.000" — locale-correct would be "24 000"
+  ru: value 36000 rendered as "36.000" — locale-correct would be "36 000"
+  en: value 9000 rendered as "9.000" — locale-correct would be "9,000"
+  en: value 48000 rendered as "48.000" — locale-correct would be "48,000"
+  en: value 12000 rendered as "12.000" — locale-correct would be "12,000"
+  en: value 18000 rendered as "18.000" — locale-correct would be "18,000"
+  en: value 24000 rendered as "24.000" — locale-correct would be "24,000"
+  en: value 36000 rendered as "36.000" — locale-correct would be "36,000"
+  total mismatching cases: 82/164
+
+=== TIE-BREAK DIRECTION AT EXACT MIDPOINTS ===
+  tr: a=18 p=3 raw=10500 -> shown 9000 (down); nearest-up would be 12000; observed text "9.000"
+  tr: a=24 p=5 raw=15000 -> shown 12000 (down); nearest-up would be 18000; observed text "12.000"
+  tr: a=36 p=4 raw=21000 -> shown 18000 (down); nearest-up would be 24000; observed text "18.000"
+  tr: a=48 p=8 raw=30000 -> shown 24000 (down); nearest-up would be 36000; observed text "24.000"
+  tr: a=72 p=6 raw=42000 -> shown 36000 (down); nearest-up would be 48000; observed text "36.000"
+  de: a=18 p=3 raw=10500 -> shown 9000 (down); nearest-up would be 12000; observed text "9.000"
+  de: a=24 p=5 raw=15000 -> shown 12000 (down); nearest-up would be 18000; observed text "12.000"
+  de: a=36 p=4 raw=21000 -> shown 18000 (down); nearest-up would be 24000; observed text "18.000"
+  de: a=48 p=8 raw=30000 -> shown 24000 (down); nearest-up would be 36000; observed text "24.000"
+  de: a=72 p=6 raw=42000 -> shown 36000 (down); nearest-up would be 48000; observed text "36.000"
+  ru: a=18 p=3 raw=10500 -> shown 9000 (down); nearest-up would be 12000; observed text "9.000"
+  ru: a=24 p=5 raw=15000 -> shown 12000 (down); nearest-up would be 18000; observed text "12.000"
+  ru: a=36 p=4 raw=21000 -> shown 18000 (down); nearest-up would be 24000; observed text "18.000"
+  ru: a=48 p=8 raw=30000 -> shown 24000 (down); nearest-up would be 36000; observed text "24.000"
+  ru: a=72 p=6 raw=42000 -> shown 36000 (down); nearest-up would be 48000; observed text "36.000"
+  en: a=18 p=3 raw=10500 -> shown 9000 (down); nearest-up would be 12000; observed text "9.000"
+  en: a=24 p=5 raw=15000 -> shown 12000 (down); nearest-up would be 18000; observed text "12.000"
+  en: a=36 p=4 raw=21000 -> shown 18000 (down); nearest-up would be 24000; observed text "18.000"
+  en: a=48 p=8 raw=30000 -> shown 24000 (down); nearest-up would be 36000; observed text "24.000"
+  en: a=72 p=6 raw=42000 -> shown 36000 (down); nearest-up would be 48000; observed text "36.000"
+
+=== SATURATION ===
+  tr: in(6,1,sun=0) raw=3300 -> 9000  shortfall=-5700 BTU (-172.7%)
+  tr: in(6,1,sun=1) raw=3795 -> 9000  shortfall=-5205 BTU (-137.2%)
+  tr: in(200,12,sun=0) raw=116000 -> 48000  shortfall=68000 BTU (58.6%)
+  tr: in(200,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  tr: in(500,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  tr: in(87,2,sun=0) raw=47850 -> 48000  shortfall=-150 BTU (-0.3%)
+  de: in(6,1,sun=0) raw=3300 -> 9000  shortfall=-5700 BTU (-172.7%)
+  de: in(6,1,sun=1) raw=3795 -> 9000  shortfall=-5205 BTU (-137.2%)
+  de: in(200,12,sun=0) raw=116000 -> 48000  shortfall=68000 BTU (58.6%)
+  de: in(200,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  de: in(500,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  de: in(87,2,sun=0) raw=47850 -> 48000  shortfall=-150 BTU (-0.3%)
+  ru: in(6,1,sun=0) raw=3300 -> 9000  shortfall=-5700 BTU (-172.7%)
+  ru: in(6,1,sun=1) raw=3795 -> 9000  shortfall=-5205 BTU (-137.2%)
+  ru: in(200,12,sun=0) raw=116000 -> 48000  shortfall=68000 BTU (58.6%)
+  ru: in(200,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  ru: in(500,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  ru: in(87,2,sun=0) raw=47850 -> 48000  shortfall=-150 BTU (-0.3%)
+  en: in(6,1,sun=0) raw=3300 -> 9000  shortfall=-5700 BTU (-172.7%)
+  en: in(6,1,sun=1) raw=3795 -> 9000  shortfall=-5205 BTU (-137.2%)
+  en: in(200,12,sun=0) raw=116000 -> 48000  shortfall=68000 BTU (58.6%)
+  en: in(200,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  en: in(500,12,sun=1) raw=133400 -> 48000  shortfall=85400 BTU (64.0%)
+  en: in(87,2,sun=0) raw=47850 -> 48000  shortfall=-150 BTU (-0.3%)
+
+=== CONSOLE ERRORS ===
+(none)

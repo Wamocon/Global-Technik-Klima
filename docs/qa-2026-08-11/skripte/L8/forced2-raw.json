@@ -1,0 +1,242 @@
+{
+  "run1": {
+    "h1": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 692,
+      "h": 205
+    },
+    "h1span": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "blur(0px)",
+      "w": 692,
+      "h": 94
+    },
+    "claim": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 415,
+      "h": 84
+    },
+    "cta": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 171,
+      "h": 50
+    },
+    "blogo": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "url(\"http://localhost:4321/images/logo-light",
+      "opacity": "1",
+      "filter": "none",
+      "w": 96,
+      "h": 34
+    },
+    "logoDarkRuleApplies": "url(\"http://localhost:4321/images/logo-light.png\")",
+    "toggleOn": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 78,
+      "h": 44
+    },
+    "toggleOff": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 69,
+      "h": 44
+    },
+    "langOn": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 36,
+      "h": 34
+    },
+    "langOff": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 37,
+      "h": 34
+    },
+    "forcedMQ": true,
+    "anyForcedColorsMediaQuery": 0,
+    "logoAreaTopColours": [
+      {
+        "c": [
+          255,
+          255,
+          255
+        ],
+        "n": 3113
+      },
+      {
+        "c": [
+          253,
+          254,
+          254
+        ],
+        "n": 62
+      },
+      {
+        "c": [
+          254,
+          254,
+          254
+        ],
+        "n": 59
+      },
+      {
+        "c": [
+          254,
+          255,
+          255
+        ],
+        "n": 58
+      }
+    ]
+  },
+  "run2": {
+    "h1": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 692,
+      "h": 205
+    },
+    "h1span": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "blur(0px)",
+      "w": 692,
+      "h": 94
+    },
+    "claim": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 415,
+      "h": 84
+    },
+    "cta": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 171,
+      "h": 50
+    },
+    "blogo": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "url(\"http://localhost:4321/images/logo-light",
+      "opacity": "1",
+      "filter": "none",
+      "w": 96,
+      "h": 34
+    },
+    "logoDarkRuleApplies": "url(\"http://localhost:4321/images/logo-light.png\")",
+    "toggleOn": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 78,
+      "h": 44
+    },
+    "toggleOff": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 69,
+      "h": 44
+    },
+    "langOn": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 36,
+      "h": 34
+    },
+    "langOff": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgba(255, 255, 255, 0)",
+      "bgImage": "none",
+      "opacity": "1",
+      "filter": "none",
+      "w": 37,
+      "h": 34
+    },
+    "forcedMQ": true,
+    "anyForcedColorsMediaQuery": 0,
+    "logoAreaTopColours": [
+      {
+        "c": [
+          255,
+          255,
+          255
+        ],
+        "n": 3113
+      },
+      {
+        "c": [
+          253,
+          254,
+          254
+        ],
+        "n": 62
+      },
+      {
+        "c": [
+          254,
+          254,
+          254
+        ],
+        "n": 59
+      },
+      {
+        "c": [
+          254,
+          255,
+          255
+        ],
+        "n": 58
+      }
+    ]
+  }
+}

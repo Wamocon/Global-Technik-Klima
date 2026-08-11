@@ -1,0 +1,931 @@
+{
+ "aAgg": {
+  "1": [
+   {
+    "wall": 27,
+    "lat": [
+     27
+    ],
+    "bytes": 62484,
+    "fails": 0
+   },
+   {
+    "wall": 5,
+    "lat": [
+     5
+    ],
+    "bytes": 62484,
+    "fails": 0
+   },
+   {
+    "wall": 4,
+    "lat": [
+     4
+    ],
+    "bytes": 62484,
+    "fails": 0
+   }
+  ],
+  "8": [
+   {
+    "wall": 18,
+    "lat": [
+     7,
+     17,
+     17,
+     17,
+     16,
+     16,
+     16,
+     16
+    ],
+    "bytes": 499872,
+    "fails": 0
+   },
+   {
+    "wall": 16,
+    "lat": [
+     15,
+     14,
+     14,
+     15,
+     15,
+     15,
+     15,
+     15
+    ],
+    "bytes": 499872,
+    "fails": 0
+   },
+   {
+    "wall": 14,
+    "lat": [
+     13,
+     13,
+     12,
+     12,
+     13,
+     13,
+     13,
+     13
+    ],
+    "bytes": 499872,
+    "fails": 0
+   }
+  ],
+  "16": [
+   {
+    "wall": 21,
+    "lat": [
+     12,
+     12,
+     12,
+     11,
+     12,
+     12,
+     12,
+     13,
+     20,
+     19,
+     20,
+     19,
+     18,
+     18,
+     18,
+     18
+    ],
+    "bytes": 999744,
+    "fails": 0
+   },
+   {
+    "wall": 18,
+    "lat": [
+     16,
+     17,
+     18,
+     17,
+     17,
+     17,
+     18,
+     18,
+     18,
+     18,
+     17,
+     17,
+     17,
+     17,
+     17,
+     17
+    ],
+    "bytes": 999744,
+    "fails": 0
+   },
+   {
+    "wall": 17,
+    "lat": [
+     16,
+     15,
+     15,
+     15,
+     15,
+     15,
+     16,
+     16,
+     16,
+     16,
+     16,
+     16,
+     16,
+     16,
+     15,
+     15
+    ],
+    "bytes": 999744,
+    "fails": 0
+   }
+  ],
+  "32": [
+   {
+    "wall": 36,
+    "lat": [
+     20,
+     19,
+     19,
+     19,
+     19,
+     19,
+     19,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     22,
+     21,
+     29,
+     33,
+     33,
+     33,
+     33,
+     33,
+     33,
+     33,
+     31,
+     31,
+     31,
+     31,
+     32,
+     34,
+     33,
+     34,
+     34
+    ],
+    "bytes": 1999488,
+    "fails": 0
+   },
+   {
+    "wall": 40,
+    "lat": [
+     35,
+     36,
+     36,
+     36,
+     36,
+     37,
+     36,
+     37,
+     37,
+     37,
+     36,
+     36,
+     36,
+     36,
+     37,
+     38,
+     38,
+     38,
+     38,
+     38,
+     38,
+     38,
+     39,
+     38,
+     37,
+     38,
+     38,
+     38,
+     38,
+     38,
+     38,
+     38
+    ],
+    "bytes": 1999488,
+    "fails": 0
+   },
+   {
+    "wall": 39,
+    "lat": [
+     32,
+     31,
+     31,
+     32,
+     32,
+     32,
+     33,
+     33,
+     36,
+     36,
+     36,
+     36,
+     37,
+     36,
+     37,
+     36,
+     36,
+     36,
+     36,
+     36,
+     36,
+     36,
+     36,
+     36,
+     36,
+     35,
+     37,
+     36,
+     36,
+     37,
+     36,
+     36
+    ],
+    "bytes": 1999488,
+    "fails": 0
+   }
+  ]
+ },
+ "cRes": [
+  {
+   "v": {
+    "mock": false,
+    "mode": "burst"
+   },
+   "rs": [
+    {
+     "mode": "burst",
+     "mock": false,
+     "wall": 510,
+     "lat": [],
+     "apiCalls": 1,
+     "out": {
+      "total": 4,
+      "me": [
+       "mesaj-01 40 m2 salon klima"
+      ],
+      "bot": 2,
+      "wa": 1,
+      "nodes": 596,
+      "sent": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ]
+     },
+     "heap0": 3164660,
+     "heap1": 3108456,
+     "n0": 590,
+     "errs": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+     ]
+    },
+    {
+     "mode": "burst",
+     "mock": false,
+     "wall": 515,
+     "lat": [],
+     "apiCalls": 1,
+     "out": {
+      "total": 4,
+      "me": [
+       "mesaj-01 40 m2 salon klima"
+      ],
+      "bot": 2,
+      "wa": 1,
+      "nodes": 596,
+      "sent": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ]
+     },
+     "heap0": 3156348,
+     "heap1": 3107840,
+     "n0": 590,
+     "errs": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+     ]
+    },
+    {
+     "mode": "burst",
+     "mock": false,
+     "wall": 519,
+     "lat": [],
+     "apiCalls": 1,
+     "out": {
+      "total": 4,
+      "me": [
+       "mesaj-01 40 m2 salon klima"
+      ],
+      "bot": 2,
+      "wa": 1,
+      "nodes": 596,
+      "sent": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ]
+     },
+     "heap0": 3047816,
+     "heap1": 3104596,
+     "n0": 590,
+     "errs": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+     ]
+    }
+   ]
+  },
+  {
+   "v": {
+    "mock": false,
+    "mode": "serial"
+   },
+   "rs": [
+    {
+     "mode": "serial",
+     "mock": false,
+     "wall": 5959,
+     "lat": [
+      307,
+      299,
+      298,
+      299,
+      297,
+      298,
+      298,
+      299,
+      298,
+      298,
+      298,
+      298,
+      299,
+      281,
+      297,
+      284,
+      297,
+      283,
+      298,
+      298
+     ],
+     "apiCalls": 20,
+     "out": {
+      "total": 61,
+      "me": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ],
+      "bot": 21,
+      "wa": 20,
+      "nodes": 710,
+      "sent": null
+     },
+     "heap0": 3155992,
+     "heap1": 3235360,
+     "n0": 590,
+     "errs": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+     ]
+    },
+    {
+     "mode": "serial",
+     "mock": false,
+     "wall": 5928,
+     "lat": [
+      310,
+      298,
+      299,
+      300,
+      282,
+      297,
+      282,
+      282,
+      297,
+      298,
+      298,
+      299,
+      298,
+      300,
+      298,
+      297,
+      298,
+      298,
+      281,
+      282
+     ],
+     "apiCalls": 20,
+     "out": {
+      "total": 61,
+      "me": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ],
+      "bot": 21,
+      "wa": 20,
+      "nodes": 710,
+      "sent": null
+     },
+     "heap0": 3156356,
+     "heap1": 3235168,
+     "n0": 590,
+     "errs": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+     ]
+    },
+    {
+     "mode": "serial",
+     "mock": false,
+     "wall": 5933,
+     "lat": [
+      282,
+      298,
+      299,
+      299,
+      298,
+      298,
+      298,
+      299,
+      300,
+      297,
+      297,
+      282,
+      297,
+      282,
+      299,
+      298,
+      299,
+      282,
+      299,
+      298
+     ],
+     "apiCalls": 20,
+     "out": {
+      "total": 61,
+      "me": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ],
+      "bot": 21,
+      "wa": 20,
+      "nodes": 710,
+      "sent": null
+     },
+     "heap0": 3047980,
+     "heap1": 3235912,
+     "n0": 590,
+     "errs": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+     ]
+    }
+   ]
+  },
+  {
+   "v": {
+    "mock": true,
+    "mode": "burst"
+   },
+   "rs": [
+    {
+     "mode": "burst",
+     "mock": true,
+     "wall": 508,
+     "lat": [],
+     "apiCalls": 1,
+     "out": {
+      "total": 4,
+      "me": [
+       "mesaj-01 40 m2 salon klima"
+      ],
+      "bot": 2,
+      "wa": 1,
+      "nodes": 596,
+      "sent": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ]
+     },
+     "heap0": 3062672,
+     "heap1": 3109612,
+     "n0": 590,
+     "errs": []
+    },
+    {
+     "mode": "burst",
+     "mock": true,
+     "wall": 506,
+     "lat": [],
+     "apiCalls": 1,
+     "out": {
+      "total": 4,
+      "me": [
+       "mesaj-01 40 m2 salon klima"
+      ],
+      "bot": 2,
+      "wa": 1,
+      "nodes": 596,
+      "sent": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ]
+     },
+     "heap0": 3156480,
+     "heap1": 3180188,
+     "n0": 590,
+     "errs": []
+    },
+    {
+     "mode": "burst",
+     "mock": true,
+     "wall": 511,
+     "lat": [],
+     "apiCalls": 1,
+     "out": {
+      "total": 4,
+      "me": [
+       "mesaj-01 40 m2 salon klima"
+      ],
+      "bot": 2,
+      "wa": 1,
+      "nodes": 596,
+      "sent": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ]
+     },
+     "heap0": 3156184,
+     "heap1": 3086848,
+     "n0": 590,
+     "errs": []
+    }
+   ]
+  },
+  {
+   "v": {
+    "mock": true,
+    "mode": "serial"
+   },
+   "rs": [
+    {
+     "mode": "serial",
+     "mock": true,
+     "wall": 5928,
+     "lat": [
+      295,
+      297,
+      299,
+      299,
+      281,
+      298,
+      298,
+      299,
+      298,
+      298,
+      282,
+      282,
+      298,
+      297,
+      300,
+      297,
+      299,
+      300,
+      281,
+      297
+     ],
+     "apiCalls": 20,
+     "out": {
+      "total": 61,
+      "me": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ],
+      "bot": 21,
+      "wa": 20,
+      "nodes": 710,
+      "sent": null
+     },
+     "heap0": 3155992,
+     "heap1": 3220616,
+     "n0": 590,
+     "errs": []
+    },
+    {
+     "mode": "serial",
+     "mock": true,
+     "wall": 5932,
+     "lat": [
+      298,
+      299,
+      299,
+      300,
+      298,
+      281,
+      283,
+      298,
+      298,
+      299,
+      297,
+      297,
+      283,
+      281,
+      299,
+      300,
+      297,
+      299,
+      297,
+      299
+     ],
+     "apiCalls": 20,
+     "out": {
+      "total": 61,
+      "me": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ],
+      "bot": 21,
+      "wa": 20,
+      "nodes": 710,
+      "sent": null
+     },
+     "heap0": 3062936,
+     "heap1": 3263080,
+     "n0": 590,
+     "errs": []
+    },
+    {
+     "mode": "serial",
+     "mock": true,
+     "wall": 5997,
+     "lat": [
+      296,
+      299,
+      298,
+      298,
+      297,
+      299,
+      298,
+      299,
+      298,
+      299,
+      298,
+      300,
+      298,
+      296,
+      300,
+      297,
+      299,
+      297,
+      300,
+      298
+     ],
+     "apiCalls": 20,
+     "out": {
+      "total": 61,
+      "me": [
+       "mesaj-01 40 m2 salon klima",
+       "mesaj-02 40 m2 salon klima",
+       "mesaj-03 40 m2 salon klima",
+       "mesaj-04 40 m2 salon klima",
+       "mesaj-05 40 m2 salon klima",
+       "mesaj-06 40 m2 salon klima",
+       "mesaj-07 40 m2 salon klima",
+       "mesaj-08 40 m2 salon klima",
+       "mesaj-09 40 m2 salon klima",
+       "mesaj-10 40 m2 salon klima",
+       "mesaj-11 40 m2 salon klima",
+       "mesaj-12 40 m2 salon klima",
+       "mesaj-13 40 m2 salon klima",
+       "mesaj-14 40 m2 salon klima",
+       "mesaj-15 40 m2 salon klima",
+       "mesaj-16 40 m2 salon klima",
+       "mesaj-17 40 m2 salon klima",
+       "mesaj-18 40 m2 salon klima",
+       "mesaj-19 40 m2 salon klima",
+       "mesaj-20 40 m2 salon klima"
+      ],
+      "bot": 21,
+      "wa": 20,
+      "nodes": 710,
+      "sent": null
+     },
+     "heap0": 3156356,
+     "heap1": 3220784,
+     "n0": 590,
+     "errs": []
+    }
+   ]
+  }
+ ]
+}

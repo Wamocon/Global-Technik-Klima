@@ -1,0 +1,566 @@
+{
+  "kicker": {
+    "dark/desktop": {
+      "randevu kicker": {
+        "bg": [
+          20,
+          17,
+          18
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "11.52px",
+        "text": "Randevu / Ücretsiz Keşif"
+      },
+      "projeler kicker": {
+        "bg": [
+          15,
+          21,
+          21
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "11.52px",
+        "text": "Projeler ve İşletmeler"
+      },
+      "step-n": {
+        "bg": [
+          16,
+          13,
+          11
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "16.8px",
+        "text": "01"
+      },
+      "crow lab": {
+        "bg": [
+          23,
+          18,
+          15
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "10.56px",
+        "text": "Hemen arayın"
+      }
+    },
+    "light/desktop": {
+      "randevu kicker": {
+        "bg": [
+          231,
+          226,
+          220
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "11.52px",
+        "text": "Randevu / Ücretsiz Keşif"
+      },
+      "projeler kicker": {
+        "bg": [
+          233,
+          233,
+          229
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "11.52px",
+        "text": "Projeler ve İşletmeler"
+      },
+      "step-n": {
+        "bg": [
+          246,
+          243,
+          238
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "16.8px",
+        "text": "01"
+      },
+      "crow lab": {
+        "bg": [
+          255,
+          253,
+          249
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "10.56px",
+        "text": "Hemen arayın"
+      }
+    },
+    "dark/mobile": {
+      "randevu kicker": {
+        "bg": [
+          20,
+          19,
+          24
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "11.52px",
+        "text": "Randevu / Ücretsiz Keşif"
+      },
+      "projeler kicker": {
+        "bg": [
+          14,
+          21,
+          22
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "11.52px",
+        "text": "Projeler ve İşletmeler"
+      },
+      "step-n": {
+        "bg": [
+          16,
+          13,
+          11
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "16.8px",
+        "text": "01"
+      },
+      "crow lab": {
+        "bg": [
+          23,
+          18,
+          15
+        ],
+        "color": "rgb(217, 194, 122)",
+        "fontSize": "10.56px",
+        "text": "Hemen arayın"
+      }
+    },
+    "light/mobile": {
+      "randevu kicker": {
+        "bg": [
+          227,
+          222,
+          218
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "11.52px",
+        "text": "Randevu / Ücretsiz Keşif"
+      },
+      "projeler kicker": {
+        "bg": [
+          230,
+          230,
+          227
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "11.52px",
+        "text": "Projeler ve İşletmeler"
+      },
+      "step-n": {
+        "bg": [
+          246,
+          243,
+          238
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "16.8px",
+        "text": "01"
+      },
+      "crow lab": {
+        "bg": [
+          255,
+          253,
+          249
+        ],
+        "color": "rgb(122, 95, 20)",
+        "fontSize": "10.56px",
+        "text": "Hemen arayın"
+      }
+    }
+  },
+  "themeToggle": {
+    "asDark": {
+      "role": "button",
+      "name": "Temayı değiştir",
+      "props": "invalid=\"false\" focusable=true"
+    },
+    "asLight": {
+      "role": "button",
+      "name": "Temayı değiştir",
+      "props": "invalid=\"false\" focusable=true focused=true"
+    },
+    "iconOnly": {
+      "sun": "block",
+      "moon": "none"
+    }
+  },
+  "langLinks": [
+    {
+      "text": "TR",
+      "lang": null,
+      "hreflang": "tr",
+      "ariaCurrent": "page",
+      "href": "/"
+    },
+    {
+      "text": "DE",
+      "lang": null,
+      "hreflang": "de",
+      "ariaCurrent": null,
+      "href": "/de"
+    },
+    {
+      "text": "RU",
+      "lang": null,
+      "hreflang": "ru",
+      "ariaCurrent": null,
+      "href": "/ru"
+    },
+    {
+      "text": "EN",
+      "lang": null,
+      "hreflang": "en",
+      "ariaCurrent": null,
+      "href": "/en"
+    }
+  ],
+  "borders": {
+    "dark": {
+      "name input": {
+        "cssBorder": "solid 1px rgba(217, 194, 122, 0.32)",
+        "outside": [
+          25,
+          27,
+          37
+        ],
+        "border": [
+          80,
+          70,
+          46
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          16,
+          13,
+          11
+        ]
+      },
+      "select": {
+        "cssBorder": "solid 1px rgba(217, 194, 122, 0.32)",
+        "outside": [
+          27,
+          26,
+          30
+        ],
+        "border": [
+          80,
+          70,
+          46
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          16,
+          13,
+          11
+        ]
+      },
+      "textarea": {
+        "cssBorder": "solid 1px rgba(217, 194, 122, 0.32)",
+        "outside": [
+          27,
+          24,
+          24
+        ],
+        "border": [
+          80,
+          70,
+          46
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          16,
+          13,
+          11
+        ]
+      },
+      "calc area input": {
+        "cssBorder": "solid 1px rgba(217, 194, 122, 0.32)",
+        "outside": [
+          27,
+          22,
+          19
+        ],
+        "border": [
+          80,
+          70,
+          46
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          16,
+          13,
+          11
+        ]
+      },
+      "toggle group": {
+        "cssBorder": "solid 1px rgba(217, 194, 122, 0.32)",
+        "outside": [
+          27,
+          22,
+          19
+        ],
+        "border": [
+          217,
+          194,
+          122
+        ],
+        "borderAtDy": 1,
+        "inside": [
+          217,
+          194,
+          122
+        ]
+      },
+      "themetog": {
+        "cssBorder": "solid 1px rgba(217, 194, 122, 0.16)",
+        "outside": [
+          19,
+          20,
+          18
+        ],
+        "border": [
+          50,
+          48,
+          35
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          19,
+          20,
+          19
+        ]
+      },
+      "card": {
+        "cssBorder": "solid 1px rgba(217, 194, 122, 0.16)",
+        "outside": [
+          15,
+          12,
+          10
+        ],
+        "border": [
+          54,
+          46,
+          32
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          23,
+          18,
+          15
+        ]
+      },
+      "consent checkbox": {
+        "cssBorder": "none 0px rgb(0, 0, 0)",
+        "outside": [
+          26,
+          23,
+          25
+        ],
+        "border": [
+          255,
+          255,
+          255
+        ],
+        "borderAtDy": 1,
+        "inside": [
+          255,
+          255,
+          255
+        ]
+      },
+      "chat input": {
+        "cssBorder": "solid 1px rgb(217, 194, 122)",
+        "outside": [
+          20,
+          15,
+          12
+        ],
+        "border": [
+          80,
+          70,
+          46
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          16,
+          13,
+          11
+        ]
+      }
+    },
+    "light": {
+      "name input": {
+        "cssBorder": "solid 1px rgba(20, 17, 16, 0.28)",
+        "outside": [
+          243,
+          243,
+          244
+        ],
+        "border": [
+          183,
+          180,
+          175
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          246,
+          243,
+          238
+        ]
+      },
+      "select": {
+        "cssBorder": "solid 1px rgba(20, 17, 16, 0.28)",
+        "outside": [
+          249,
+          248,
+          247
+        ],
+        "border": [
+          183,
+          180,
+          175
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          246,
+          243,
+          238
+        ]
+      },
+      "textarea": {
+        "cssBorder": "solid 1px rgba(20, 17, 16, 0.28)",
+        "outside": [
+          252,
+          250,
+          248
+        ],
+        "border": [
+          183,
+          180,
+          175
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          246,
+          243,
+          238
+        ]
+      },
+      "calc area input": {
+        "cssBorder": "solid 1px rgba(20, 17, 16, 0.28)",
+        "outside": [
+          255,
+          253,
+          249
+        ],
+        "border": [
+          183,
+          180,
+          175
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          246,
+          243,
+          238
+        ]
+      },
+      "toggle group": {
+        "cssBorder": "solid 1px rgba(20, 17, 16, 0.28)",
+        "outside": [
+          255,
+          253,
+          249
+        ],
+        "border": [
+          122,
+          95,
+          20
+        ],
+        "borderAtDy": 1,
+        "inside": [
+          122,
+          95,
+          20
+        ]
+      },
+      "themetog": {
+        "cssBorder": "solid 1px rgba(20, 17, 16, 0.14)",
+        "outside": [
+          237,
+          239,
+          234
+        ],
+        "border": [
+          207,
+          207,
+          204
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          237,
+          239,
+          235
+        ]
+      },
+      "card": {
+        "cssBorder": "solid 1px rgba(20, 17, 16, 0.14)",
+        "outside": [
+          243,
+          240,
+          235
+        ],
+        "border": [
+          222,
+          219,
+          215
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          255,
+          253,
+          249
+        ]
+      },
+      "consent checkbox": {
+        "cssBorder": "none 0px rgb(0, 0, 0)",
+        "outside": [
+          251,
+          250,
+          247
+        ],
+        "border": [
+          118,
+          118,
+          118
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          255,
+          255,
+          255
+        ]
+      },
+      "chat input": {
+        "cssBorder": "solid 1px rgb(122, 95, 20)",
+        "outside": [
+          237,
+          231,
+          222
+        ],
+        "border": [
+          183,
+          180,
+          175
+        ],
+        "borderAtDy": 0,
+        "inside": [
+          246,
+          243,
+          238
+        ]
+      }
+    }
+  }
+}

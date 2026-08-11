@@ -1,0 +1,11554 @@
+{
+ "mobile/none/1x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 188,
+     "lcp": 188,
+     "lcpEl": {
+      "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+      "url": "",
+      "size": 4906,
+      "tag": "P"
+     },
+     "shifts": [],
+     "long": [
+      {
+       "t": 32.80000001192093,
+       "d": 100,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 167.30000001192093
+     }
+    },
+    "nav": {
+     "dcl": 134.59999999403954,
+     "load": 167.30000001192093,
+     "respStart": 5.800000011920929
+    },
+    "ect": {
+     "type": "4g",
+     "rtt": 0,
+     "down": 10
+    },
+    "imgBytes": 412896,
+    "imgN": 6,
+    "totalBytes": 615723,
+    "nReq": 20
+   },
+   "afterScroll": {
+    "fcp": 188,
+    "lcp": 188,
+    "lcpEl": {
+     "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+     "url": "",
+     "size": 4906,
+     "tag": "P"
+    },
+    "shifts": [
+     {
+      "t": 2492.699999988079,
+      "v": 0.00004133745008837662,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         120,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         118,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 32.80000001192093,
+      "d": 100,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1877.5,
+      "d": 142,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 167.30000001192093
+    }
+   },
+   "wall": 1380,
+   "scrollStart": 1378.800000011921
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 164,
+     "lcp": 164,
+     "lcpEl": {
+      "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+      "url": "",
+      "size": 4906,
+      "tag": "P"
+     },
+     "shifts": [],
+     "long": [
+      {
+       "t": 30.299999982118607,
+       "d": 85,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 142.2999999821186
+     }
+    },
+    "nav": {
+     "dcl": 117,
+     "load": 142.2999999821186,
+     "respStart": 4.299999982118607
+    },
+    "ect": {
+     "type": "4g",
+     "rtt": 0,
+     "down": 9.1
+    },
+    "imgBytes": 412896,
+    "imgN": 6,
+    "totalBytes": 615723,
+    "nReq": 20
+   },
+   "afterScroll": {
+    "fcp": 164,
+    "lcp": 164,
+    "lcpEl": {
+     "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+     "url": "",
+     "size": 4906,
+     "tag": "P"
+    },
+    "shifts": [
+     {
+      "t": 2464.399999976158,
+      "v": 0.00004133745008837662,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         120,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         118,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 30.299999982118607,
+      "d": 85,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1832.2999999821186,
+      "d": 137,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 142.2999999821186
+    }
+   },
+   "wall": 1352,
+   "scrollStart": 1351.0999999940395
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 164,
+     "lcp": 164,
+     "lcpEl": {
+      "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+      "url": "",
+      "size": 4906,
+      "tag": "P"
+     },
+     "shifts": [],
+     "long": [
+      {
+       "t": 28.69999998807907,
+       "d": 86,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 135.59999999403954
+     }
+    },
+    "nav": {
+     "dcl": 116.69999998807907,
+     "load": 135.69999998807907,
+     "respStart": 4.4000000059604645
+    },
+    "ect": {
+     "type": "4g",
+     "rtt": 0,
+     "down": 10
+    },
+    "imgBytes": 412896,
+    "imgN": 6,
+    "totalBytes": 615723,
+    "nReq": 20
+   },
+   "afterScroll": {
+    "fcp": 164,
+    "lcp": 164,
+    "lcpEl": {
+     "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+     "url": "",
+     "size": 4906,
+     "tag": "P"
+    },
+    "shifts": [
+     {
+      "t": 2444.4000000059605,
+      "v": 0.00004133745008837662,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         120,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         118,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 28.69999998807907,
+      "d": 86,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1827.2999999821186,
+      "d": 132,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 135.59999999403954
+    }
+   },
+   "wall": 1345,
+   "scrollStart": 1345.199999988079
+  }
+ ],
+ "mobile/fast3g/4x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2008,
+     "lcp": 4576,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2194.9000000059605,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1464.5,
+       "d": 524,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 1994.800000011921,
+       "d": 66,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2064.7000000178814,
+       "d": 138,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3164.5,
+       "d": 89,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3259.7000000178814,
+       "d": 111,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3599.800000011921,
+       "d": 126,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4139.100000023842,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4261.300000011921,
+       "d": 227,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4492.300000011921
+     }
+    },
+    "nav": {
+     "dcl": 2258.5,
+     "load": 4515.300000011921,
+     "respStart": 4
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 600,
+     "down": 1.55
+    },
+    "imgBytes": 309436,
+    "imgN": 4,
+    "totalBytes": 512263,
+    "nReq": 18
+   },
+   "afterScroll": {
+    "fcp": 2008,
+    "lcp": 4576,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2194.9000000059605,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     },
+     {
+      "t": 6921.300000011921,
+      "v": 0.00004300045095400097,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         628,
+         64,
+         20
+        ],
+        "cur": [
+         117,
+         625,
+         56,
+         20
+        ]
+       }
+      ]
+     },
+     {
+      "t": 6964,
+      "v": 0.000044663451819625315,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         119,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         115,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1464.5,
+      "d": 524,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1994.800000011921,
+      "d": 66,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2064.7000000178814,
+      "d": 138,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3164.5,
+      "d": 89,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3259.7000000178814,
+      "d": 111,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3599.800000011921,
+      "d": 126,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4139.100000023842,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4261.300000011921,
+      "d": 227,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4492.300000011921
+    }
+   },
+   "wall": 5724,
+   "scrollStart": 5734.5
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 1992,
+     "lcp": 4544,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2233.100000023842,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1467.2000000178814,
+       "d": 500,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 1975.5,
+       "d": 81,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2059,
+       "d": 181,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3149.4000000059605,
+       "d": 73,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3229.600000023842,
+       "d": 81,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3647.4000000059605,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4249.800000011921,
+       "d": 198,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4453.800000011921
+     }
+    },
+    "nav": {
+     "dcl": 2312.100000023842,
+     "load": 4490.600000023842,
+     "respStart": 4.200000017881393
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 500,
+     "down": 1.3
+    },
+    "imgBytes": 309436,
+    "imgN": 4,
+    "totalBytes": 512263,
+    "nReq": 18
+   },
+   "afterScroll": {
+    "fcp": 1992,
+    "lcp": 4544,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2233.100000023842,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1467.2000000178814,
+      "d": 500,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1975.5,
+      "d": 81,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2059,
+      "d": 181,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3149.4000000059605,
+      "d": 73,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3229.600000023842,
+      "d": 81,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3647.4000000059605,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4249.800000011921,
+      "d": 198,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4453.800000011921
+    }
+   },
+   "wall": 5688,
+   "scrollStart": 5697.700000017881
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2296,
+     "lcp": 4460,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2587.199999988079,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1479.5,
+       "d": 788,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2281.7999999821186,
+       "d": 96,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2381.2999999821186,
+       "d": 214,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3454.0999999940395,
+       "d": 116,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3576.5999999940395,
+       "d": 113,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3694.699999988079,
+       "d": 99,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4494.5999999940395,
+       "d": 151,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4412.799999982119
+     }
+    },
+    "nav": {
+     "dcl": 2662.5999999940395,
+     "load": 4412.899999976158,
+     "respStart": 4.5999999940395355
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 550,
+     "down": 1.35
+    },
+    "imgBytes": 309436,
+    "imgN": 4,
+    "totalBytes": 512263,
+    "nReq": 18
+   },
+   "afterScroll": {
+    "fcp": 2296,
+    "lcp": 4460,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2587.199999988079,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1479.5,
+      "d": 788,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2281.7999999821186,
+      "d": 96,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2381.2999999821186,
+      "d": 214,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3454.0999999940395,
+      "d": 116,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3576.5999999940395,
+      "d": 113,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3694.699999988079,
+      "d": 99,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4494.5999999940395,
+      "d": 151,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4412.799999982119
+    }
+   },
+   "wall": 5868,
+   "scrollStart": 5868.0999999940395
+  }
+ ],
+ "mobile/fast3g/6x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2204,
+     "lcp": 4800,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2485.9000000059605,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1481.7000000178814,
+       "d": 706,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2206,
+       "d": 272,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2514,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3359.5,
+       "d": 73,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3459.300000011921,
+       "d": 93,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3592.4000000059605,
+       "d": 137,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4303.5999999940395,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4361.9000000059605,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4449.800000011921,
+       "d": 268,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4912.800000011921,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4721
+     }
+    },
+    "nav": {
+     "dcl": 2591.300000011921,
+     "load": 4749.700000017881,
+     "respStart": 3.5999999940395355
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 550,
+     "down": 1.35
+    },
+    "imgBytes": 309436,
+    "imgN": 4,
+    "totalBytes": 512263,
+    "nReq": 18
+   },
+   "afterScroll": {
+    "fcp": 2204,
+    "lcp": 4800,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2485.9000000059605,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1481.7000000178814,
+      "d": 706,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2206,
+      "d": 272,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2514,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3359.5,
+      "d": 73,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3459.300000011921,
+      "d": 93,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3592.4000000059605,
+      "d": 137,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4303.5999999940395,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4361.9000000059605,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4449.800000011921,
+      "d": 268,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4912.800000011921,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6409.0999999940395,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6565.0999999940395,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6998.5999999940395,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8071.4000000059605,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4721
+    }
+   },
+   "wall": 6196,
+   "scrollStart": 6214.200000017881
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2192,
+     "lcp": 4688,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2432,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1460.5999999940395,
+       "d": 716,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2194.7999999821186,
+       "d": 230,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2466.699999988079,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3347.2999999821186,
+       "d": 73,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3453.699999988079,
+       "d": 103,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3588.7999999821186,
+       "d": 121,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4442.9000000059605,
+       "d": 171,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4619.799999982119
+     }
+    },
+    "nav": {
+     "dcl": 2554.5999999940395,
+     "load": 4647.5,
+     "respStart": 3.9000000059604645
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 600,
+     "down": 1.55
+    },
+    "imgBytes": 309436,
+    "imgN": 4,
+    "totalBytes": 512263,
+    "nReq": 18
+   },
+   "afterScroll": {
+    "fcp": 2192,
+    "lcp": 4688,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2432,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1460.5999999940395,
+      "d": 716,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2194.7999999821186,
+      "d": 230,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2466.699999988079,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3347.2999999821186,
+      "d": 73,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3453.699999988079,
+      "d": 103,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3588.7999999821186,
+      "d": 121,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4442.9000000059605,
+      "d": 171,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6032.299999982119,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7562.299999982119,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7635.299999982119,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7709.0999999940395,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4619.799999982119
+    }
+   },
+   "wall": 5877,
+   "scrollStart": 5897
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2136,
+     "lcp": 4932,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2368.800000011921,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1479.7000000178814,
+       "d": 650,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2144.9000000059605,
+       "d": 216,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2380.5,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3138.7000000178814,
+       "d": 70,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3282.9000000059605,
+       "d": 179,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3472.600000023842,
+       "d": 142,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3628.300000011921,
+       "d": 212,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4232,
+       "d": 98,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4399.800000011921,
+       "d": 396,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4797.4000000059605,
+       "d": 79,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4800.800000011921
+     }
+    },
+    "nav": {
+     "dcl": 2447.100000023842,
+     "load": 4875.600000023842,
+     "respStart": 3.100000023841858
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 600,
+     "down": 1.5
+    },
+    "imgBytes": 309436,
+    "imgN": 4,
+    "totalBytes": 512263,
+    "nReq": 18
+   },
+   "afterScroll": {
+    "fcp": 2136,
+    "lcp": 4932,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2368.800000011921,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     },
+     {
+      "t": 8039.5,
+      "v": 0.00004133745008837662,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         628,
+         64,
+         20
+        ],
+        "cur": [
+         117,
+         626,
+         56,
+         20
+        ]
+       }
+      ]
+     },
+     {
+      "t": 8061.300000011921,
+      "v": 0.00004300045095400097,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         120,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         117,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1479.7000000178814,
+      "d": 650,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2144.9000000059605,
+      "d": 216,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2380.5,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3138.7000000178814,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3282.9000000059605,
+      "d": 179,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3472.600000023842,
+      "d": 142,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3628.300000011921,
+      "d": 212,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4232,
+      "d": 98,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4399.800000011921,
+      "d": 396,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4797.4000000059605,
+      "d": 79,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6500.800000011921,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6700.100000023842,
+      "d": 66,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6767.5,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6925.100000023842,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7184.600000023842,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7294.300000011921,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7410.800000011921,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4800.800000011921
+    }
+   },
+   "wall": 6116,
+   "scrollStart": 6125.800000011921
+  }
+ ],
+ "mobile/slow3g/4x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 5376,
+     "lcp": 16684,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 5518.699999988079,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4726.9000000059605,
+       "d": 637,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5447.800000011921,
+       "d": 75,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5532.9000000059605,
+       "d": 267,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6511.9000000059605,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6572.0999999940395,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 9744.800000011921,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10207,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 13635.5,
+       "d": 240,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 20434.90000000596
+     }
+    },
+    "nav": {
+     "dcl": 6572.699999988079,
+     "load": 20457.40000000596,
+     "respStart": 4.5
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 2150,
+     "down": 0.4
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 5376,
+    "lcp": 16684,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 5518.699999988079,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     },
+     {
+      "t": 23447.90000000596,
+      "v": 0.00004300045095400097,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         628,
+         64,
+         20
+        ],
+        "cur": [
+         117,
+         625,
+         56,
+         20
+        ]
+       }
+      ]
+     },
+     {
+      "t": 23472.5,
+      "v": 0.00004300045095400097,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         119,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         116,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4726.9000000059605,
+      "d": 637,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5447.800000011921,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5532.9000000059605,
+      "d": 267,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6511.9000000059605,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6572.0999999940395,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 9744.800000011921,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10207,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 13635.5,
+      "d": 240,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 20434.90000000596
+    }
+   },
+   "wall": 21677,
+   "scrollStart": 21691
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 5636,
+     "lcp": 18876,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 5960.4000000059605,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4726,
+       "d": 888,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5630.800000011921,
+       "d": 139,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5774.4000000059605,
+       "d": 195,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6547.5,
+       "d": 72,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10613.199999988079,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10845.90000000596,
+       "d": 70,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 12643.59999999404,
+       "d": 108,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14369.5,
+       "d": 224,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 20424.69999998808
+     }
+    },
+    "nav": {
+     "dcl": 6624.800000011921,
+     "load": 20467.69999998808,
+     "respStart": 3.800000011920929
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 2200,
+     "down": 0.45
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 5636,
+    "lcp": 18876,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 5960.4000000059605,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4726,
+      "d": 888,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5630.800000011921,
+      "d": 139,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5774.4000000059605,
+      "d": 195,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6547.5,
+      "d": 72,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10613.199999988079,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10845.90000000596,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 12643.59999999404,
+      "d": 108,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14369.5,
+      "d": 224,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 20424.69999998808
+    }
+   },
+   "wall": 21669,
+   "scrollStart": 21682
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 6028,
+     "lcp": 18232,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 6627.300000011921,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4727,
+       "d": 1275,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6018.9000000059605,
+       "d": 196,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6218.9000000059605,
+       "d": 425,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6668.5999999940395,
+       "d": 99,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10585.59999999404,
+       "d": 117,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10849.90000000596,
+       "d": 106,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 12525.800000011921,
+       "d": 85,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14340.300000011921,
+       "d": 371,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 20432,
+       "d": 70,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 20433.40000000596
+     }
+    },
+    "nav": {
+     "dcl": 6772.0999999940395,
+     "load": 20500.5,
+     "respStart": 5.4000000059604645
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 2200,
+     "down": 0.45
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 6028,
+    "lcp": 18232,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 6627.300000011921,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     },
+     {
+      "t": 23645.80000001192,
+      "v": 0.00004133745008837662,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         628,
+         64,
+         20
+        ],
+        "cur": [
+         117,
+         626,
+         56,
+         20
+        ]
+       }
+      ]
+     },
+     {
+      "t": 23672.5,
+      "v": 0.00004300045095400097,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         120,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         117,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4727,
+      "d": 1275,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6018.9000000059605,
+      "d": 196,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6218.9000000059605,
+      "d": 425,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6668.5999999940395,
+      "d": 99,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10585.59999999404,
+      "d": 117,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10849.90000000596,
+      "d": 106,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 12525.800000011921,
+      "d": 85,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14340.300000011921,
+      "d": 371,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20432,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 20433.40000000596
+    }
+   },
+   "wall": 21748,
+   "scrollStart": 21761.09999999404
+  }
+ ],
+ "mobile/slow3g/6x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 6944,
+     "lcp": 16600,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 7940.5,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4741,
+       "d": 2185,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6973.0999999940395,
+       "d": 934,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 8007.199999988079,
+       "d": 175,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 8219.90000000596,
+       "d": 158,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 13169.09999999404,
+       "d": 216,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14606.5,
+       "d": 219,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 15813.90000000596,
+       "d": 278,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16186.199999988079,
+       "d": 198,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16727.80000001192,
+       "d": 77,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16818.80000001192,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16896.30000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 17172.90000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 17956.30000001192,
+       "d": 630,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 18594.69999998808,
+       "d": 75,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 16566.19999998808
+     }
+    },
+    "nav": {
+     "dcl": 8222.59999999404,
+     "load": 16566.80000001192,
+     "respStart": 5.199999988079071
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 2000,
+     "down": 0.4
+    },
+    "imgBytes": 412896,
+    "imgN": 6,
+    "totalBytes": 615723,
+    "nReq": 20
+   },
+   "afterScroll": {
+    "fcp": 6944,
+    "lcp": 16600,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 7940.5,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     },
+     {
+      "t": 21150.5,
+      "v": 0.00004300045095400097,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         628,
+         64,
+         20
+        ],
+        "cur": [
+         117,
+         625,
+         56,
+         20
+        ]
+       }
+      ]
+     },
+     {
+      "t": 21177.80000001192,
+      "v": 0.00004300045095400097,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         117,
+         119,
+         56,
+         20
+        ],
+        "cur": [
+         117,
+         116,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4741,
+      "d": 2185,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6973.0999999940395,
+      "d": 934,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8007.199999988079,
+      "d": 175,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8219.90000000596,
+      "d": 158,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 13169.09999999404,
+      "d": 216,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14606.5,
+      "d": 219,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 15813.90000000596,
+      "d": 278,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16186.199999988079,
+      "d": 198,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16727.80000001192,
+      "d": 77,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16818.80000001192,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16896.30000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 17172.90000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 17956.30000001192,
+      "d": 630,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 18594.69999998808,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 18942.69999998808,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19347.40000000596,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19411,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19474.09999999404,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19541.40000000596,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19936.5,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20084.59999999404,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20236.90000000596,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20298.19999998808,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20359,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 16566.19999998808
+    }
+   },
+   "wall": 18717,
+   "scrollStart": 18761.19999998808
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 6304,
+     "lcp": 18500,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 7052.699999988079,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4732.5999999940395,
+       "d": 1558,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6317.5999999940395,
+       "d": 260,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6585.4000000059605,
+       "d": 507,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 7153.4000000059605,
+       "d": 150,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 7320.9000000059605,
+       "d": 80,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10622.699999988079,
+       "d": 199,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10831.40000000596,
+       "d": 200,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 11974.699999988079,
+       "d": 257,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 13731,
+       "d": 111,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14604.40000000596,
+       "d": 472,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 20433.90000000596,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 20435.90000000596
+     }
+    },
+    "nav": {
+     "dcl": 7322.0999999940395,
+     "load": 20500.90000000596,
+     "respStart": 4.299999982118607
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 1900,
+     "down": 0.4
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 6304,
+    "lcp": 18500,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 7052.699999988079,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4732.5999999940395,
+      "d": 1558,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6317.5999999940395,
+      "d": 260,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6585.4000000059605,
+      "d": 507,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7153.4000000059605,
+      "d": 150,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7320.9000000059605,
+      "d": 80,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10622.699999988079,
+      "d": 199,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10831.40000000596,
+      "d": 200,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 11974.699999988079,
+      "d": 257,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 13731,
+      "d": 111,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14604.40000000596,
+      "d": 472,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20433.90000000596,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 21915.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22237.5,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22298,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22358.09999999404,
+      "d": 63,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22497.59999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22554.69999998808,
+      "d": 64,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22663.29999998212,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22722.79999998212,
+      "d": 77,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22801.19999998808,
+      "d": 63,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22865.19999998808,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23024.69999998808,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23289.59999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 20435.90000000596
+    }
+   },
+   "wall": 21762,
+   "scrollStart": 21781.40000000596
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 6108,
+     "lcp": 18496,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 303810,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 6765.4000000059605,
+       "v": 0.005091347341703916,
+       "srcs": [
+        {
+         "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+         "prev": [
+          0,
+          318,
+          390,
+          48
+         ],
+         "cur": [
+          0,
+          277,
+          390,
+          48
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4731.299999982119,
+       "d": 1368,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6116.799999982119,
+       "d": 180,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6306.5,
+       "d": 470,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6810.299999982119,
+       "d": 110,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6949.4000000059605,
+       "d": 106,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10585.5,
+       "d": 180,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10853.5,
+       "d": 142,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 12344.09999999404,
+       "d": 185,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 13605.299999982119,
+       "d": 74,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14366.59999999404,
+       "d": 567,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 20436.19999998808,
+       "d": 113,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 20706.40000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 20441
+     }
+    },
+    "nav": {
+     "dcl": 6952.5,
+     "load": 20546.79999998212,
+     "respStart": 3.2999999821186066
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 1850,
+     "down": 0.35
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 6108,
+    "lcp": 18496,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 303810,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 6765.4000000059605,
+      "v": 0.005091347341703916,
+      "srcs": [
+       {
+        "sel": "header.hero > div.wrap.hero-in > h1.build > span.ln",
+        "prev": [
+         0,
+         318,
+         390,
+         48
+        ],
+        "cur": [
+         0,
+         277,
+         390,
+         48
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4731.299999982119,
+      "d": 1368,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6116.799999982119,
+      "d": 180,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6306.5,
+      "d": 470,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6810.299999982119,
+      "d": 110,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6949.4000000059605,
+      "d": 106,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10585.5,
+      "d": 180,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10853.5,
+      "d": 142,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 12344.09999999404,
+      "d": 185,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 13605.299999982119,
+      "d": 74,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14366.59999999404,
+      "d": 567,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20436.19999998808,
+      "d": 113,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20706.40000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22126.40000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22218.19999998808,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22486.79999998212,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22550,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22602.5,
+      "d": 73,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22846.90000000596,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22902.09999999404,
+      "d": 77,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23117.69999998808,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 20441
+    }
+   },
+   "wall": 22026,
+   "scrollStart": 22049.79999998212
+  }
+ ],
+ "desktop/none/1x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 224,
+     "lcp": 224,
+     "lcpEl": {
+      "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+      "url": "",
+      "size": 4928,
+      "tag": "P"
+     },
+     "shifts": [],
+     "long": [
+      {
+       "t": 29.599999994039536,
+       "d": 88,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 141.80000001192093
+     }
+    },
+    "nav": {
+     "dcl": 118.80000001192093,
+     "load": 141.80000001192093,
+     "respStart": 4.5999999940395355
+    },
+    "ect": {
+     "type": "4g",
+     "rtt": 0,
+     "down": 9.4
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 224,
+    "lcp": 1952,
+    "lcpEl": {
+     "sel": "div.wrap > div.calc-grid.shown > figure.calc-viz > img",
+     "url": "http://localhost:4321/images/unit-teal.webp",
+     "size": 172454,
+     "tag": "IMG"
+    },
+    "shifts": [
+     {
+      "t": 2148.5,
+      "v": 0.000006153549382716049,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         1048,
+         119,
+         56,
+         20
+        ],
+        "cur": [
+         1048,
+         117,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 29.599999994039536,
+      "d": 88,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1674.4000000059605,
+      "d": 134,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 141.80000001192093
+    }
+   },
+   "wall": 1348,
+   "scrollStart": 1347.699999988079
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 240,
+     "lcp": 240,
+     "lcpEl": {
+      "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+      "url": "",
+      "size": 4928,
+      "tag": "P"
+     },
+     "shifts": [],
+     "long": [
+      {
+       "t": 32.10000002384186,
+       "d": 95,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 145
+     }
+    },
+    "nav": {
+     "dcl": 128.7000000178814,
+     "load": 145,
+     "respStart": 4.700000017881393
+    },
+    "ect": {
+     "type": "4g",
+     "rtt": 0,
+     "down": 10
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 240,
+    "lcp": 1996,
+    "lcpEl": {
+     "sel": "div.wrap > div.calc-grid.shown > figure.calc-viz > img",
+     "url": "http://localhost:4321/images/unit-teal.webp",
+     "size": 172246,
+     "tag": "IMG"
+    },
+    "shifts": [
+     {
+      "t": 2189.5,
+      "v": 0.000006153549382716049,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         1048,
+         119,
+         56,
+         20
+        ],
+        "cur": [
+         1048,
+         117,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 32.10000002384186,
+      "d": 95,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1724.800000011921,
+      "d": 145,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 145
+    }
+   },
+   "wall": 1360,
+   "scrollStart": 1359.800000011921
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 208,
+     "lcp": 208,
+     "lcpEl": {
+      "sel": "body > header.hero > div.wrap.hero-in > p.hero-kicker",
+      "url": "",
+      "size": 4928,
+      "tag": "P"
+     },
+     "shifts": [],
+     "long": [
+      {
+       "t": 33.599999994039536,
+       "d": 84,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 137.09999999403954
+     }
+    },
+    "nav": {
+     "dcl": 119.2999999821186,
+     "load": 137.19999998807907,
+     "respStart": 4.9000000059604645
+    },
+    "ect": {
+     "type": "4g",
+     "rtt": 0,
+     "down": 10
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 208,
+    "lcp": 1968,
+    "lcpEl": {
+     "sel": "div.wrap > div.calc-grid.shown > figure.calc-viz > img",
+     "url": "http://localhost:4321/images/unit-teal.webp",
+     "size": 172454,
+     "tag": "IMG"
+    },
+    "shifts": [
+     {
+      "t": 2165.699999988079,
+      "v": 0.000006153549382716049,
+      "srcs": [
+       {
+        "sel": "",
+        "prev": [
+         1048,
+         119,
+         56,
+         20
+        ],
+        "cur": [
+         1048,
+         117,
+         64,
+         20
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 33.599999994039536,
+      "d": 84,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1688.199999988079,
+      "d": 139,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 137.09999999403954
+    }
+   },
+   "wall": 1355,
+   "scrollStart": 1354.4000000059605
+  }
+ ],
+ "desktop/fast3g/4x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2056,
+     "lcp": 4768,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 1205280,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2242.4000000059605,
+       "v": 0.04957853843155222,
+       "srcs": [
+        {
+         "sel": "html.motion > body > header.hero > div.wrap.hero-in",
+         "prev": [
+          257,
+          63,
+          926,
+          837
+         ],
+         "cur": [
+          374,
+          63,
+          692,
+          837
+         ]
+        },
+        {
+         "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+         "prev": [
+          573,
+          14,
+          482,
+          35
+         ],
+         "cur": [
+          583,
+          14,
+          472,
+          35
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1475.0999999940395,
+       "d": 513,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 1998.0999999940395,
+       "d": 97,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2099.699999988079,
+       "d": 150,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2264.199999988079,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4063.2999999821186,
+       "d": 73,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4164.9000000059605,
+       "d": 85,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4445,
+       "d": 82,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4864.199999988079,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5212.199999988079,
+       "d": 127,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 5858.799999982119
+     }
+    },
+    "nav": {
+     "dcl": 2336.5,
+     "load": 5887.299999982119,
+     "respStart": 5
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 550,
+     "down": 1.45
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 2056,
+    "lcp": 4768,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 1205280,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2242.4000000059605,
+      "v": 0.04957853843155222,
+      "srcs": [
+       {
+        "sel": "html.motion > body > header.hero > div.wrap.hero-in",
+        "prev": [
+         257,
+         63,
+         926,
+         837
+        ],
+        "cur": [
+         374,
+         63,
+         692,
+         837
+        ]
+       },
+       {
+        "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+        "prev": [
+         573,
+         14,
+         482,
+         35
+        ],
+        "cur": [
+         583,
+         14,
+         472,
+         35
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1475.0999999940395,
+      "d": 513,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 1998.0999999940395,
+      "d": 97,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2099.699999988079,
+      "d": 150,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2264.199999988079,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4063.2999999821186,
+      "d": 73,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4164.9000000059605,
+      "d": 85,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4445,
+      "d": 82,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4864.199999988079,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5212.199999988079,
+      "d": 127,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7486.699999988079,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7705.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7756.5999999940395,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7814.4000000059605,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 5858.799999982119
+    }
+   },
+   "wall": 7119,
+   "scrollStart": 7119.5999999940395
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2436,
+     "lcp": 4848,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 1205280,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2689.4000000059605,
+       "v": 0.04957853843155222,
+       "srcs": [
+        {
+         "sel": "html.motion > body > header.hero > div.wrap.hero-in",
+         "prev": [
+          257,
+          63,
+          926,
+          837
+         ],
+         "cur": [
+          374,
+          63,
+          692,
+          837
+         ]
+        },
+        {
+         "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+         "prev": [
+          573,
+          14,
+          482,
+          35
+         ],
+         "cur": [
+          583,
+          14,
+          472,
+          35
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1469.0999999940395,
+       "d": 880,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2366.0999999940395,
+       "d": 132,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2501.800000011921,
+       "d": 199,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2718,
+       "d": 79,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3966,
+       "d": 105,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4491.9000000059605,
+       "d": 160,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4721.800000011921,
+       "d": 144,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4866.700000017881,
+       "d": 81,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5162.5999999940395,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5585.0999999940395,
+       "d": 371,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5962.200000017881,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4872.700000017881
+     }
+    },
+    "nav": {
+     "dcl": 2814.2000000178814,
+     "load": 4873.300000011921,
+     "respStart": 5
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 550,
+     "down": 1.3
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 2436,
+    "lcp": 4848,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 1205280,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2689.4000000059605,
+      "v": 0.04957853843155222,
+      "srcs": [
+       {
+        "sel": "html.motion > body > header.hero > div.wrap.hero-in",
+        "prev": [
+         257,
+         63,
+         926,
+         837
+        ],
+        "cur": [
+         374,
+         63,
+         692,
+         837
+        ]
+       },
+       {
+        "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+        "prev": [
+         573,
+         14,
+         482,
+         35
+        ],
+        "cur": [
+         583,
+         14,
+         472,
+         35
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1469.0999999940395,
+      "d": 880,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2366.0999999940395,
+      "d": 132,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2501.800000011921,
+      "d": 199,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2718,
+      "d": 79,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3966,
+      "d": 105,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4491.9000000059605,
+      "d": 160,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4721.800000011921,
+      "d": 144,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4866.700000017881,
+      "d": 81,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5162.5999999940395,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5585.0999999940395,
+      "d": 371,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5962.200000017881,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7582,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7800.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7851.9000000059605,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7915.300000011921,
+      "d": 63,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7980.5999999940395,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8049.200000017881,
+      "d": 67,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8117.700000017881,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8179.9000000059605,
+      "d": 67,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8247.700000017881,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4872.700000017881
+    }
+   },
+   "wall": 7311,
+   "scrollStart": 7312
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 2264,
+     "lcp": 4776,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 1205280,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 2517.4000000059605,
+       "v": 0.04957853843155222,
+       "srcs": [
+        {
+         "sel": "html.motion > body > header.hero > div.wrap.hero-in",
+         "prev": [
+          257,
+          63,
+          926,
+          837
+         ],
+         "cur": [
+          374,
+          63,
+          692,
+          837
+         ]
+        },
+        {
+         "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+         "prev": [
+          573,
+          14,
+          482,
+          35
+         ],
+         "cur": [
+          583,
+          14,
+          472,
+          35
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 1451.4000000059605,
+       "d": 752,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2219,
+       "d": 94,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2316.5,
+       "d": 209,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 2538.0999999940395,
+       "d": 73,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 3921.0999999940395,
+       "d": 102,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4301.0999999940395,
+       "d": 170,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 4756.5999999940395,
+       "d": 97,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5273.5,
+       "d": 305,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5582.5999999940395,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 4760
+     }
+    },
+    "nav": {
+     "dcl": 2631,
+     "load": 4760.300000011921,
+     "respStart": 4.800000011920929
+    },
+    "ect": {
+     "type": "3g",
+     "rtt": 500,
+     "down": 1.3
+    },
+    "imgBytes": 565222,
+    "imgN": 9,
+    "totalBytes": 768049,
+    "nReq": 23
+   },
+   "afterScroll": {
+    "fcp": 2264,
+    "lcp": 4776,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 1205280,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 2517.4000000059605,
+      "v": 0.04957853843155222,
+      "srcs": [
+       {
+        "sel": "html.motion > body > header.hero > div.wrap.hero-in",
+        "prev": [
+         257,
+         63,
+         926,
+         837
+        ],
+        "cur": [
+         374,
+         63,
+         692,
+         837
+        ]
+       },
+       {
+        "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+        "prev": [
+         573,
+         14,
+         482,
+         35
+        ],
+        "cur": [
+         583,
+         14,
+         472,
+         35
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 1451.4000000059605,
+      "d": 752,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2219,
+      "d": 94,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2316.5,
+      "d": 209,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 2538.0999999940395,
+      "d": 73,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 3921.0999999940395,
+      "d": 102,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4301.0999999940395,
+      "d": 170,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 4756.5999999940395,
+      "d": 97,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5273.5,
+      "d": 305,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5582.5999999940395,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 4760
+    }
+   },
+   "wall": 6881,
+   "scrollStart": 6898.300000011921
+  }
+ ],
+ "desktop/slow3g/6x": [
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 7080,
+     "lcp": 16672,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 1205280,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 7905.4000000059605,
+       "v": 0.04957853843155222,
+       "srcs": [
+        {
+         "sel": "html > body > header.hero > div.wrap.hero-in",
+         "prev": [
+          257,
+          63,
+          926,
+          837
+         ],
+         "cur": [
+          374,
+          63,
+          692,
+          837
+         ]
+        },
+        {
+         "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+         "prev": [
+          573,
+          14,
+          482,
+          35
+         ],
+         "cur": [
+          583,
+          14,
+          472,
+          35
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4726.5,
+       "d": 2258,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 7039.200000017881,
+       "d": 839,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 7960.100000023842,
+       "d": 145,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 8140.200000017881,
+       "d": 119,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 13118.300000011921,
+       "d": 125,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14427.5,
+       "d": 168,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16098.800000011921,
+       "d": 121,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16269.100000023842,
+       "d": 78,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16798.30000001192,
+       "d": 49,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 17798.80000001192,
+       "d": 551,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 16629.40000000596
+     }
+    },
+    "nav": {
+     "dcl": 8141.800000011921,
+     "load": 16629.70000001788,
+     "respStart": 4.4000000059604645
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 1900,
+     "down": 0.35
+    },
+    "imgBytes": 412896,
+    "imgN": 6,
+    "totalBytes": 615723,
+    "nReq": 20
+   },
+   "afterScroll": {
+    "fcp": 7080,
+    "lcp": 16672,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 1205280,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 7905.4000000059605,
+      "v": 0.04957853843155222,
+      "srcs": [
+       {
+        "sel": "html > body > header.hero > div.wrap.hero-in",
+        "prev": [
+         257,
+         63,
+         926,
+         837
+        ],
+        "cur": [
+         374,
+         63,
+         692,
+         837
+        ]
+       },
+       {
+        "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+        "prev": [
+         573,
+         14,
+         482,
+         35
+        ],
+        "cur": [
+         583,
+         14,
+         472,
+         35
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4726.5,
+      "d": 2258,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7039.200000017881,
+      "d": 839,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7960.100000023842,
+      "d": 145,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 8140.200000017881,
+      "d": 119,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 13118.300000011921,
+      "d": 125,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14427.5,
+      "d": 168,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16098.800000011921,
+      "d": 121,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16269.100000023842,
+      "d": 78,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16798.30000001192,
+      "d": 49,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 17798.80000001192,
+      "d": 551,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 18685.30000001192,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 18796.30000001192,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 18896.5,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 18958.30000001192,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19112.80000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19521.30000001192,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 19777.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20014.30000001192,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 20365.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 16629.40000000596
+    }
+   },
+   "wall": 18410,
+   "scrollStart": 18438
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 5660,
+     "lcp": 18892,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 1205280,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 6022.4000000059605,
+       "v": 0.04957853843155222,
+       "srcs": [
+        {
+         "sel": "html > body > header.hero > div.wrap.hero-in",
+         "prev": [
+          257,
+          63,
+          926,
+          837
+         ],
+         "cur": [
+          374,
+          63,
+          692,
+          837
+         ]
+        },
+        {
+         "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+         "prev": [
+          573,
+          14,
+          482,
+          35
+         ],
+         "cur": [
+          583,
+          14,
+          472,
+          35
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4727.9000000059605,
+       "d": 884,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5631.700000017881,
+       "d": 160,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 5798.700000017881,
+       "d": 235,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6545.0999999940395,
+       "d": 75,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10386.40000000596,
+       "d": 90,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 10799.40000000596,
+       "d": 94,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 12823.200000017881,
+       "d": 91,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 13468.200000017881,
+       "d": 76,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14300.90000000596,
+       "d": 149,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 21152.59999999404,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 20806.70000001788
+     }
+    },
+    "nav": {
+     "dcl": 6623.4000000059605,
+     "load": 20848.09999999404,
+     "respStart": 4.4000000059604645
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 2000,
+     "down": 0.4
+    },
+    "imgBytes": 605698,
+    "imgN": 12,
+    "totalBytes": 808525,
+    "nReq": 26
+   },
+   "afterScroll": {
+    "fcp": 5660,
+    "lcp": 18892,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 1205280,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 6022.4000000059605,
+      "v": 0.04957853843155222,
+      "srcs": [
+       {
+        "sel": "html > body > header.hero > div.wrap.hero-in",
+        "prev": [
+         257,
+         63,
+         926,
+         837
+        ],
+        "cur": [
+         374,
+         63,
+         692,
+         837
+        ]
+       },
+       {
+        "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+        "prev": [
+         573,
+         14,
+         482,
+         35
+        ],
+        "cur": [
+         583,
+         14,
+         472,
+         35
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4727.9000000059605,
+      "d": 884,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5631.700000017881,
+      "d": 160,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 5798.700000017881,
+      "d": 235,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6545.0999999940395,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10386.40000000596,
+      "d": 90,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 10799.40000000596,
+      "d": 94,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 12823.200000017881,
+      "d": 91,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 13468.200000017881,
+      "d": 76,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14300.90000000596,
+      "d": 149,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 21152.59999999404,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22503.09999999404,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22587.09999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22746.59999999404,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22862.5,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22918.59999999404,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22982.30000001192,
+      "d": 84,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23067.90000000596,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23134.59999999404,
+      "d": 67,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23202.70000001788,
+      "d": 99,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23304.20000001788,
+      "d": 95,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23447.30000001192,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23534.40000000596,
+      "d": 72,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23607.70000001788,
+      "d": 67,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23679.40000000596,
+      "d": 72,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 24752.09999999404,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 24830.59999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 20806.70000001788
+    }
+   },
+   "wall": 22472,
+   "scrollStart": 22472.80000001192
+  },
+  {
+   "atLoad": {
+    "m": {
+     "fcp": 6636,
+     "lcp": 17708,
+     "lcpEl": {
+      "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+      "url": "http://localhost:4321/images/hero-shop.webp",
+      "size": 1205280,
+      "tag": "DIV"
+     },
+     "shifts": [
+      {
+       "t": 7284.4000000059605,
+       "v": 0.04957853843155222,
+       "srcs": [
+        {
+         "sel": "html > body > header.hero > div.wrap.hero-in",
+         "prev": [
+          257,
+          63,
+          926,
+          837
+         ],
+         "cur": [
+          374,
+          63,
+          692,
+          837
+         ]
+        },
+        {
+         "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+         "prev": [
+          573,
+          14,
+          482,
+          35
+         ],
+         "cur": [
+          583,
+          14,
+          472,
+          35
+         ]
+        }
+       ]
+      }
+     ],
+     "long": [
+      {
+       "t": 4723.800000011921,
+       "d": 1828,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 6590.200000017881,
+       "d": 663,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 7331.300000011921,
+       "d": 154,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 7491.200000017881,
+       "d": 82,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 13060.700000017881,
+       "d": 181,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 14053.5,
+       "d": 263,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 15461.300000011921,
+       "d": 221,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 16005.800000011921,
+       "d": 151,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 17953.20000001788,
+       "d": 616,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 21248.30000001192,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 21500.80000001192,
+       "d": 85,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 21586.40000000596,
+       "d": 78,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 21670.70000001788,
+       "d": 86,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 21817.20000001788,
+       "d": 70,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 22226.70000001788,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 22379.40000000596,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 22432.20000001788,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 22531.70000001788,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 22650.30000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 22704.80000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 22905.5,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23012.70000001788,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23102,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23211.30000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23263.20000001788,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23366.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23418.70000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23674.20000001788,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23735.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 23853.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 24189.70000001788,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 24823.09999999404,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 24874.80000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 24931.20000001788,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 24986.90000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 25040,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 25240.20000001788,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 25736,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 26103,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 26350.90000000596,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 26409.70000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 26467,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 27169.20000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 27249.30000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 27447.59999999404,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 27553.70000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 27964.80000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 28019.5,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 28859.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 28954,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29108.90000000596,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29162.5,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29263.90000000596,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29541.30000001192,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29602.59999999404,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29671.40000000596,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29724.5,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29907,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 29975.80000001192,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 30037.30000001192,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 30206,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 30417.80000001192,
+       "d": 74,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 30793.20000001788,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 31011.59999999404,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 31069.5,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 31193.09999999404,
+       "d": 81,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 31275.5,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 31701,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 32173.59999999404,
+       "d": 63,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 32459,
+       "d": 66,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 32592.5,
+       "d": 96,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 32702.40000000596,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 32845.20000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 33071.20000001788,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 33139.5,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 33299.70000001788,
+       "d": 66,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 33557.90000000596,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 33716.70000001788,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 33828.70000001788,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 33945.5,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 34005.70000001788,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 34114.70000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 34936.09999999404,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 35569.90000000596,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 35887,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 35946.70000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36002.40000000596,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36211.30000001192,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36266.90000000596,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36319.5,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36441,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36789.59999999404,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36844,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36899.59999999404,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 36954.59999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 37008.30000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 37184.30000001192,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 37294.40000000596,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 37530.59999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 37699.30000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 37758,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 37964.09999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 38015.90000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 38116.70000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 38172.20000001788,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 38277.09999999404,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 38338.5,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 38562,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 38678.90000000596,
+       "d": 63,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 39545.70000001788,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 39729.30000001192,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 39799.09999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 39946.09999999404,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 40028.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 40097.20000001788,
+       "d": 87,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 40393,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 40561.09999999404,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 40959.09999999404,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 41087.5,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 41210.80000001192,
+       "d": 95,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 41782.5,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 41849.30000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 41956.80000001192,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42012.90000000596,
+       "d": 75,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42089.80000001192,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42147.30000001192,
+       "d": 75,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42224.59999999404,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42287.20000001788,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42349.30000001192,
+       "d": 77,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42481.70000001788,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42588.20000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42686.5,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42843.59999999404,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 42951.70000001788,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 43141.09999999404,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 43241,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 43395.20000001788,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 43546.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 43813.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 43865.70000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 44012.5,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 44250.40000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 44304.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 44766.30000001192,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 44872.90000000596,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 44986.5,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 45081.80000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 45645.30000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 45779.20000001788,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 45838.59999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 45892.20000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 45943.80000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 46323.40000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 46377.59999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 46606.80000001192,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 46713.70000001788,
+       "d": 71,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 46785.70000001788,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 47105.59999999404,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 47514.5,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 47675.59999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 47780.90000000596,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 47839.5,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 48212.40000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 48266.40000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 48321.80000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 48433.80000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 48615.90000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 48919.40000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49177.09999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49229.90000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49284.70000001788,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49470.59999999404,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49583,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49856.30000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49920.40000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 49974.5,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50079.20000001788,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50142.20000001788,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50196.59999999404,
+       "d": 74,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50277.90000000596,
+       "d": 91,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50371.40000000596,
+       "d": 88,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50528,
+       "d": 114,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50642.59999999404,
+       "d": 86,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50792.5,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50861.30000001192,
+       "d": 74,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 50938.59999999404,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51068,
+       "d": 72,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51142.09999999404,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51268.80000001192,
+       "d": 72,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51342,
+       "d": 72,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51416.5,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51473.30000001192,
+       "d": 78,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51742.5,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51805.09999999404,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51862,
+       "d": 75,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 51938.70000001788,
+       "d": 70,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 52172.70000001788,
+       "d": 87,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 52260.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 52320.40000000596,
+       "d": 84,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 52405.90000000596,
+       "d": 98,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 52556.5,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 52908,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 52966.20000001788,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53022.40000000596,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53078.80000001192,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53139.5,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53247,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53536.09999999404,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53763.40000000596,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53819,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53926.40000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 53984.20000001788,
+       "d": 64,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54110.70000001788,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54179.90000000596,
+       "d": 63,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54249.80000001192,
+       "d": 70,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54370.30000001192,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54486.5,
+       "d": 99,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54702.30000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54807.30000001192,
+       "d": 71,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 54879.5,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 55055.80000001192,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 55235,
+       "d": 101,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 55337.20000001788,
+       "d": 106,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 55637.09999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 55752.59999999404,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 56110.59999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 56165.70000001788,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 56381.09999999404,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 56585.20000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 56638.20000001788,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 56691.40000000596,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 56987.09999999404,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57058,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57165.80000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57508,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57709,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57762.09999999404,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57821.70000001788,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57888.70000001788,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 57993.90000000596,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58048.09999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58104.20000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58155.70000001788,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58222,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58378.80000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58536,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58640,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58789.30000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58901.30000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 58951.80000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59006.80000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59059.90000000596,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59123.70000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59179.59999999404,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59340.09999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59562.70000001788,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59672.09999999404,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 59983.70000001788,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60040,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60095,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60306.70000001788,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60409.5,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60472.40000000596,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60527.09999999404,
+       "d": 82,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60610.5,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 60714.09999999404,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61001.5,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61161.5,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61507.80000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61566.59999999404,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61625,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61682.30000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61736.59999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61791,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61849.5,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61915.30000001192,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 61975.09999999404,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62041.70000001788,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62101.70000001788,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62211,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62266,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62318.40000000596,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62638.59999999404,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62745.30000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 62800.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 63009.20000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 63121.59999999404,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 63224.09999999404,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 63324.09999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 63683.59999999404,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 63920.5,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 63972.09999999404,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64032.30000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64136.40000000596,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64240.20000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64343.90000000596,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64405.59999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64722.70000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64775.30000001192,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64845.30000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64903,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 64957.40000000596,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65219,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65345.40000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65547.80000001192,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65603.80000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65714.20000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65769.70000001788,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65904.09999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 65968.30000001192,
+       "d": 71,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 66039.70000001788,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 66202.40000000596,
+       "d": 70,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 66275.20000001788,
+       "d": 74,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 66463.80000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 66571.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 66994.70000001788,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 67360,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 67583.5,
+       "d": 72,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 67713.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 67876.40000000596,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68029.40000000596,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68085.30000001192,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68195.40000000596,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68305.40000000596,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68425.70000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68592,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68877.70000001788,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 68956.80000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 69065,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 69123.20000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 69247.5,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 69372.70000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 69615.5,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 69676.59999999404,
+       "d": 68,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 69838,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 70018.59999999404,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 70212.40000000596,
+       "d": 77,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 70442.59999999404,
+       "d": 101,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 70712.09999999404,
+       "d": 125,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 70837.59999999404,
+       "d": 104,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 71030.59999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 71124.30000001192,
+       "d": 64,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 71352.5,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 71460.70000001788,
+       "d": 81,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 71601.59999999404,
+       "d": 74,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 71827.30000001192,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 71989.09999999404,
+       "d": 102,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 72195.09999999404,
+       "d": 77,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 72273.59999999404,
+       "d": 85,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 72373,
+       "d": 118,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 72492.90000000596,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 72600.70000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 72854,
+       "d": 66,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 72920.09999999404,
+       "d": 71,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 73302.09999999404,
+       "d": 67,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 73437.80000001192,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 73560.09999999404,
+       "d": 75,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74004,
+       "d": 66,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74071.09999999404,
+       "d": 83,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74156.5,
+       "d": 74,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74231.59999999404,
+       "d": 67,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74416.90000000596,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74473.40000000596,
+       "d": 113,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74588.09999999404,
+       "d": 76,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74666.20000001788,
+       "d": 98,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74766.30000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 74870.30000001192,
+       "d": 61,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75133.80000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75185,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75241.90000000596,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75449.30000001192,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75505.59999999404,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75563.09999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75617.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75674.90000000596,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75776.5,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75833.59999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75939.40000000596,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 75991.09999999404,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 76043.20000001788,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 76387.80000001192,
+       "d": 69,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 76867.59999999404,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77016.09999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77069.80000001192,
+       "d": 58,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77130.5,
+       "d": 55,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77186.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77285.30000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77340.20000001788,
+       "d": 59,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77401.5,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77461.70000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77561.30000001192,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 77976.40000000596,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 78276.80000001192,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 78330.30000001192,
+       "d": 62,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 78493.59999999404,
+       "d": 63,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 78630.5,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 78681.59999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 78736.09999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 78947.90000000596,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79016.59999999404,
+       "d": 66,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79084.90000000596,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79145.90000000596,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79355.70000001788,
+       "d": 78,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79526.80000001192,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79580.09999999404,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79695.20000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79809.20000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 79863.20000001788,
+       "d": 51,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80154.30000001192,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80205.59999999404,
+       "d": 60,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80317.90000000596,
+       "d": 57,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80382.09999999404,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80434.80000001192,
+       "d": 54,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80538.40000000596,
+       "d": 52,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80780.40000000596,
+       "d": 56,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80926.70000001788,
+       "d": 50,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 80981.40000000596,
+       "d": 65,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 81147,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      },
+      {
+       "t": 81249.09999999404,
+       "d": 53,
+       "attr": [
+        "unknown:"
+       ]
+      }
+     ],
+     "marks": {
+      "load": 21249.5
+     }
+    },
+    "nav": {
+     "dcl": 7491.300000011921,
+     "load": 21305.5,
+     "respStart": 5.9000000059604645
+    },
+    "ect": {
+     "type": "2g",
+     "rtt": 2150,
+     "down": 0.4
+    },
+    "imgBytes": 605698,
+    "imgN": 12,
+    "totalBytes": 808525,
+    "nReq": 26
+   },
+   "afterScroll": {
+    "fcp": 6636,
+    "lcp": 17708,
+    "lcpEl": {
+     "sel": "body > header.hero > div.hero-parallax > div.hero-photo",
+     "url": "http://localhost:4321/images/hero-shop.webp",
+     "size": 1205280,
+     "tag": "DIV"
+    },
+    "shifts": [
+     {
+      "t": 7284.4000000059605,
+      "v": 0.04957853843155222,
+      "srcs": [
+       {
+        "sel": "html > body > header.hero > div.wrap.hero-in",
+        "prev": [
+         257,
+         63,
+         926,
+         837
+        ],
+        "cur": [
+         374,
+         63,
+         692,
+         837
+        ]
+       },
+       {
+        "sel": "body > header.topbar > div.wrap.tbin > nav.mainnav",
+        "prev": [
+         573,
+         14,
+         482,
+         35
+        ],
+        "cur": [
+         583,
+         14,
+         472,
+         35
+        ]
+       }
+      ]
+     }
+    ],
+    "long": [
+     {
+      "t": 4723.800000011921,
+      "d": 1828,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 6590.200000017881,
+      "d": 663,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7331.300000011921,
+      "d": 154,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 7491.200000017881,
+      "d": 82,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 13060.700000017881,
+      "d": 181,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 14053.5,
+      "d": 263,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 15461.300000011921,
+      "d": 221,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 16005.800000011921,
+      "d": 151,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 17953.20000001788,
+      "d": 616,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 21248.30000001192,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 21500.80000001192,
+      "d": 85,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 21586.40000000596,
+      "d": 78,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 21670.70000001788,
+      "d": 86,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 21817.20000001788,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22226.70000001788,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22379.40000000596,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22432.20000001788,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22531.70000001788,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22650.30000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22704.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 22905.5,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23012.70000001788,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23102,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23211.30000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23263.20000001788,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23366.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23418.70000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23674.20000001788,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23735.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 23853.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 24189.70000001788,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 24823.09999999404,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 24874.80000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 24931.20000001788,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 24986.90000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 25040,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 25240.20000001788,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 25736,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 26103,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 26350.90000000596,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 26409.70000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 26467,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 27169.20000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 27249.30000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 27447.59999999404,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 27553.70000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 27964.80000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 28019.5,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 28859.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 28954,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29108.90000000596,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29162.5,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29263.90000000596,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29541.30000001192,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29602.59999999404,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29671.40000000596,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29724.5,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29907,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 29975.80000001192,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 30037.30000001192,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 30206,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 30417.80000001192,
+      "d": 74,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 30793.20000001788,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 31011.59999999404,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 31069.5,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 31193.09999999404,
+      "d": 81,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 31275.5,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 31701,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 32173.59999999404,
+      "d": 63,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 32459,
+      "d": 66,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 32592.5,
+      "d": 96,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 32702.40000000596,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 32845.20000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 33071.20000001788,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 33139.5,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 33299.70000001788,
+      "d": 66,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 33557.90000000596,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 33716.70000001788,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 33828.70000001788,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 33945.5,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 34005.70000001788,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 34114.70000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 34936.09999999404,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 35569.90000000596,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 35887,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 35946.70000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36002.40000000596,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36211.30000001192,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36266.90000000596,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36319.5,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36441,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36789.59999999404,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36844,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36899.59999999404,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 36954.59999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 37008.30000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 37184.30000001192,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 37294.40000000596,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 37530.59999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 37699.30000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 37758,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 37964.09999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 38015.90000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 38116.70000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 38172.20000001788,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 38277.09999999404,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 38338.5,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 38562,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 38678.90000000596,
+      "d": 63,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 39545.70000001788,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 39729.30000001192,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 39799.09999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 39946.09999999404,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 40028.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 40097.20000001788,
+      "d": 87,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 40393,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 40561.09999999404,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 40959.09999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 41087.5,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 41210.80000001192,
+      "d": 95,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 41782.5,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 41849.30000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 41956.80000001192,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42012.90000000596,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42089.80000001192,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42147.30000001192,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42224.59999999404,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42287.20000001788,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42349.30000001192,
+      "d": 77,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42481.70000001788,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42588.20000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42686.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42843.59999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 42951.70000001788,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 43141.09999999404,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 43241,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 43395.20000001788,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 43546.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 43813.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 43865.70000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 44012.5,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 44250.40000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 44304.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 44766.30000001192,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 44872.90000000596,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 44986.5,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 45081.80000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 45645.30000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 45779.20000001788,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 45838.59999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 45892.20000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 45943.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 46323.40000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 46377.59999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 46606.80000001192,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 46713.70000001788,
+      "d": 71,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 46785.70000001788,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 47105.59999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 47514.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 47675.59999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 47780.90000000596,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 47839.5,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 48212.40000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 48266.40000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 48321.80000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 48433.80000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 48615.90000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 48919.40000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49177.09999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49229.90000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49284.70000001788,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49470.59999999404,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49583,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49856.30000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49920.40000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 49974.5,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50079.20000001788,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50142.20000001788,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50196.59999999404,
+      "d": 74,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50277.90000000596,
+      "d": 91,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50371.40000000596,
+      "d": 88,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50528,
+      "d": 114,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50642.59999999404,
+      "d": 86,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50792.5,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50861.30000001192,
+      "d": 74,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 50938.59999999404,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51068,
+      "d": 72,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51142.09999999404,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51268.80000001192,
+      "d": 72,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51342,
+      "d": 72,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51416.5,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51473.30000001192,
+      "d": 78,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51742.5,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51805.09999999404,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51862,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 51938.70000001788,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 52172.70000001788,
+      "d": 87,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 52260.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 52320.40000000596,
+      "d": 84,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 52405.90000000596,
+      "d": 98,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 52556.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 52908,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 52966.20000001788,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53022.40000000596,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53078.80000001192,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53139.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53247,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53536.09999999404,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53763.40000000596,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53819,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53926.40000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 53984.20000001788,
+      "d": 64,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54110.70000001788,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54179.90000000596,
+      "d": 63,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54249.80000001192,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54370.30000001192,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54486.5,
+      "d": 99,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54702.30000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54807.30000001192,
+      "d": 71,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 54879.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 55055.80000001192,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 55235,
+      "d": 101,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 55337.20000001788,
+      "d": 106,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 55637.09999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 55752.59999999404,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 56110.59999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 56165.70000001788,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 56381.09999999404,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 56585.20000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 56638.20000001788,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 56691.40000000596,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 56987.09999999404,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57058,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57165.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57508,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57709,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57762.09999999404,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57821.70000001788,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57888.70000001788,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 57993.90000000596,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58048.09999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58104.20000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58155.70000001788,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58222,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58378.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58536,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58640,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58789.30000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58901.30000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 58951.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59006.80000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59059.90000000596,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59123.70000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59179.59999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59340.09999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59562.70000001788,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59672.09999999404,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 59983.70000001788,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60040,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60095,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60306.70000001788,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60409.5,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60472.40000000596,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60527.09999999404,
+      "d": 82,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60610.5,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 60714.09999999404,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61001.5,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61161.5,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61507.80000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61566.59999999404,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61625,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61682.30000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61736.59999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61791,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61849.5,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61915.30000001192,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 61975.09999999404,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62041.70000001788,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62101.70000001788,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62211,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62266,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62318.40000000596,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62638.59999999404,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62745.30000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 62800.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 63009.20000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 63121.59999999404,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 63224.09999999404,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 63324.09999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 63683.59999999404,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 63920.5,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 63972.09999999404,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64032.30000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64136.40000000596,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64240.20000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64343.90000000596,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64405.59999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64722.70000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64775.30000001192,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64845.30000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64903,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 64957.40000000596,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65219,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65345.40000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65547.80000001192,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65603.80000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65714.20000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65769.70000001788,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65904.09999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 65968.30000001192,
+      "d": 71,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 66039.70000001788,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 66202.40000000596,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 66275.20000001788,
+      "d": 74,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 66463.80000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 66571.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 66994.70000001788,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 67360,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 67583.5,
+      "d": 72,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 67713.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 67876.40000000596,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68029.40000000596,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68085.30000001192,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68195.40000000596,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68305.40000000596,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68425.70000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68592,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68877.70000001788,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 68956.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 69065,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 69123.20000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 69247.5,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 69372.70000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 69615.5,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 69676.59999999404,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 69838,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 70018.59999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 70212.40000000596,
+      "d": 77,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 70442.59999999404,
+      "d": 101,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 70712.09999999404,
+      "d": 125,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 70837.59999999404,
+      "d": 104,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 71030.59999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 71124.30000001192,
+      "d": 64,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 71352.5,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 71460.70000001788,
+      "d": 81,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 71601.59999999404,
+      "d": 74,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 71827.30000001192,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 71989.09999999404,
+      "d": 102,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 72195.09999999404,
+      "d": 77,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 72273.59999999404,
+      "d": 85,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 72373,
+      "d": 118,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 72492.90000000596,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 72600.70000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 72854,
+      "d": 66,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 72920.09999999404,
+      "d": 71,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 73302.09999999404,
+      "d": 67,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 73437.80000001192,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 73560.09999999404,
+      "d": 75,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74004,
+      "d": 66,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74071.09999999404,
+      "d": 83,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74156.5,
+      "d": 74,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74231.59999999404,
+      "d": 67,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74416.90000000596,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74473.40000000596,
+      "d": 113,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74588.09999999404,
+      "d": 76,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74666.20000001788,
+      "d": 98,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74766.30000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 74870.30000001192,
+      "d": 61,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75133.80000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75185,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75241.90000000596,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75449.30000001192,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75505.59999999404,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75563.09999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75617.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75674.90000000596,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75776.5,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75833.59999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75939.40000000596,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 75991.09999999404,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 76043.20000001788,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 76387.80000001192,
+      "d": 69,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 76867.59999999404,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77016.09999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77069.80000001192,
+      "d": 58,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77130.5,
+      "d": 55,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77186.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77285.30000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77340.20000001788,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77401.5,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77461.70000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77561.30000001192,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 77976.40000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 78276.80000001192,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 78330.30000001192,
+      "d": 62,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 78493.59999999404,
+      "d": 63,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 78630.5,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 78681.59999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 78736.09999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 78947.90000000596,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79016.59999999404,
+      "d": 66,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79084.90000000596,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79145.90000000596,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79355.70000001788,
+      "d": 78,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79526.80000001192,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79580.09999999404,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79695.20000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79809.20000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 79863.20000001788,
+      "d": 51,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80154.30000001192,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80205.59999999404,
+      "d": 60,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80317.90000000596,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80382.09999999404,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80434.80000001192,
+      "d": 54,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80538.40000000596,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80780.40000000596,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80926.70000001788,
+      "d": 50,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 80981.40000000596,
+      "d": 65,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81147,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81249.09999999404,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81496.70000001788,
+      "d": 56,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81563,
+      "d": 52,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81631.90000000596,
+      "d": 53,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81692.20000001788,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81752,
+      "d": 70,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81824.20000001788,
+      "d": 59,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81887.30000001192,
+      "d": 100,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 81989.40000000596,
+      "d": 81,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82071.70000001788,
+      "d": 119,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82193.20000001788,
+      "d": 117,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82317.70000001788,
+      "d": 97,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82416.5,
+      "d": 91,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82524,
+      "d": 86,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82610.90000000596,
+      "d": 85,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82698.40000000596,
+      "d": 120,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82819.59999999404,
+      "d": 113,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 82954.40000000596,
+      "d": 120,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 83083.40000000596,
+      "d": 112,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 83255.30000001192,
+      "d": 92,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 83356.80000001192,
+      "d": 86,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 83448.20000001788,
+      "d": 80,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 84543.70000001788,
+      "d": 68,
+      "attr": [
+       "unknown:"
+      ]
+     },
+     {
+      "t": 84685.80000001192,
+      "d": 57,
+      "attr": [
+       "unknown:"
+      ]
+     }
+    ],
+    "marks": {
+     "load": 21249.5
+    }
+   },
+   "wall": 81505,
+   "scrollStart": 81557.40000000596
+  }
+ ]
+}

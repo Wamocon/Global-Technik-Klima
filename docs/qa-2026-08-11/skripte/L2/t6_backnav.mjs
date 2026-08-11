@@ -1,0 +1,27 @@
+import { createRequire } from 'node:module'
+const require = createRequire('D:/01 Antigrafity Projekte/25 Global-Technik-Klima/package.json')
+const { chromium } = require('playwright')
+const b = await chromium.launch()
+const ctx = await b.newContext({ viewport: { width: 1280, height: 900 } })
+for (const attempt of [1, 2]) {
+  const p = await ctx.newPage()
+  await p.addInitScript(() => { window.__opened = []; window.open = (...a) => { window.__opened.push(a); return null } })
+  await p.goto('http://localhost:4321/#randevu', { waitUntil: 'networkidle' })
+  await p.fill('#reqForm [name="name"]', 'Ayşe Yılmaz')
+  await p.fill('#reqForm [name="phone"]', '0533 046 13 87')
+  await p.fill('#reqForm [name="note"]', 'iki oda, Mahmutlar')
+  await p.check('#reqForm [name="consent"]')
+  await p.selectOption('#reqForm [name="service"]', 'Montaj')
+  const before = await p.evaluate(() => ({ n: document.querySelector('#reqForm [name=name]').value, ph: document.querySelector('#reqForm [name=phone]').value, c: document.querySelector('#reqForm [name=consent]').checked, s: document.querySelector('#reqForm [name=service]').value, note: document.querySelector('#reqForm [name=note]').value }))
+  await p.goto('http://localhost:4321/kvkk', { waitUntil: 'networkidle' })
+  await p.goBack({ waitUntil: 'load' })
+  await p.waitForSelector('#reqForm')
+  const after = await p.evaluate(() => ({ n: document.querySelector('#reqForm [name=name]').value, ph: document.querySelector('#reqForm [name=phone]').value, c: document.querySelector('#reqForm [name=consent]').checked, s: document.querySelector('#reqForm [name=service]').value, note: document.querySelector('#reqForm [name=note]').value, hp: document.querySelector('#reqForm [name=website]').value, err: document.getElementById('reqErr').hidden }))
+  console.log(`run ${attempt}\n  before back-nav: ${JSON.stringify(before)}\n  after  back-nav: ${JSON.stringify(after)}`)
+  // immediately submit after coming back
+  await p.click('#reqForm button[type="submit"]')
+  const res = await p.evaluate(() => ({ opened: window.__opened.length, err: document.getElementById('reqErr').textContent, hidden: document.getElementById('reqErr').hidden }))
+  console.log(`  submit right after Back → ${JSON.stringify(res)}`)
+  await p.close()
+}
+await b.close()

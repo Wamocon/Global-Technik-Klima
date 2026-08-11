@@ -1,0 +1,1049 @@
+{
+  "overflow320": [
+    {
+      "docScrollW": 348,
+      "bodyScrollW": 348,
+      "innerW": 320,
+      "canScroll": 28,
+      "unclipped": [
+        {
+          "tag": "BUTTON",
+          "cls": "burger",
+          "right": 348,
+          "w": 44,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 335,
+          "w": 18,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 335,
+          "w": 18,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 335,
+          "w": 18,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        }
+      ],
+      "total": 5
+    },
+    {
+      "docScrollW": 348,
+      "bodyScrollW": 348,
+      "innerW": 320,
+      "canScroll": 28,
+      "unclipped": [
+        {
+          "tag": "BUTTON",
+          "cls": "burger",
+          "right": 348,
+          "w": 44,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 335,
+          "w": 18,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 335,
+          "w": 18,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 335,
+          "w": 18,
+          "clippedByAncestor": false,
+          "pos": "static",
+          "text": ""
+        }
+      ],
+      "total": 5
+    }
+  ],
+  "chatClip": {
+    "200pct-1280 (640x360)": [
+      {
+        "viewport": {
+          "w": 640,
+          "h": 360
+        },
+        "panel": {
+          "top": 78,
+          "bottom": 348,
+          "h": 270,
+          "maxH": "270px",
+          "scrollH": 348,
+          "clientH": 268,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 79,
+          "bottom": 152,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 152,
+          "bottom": 192,
+          "h": 40,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "body": {
+          "top": 192,
+          "bottom": 312,
+          "h": 120,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "chips": {
+          "top": 312,
+          "bottom": 356,
+          "h": 44,
+          "insidePanel": false,
+          "inViewport": true
+        },
+        "form": {
+          "top": 356,
+          "bottom": 427,
+          "h": 71,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "input": {
+          "top": 369,
+          "bottom": 415,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "send": {
+          "top": 369,
+          "bottom": 415,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "panelContentClipped": true,
+        "canFocusInput": true
+      },
+      {
+        "viewport": {
+          "w": 640,
+          "h": 360
+        },
+        "panel": {
+          "top": 78,
+          "bottom": 348,
+          "h": 270,
+          "maxH": "270px",
+          "scrollH": 348,
+          "clientH": 268,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 79,
+          "bottom": 152,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 152,
+          "bottom": 192,
+          "h": 40,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "body": {
+          "top": 192,
+          "bottom": 312,
+          "h": 120,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "chips": {
+          "top": 312,
+          "bottom": 356,
+          "h": 44,
+          "insidePanel": false,
+          "inViewport": true
+        },
+        "form": {
+          "top": 356,
+          "bottom": 427,
+          "h": 71,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "input": {
+          "top": 369,
+          "bottom": 415,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "send": {
+          "top": 369,
+          "bottom": 415,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "panelContentClipped": true,
+        "canFocusInput": true
+      }
+    ],
+    "landscape-390x844 (844x390)": [
+      {
+        "viewport": {
+          "w": 844,
+          "h": 390
+        },
+        "panel": {
+          "top": 42,
+          "bottom": 312,
+          "h": 270,
+          "maxH": "270px",
+          "scrollH": 408,
+          "clientH": 268,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 43,
+          "bottom": 116,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 116,
+          "bottom": 175,
+          "h": 59,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "body": {
+          "top": 175,
+          "bottom": 295,
+          "h": 120,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "chips": {
+          "top": 295,
+          "bottom": 380,
+          "h": 85,
+          "insidePanel": false,
+          "inViewport": true
+        },
+        "form": {
+          "top": 380,
+          "bottom": 451,
+          "h": 71,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "input": {
+          "top": 393,
+          "bottom": 439,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "send": {
+          "top": 393,
+          "bottom": 439,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "panelContentClipped": true,
+        "canFocusInput": true
+      },
+      {
+        "viewport": {
+          "w": 844,
+          "h": 390
+        },
+        "panel": {
+          "top": 42,
+          "bottom": 312,
+          "h": 270,
+          "maxH": "270px",
+          "scrollH": 408,
+          "clientH": 268,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 43,
+          "bottom": 116,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 116,
+          "bottom": 175,
+          "h": 59,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "body": {
+          "top": 175,
+          "bottom": 295,
+          "h": 120,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "chips": {
+          "top": 295,
+          "bottom": 380,
+          "h": 85,
+          "insidePanel": false,
+          "inViewport": true
+        },
+        "form": {
+          "top": 380,
+          "bottom": 451,
+          "h": 71,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "input": {
+          "top": 393,
+          "bottom": 439,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "send": {
+          "top": 393,
+          "bottom": 439,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "panelContentClipped": true,
+        "canFocusInput": true
+      }
+    ],
+    "400pct-1280 (320x180)": [
+      {
+        "viewport": {
+          "w": 320,
+          "h": 180
+        },
+        "panel": {
+          "top": 78,
+          "bottom": 168,
+          "h": 90,
+          "maxH": "90px",
+          "scrollH": 408,
+          "clientH": 88,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 79,
+          "bottom": 152,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 152,
+          "bottom": 211,
+          "h": 59,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "body": {
+          "top": 211,
+          "bottom": 331,
+          "h": 120,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "chips": {
+          "top": 331,
+          "bottom": 416,
+          "h": 85,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "form": {
+          "top": 416,
+          "bottom": 487,
+          "h": 71,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "input": {
+          "top": 429,
+          "bottom": 475,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "send": {
+          "top": 429,
+          "bottom": 475,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "panelContentClipped": true,
+        "canFocusInput": true
+      },
+      {
+        "viewport": {
+          "w": 320,
+          "h": 180
+        },
+        "panel": {
+          "top": 78,
+          "bottom": 168,
+          "h": 90,
+          "maxH": "90px",
+          "scrollH": 408,
+          "clientH": 88,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 79,
+          "bottom": 152,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 152,
+          "bottom": 211,
+          "h": 59,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "body": {
+          "top": 211,
+          "bottom": 331,
+          "h": 120,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "chips": {
+          "top": 331,
+          "bottom": 416,
+          "h": 85,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "form": {
+          "top": 416,
+          "bottom": 487,
+          "h": 71,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "input": {
+          "top": 429,
+          "bottom": 475,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "send": {
+          "top": 429,
+          "bottom": 475,
+          "h": 46,
+          "insidePanel": false,
+          "inViewport": false
+        },
+        "panelContentClipped": true,
+        "canFocusInput": true
+      }
+    ],
+    "phone-portrait 390x844": [
+      {
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "panel": {
+          "top": 422,
+          "bottom": 832,
+          "h": 410,
+          "maxH": "754px",
+          "scrollH": 408,
+          "clientH": 408,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 423,
+          "bottom": 496,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 496,
+          "bottom": 555,
+          "h": 59,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "body": {
+          "top": 555,
+          "bottom": 675,
+          "h": 120,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "chips": {
+          "top": 675,
+          "bottom": 760,
+          "h": 85,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "form": {
+          "top": 760,
+          "bottom": 831,
+          "h": 71,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "input": {
+          "top": 773,
+          "bottom": 819,
+          "h": 46,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "send": {
+          "top": 773,
+          "bottom": 819,
+          "h": 46,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "panelContentClipped": false,
+        "canFocusInput": true
+      },
+      {
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "panel": {
+          "top": 422,
+          "bottom": 832,
+          "h": 410,
+          "maxH": "754px",
+          "scrollH": 408,
+          "clientH": 408,
+          "overflow": "hidden"
+        },
+        "header": {
+          "top": 423,
+          "bottom": 496,
+          "h": 73,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "disclosure": {
+          "top": 496,
+          "bottom": 555,
+          "h": 59,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "body": {
+          "top": 555,
+          "bottom": 675,
+          "h": 120,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "chips": {
+          "top": 675,
+          "bottom": 760,
+          "h": 85,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "form": {
+          "top": 760,
+          "bottom": 831,
+          "h": 71,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "input": {
+          "top": 773,
+          "bottom": 819,
+          "h": 46,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "send": {
+          "top": 773,
+          "bottom": 819,
+          "h": 46,
+          "insidePanel": true,
+          "inViewport": true
+        },
+        "panelContentClipped": false,
+        "canFocusInput": true
+      }
+    ]
+  },
+  "textZoom": [
+    {
+      "rootFontSize": "34px",
+      "hero": {
+        "h": 1101,
+        "scrollH": 1210,
+        "clientH": 1100,
+        "overflow": "hidden"
+      },
+      "heroInner": {
+        "top": 133,
+        "bottom": 1234,
+        "h": 1100
+      },
+      "contentBelowHeroBottom": -1,
+      "trustchipsVisible": true,
+      "trustchipsOverflowPx": -71,
+      "h1LineClip": [
+        {
+          "clientH": 107,
+          "scrollH": 107,
+          "clipped": false,
+          "text": "Alanya’da klimanın"
+        },
+        {
+          "clientH": 107,
+          "scrollH": 107,
+          "clipped": false,
+          "text": "güvenilir adresi"
+        }
+      ],
+      "hScroll": true,
+      "docScrollW": 1515,
+      "innerW": 1280,
+      "widest": [
+        {
+          "cls": "lang",
+          "right": 1515
+        },
+        {
+          "right": 1340
+        },
+        {
+          "right": 1398
+        },
+        {
+          "right": 1455
+        },
+        {
+          "right": 1515
+        }
+      ]
+    },
+    {
+      "rootFontSize": "34px",
+      "hero": {
+        "h": 1101,
+        "scrollH": 1210,
+        "clientH": 1100,
+        "overflow": "hidden"
+      },
+      "heroInner": {
+        "top": 133,
+        "bottom": 1234,
+        "h": 1100
+      },
+      "contentBelowHeroBottom": -1,
+      "trustchipsVisible": true,
+      "trustchipsOverflowPx": -71,
+      "h1LineClip": [
+        {
+          "clientH": 107,
+          "scrollH": 107,
+          "clipped": false,
+          "text": "Alanya’da klimanın"
+        },
+        {
+          "clientH": 107,
+          "scrollH": 107,
+          "clipped": false,
+          "text": "güvenilir adresi"
+        }
+      ],
+      "hScroll": true,
+      "docScrollW": 1515,
+      "innerW": 1280,
+      "widest": [
+        {
+          "cls": "lang",
+          "right": 1515
+        },
+        {
+          "right": 1340
+        },
+        {
+          "right": 1398
+        },
+        {
+          "right": 1455
+        },
+        {
+          "right": 1515
+        }
+      ]
+    }
+  ],
+  "focusObscured": [
+    [
+      {
+        "sel": ".foot .fl a",
+        "text": "KVKK Aydınlatma Metni",
+        "focused": true,
+        "rect": {
+          "top": 614,
+          "bottom": 658
+        },
+        "centreHit": "SPAN.b",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 4,
+        "entirelyHidden": true
+      },
+      {
+        "sel": ".fsoc a",
+        "text": "",
+        "focused": true,
+        "rect": {
+          "top": 704,
+          "bottom": 748
+        },
+        "centreHit": "BUTTON.",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 4,
+        "entirelyHidden": true
+      },
+      {
+        "sel": "#reqForm .rf-submit",
+        "text": "WhatsApp’tan gönder",
+        "focused": true,
+        "rect": {
+          "top": 400,
+          "bottom": 444
+        },
+        "centreHit": "DIV.chead",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 2,
+        "entirelyHidden": false
+      },
+      {
+        "sel": ".rf-consent input",
+        "text": "",
+        "focused": true,
+        "rect": {
+          "top": 414,
+          "bottom": 431
+        },
+        "centreHit": "DIV.chead",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 2,
+        "entirelyHidden": false
+      }
+    ],
+    [
+      {
+        "sel": ".foot .fl a",
+        "text": "KVKK Aydınlatma Metni",
+        "focused": true,
+        "rect": {
+          "top": 614,
+          "bottom": 658
+        },
+        "centreHit": "SPAN.b",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 4,
+        "entirelyHidden": true
+      },
+      {
+        "sel": ".fsoc a",
+        "text": "",
+        "focused": true,
+        "rect": {
+          "top": 704,
+          "bottom": 748
+        },
+        "centreHit": "BUTTON.",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 4,
+        "entirelyHidden": true
+      },
+      {
+        "sel": "#reqForm .rf-submit",
+        "text": "WhatsApp’tan gönder",
+        "focused": true,
+        "rect": {
+          "top": 400,
+          "bottom": 444
+        },
+        "centreHit": "DIV.chead",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 2,
+        "entirelyHidden": false
+      },
+      {
+        "sel": ".rf-consent input",
+        "text": "",
+        "focused": true,
+        "rect": {
+          "top": 414,
+          "bottom": 431
+        },
+        "centreHit": "DIV.chead",
+        "centreCoveredByOverlay": true,
+        "cornersCoveredOf4": 2,
+        "entirelyHidden": false
+      }
+    ]
+  ],
+  "usability": {
+    "submitBlockedPopup-run1": {
+      "beforeHTML": {
+        "errHidden": true,
+        "values": [
+          "name=Ayşe Yılmaz",
+          "phone=05001234567",
+          "place=",
+          "service=Klima alımı",
+          "when=",
+          "note=",
+          "website=",
+          "consent=true"
+        ]
+      },
+      "afterSubmit": {
+        "openCalls": [
+          "https://wa.me/905330461387?text=%F0%9F%8C%90%20Web%20sitesi%20%E2%80%94%20Randevu%20%2F%20%C3%9Ccretsiz%20Ke%C5%9Fif%0A%0AAd%C4%B1n%C4%B1z%3A%20Ay%C5%9Fe%20Y%C4%B1lmaz%0ATelefon%3A%2005001234567%0AKonu%3A%20Klima%20al%C4%B1m%C4%B1"
+        ],
+        "errHidden": true,
+        "errText": "",
+        "anyNewVisibleFeedback": [
+          "var e=document.getElementById(`reqForm`);if(e){let t=documen"
+        ],
+        "formStillFilled": [
+          "name=Ayşe Yılmaz",
+          "phone=05001234567",
+          "place=",
+          "service=Klima alımı",
+          "when=",
+          "note=",
+          "website=",
+          "consent=true"
+        ],
+        "focus": "BUTTON.btn",
+        "ariaLiveRegions": [
+          {
+            "id": "reqErr",
+            "role": "alert",
+            "live": null,
+            "hidden": true,
+            "text": ""
+          }
+        ]
+      },
+      "consoleErrors": []
+    },
+    "submitBlockedPopup-run2": {
+      "beforeHTML": {
+        "errHidden": true,
+        "values": [
+          "name=Ayşe Yılmaz",
+          "phone=05001234567",
+          "place=",
+          "service=Klima alımı",
+          "when=",
+          "note=",
+          "website=",
+          "consent=true"
+        ]
+      },
+      "afterSubmit": {
+        "openCalls": [
+          "https://wa.me/905330461387?text=%F0%9F%8C%90%20Web%20sitesi%20%E2%80%94%20Randevu%20%2F%20%C3%9Ccretsiz%20Ke%C5%9Fif%0A%0AAd%C4%B1n%C4%B1z%3A%20Ay%C5%9Fe%20Y%C4%B1lmaz%0ATelefon%3A%2005001234567%0AKonu%3A%20Klima%20al%C4%B1m%C4%B1"
+        ],
+        "errHidden": true,
+        "errText": "",
+        "anyNewVisibleFeedback": [
+          "var e=document.getElementById(`reqForm`);if(e){let t=documen"
+        ],
+        "formStillFilled": [
+          "name=Ayşe Yılmaz",
+          "phone=05001234567",
+          "place=",
+          "service=Klima alımı",
+          "when=",
+          "note=",
+          "website=",
+          "consent=true"
+        ],
+        "focus": "BUTTON.btn",
+        "ariaLiveRegions": [
+          {
+            "id": "reqErr",
+            "role": "alert",
+            "live": null,
+            "hidden": true,
+            "text": ""
+          }
+        ]
+      },
+      "consoleErrors": []
+    },
+    "errorRecovery": {
+      "err1": {
+        "text": "⚠ Adınız · Telefon  —  ☐ İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.",
+        "focus": "name",
+        "errInViewport": true,
+        "focusInViewport": true
+      },
+      "beforeSecond": "⚠ Adınız · Telefon  —  ☐ İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.",
+      "second": {
+        "sameText": true,
+        "text": "⚠ Adınız · Telefon  —  ☐ İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.",
+        "hidden": false
+      },
+      "err2": {
+        "text": "⚠ Telefon  —  ☐ İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.",
+        "focus": "phone"
+      },
+      "err3": {
+        "text": "☐ İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.",
+        "hidden": false,
+        "focus": "consent"
+      },
+      "ok": {
+        "opened": [
+          "https://wa.me/905330461387?text=%F0%9F%8C%90%20Web%20sitesi%20%E2%80%94%20Randevu%20%2F%20%C3%9Ccretsiz%20Ke%C5%9Fif%0A%0AAd%C4%B1n%C4%B1z%3A%20Ali%0ATelefon%3A%200500%0AKonu%3A%20Klima%20al%C4%B1m%C4%B1"
+        ],
+        "errHidden": true
+      }
+    }
+  },
+  "deTargets": {
+    "dark": {
+      "revEx": {
+        "fg": [
+          125,
+          117,
+          106
+        ],
+        "bg": [
+          23,
+          18,
+          15
+        ],
+        "color": "rgb(167, 158, 144)",
+        "fontSize": "9.6px",
+        "fontWeight": "300",
+        "text": "Beispiel",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "ratio": 4.09
+      },
+      "rfErr": {
+        "fg": [
+          168,
+          48,
+          20
+        ],
+        "bg": [
+          48,
+          25,
+          19
+        ],
+        "color": "rgb(234, 61, 20)",
+        "fontSize": "13.44px",
+        "fontWeight": "300",
+        "text": "⚠ Ihr Name · Telefon  —  ☐ Ich bin einve",
+        "bgColor": "oklab(0.617887 0.178801 0.118787 / 0.1)",
+        "ratio": 2.43
+      }
+    },
+    "light": {
+      "revEx": {
+        "fg": [
+          152,
+          145,
+          139
+        ],
+        "bg": [
+          255,
+          253,
+          249
+        ],
+        "color": "rgb(90, 81, 72)",
+        "fontSize": "9.6px",
+        "fontWeight": "300",
+        "text": "Beispiel",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "ratio": 3.06
+      },
+      "rfErr": {
+        "fg": [
+          240,
+          120,
+          92
+        ],
+        "bg": [
+          253,
+          233,
+          225
+        ],
+        "color": "rgb(234, 61, 20)",
+        "fontSize": "13.44px",
+        "fontWeight": "300",
+        "text": "⚠ Ihr Name · Telefon  —  ☐ Ich bin einve",
+        "bgColor": "oklab(0.617887 0.178801 0.118787 / 0.1)",
+        "ratio": 2.37
+      }
+    }
+  }
+}

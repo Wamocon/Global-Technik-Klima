@@ -1,0 +1,923 @@
+[
+ [
+  {
+   "label": "baseline after load",
+   "heap": 2480832,
+   "heapTotal": 3461120,
+   "nodes": 590,
+   "listeners": 68,
+   "docs": 2,
+   "layouts": 30,
+   "recalcs": 308,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x10",
+   "heap": 3333368,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 50,
+   "recalcs": 412,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x20",
+   "heap": 3337516,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 70,
+   "recalcs": 507,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x30",
+   "heap": 3341652,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 90,
+   "recalcs": 604,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x40",
+   "heap": 3365452,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 110,
+   "recalcs": 699,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x50",
+   "heap": 3371072,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 130,
+   "recalcs": 802,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x10",
+   "heap": 3377288,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 140,
+   "recalcs": 896,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x20",
+   "heap": 3383044,
+   "heapTotal": 3776512,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 150,
+   "recalcs": 999,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x30",
+   "heap": 3386540,
+   "heapTotal": 3776512,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 160,
+   "recalcs": 1107,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "C full-page scroll pass x2",
+   "heap": 11265676,
+   "heapTotal": 12427264,
+   "nodes": 590,
+   "listeners": 213,
+   "docs": 5,
+   "layouts": 214,
+   "recalcs": 1272,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x4",
+   "heap": 11486868,
+   "heapTotal": 12689408,
+   "nodes": 590,
+   "listeners": 205,
+   "docs": 5,
+   "layouts": 224,
+   "recalcs": 1449,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x6",
+   "heap": 12913732,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 253,
+   "recalcs": 1603,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x8",
+   "heap": 12922712,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 256,
+   "recalcs": 1682,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x10",
+   "heap": 12929944,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 258,
+   "recalcs": 1753,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x5",
+   "heap": 13763612,
+   "heapTotal": 15048704,
+   "nodes": 590,
+   "listeners": 341,
+   "docs": 33,
+   "layouts": 410,
+   "recalcs": 1985,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x10",
+   "heap": 14054824,
+   "heapTotal": 15048704,
+   "nodes": 590,
+   "listeners": 346,
+   "docs": 33,
+   "layouts": 560,
+   "recalcs": 2218,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x15",
+   "heap": 14282564,
+   "heapTotal": 15310848,
+   "nodes": 590,
+   "listeners": 350,
+   "docs": 33,
+   "layouts": 716,
+   "recalcs": 2461,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x20",
+   "heap": 14487080,
+   "heapTotal": 15310848,
+   "nodes": 590,
+   "listeners": 356,
+   "docs": 33,
+   "layouts": 869,
+   "recalcs": 2696,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "E after 3 s idle + GC",
+   "heap": 14482156,
+   "heapTotal": 15310848,
+   "nodes": 590,
+   "listeners": 355,
+   "docs": 33,
+   "layouts": 869,
+   "recalcs": 2699,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  }
+ ],
+ [
+  {
+   "label": "baseline after load",
+   "heap": 2480900,
+   "heapTotal": 3461120,
+   "nodes": 590,
+   "listeners": 68,
+   "docs": 2,
+   "layouts": 30,
+   "recalcs": 305,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x10",
+   "heap": 3333460,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 50,
+   "recalcs": 409,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x20",
+   "heap": 3337580,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 70,
+   "recalcs": 513,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x30",
+   "heap": 3341720,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 90,
+   "recalcs": 617,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x40",
+   "heap": 3365680,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 110,
+   "recalcs": 713,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x50",
+   "heap": 3371104,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 130,
+   "recalcs": 813,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x10",
+   "heap": 3377332,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 140,
+   "recalcs": 915,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x20",
+   "heap": 3383120,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 150,
+   "recalcs": 1051,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x30",
+   "heap": 3386640,
+   "heapTotal": 4038656,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 160,
+   "recalcs": 1196,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "C full-page scroll pass x2",
+   "heap": 11247272,
+   "heapTotal": 12427264,
+   "nodes": 590,
+   "listeners": 205,
+   "docs": 5,
+   "layouts": 213,
+   "recalcs": 1352,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x4",
+   "heap": 12858528,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 244,
+   "recalcs": 1486,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x6",
+   "heap": 12891560,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 248,
+   "recalcs": 1588,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x8",
+   "heap": 12911916,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 248,
+   "recalcs": 1618,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x10",
+   "heap": 12918716,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 250,
+   "recalcs": 1687,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x5",
+   "heap": 13762192,
+   "heapTotal": 14786560,
+   "nodes": 590,
+   "listeners": 340,
+   "docs": 33,
+   "layouts": 403,
+   "recalcs": 1919,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x10",
+   "heap": 14057484,
+   "heapTotal": 14786560,
+   "nodes": 590,
+   "listeners": 346,
+   "docs": 33,
+   "layouts": 554,
+   "recalcs": 2149,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x15",
+   "heap": 14295564,
+   "heapTotal": 15048704,
+   "nodes": 590,
+   "listeners": 351,
+   "docs": 33,
+   "layouts": 704,
+   "recalcs": 2381,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x20",
+   "heap": 14486848,
+   "heapTotal": 15310848,
+   "nodes": 590,
+   "listeners": 356,
+   "docs": 33,
+   "layouts": 854,
+   "recalcs": 2615,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "E after 3 s idle + GC",
+   "heap": 14482344,
+   "heapTotal": 15310848,
+   "nodes": 590,
+   "listeners": 355,
+   "docs": 33,
+   "layouts": 854,
+   "recalcs": 2618,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  }
+ ],
+ [
+  {
+   "label": "baseline after load",
+   "heap": 2480900,
+   "heapTotal": 3723264,
+   "nodes": 590,
+   "listeners": 68,
+   "docs": 2,
+   "layouts": 30,
+   "recalcs": 305,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x10",
+   "heap": 3334016,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 50,
+   "recalcs": 402,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x20",
+   "heap": 3337580,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 70,
+   "recalcs": 499,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x30",
+   "heap": 3341560,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 90,
+   "recalcs": 590,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x40",
+   "heap": 3365680,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 110,
+   "recalcs": 687,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "A chat open/close x50",
+   "heap": 3371116,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 130,
+   "recalcs": 787,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x10",
+   "heap": 3377372,
+   "heapTotal": 4300800,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 140,
+   "recalcs": 881,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x20",
+   "heap": 3383140,
+   "heapTotal": 4038656,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 150,
+   "recalcs": 998,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "B theme toggle x30",
+   "heap": 3386672,
+   "heapTotal": 4038656,
+   "nodes": 590,
+   "listeners": 81,
+   "docs": 2,
+   "layouts": 160,
+   "recalcs": 1092,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 0,
+   "lost": 0,
+   "glAlive": []
+  },
+  {
+   "label": "C full-page scroll pass x2",
+   "heap": 11314444,
+   "heapTotal": 12165120,
+   "nodes": 590,
+   "listeners": 215,
+   "docs": 5,
+   "layouts": 222,
+   "recalcs": 1261,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x4",
+   "heap": 12824180,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 337,
+   "docs": 33,
+   "layouts": 254,
+   "recalcs": 1418,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x6",
+   "heap": 12867184,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 259,
+   "recalcs": 1507,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x8",
+   "heap": 12875168,
+   "heapTotal": 13737984,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 261,
+   "recalcs": 1598,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "C full-page scroll pass x10",
+   "heap": 12881980,
+   "heapTotal": 14000128,
+   "nodes": 590,
+   "listeners": 335,
+   "docs": 33,
+   "layouts": 263,
+   "recalcs": 1664,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x5",
+   "heap": 13782892,
+   "heapTotal": 15048704,
+   "nodes": 590,
+   "listeners": 340,
+   "docs": 33,
+   "layouts": 419,
+   "recalcs": 1902,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x10",
+   "heap": 14076032,
+   "heapTotal": 14786560,
+   "nodes": 590,
+   "listeners": 345,
+   "docs": 33,
+   "layouts": 576,
+   "recalcs": 2140,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x15",
+   "heap": 14271940,
+   "heapTotal": 15048704,
+   "nodes": 590,
+   "listeners": 350,
+   "docs": 33,
+   "layouts": 734,
+   "recalcs": 2380,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "D resize mobile<->desktop x20",
+   "heap": 14317916,
+   "heapTotal": 15310848,
+   "nodes": 590,
+   "listeners": 356,
+   "docs": 33,
+   "layouts": 884,
+   "recalcs": 2610,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  },
+  {
+   "label": "E after 3 s idle + GC",
+   "heap": 14313096,
+   "heapTotal": 15310848,
+   "nodes": 590,
+   "listeners": 355,
+   "docs": 33,
+   "layouts": 884,
+   "recalcs": 2613,
+   "msgs": 1,
+   "canvases": 2,
+   "ctxs": 1,
+   "lost": 0,
+   "glAlive": [
+    "alive"
+   ]
+  }
+ ]
+]

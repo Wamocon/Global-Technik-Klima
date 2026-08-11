@@ -1,0 +1,2948 @@
+
+===== FOCUS ORDER dark/desktop (29 stops) =====
+    0  link         "Global Teknik — Gree Alanya"   .brand
+    1  link         "Hizmetler"   
+    2  link         "Ürünler"   
+    3  link         "Projeler"   
+    4  link         "Teknik"   
+    5  link         "BTU Hesapla"   
+    6  link         "Randevu"   
+    7  link         "İletişim"   
+    8  button       "Temayı değiştir"  #themetog .themetog
+    9  link         "TR"   
+   10  link         "DE"   
+   11  link         "RU"   
+   12  link         "EN"   
+   13  link         "WhatsApp’tan yazın"   .btn.btn-primary
+   14  link         "Ücretsiz keşif isteyin"   .btn
+   15  link         "HEMEN ARAYIN +90 242 513 86 51"   .phone
+   16  link         "WHATSAPP +90 533 046 13 87"   .phone
+   17  link         "5,0 / 5 · 65 Google değerlendirmesi"   .ratingbig
+   18  link         "Proje teklifi alın"   .btn.btn-primary
+   19  link         "WhatsApp"   .btn.btn-ghost
+   20  slider       "Sürükleyin"  #baRange .ba-range
+   21  spinbutton   "Oda kaç m²?"  #ca 
+   22  spinbutton   "Kaç kişi kullanıyor?"  #cp 
+   23  button       "Evet"   
+   24  button       "Hayır"   .on
+   25  link         "Sonucu WhatsApp’tan gönder"  #ccta .btn.btn-primary
+   26  link         "Kampanyayı WhatsApp’tan sorun"   .camp-cta.shown
+   27  textbox      "Adınız"   
+   28  textbox      "Telefon"     <-- wrapped, order complete
+
+===== FOCUS ORDER dark/mobile (23 stops) =====
+    0  link         "Global Teknik — Gree Alanya"   .brand
+    1  button       "Temayı değiştir"  #themetog .themetog
+    2  link         "TR"   
+    3  link         "DE"   
+    4  link         "RU"   
+    5  link         "EN"   
+    6  button       "Menü"  #burger .burger
+    7  link         "WhatsApp’tan yazın"   .btn.btn-primary
+    8  link         "Ücretsiz keşif isteyin"   .btn
+    9  link         "HEMEN ARAYIN +90 242 513 86 51"   .phone
+   10  link         "WHATSAPP +90 533 046 13 87"   .phone
+   11  link         "5,0 / 5 · 65 Google değerlendirmesi"   .ratingbig  [OBSCURED BY .mobar]
+   12  link         "Proje teklifi alın"   .btn.btn-primary
+   13  link         "WhatsApp"   .btn.btn-ghost
+   14  slider       "Sürükleyin"  #baRange .ba-range
+   15  spinbutton   "Oda kaç m²?"  #ca 
+   16  spinbutton   "Kaç kişi kullanıyor?"  #cp 
+   17  button       "Evet"   
+   18  button       "Hayır"   .on
+   19  link         "Sonucu WhatsApp’tan gönder"  #ccta .btn.btn-primary  [OBSCURED BY .mobar]
+   20  link         "Kampanyayı WhatsApp’tan sorun"   .camp-cta.shown
+   21  textbox      "Adınız"   
+   22  textbox      "Telefon"     <-- wrapped, order complete
+
+===== FOCUS ORDER light/desktop (29 stops) =====
+    0  link         "Global Teknik — Gree Alanya"   .brand
+    1  link         "Hizmetler"   
+    2  link         "Ürünler"   
+    3  link         "Projeler"   
+    4  link         "Teknik"   
+    5  link         "BTU Hesapla"   
+    6  link         "Randevu"   
+    7  link         "İletişim"   
+    8  button       "Temayı değiştir"  #themetog .themetog
+    9  link         "TR"   
+   10  link         "DE"   
+   11  link         "RU"   
+   12  link         "EN"   
+   13  link         "WhatsApp’tan yazın"   .btn.btn-primary
+   14  link         "Ücretsiz keşif isteyin"   .btn
+   15  link         "HEMEN ARAYIN +90 242 513 86 51"   .phone
+   16  link         "WHATSAPP +90 533 046 13 87"   .phone
+   17  link         "5,0 / 5 · 65 Google değerlendirmesi"   .ratingbig
+   18  link         "Proje teklifi alın"   .btn.btn-primary
+   19  link         "WhatsApp"   .btn.btn-ghost
+   20  slider       "Sürükleyin"  #baRange .ba-range
+   21  spinbutton   "Oda kaç m²?"  #ca 
+   22  spinbutton   "Kaç kişi kullanıyor?"  #cp 
+   23  button       "Evet"   
+   24  button       "Hayır"   .on
+   25  link         "Sonucu WhatsApp’tan gönder"  #ccta .btn.btn-primary
+   26  link         "Kampanyayı WhatsApp’tan sorun"   .camp-cta.shown
+   27  textbox      "Adınız"   
+   28  textbox      "Telefon"     <-- wrapped, order complete
+
+===== FOCUS ORDER light/mobile (23 stops) =====
+    0  link         "Global Teknik — Gree Alanya"   .brand
+    1  button       "Temayı değiştir"  #themetog .themetog
+    2  link         "TR"   
+    3  link         "DE"   
+    4  link         "RU"   
+    5  link         "EN"   
+    6  button       "Menü"  #burger .burger
+    7  link         "WhatsApp’tan yazın"   .btn.btn-primary
+    8  link         "Ücretsiz keşif isteyin"   .btn
+    9  link         "HEMEN ARAYIN +90 242 513 86 51"   .phone
+   10  link         "WHATSAPP +90 533 046 13 87"   .phone
+   11  link         "5,0 / 5 · 65 Google değerlendirmesi"   .ratingbig  [OBSCURED BY .mobar]
+   12  link         "Proje teklifi alın"   .btn.btn-primary
+   13  link         "WhatsApp"   .btn.btn-ghost
+   14  slider       "Sürükleyin"  #baRange .ba-range
+   15  spinbutton   "Oda kaç m²?"  #ca 
+   16  spinbutton   "Kaç kişi kullanıyor?"  #cp 
+   17  button       "Evet"   
+   18  button       "Hayır"   .on
+   19  link         "Sonucu WhatsApp’tan gönder"  #ccta .btn.btn-primary  [OBSCURED BY .mobar]
+   20  link         "Kampanyayı WhatsApp’tan sorun"   .camp-cta.shown
+   21  textbox      "Adınız"   
+   22  textbox      "Telefon"     <-- wrapped, order complete
+
+===== FOCUS INDICATORS (pixel diff; changed% of the padded box) =====
+--- dark/desktop
+   .brand                             outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 9.13% (1068px)  indicator-contrast 11.09:1 (rgb(217,194,122) vs rgb(15,12,11))  
+   #themetog                          outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 13.13% (383px)  indicator-contrast 11.07:1 (rgb(217,194,122) vs rgb(16,12,10))  
+   .lang a                            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 13.54% (359px)  indicator-contrast 11.07:1 (rgb(217,194,122) vs rgb(16,12,10))  
+   #burger                            skip: hidden at this viewport
+   .mainnav a                         outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 11.54% (412px)  indicator-contrast 11.07:1 (rgb(217,194,122) vs rgb(16,12,10))  
+   .hero .cta .btn-primary            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.06% (8px)  indicator-contrast 1.17:1 (rgb(28,23,18) vs rgb(42,37,25))  
+   .hero .cta .btn:not(.btn-primary)  outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.05% (6px)  indicator-contrast 1.22:1 (rgb(63,62,55) vs rgb(77,75,61))  <<< NO VISIBLE FOCUS INDICATOR
+   .ratingbig                         outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.13% (37px)  indicator-contrast 1.18:1 (rgb(17,17,15) vs rgb(33,34,23))  
+   #ca                                outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 11.9% (1188px)  indicator-contrast 18.88:1 (rgb(252,252,252) vs rgb(16,13,11))  
+   #cp                                outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 9.74% (972px)  indicator-contrast 18.88:1 (rgb(252,252,252) vs rgb(16,13,11))  
+   .toggle button                     outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0% (0px)  indicator-contrast n/a  <<< NO VISIBLE FOCUS INDICATOR
+   #ccta                              outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 7.2% (1226px)  indicator-contrast 10.21:1 (rgb(217,194,122) vs rgb(27,22,19))  
+   #baRange                           outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.06% (411px)  indicator-contrast 1.71:1 (rgb(217,194,122) vs rgb(132,153,153))  
+   #reqForm input[name=name]          outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 3.46% (638px)  indicator-contrast 1.34:1 (rgb(165,147,92) vs rgb(141,125,80))  
+   #reqForm select                    outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 3.41% (649px)  indicator-contrast 1.63:1 (rgb(128,113,72) vs rgb(92,81,52))  
+   #reqForm textarea                  outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 2.53% (1275px)  indicator-contrast 1.63:1 (rgb(128,113,72) vs rgb(92,81,52))  
+   .rf-consent input                  outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 18.37% (200px)  indicator-contrast 10.14:1 (rgb(217,194,122) vs rgb(26,23,23))  
+   #reqForm .rf-submit                outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 7.2% (2530px)  indicator-contrast 10.23:1 (rgb(217,194,122) vs rgb(26,22,19))  
+   .foot .fl a                        outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 8.79% (728px)  indicator-contrast 11.03:1 (rgb(217,194,122) vs rgb(15,13,12))  
+   .fsoc a                            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 10.18% (342px)  indicator-contrast 11.02:1 (rgb(217,194,122) vs rgb(15,13,14))  
+   .wafab                             outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 11.33% (555px)  indicator-contrast 11.25:1 (rgb(217,194,122) vs rgb(11,10,9))  
+   #chatfab                           outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 8.22% (1130px)  indicator-contrast 11.32:1 (rgb(217,194,122) vs rgb(10,9,9))  
+   .mobar a                           skip: hidden at this viewport
+   .cmap iframe                       outline[none 3px rgb(220, 213, 203)] off 0px fv=false  changed 0.04% (96px)  indicator-contrast 4.7:1 (rgb(255,255,255) vs rgb(63,113,206))  
+--- dark/mobile
+   .brand                             outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 12.17% (460px)  indicator-contrast 11.07:1 (rgb(217,194,122) vs rgb(16,12,10))  
+   #themetog                          outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 13.13% (383px)  indicator-contrast 11.07:1 (rgb(217,194,122) vs rgb(16,12,11))  
+   .lang a                            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 13.54% (359px)  indicator-contrast 11.07:1 (rgb(217,194,122) vs rgb(16,12,11))  
+   #burger                            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 11.97% (431px)  indicator-contrast 11.07:1 (rgb(217,194,122) vs rgb(16,12,10))  
+   .mainnav a                         skip: hidden at this viewport
+   .hero .cta .btn-primary            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.1% (13px)  indicator-contrast 1.15:1 (rgb(18,15,14) vs rgb(33,30,20))  
+   .hero .cta .btn:not(.btn-primary)  outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.18% (21px)  indicator-contrast 1.17:1 (rgb(21,17,15) vs rgb(37,33,24))  
+   .ratingbig                         outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.21% (45px)  indicator-contrast 1.17:1 (rgb(17,14,12) vs rgb(34,31,20))  
+   #ca                                outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 11.9% (1188px)  indicator-contrast 18.88:1 (rgb(252,252,252) vs rgb(16,13,11))  
+   #cp                                outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 9.74% (972px)  indicator-contrast 18.88:1 (rgb(252,252,252) vs rgb(16,13,11))  
+   .toggle button                     outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0% (0px)  indicator-contrast n/a  <<< NO VISIBLE FOCUS INDICATOR
+   #ccta                              outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 7.2% (1226px)  indicator-contrast 10.21:1 (rgb(217,194,122) vs rgb(27,22,19))  
+   #baRange                           outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.37% (426px)  indicator-contrast 9.9:1 (rgb(217,194,122) vs rgb(10,29,30))  
+   #reqForm input[name=name]          outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 3.48% (667px)  indicator-contrast 1.63:1 (rgb(128,113,72) vs rgb(92,81,52))  
+   #reqForm select                    outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 3.4% (671px)  indicator-contrast 1.65:1 (rgb(129,114,72) vs rgb(92,81,52))  
+   #reqForm textarea                  outline[none 3px rgb(234, 246, 244)] off 3px fv=true  changed 2.73% (713px)  indicator-contrast 1.63:1 (rgb(128,113,72) vs rgb(92,81,52))  
+   .rf-consent input                  outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 18.37% (200px)  indicator-contrast 10.22:1 (rgb(217,194,122) vs rgb(26,22,20))  
+   #reqForm .rf-submit                outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 7.71% (1406px)  indicator-contrast 10.21:1 (rgb(217,194,122) vs rgb(27,22,19))  
+   .foot .fl a                        outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 8.79% (728px)  indicator-contrast 11.04:1 (rgb(217,194,122) vs rgb(15,13,11))  
+   .fsoc a                            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 12.35% (415px)  indicator-contrast 11.04:1 (rgb(217,194,122) vs rgb(15,13,11))  
+   .wafab                             skip: hidden at this viewport
+   #chatfab                           outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 8.21% (1128px)  indicator-contrast 11.26:1 (rgb(217,194,122) vs rgb(10,10,10))  
+   .mobar a                           outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 3.21% (406px)  indicator-contrast 11.04:1 (rgb(217,194,122) vs rgb(15,13,11))  
+   .cmap iframe                       outline[none 3px rgb(220, 213, 203)] off 0px fv=false  changed 0% (0px)  indicator-contrast n/a  <<< NO VISIBLE FOCUS INDICATOR
+--- light/desktop
+   .brand                             outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 9.13% (1068px)  indicator-contrast 5.5:1 (rgb(122,95,20) vs rgb(246,244,239))  
+   #themetog                          outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 13.13% (383px)  indicator-contrast 5.5:1 (rgb(122,95,20) vs rgb(246,244,239))  
+   .lang a                            outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 13.54% (359px)  indicator-contrast 5.5:1 (rgb(122,95,20) vs rgb(246,244,239))  
+   #burger                            skip: hidden at this viewport
+   .mainnav a                         outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 11.54% (412px)  indicator-contrast 5.5:1 (rgb(122,95,20) vs rgb(246,244,239))  
+   .hero .cta .btn-primary            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 3.43% (432px)  indicator-contrast 1.31:1 (rgb(58,53,49) vs rgb(75,71,63))  
+   .hero .cta .btn:not(.btn-primary)  outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 14.33% (1718px)  indicator-contrast 1.92:1 (rgb(74,75,74) vs rgb(115,119,113))  
+   .ratingbig                         outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.12% (34px)  indicator-contrast 1.2:1 (rgb(21,21,20) vs rgb(37,38,29))  
+   #ca                                outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 11.87% (1185px)  indicator-contrast 18.79:1 (rgb(255,255,255) vs rgb(20,17,16))  
+   #cp                                outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 9.7% (968px)  indicator-contrast 18.79:1 (rgb(255,255,255) vs rgb(20,17,16))  
+   .toggle button                     outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 0% (0px)  indicator-contrast n/a  <<< NO VISIBLE FOCUS INDICATOR
+   #ccta                              outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 13.09% (2227px)  indicator-contrast 5.95:1 (rgb(122,95,20) vs rgb(255,253,249))  
+   #baRange                           outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.06% (411px)  indicator-contrast 1.71:1 (rgb(217,194,122) vs rgb(132,153,153))  
+   #reqForm input[name=name]          outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 3.48% (642px)  indicator-contrast 1.31:1 (rgb(162,150,122) vs rgb(178,173,164))  
+   #reqForm select                    outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 3.4% (648px)  indicator-contrast 1.31:1 (rgb(162,150,122) vs rgb(178,173,164))  
+   #reqForm textarea                  outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 0% (0px)  indicator-contrast n/a  <<< NO VISIBLE FOCUS INDICATOR
+   .rf-consent input                  outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 18.37% (200px)  indicator-contrast 5.84:1 (rgb(122,95,20) vs rgb(252,251,248))  
+   #reqForm .rf-submit                outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 7.2% (2532px)  indicator-contrast 5.95:1 (rgb(122,95,20) vs rgb(255,253,249))  
+   .foot .fl a                        outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 8.79% (728px)  indicator-contrast 5.42:1 (rgb(122,95,20) vs rgb(245,242,238))  
+   .fsoc a                            outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 10.21% (343px)  indicator-contrast 5.37:1 (rgb(122,95,20) vs rgb(244,241,237))  
+   .wafab                             outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 11.29% (553px)  indicator-contrast 4.99:1 (rgb(122,95,20) vs rgb(236,233,228))  
+   #chatfab                           outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 8.18% (1124px)  indicator-contrast 4.86:1 (rgb(122,95,20) vs rgb(233,230,227))  
+   .mobar a                           skip: hidden at this viewport
+   .cmap iframe                       outline[none 3px rgb(42, 36, 30)] off 0px fv=false  changed 0.04% (96px)  indicator-contrast 4.76:1 (rgb(255,255,255) vs rgb(62,112,206))  
+--- light/mobile
+   .brand                             outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 12.17% (460px)  indicator-contrast 5.45:1 (rgb(122,95,20) vs rgb(245,243,238))  
+   #themetog                          outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 13.13% (383px)  indicator-contrast 5.45:1 (rgb(122,95,20) vs rgb(245,243,237))  
+   .lang a                            outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 13.54% (359px)  indicator-contrast 5.45:1 (rgb(122,95,20) vs rgb(245,243,237))  
+   #burger                            outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 11.97% (431px)  indicator-contrast 5.45:1 (rgb(122,95,20) vs rgb(245,243,238))  
+   .mainnav a                         skip: hidden at this viewport
+   .hero .cta .btn-primary            outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.03% (4px)  indicator-contrast 1.16:1 (rgb(21,17,15) vs rgb(36,32,21))  <<< NO VISIBLE FOCUS INDICATOR
+   .hero .cta .btn:not(.btn-primary)  outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.04% (5px)  indicator-contrast 1.12:1 (rgb(19,16,13) vs rgb(32,28,19))  <<< NO VISIBLE FOCUS INDICATOR
+   .ratingbig                         outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.04% (9px)  indicator-contrast 1.16:1 (rgb(34,30,19) vs rgb(17,14,12))  
+   #ca                                outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 11.87% (1185px)  indicator-contrast 18.79:1 (rgb(255,255,255) vs rgb(20,17,16))  
+   #cp                                outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 9.7% (968px)  indicator-contrast 18.79:1 (rgb(255,255,255) vs rgb(20,17,16))  
+   .toggle button                     outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 0% (0px)  indicator-contrast n/a  <<< NO VISIBLE FOCUS INDICATOR
+   #ccta                              outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 7.22% (1228px)  indicator-contrast 5.95:1 (rgb(122,95,20) vs rgb(255,253,249))  
+   #baRange                           outline[solid 2px rgb(217, 194, 122)] off 3px fv=true  changed 0.37% (426px)  indicator-contrast 9.9:1 (rgb(217,194,122) vs rgb(10,29,30))  
+   #reqForm input[name=name]          outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 3.48% (666px)  indicator-contrast 1.31:1 (rgb(162,150,122) vs rgb(178,173,164))  
+   #reqForm select                    outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 3.39% (670px)  indicator-contrast 1.31:1 (rgb(162,150,122) vs rgb(178,173,164))  
+   #reqForm textarea                  outline[none 3px rgb(20, 17, 16)] off 3px fv=true  changed 2.72% (712px)  indicator-contrast 1.31:1 (rgb(162,150,122) vs rgb(178,173,164))  
+   .rf-consent input                  outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 18.37% (200px)  indicator-contrast 5.95:1 (rgb(122,95,20) vs rgb(255,253,249))  
+   #reqForm .rf-submit                outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 7.72% (1408px)  indicator-contrast 5.95:1 (rgb(122,95,20) vs rgb(255,253,249))  
+   .foot .fl a                        outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 8.79% (728px)  indicator-contrast 5.46:1 (rgb(122,95,20) vs rgb(246,243,238))  
+   .fsoc a                            outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 12.38% (416px)  indicator-contrast 5.46:1 (rgb(122,95,20) vs rgb(246,243,238))  
+   .wafab                             skip: hidden at this viewport
+   #chatfab                           outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 8.18% (1124px)  indicator-contrast 4.95:1 (rgb(122,95,20) vs rgb(235,232,228))  
+   .mobar a                           outline[solid 2px rgb(122, 95, 20)] off 3px fv=true  changed 3.21% (406px)  indicator-contrast 5.46:1 (rgb(122,95,20) vs rgb(246,243,238))  
+   .cmap iframe                       outline[none 3px rgb(42, 36, 30)] off 0px fv=false  changed 0% (0px)  indicator-contrast n/a  <<< NO VISIBLE FOCUS INDICATOR
+
+===== BURGER =====
+{
+ "dark/mobile": {
+  "afterOpen": {
+   "tag": "BUTTON",
+   "id": "burger",
+   "cls": "burger.on",
+   "text": "",
+   "href": null,
+   "type": null,
+   "ariaLabel": "Menü",
+   "tabIndex": 0,
+   "rect": {
+    "x": 330,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   },
+   "outlineWidth": "2px",
+   "outlineStyle": "solid",
+   "outlineColor": "rgb(217, 194, 122)",
+   "outlineOffset": "3px",
+   "borderColor": "rgba(217, 194, 122, 0.32)",
+   "boxShadow": "none",
+   "inTopbar": true,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": false,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "tabSequence": [
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Hizmetler",
+    "href": "/#hizmetler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 65,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(220, 213, 203)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Ürünler",
+    "href": "/#urunler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 122.390625,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(220, 213, 203)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Projeler",
+    "href": "/#projeler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 179.78125,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(220, 213, 203)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Teknik",
+    "href": "/#teknik",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 237.171875,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(220, 213, 203)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "BTU Hesapla",
+    "href": "/#kesif",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 294.5625,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(220, 213, 203)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Randevu",
+    "href": "/#randevu",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 351.953125,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(220, 213, 203)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "İletişim",
+    "href": "/#kontakt",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 409.34375,
+     "w": 390,
+     "h": 56.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(220, 213, 203)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "btn.btn-primary",
+    "text": "WhatsApp’tan yazın",
+    "href": "https://wa.me/905330461387",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 794.046875,
+     "w": 171.359375,
+     "h": 50.28125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": true,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 36
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "btn",
+    "text": "Ücretsiz keşif isteyin",
+    "href": "#kesif",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 183.359375,
+     "y": 794.046875,
+     "w": 162.046875,
+     "h": 50.28125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": true,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 36
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "phone",
+    "text": "Hemen arayın +90 242 513 86 51",
+    "href": "tel:+902425138651",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 400.328125,
+     "w": 243.46875,
+     "h": 44
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(234, 246, 244)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": true,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 502
+   }
+  ],
+  "escClosed": true,
+  "afterEsc": {
+   "tag": "BUTTON",
+   "id": "burger",
+   "cls": "burger",
+   "text": "",
+   "href": null,
+   "type": null,
+   "ariaLabel": "Menü",
+   "tabIndex": 0,
+   "rect": {
+    "x": 330,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   },
+   "outlineWidth": "2px",
+   "outlineStyle": "solid",
+   "outlineColor": "rgb(217, 194, 122)",
+   "outlineOffset": "3px",
+   "borderColor": "rgba(217, 194, 122, 0.32)",
+   "boxShadow": "none",
+   "inTopbar": true,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": false,
+   "inMobnav": false,
+   "scrollY": 502
+  },
+  "escFromInsideClosed": true,
+  "afterEscFromInside": {
+   "tag": "BUTTON",
+   "id": "burger",
+   "cls": "burger",
+   "text": "",
+   "href": null,
+   "type": null,
+   "ariaLabel": "Menü",
+   "tabIndex": 0,
+   "rect": {
+    "x": 330,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   },
+   "outlineWidth": "2px",
+   "outlineStyle": "solid",
+   "outlineColor": "rgb(217, 194, 122)",
+   "outlineOffset": "3px",
+   "borderColor": "rgba(217, 194, 122, 0.32)",
+   "boxShadow": "none",
+   "inTopbar": true,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": false,
+   "inMobnav": false,
+   "scrollY": 502
+  }
+ },
+ "light/mobile": {
+  "afterOpen": {
+   "tag": "BUTTON",
+   "id": "burger",
+   "cls": "burger.on",
+   "text": "",
+   "href": null,
+   "type": null,
+   "ariaLabel": "Menü",
+   "tabIndex": 0,
+   "rect": {
+    "x": 330,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   },
+   "outlineWidth": "2px",
+   "outlineStyle": "solid",
+   "outlineColor": "rgb(122, 95, 20)",
+   "outlineOffset": "3px",
+   "borderColor": "rgba(20, 17, 16, 0.28)",
+   "boxShadow": "none",
+   "inTopbar": true,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": false,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "tabSequence": [
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Hizmetler",
+    "href": "/#hizmetler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 65,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(42, 36, 30)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Ürünler",
+    "href": "/#urunler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 122.390625,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(42, 36, 30)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Projeler",
+    "href": "/#projeler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 179.78125,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(42, 36, 30)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Teknik",
+    "href": "/#teknik",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 237.171875,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(42, 36, 30)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "BTU Hesapla",
+    "href": "/#kesif",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 294.5625,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(42, 36, 30)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Randevu",
+    "href": "/#randevu",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 351.953125,
+     "w": 390,
+     "h": 57.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(42, 36, 30)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "İletişim",
+    "href": "/#kontakt",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 409.34375,
+     "w": 390,
+     "h": 56.390625
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(42, 36, 30)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": true,
+    "scrollY": 0
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "btn.btn-primary",
+    "text": "WhatsApp’tan yazın",
+    "href": "https://wa.me/905330461387",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 794.046875,
+     "w": 171.359375,
+     "h": 50.28125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": true,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 36
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "btn",
+    "text": "Ücretsiz keşif isteyin",
+    "href": "#kesif",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 183.359375,
+     "y": 794.046875,
+     "w": 162.046875,
+     "h": 50.28125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": true,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 36
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "phone",
+    "text": "Hemen arayın +90 242 513 86 51",
+    "href": "tel:+902425138651",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 0,
+     "y": 400.328125,
+     "w": 243.46875,
+     "h": 44
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(234, 246, 244)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": true,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 502
+   }
+  ],
+  "escClosed": true,
+  "afterEsc": {
+   "tag": "BUTTON",
+   "id": "burger",
+   "cls": "burger",
+   "text": "",
+   "href": null,
+   "type": null,
+   "ariaLabel": "Menü",
+   "tabIndex": 0,
+   "rect": {
+    "x": 330,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   },
+   "outlineWidth": "2px",
+   "outlineStyle": "solid",
+   "outlineColor": "rgb(122, 95, 20)",
+   "outlineOffset": "3px",
+   "borderColor": "rgba(20, 17, 16, 0.28)",
+   "boxShadow": "none",
+   "inTopbar": true,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": false,
+   "inMobnav": false,
+   "scrollY": 502
+  },
+  "escFromInsideClosed": true,
+  "afterEscFromInside": {
+   "tag": "BUTTON",
+   "id": "burger",
+   "cls": "burger",
+   "text": "",
+   "href": null,
+   "type": null,
+   "ariaLabel": "Menü",
+   "tabIndex": 0,
+   "rect": {
+    "x": 330,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   },
+   "outlineWidth": "2px",
+   "outlineStyle": "solid",
+   "outlineColor": "rgb(122, 95, 20)",
+   "outlineOffset": "3px",
+   "borderColor": "rgba(20, 17, 16, 0.28)",
+   "boxShadow": "none",
+   "inTopbar": true,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": false,
+   "inMobnav": false,
+   "scrollY": 502
+  }
+ }
+}
+
+===== CHAT =====
+{
+ "dark/desktop": {
+  "panelAttrs": {
+   "role": "dialog",
+   "ariaModal": null,
+   "ariaLabel": "Assistant",
+   "ariaLabelledby": null,
+   "tabindex": null,
+   "lang": "tr"
+  },
+  "chatFocused": {
+   "tag": "INPUT",
+   "id": "cin",
+   "cls": "",
+   "text": "",
+   "href": null,
+   "type": "text",
+   "ariaLabel": "Sorunuzu yazın…",
+   "tabIndex": 0,
+   "rect": {
+    "x": 1055,
+    "y": 763,
+    "w": 298,
+    "h": 46
+   },
+   "outlineWidth": "3px",
+   "outlineStyle": "none",
+   "outlineColor": "rgb(234, 246, 244)",
+   "outlineOffset": "3px",
+   "borderColor": "rgb(217, 194, 122)",
+   "boxShadow": "none",
+   "inTopbar": false,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": true,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "chatSeq": [
+   {
+    "tag": "BUTTON",
+    "id": null,
+    "cls": "",
+    "text": "",
+    "href": null,
+    "type": "submit",
+    "ariaLabel": "Gönder",
+    "tabIndex": 0,
+    "rect": {
+     "x": 1361,
+     "y": 763,
+     "w": 44,
+     "h": 46
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(16, 13, 11)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": true,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "button",
+    "name": "Gönder",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "tag": "BODY",
+    "body": true,
+    "role": "none",
+    "name": null,
+    "props": ""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "brand",
+    "text": "Gree · Alanya",
+    "href": "/",
+    "type": null,
+    "ariaLabel": "Global Teknik — Gree Alanya",
+    "tabIndex": 0,
+    "rect": {
+     "x": 154,
+     "y": 14,
+     "w": 217.3125,
+     "h": 34
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(0, 0, 238)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Global Teknik — Gree Alanya",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Hizmetler",
+    "href": "/#hizmetler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 583.03125,
+     "y": 13.640625,
+     "w": 53.453125,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Hizmetler",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#hizmetler\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Ürünler",
+    "href": "/#urunler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 660.484375,
+     "y": 13.640625,
+     "w": 41.015625,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Ürünler",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#urunler\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Projeler",
+    "href": "/#projeler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 725.5,
+     "y": 13.640625,
+     "w": 43.109375,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Projeler",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#projeler\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Teknik",
+    "href": "/#teknik",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 792.609375,
+     "y": 13.640625,
+     "w": 33.359375,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Teknik",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#teknik\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "BTU Hesapla",
+    "href": "/#kesif",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 849.96875,
+     "y": 13.640625,
+     "w": 70.9375,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "BTU Hesapla",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#kesif\""
+   }
+  ],
+  "chatClosed": true,
+  "afterChatEsc": {
+   "tag": "INPUT",
+   "id": "cin",
+   "cls": "",
+   "text": "",
+   "href": null,
+   "type": "text",
+   "ariaLabel": "Sorunuzu yazın…",
+   "tabIndex": 0,
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "outlineWidth": "3px",
+   "outlineStyle": "none",
+   "outlineColor": "rgb(234, 246, 244)",
+   "outlineOffset": "3px",
+   "borderColor": "rgb(217, 194, 122)",
+   "boxShadow": "none",
+   "inTopbar": false,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": true,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "closeBtnAriaLabel": "×",
+  "cinAx": {
+   "role": "textbox",
+   "name": "Sorunuzu yazın…",
+   "props": "invalid=\"false\" focusable=true editable=\"plaintext\" settable=true multiline=false readonly=false required=false"
+  },
+  "ccloseAx": {
+   "role": "button",
+   "name": "×",
+   "props": "invalid=\"false\" focusable=true"
+  },
+  "panelAx": {
+   "role": "dialog",
+   "name": "Assistant",
+   "props": "modal=false"
+  },
+  "fabAx": {
+   "role": "button",
+   "name": "Sorunuz mu var? Yazın.",
+   "props": "invalid=\"false\" focusable=true focused=true expanded=true"
+  }
+ },
+ "dark/mobile": {
+  "panelAttrs": {
+   "role": "dialog",
+   "ariaModal": null,
+   "ariaLabel": "Assistant",
+   "ariaLabelledby": null,
+   "tabindex": null,
+   "lang": "tr"
+  },
+  "chatFocused": {
+   "tag": "INPUT",
+   "id": "cin",
+   "cls": "",
+   "text": "",
+   "href": null,
+   "type": "text",
+   "ariaLabel": "Sorunuzu yazın…",
+   "tabIndex": 0,
+   "rect": {
+    "x": 27,
+    "y": 773,
+    "w": 284,
+    "h": 46
+   },
+   "outlineWidth": "3px",
+   "outlineStyle": "none",
+   "outlineColor": "rgb(234, 246, 244)",
+   "outlineOffset": "3px",
+   "borderColor": "rgb(217, 194, 122)",
+   "boxShadow": "none",
+   "inTopbar": false,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": true,
+   "inChat": true,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "chatSeq": [
+   {
+    "tag": "BUTTON",
+    "id": null,
+    "cls": "",
+    "text": "",
+    "href": null,
+    "type": "submit",
+    "ariaLabel": "Gönder",
+    "tabIndex": 0,
+    "rect": {
+     "x": 319,
+     "y": 773,
+     "w": 44,
+     "h": 46
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(16, 13, 11)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": true,
+    "inChat": true,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "button",
+    "name": "Gönder",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "tag": "BODY",
+    "body": true,
+    "role": "none",
+    "name": null,
+    "props": ""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "brand",
+    "text": "Gree · Alanya",
+    "href": "/",
+    "type": null,
+    "ariaLabel": "Global Teknik — Gree Alanya",
+    "tabIndex": 0,
+    "rect": {
+     "x": 16,
+     "y": 19,
+     "w": 73.234375,
+     "h": 26
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(0, 0, 238)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Global Teknik — Gree Alanya",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/\""
+   },
+   {
+    "tag": "BUTTON",
+    "id": "themetog",
+    "cls": "themetog",
+    "text": "",
+    "href": null,
+    "type": "button",
+    "ariaLabel": "Temayı değiştir",
+    "tabIndex": 0,
+    "rect": {
+     "x": 122.9375,
+     "y": 13,
+     "w": 38,
+     "h": 38
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgba(217, 194, 122, 0.16)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "button",
+    "name": "Temayı değiştir",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "TR",
+    "href": "/",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 168.9375,
+     "y": 14.96875,
+     "w": 35.796875,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(16, 13, 11)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "TR",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "DE",
+    "href": "/de",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 206.734375,
+     "y": 14.96875,
+     "w": 36.984375,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "DE",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/de\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "RU",
+    "href": "/ru",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 245.71875,
+     "y": 14.96875,
+     "w": 36.171875,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "RU",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/ru\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "EN",
+    "href": "/en",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 283.890625,
+     "y": 14.96875,
+     "w": 38.109375,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(217, 194, 122)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(167, 158, 144)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "EN",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/en\""
+   }
+  ],
+  "chatClosed": true,
+  "afterChatEsc": {
+   "tag": "INPUT",
+   "id": "cin",
+   "cls": "",
+   "text": "",
+   "href": null,
+   "type": "text",
+   "ariaLabel": "Sorunuzu yazın…",
+   "tabIndex": 0,
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "outlineWidth": "3px",
+   "outlineStyle": "none",
+   "outlineColor": "rgb(234, 246, 244)",
+   "outlineOffset": "3px",
+   "borderColor": "rgb(217, 194, 122)",
+   "boxShadow": "none",
+   "inTopbar": false,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": true,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "closeBtnAriaLabel": "×",
+  "cinAx": {
+   "role": "textbox",
+   "name": "Sorunuzu yazın…",
+   "props": "invalid=\"false\" focusable=true editable=\"plaintext\" settable=true multiline=false readonly=false required=false"
+  },
+  "ccloseAx": {
+   "role": "button",
+   "name": "×",
+   "props": "invalid=\"false\" focusable=true"
+  },
+  "panelAx": {
+   "role": "dialog",
+   "name": "Assistant",
+   "props": "modal=false"
+  },
+  "fabAx": {
+   "role": "button",
+   "name": "Sorunuz mu var? Yazın.",
+   "props": "invalid=\"false\" focusable=true focused=true expanded=true"
+  }
+ },
+ "light/desktop": {
+  "panelAttrs": {
+   "role": "dialog",
+   "ariaModal": null,
+   "ariaLabel": "Assistant",
+   "ariaLabelledby": null,
+   "tabindex": null,
+   "lang": "tr"
+  },
+  "chatFocused": {
+   "tag": "INPUT",
+   "id": "cin",
+   "cls": "",
+   "text": "",
+   "href": null,
+   "type": "text",
+   "ariaLabel": "Sorunuzu yazın…",
+   "tabIndex": 0,
+   "rect": {
+    "x": 1055,
+    "y": 763,
+    "w": 298,
+    "h": 46
+   },
+   "outlineWidth": "3px",
+   "outlineStyle": "none",
+   "outlineColor": "rgb(20, 17, 16)",
+   "outlineOffset": "3px",
+   "borderColor": "rgb(122, 95, 20)",
+   "boxShadow": "none",
+   "inTopbar": false,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": true,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "chatSeq": [
+   {
+    "tag": "BUTTON",
+    "id": null,
+    "cls": "",
+    "text": "",
+    "href": null,
+    "type": "submit",
+    "ariaLabel": "Gönder",
+    "tabIndex": 0,
+    "rect": {
+     "x": 1361,
+     "y": 763,
+     "w": 44,
+     "h": 46
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(255, 253, 249)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": true,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "button",
+    "name": "Gönder",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "tag": "BODY",
+    "body": true,
+    "role": "none",
+    "name": null,
+    "props": ""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "brand",
+    "text": "Gree · Alanya",
+    "href": "/",
+    "type": null,
+    "ariaLabel": "Global Teknik — Gree Alanya",
+    "tabIndex": 0,
+    "rect": {
+     "x": 154,
+     "y": 14,
+     "w": 217.3125,
+     "h": 34
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(0, 0, 238)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Global Teknik — Gree Alanya",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Hizmetler",
+    "href": "/#hizmetler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 583.03125,
+     "y": 13.640625,
+     "w": 53.453125,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Hizmetler",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#hizmetler\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Ürünler",
+    "href": "/#urunler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 660.484375,
+     "y": 13.640625,
+     "w": 41.015625,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Ürünler",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#urunler\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Projeler",
+    "href": "/#projeler",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 725.5,
+     "y": 13.640625,
+     "w": 43.109375,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Projeler",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#projeler\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "Teknik",
+    "href": "/#teknik",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 792.609375,
+     "y": 13.640625,
+     "w": 33.359375,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Teknik",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#teknik\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "BTU Hesapla",
+    "href": "/#kesif",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 849.96875,
+     "y": 13.640625,
+     "w": 70.9375,
+     "h": 34.703125
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "BTU Hesapla",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/#kesif\""
+   }
+  ],
+  "chatClosed": true,
+  "afterChatEsc": {
+   "tag": "INPUT",
+   "id": "cin",
+   "cls": "",
+   "text": "",
+   "href": null,
+   "type": "text",
+   "ariaLabel": "Sorunuzu yazın…",
+   "tabIndex": 0,
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "outlineWidth": "3px",
+   "outlineStyle": "none",
+   "outlineColor": "rgb(20, 17, 16)",
+   "outlineOffset": "3px",
+   "borderColor": "rgb(122, 95, 20)",
+   "boxShadow": "none",
+   "inTopbar": false,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": false,
+   "inChat": true,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "closeBtnAriaLabel": "×",
+  "cinAx": {
+   "role": "textbox",
+   "name": "Sorunuzu yazın…",
+   "props": "invalid=\"false\" focusable=true editable=\"plaintext\" settable=true multiline=false readonly=false required=false"
+  },
+  "ccloseAx": {
+   "role": "button",
+   "name": "×",
+   "props": "invalid=\"false\" focusable=true"
+  },
+  "panelAx": {
+   "role": "dialog",
+   "name": "Assistant",
+   "props": "modal=false"
+  },
+  "fabAx": {
+   "role": "button",
+   "name": "Sorunuz mu var? Yazın.",
+   "props": "invalid=\"false\" focusable=true focused=true expanded=true"
+  }
+ },
+ "light/mobile": {
+  "panelAttrs": {
+   "role": "dialog",
+   "ariaModal": null,
+   "ariaLabel": "Assistant",
+   "ariaLabelledby": null,
+   "tabindex": null,
+   "lang": "tr"
+  },
+  "chatFocused": {
+   "tag": "INPUT",
+   "id": "cin",
+   "cls": "",
+   "text": "",
+   "href": null,
+   "type": "text",
+   "ariaLabel": "Sorunuzu yazın…",
+   "tabIndex": 0,
+   "rect": {
+    "x": 27,
+    "y": 773,
+    "w": 284,
+    "h": 46
+   },
+   "outlineWidth": "3px",
+   "outlineStyle": "none",
+   "outlineColor": "rgb(20, 17, 16)",
+   "outlineOffset": "3px",
+   "borderColor": "rgb(122, 95, 20)",
+   "boxShadow": "none",
+   "inTopbar": false,
+   "obscuredByTopbar": false,
+   "obscuredByMobar": true,
+   "inChat": true,
+   "inMobnav": false,
+   "scrollY": 0
+  },
+  "chatSeq": [
+   {
+    "tag": "BUTTON",
+    "id": null,
+    "cls": "",
+    "text": "",
+    "href": null,
+    "type": "submit",
+    "ariaLabel": "Gönder",
+    "tabIndex": 0,
+    "rect": {
+     "x": 319,
+     "y": 773,
+     "w": 44,
+     "h": 46
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(255, 253, 249)",
+    "boxShadow": "none",
+    "inTopbar": false,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": true,
+    "inChat": true,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "button",
+    "name": "Gönder",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "tag": "BODY",
+    "body": true,
+    "role": "none",
+    "name": null,
+    "props": ""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "brand",
+    "text": "Gree · Alanya",
+    "href": "/",
+    "type": null,
+    "ariaLabel": "Global Teknik — Gree Alanya",
+    "tabIndex": 0,
+    "rect": {
+     "x": 16,
+     "y": 19,
+     "w": 73.234375,
+     "h": 26
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(0, 0, 238)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "Global Teknik — Gree Alanya",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/\""
+   },
+   {
+    "tag": "BUTTON",
+    "id": "themetog",
+    "cls": "themetog",
+    "text": "",
+    "href": null,
+    "type": "button",
+    "ariaLabel": "Temayı değiştir",
+    "tabIndex": 0,
+    "rect": {
+     "x": 122.9375,
+     "y": 13,
+     "w": 38,
+     "h": 38
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgba(20, 17, 16, 0.14)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "button",
+    "name": "Temayı değiştir",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "TR",
+    "href": "/",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 168.9375,
+     "y": 14.96875,
+     "w": 35.796875,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(255, 253, 249)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "TR",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "DE",
+    "href": "/de",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 206.734375,
+     "y": 14.96875,
+     "w": 36.984375,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "DE",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/de\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "RU",
+    "href": "/ru",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 245.71875,
+     "y": 14.96875,
+     "w": 36.171875,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "RU",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/ru\""
+   },
+   {
+    "tag": "A",
+    "id": null,
+    "cls": "",
+    "text": "EN",
+    "href": "/en",
+    "type": null,
+    "ariaLabel": null,
+    "tabIndex": 0,
+    "rect": {
+     "x": 283.890625,
+     "y": 14.96875,
+     "w": 38.109375,
+     "h": 34.046875
+    },
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineColor": "rgb(122, 95, 20)",
+    "outlineOffset": "3px",
+    "borderColor": "rgb(90, 81, 72)",
+    "boxShadow": "none",
+    "inTopbar": true,
+    "obscuredByTopbar": false,
+    "obscuredByMobar": false,
+    "inChat": false,
+    "inMobnav": false,
+    "scrollY": 0,
+    "role": "link",
+    "name": "EN",
+    "props": "focusable=true focused=true url=\"http://localhost:4321/en\""
+   }
+  ],
+  "chatClosed": true,
+  "afterChatEsc": {
+   "tag": "BODY",
+   "body": true
+  },
+  "closeBtnAriaLabel": "×",
+  "cinAx": {
+   "role": "textbox",
+   "name": "Sorunuzu yazın…",
+   "props": "invalid=\"false\" focusable=true editable=\"plaintext\" settable=true multiline=false readonly=false required=false"
+  },
+  "ccloseAx": {
+   "role": "button",
+   "name": "×",
+   "props": "invalid=\"false\" focusable=true"
+  },
+  "panelAx": {
+   "role": "dialog",
+   "name": "Assistant",
+   "props": "modal=false"
+  },
+  "fabAx": {
+   "role": "button",
+   "name": "Sorunuz mu var? Yazın.",
+   "props": "invalid=\"false\" focusable=true focused=true expanded=true"
+  }
+ }
+}
+
+===== RANGE =====
+{
+ "dark/desktop": {
+  "rangeAx": {
+   "role": "slider",
+   "name": "Sürükleyin",
+   "props": "invalid=\"false\" focusable=true settable=true orientation=\"horizontal\" valuemin=0 valuemax=100 valuetext=\"\""
+  },
+  "before": {
+   "v": "50",
+   "pos": "50%"
+  },
+  "afterRight": {
+   "v": "50.2",
+   "pos": "50.2%"
+  },
+  "atHome": {
+   "v": "0",
+   "pos": "0%"
+  },
+  "atEnd": {
+   "v": "100",
+   "pos": "100%"
+  },
+  "rangeFocusDiff": {
+   "changed": 217,
+   "total": 731734,
+   "pct": 0.03,
+   "maxd": 311,
+   "indicator": [
+    217,
+    194,
+    122
+   ],
+   "under": [
+    73,
+    81,
+    68
+   ]
+  },
+  "valuetext": null
+ },
+ "dark/mobile": {
+  "rangeAx": {
+   "role": "slider",
+   "name": "Sürükleyin",
+   "props": "invalid=\"false\" focusable=true settable=true orientation=\"horizontal\" valuemin=0 valuemax=100 valuetext=\"\""
+  },
+  "before": {
+   "v": "50",
+   "pos": "50%"
+  },
+  "afterRight": {
+   "v": "50.2",
+   "pos": "50.2%"
+  },
+  "atHome": {
+   "v": "0",
+   "pos": "0%"
+  },
+  "atEnd": {
+   "v": "100",
+   "pos": "100%"
+  },
+  "rangeFocusDiff": {
+   "changed": 215,
+   "total": 110664,
+   "pct": 0.19,
+   "maxd": 311,
+   "indicator": [
+    217,
+    194,
+    122
+   ],
+   "under": [
+    70,
+    82,
+    70
+   ]
+  },
+  "valuetext": null
+ },
+ "light/desktop": {
+  "rangeAx": {
+   "role": "slider",
+   "name": "Sürükleyin",
+   "props": "invalid=\"false\" focusable=true settable=true orientation=\"horizontal\" valuemin=0 valuemax=100 valuetext=\"\""
+  },
+  "before": {
+   "v": "50",
+   "pos": "50%"
+  },
+  "afterRight": {
+   "v": "50.2",
+   "pos": "50.2%"
+  },
+  "atHome": {
+   "v": "0",
+   "pos": "0%"
+  },
+  "atEnd": {
+   "v": "100",
+   "pos": "100%"
+  },
+  "rangeFocusDiff": {
+   "changed": 217,
+   "total": 731734,
+   "pct": 0.03,
+   "maxd": 311,
+   "indicator": [
+    217,
+    194,
+    122
+   ],
+   "under": [
+    73,
+    81,
+    68
+   ]
+  },
+  "valuetext": null
+ },
+ "light/mobile": {
+  "rangeAx": {
+   "role": "slider",
+   "name": "Sürükleyin",
+   "props": "invalid=\"false\" focusable=true settable=true orientation=\"horizontal\" valuemin=0 valuemax=100 valuetext=\"\""
+  },
+  "before": {
+   "v": "50",
+   "pos": "50%"
+  },
+  "afterRight": {
+   "v": "50.2",
+   "pos": "50.2%"
+  },
+  "atHome": {
+   "v": "0",
+   "pos": "0%"
+  },
+  "atEnd": {
+   "v": "100",
+   "pos": "100%"
+  },
+  "rangeFocusDiff": {
+   "changed": 215,
+   "total": 110664,
+   "pct": 0.19,
+   "maxd": 311,
+   "indicator": [
+    217,
+    194,
+    122
+   ],
+   "under": [
+    70,
+    82,
+    70
+   ]
+  },
+  "valuetext": null
+ }
+}
+
+===== SUN TOGGLE =====
+{
+ "dark/desktop": {
+  "sun": {
+   "groupRole": "group",
+   "groupLabel": null,
+   "groupLabelledby": null,
+   "buttons": [
+    {
+     "text": "Evet",
+     "cls": "",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    },
+    {
+     "text": "Hayır",
+     "cls": "on",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    }
+   ]
+  },
+  "sunAx": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "sunAfter": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "btuAfterSunYes": "18.000"
+ },
+ "dark/mobile": {
+  "sun": {
+   "groupRole": "group",
+   "groupLabel": null,
+   "groupLabelledby": null,
+   "buttons": [
+    {
+     "text": "Evet",
+     "cls": "",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    },
+    {
+     "text": "Hayır",
+     "cls": "on",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    }
+   ]
+  },
+  "sunAx": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "sunAfter": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "btuAfterSunYes": "18.000"
+ },
+ "light/desktop": {
+  "sun": {
+   "groupRole": "group",
+   "groupLabel": null,
+   "groupLabelledby": null,
+   "buttons": [
+    {
+     "text": "Evet",
+     "cls": "",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    },
+    {
+     "text": "Hayır",
+     "cls": "on",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    }
+   ]
+  },
+  "sunAx": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "sunAfter": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "btuAfterSunYes": "18.000"
+ },
+ "light/mobile": {
+  "sun": {
+   "groupRole": "group",
+   "groupLabel": null,
+   "groupLabelledby": null,
+   "buttons": [
+    {
+     "text": "Evet",
+     "cls": "",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    },
+    {
+     "text": "Hayır",
+     "cls": "on",
+     "ariaPressed": null,
+     "ariaChecked": null,
+     "role": null,
+     "tabIndex": 0
+    }
+   ]
+  },
+  "sunAx": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "sunAfter": [
+   {
+    "role": "button",
+    "name": "Evet",
+    "props": "invalid=\"false\" focusable=true focused=true"
+   },
+   {
+    "role": "button",
+    "name": "Hayır",
+    "props": "invalid=\"false\" focusable=true"
+   }
+  ],
+  "btuAfterSunYes": "18.000"
+ }
+}
+
+===== CHIPS =====
+{
+ "dark/desktop": {
+  "chipInfo": {
+   "chips": [
+    {
+     "text": "Fiyat teklifi istiyorum",
+     "rect": {
+      "x": 1057,
+      "y": 665,
+      "width": 129.78125,
+      "height": 34,
+      "top": 665,
+      "right": 1186.78125,
+      "bottom": 699,
+      "left": 1057
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Bakım randevusu",
+     "rect": {
+      "x": 1193.78125,
+      "y": 665,
+      "width": 112.71875,
+      "height": 34,
+      "top": 665,
+      "right": 1306.5,
+      "bottom": 699,
+      "left": 1193.78125
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Hangi klimayı almalıyım?",
+     "rect": {
+      "x": 1057,
+      "y": 706,
+      "width": 154.125,
+      "height": 34,
+      "top": 706,
+      "right": 1211.125,
+      "bottom": 740,
+      "left": 1057
+     },
+     "minH": "auto"
+    }
+   ],
+   "containerRole": null
+  },
+  "chipDiff": {
+   "changed": 748,
+   "total": 6532,
+   "pct": 11.45,
+   "maxd": 465,
+   "indicator": [
+    217,
+    194,
+    122
+   ],
+   "under": [
+    27,
+    22,
+    19
+   ]
+  },
+  "afterChip": {
+   "active": "BUTTON",
+   "chipsDisplay": "none",
+   "msgs": [
+    "Merhaba! Hangi odayı serinletmek istiyor",
+    "Fiyat teklifi istiyorum",
+    "…"
+   ],
+   "bodyLive": null,
+   "bodyRole": null
+  }
+ },
+ "dark/mobile": {
+  "chipInfo": {
+   "chips": [
+    {
+     "text": "Fiyat teklifi istiyorum",
+     "rect": {
+      "x": 29,
+      "y": 675,
+      "width": 129.78125,
+      "height": 34,
+      "top": 675,
+      "right": 158.78125,
+      "bottom": 709,
+      "left": 29
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Bakım randevusu",
+     "rect": {
+      "x": 165.78125,
+      "y": 675,
+      "width": 112.71875,
+      "height": 34,
+      "top": 675,
+      "right": 278.5,
+      "bottom": 709,
+      "left": 165.78125
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Hangi klimayı almalıyım?",
+     "rect": {
+      "x": 29,
+      "y": 716,
+      "width": 154.125,
+      "height": 34,
+      "top": 716,
+      "right": 183.125,
+      "bottom": 750,
+      "left": 29
+     },
+     "minH": "auto"
+    }
+   ],
+   "containerRole": null
+  },
+  "chipDiff": {
+   "changed": 748,
+   "total": 6532,
+   "pct": 11.45,
+   "maxd": 465,
+   "indicator": [
+    217,
+    194,
+    122
+   ],
+   "under": [
+    27,
+    22,
+    19
+   ]
+  },
+  "afterChip": {
+   "active": "BUTTON",
+   "chipsDisplay": "none",
+   "msgs": [
+    "Merhaba! Hangi odayı serinletmek istiyor",
+    "Fiyat teklifi istiyorum",
+    "…"
+   ],
+   "bodyLive": null,
+   "bodyRole": null
+  }
+ },
+ "light/desktop": {
+  "chipInfo": {
+   "chips": [
+    {
+     "text": "Fiyat teklifi istiyorum",
+     "rect": {
+      "x": 1057,
+      "y": 665,
+      "width": 129.78125,
+      "height": 34,
+      "top": 665,
+      "right": 1186.78125,
+      "bottom": 699,
+      "left": 1057
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Bakım randevusu",
+     "rect": {
+      "x": 1193.78125,
+      "y": 665,
+      "width": 112.71875,
+      "height": 34,
+      "top": 665,
+      "right": 1306.5,
+      "bottom": 699,
+      "left": 1193.78125
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Hangi klimayı almalıyım?",
+     "rect": {
+      "x": 1057,
+      "y": 706,
+      "width": 154.125,
+      "height": 34,
+      "top": 706,
+      "right": 1211.125,
+      "bottom": 740,
+      "left": 1057
+     },
+     "minH": "auto"
+    }
+   ],
+   "containerRole": null
+  },
+  "chipDiff": {
+   "changed": 759,
+   "total": 6532,
+   "pct": 11.62,
+   "maxd": 520,
+   "indicator": [
+    122,
+    95,
+    20
+   ],
+   "under": [
+    255,
+    253,
+    249
+   ]
+  },
+  "afterChip": {
+   "active": "BODY",
+   "chipsDisplay": "none",
+   "msgs": [
+    "Merhaba! Hangi odayı serinletmek istiyor",
+    "Fiyat teklifi istiyorum",
+    "…"
+   ],
+   "bodyLive": null,
+   "bodyRole": null
+  }
+ },
+ "light/mobile": {
+  "chipInfo": {
+   "chips": [
+    {
+     "text": "Fiyat teklifi istiyorum",
+     "rect": {
+      "x": 29,
+      "y": 675,
+      "width": 129.78125,
+      "height": 34,
+      "top": 675,
+      "right": 158.78125,
+      "bottom": 709,
+      "left": 29
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Bakım randevusu",
+     "rect": {
+      "x": 165.78125,
+      "y": 675,
+      "width": 112.71875,
+      "height": 34,
+      "top": 675,
+      "right": 278.5,
+      "bottom": 709,
+      "left": 165.78125
+     },
+     "minH": "auto"
+    },
+    {
+     "text": "Hangi klimayı almalıyım?",
+     "rect": {
+      "x": 29,
+      "y": 716,
+      "width": 154.125,
+      "height": 34,
+      "top": 716,
+      "right": 183.125,
+      "bottom": 750,
+      "left": 29
+     },
+     "minH": "auto"
+    }
+   ],
+   "containerRole": null
+  },
+  "chipDiff": {
+   "changed": 759,
+   "total": 6532,
+   "pct": 11.62,
+   "maxd": 520,
+   "indicator": [
+    122,
+    95,
+    20
+   ],
+   "under": [
+    255,
+    253,
+    249
+   ]
+  },
+  "afterChip": {
+   "active": "BUTTON",
+   "chipsDisplay": "none",
+   "msgs": [
+    "Merhaba! Hangi odayı serinletmek istiyor",
+    "Fiyat teklifi istiyorum",
+    "…"
+   ],
+   "bodyLive": null,
+   "bodyRole": null
+  }
+ }
+}
+
+===== SKIP LINK =====
+{
+ "dark/desktop": {
+  "hasMain": false,
+  "firstFocusable": "brand",
+  "firstHashLinks": [
+   {
+    "href": "#kesif",
+    "text": "Ücretsiz keşif isteyin"
+   },
+   {
+    "href": "#randevu",
+    "text": "Proje teklifi alın"
+   }
+  ]
+ },
+ "dark/mobile": {
+  "hasMain": false,
+  "firstFocusable": "brand",
+  "firstHashLinks": [
+   {
+    "href": "#kesif",
+    "text": "Ücretsiz keşif isteyin"
+   },
+   {
+    "href": "#randevu",
+    "text": "Proje teklifi alın"
+   }
+  ]
+ },
+ "light/desktop": {
+  "hasMain": false,
+  "firstFocusable": "brand",
+  "firstHashLinks": [
+   {
+    "href": "#kesif",
+    "text": "Ücretsiz keşif isteyin"
+   },
+   {
+    "href": "#randevu",
+    "text": "Proje teklifi alın"
+   }
+  ]
+ },
+ "light/mobile": {
+  "hasMain": false,
+  "firstFocusable": "brand",
+  "firstHashLinks": [
+   {
+    "href": "#kesif",
+    "text": "Ücretsiz keşif isteyin"
+   },
+   {
+    "href": "#randevu",
+    "text": "Proje teklifi alın"
+   }
+  ]
+ }
+}
+
+===== CONSOLE =====
+{
+ "dark/desktop": {
+  "consoleErrors": []
+ },
+ "dark/mobile": {
+  "consoleErrors": []
+ },
+ "light/desktop": {
+  "consoleErrors": [
+   "console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+ },
+ "light/mobile": {
+  "consoleErrors": []
+ }
+}

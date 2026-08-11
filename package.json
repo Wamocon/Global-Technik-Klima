@@ -11,7 +11,8 @@
     "pseudo": "node scripts/pseudo.mjs",
     "assets": "node scripts/assets.mjs",
     "abnahme": "node scripts/acceptance.mjs",
-    "motion": "node scripts/motion-check.mjs"
+    "motion": "node scripts/motion-check.mjs",
+    "nachpruefung": "node scripts/qa-regression.mjs"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.7.3",

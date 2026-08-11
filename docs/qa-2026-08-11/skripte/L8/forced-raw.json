@@ -1,0 +1,118 @@
+{
+  "run1": {
+    "forcedActive": true,
+    "body": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "btnPrimary": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "lang": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "chatfab": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "wafab": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "mobar": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "toggleOn": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "input": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "card": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "sameFgBg": 0
+  },
+  "run2": {
+    "forcedActive": true,
+    "body": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "btnPrimary": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "lang": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "chatfab": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "wafab": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "mobar": {
+      "color": "rgb(0, 0, 159)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 159)",
+      "forced": "auto"
+    },
+    "toggleOn": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "input": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "card": {
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "border": "rgb(0, 0, 0)",
+      "forced": "auto"
+    },
+    "sameFgBg": 0
+  }
+}

@@ -1,0 +1,3561 @@
+{
+  "404": {
+    "lang": "tr",
+    "title": "404 · Global Teknik Klima",
+    "headings": [],
+    "landmarks": [
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "topbar"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mainnav"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Language",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "lang"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mobnav"
+      }
+    ],
+    "imgs": [],
+    "iframes": [],
+    "svgTotal": 2,
+    "svgNotHidden": [],
+    "sectionsWithoutHeading": [],
+    "fields": null,
+    "err": null,
+    "stars": [],
+    "revEx": [],
+    "rating": null,
+    "cbody": null,
+    "cdisc": null,
+    "langAttrs": [
+      {
+        "tag": "HTML",
+        "lang": "tr",
+        "text": "404 · Global Teknik Klim"
+      },
+      {
+        "tag": "LI",
+        "lang": "tr",
+        "text": "Aradığınız sayfa burada "
+      },
+      {
+        "tag": "LI",
+        "lang": "de",
+        "text": "Diese Seite gibt es hier"
+      },
+      {
+        "tag": "LI",
+        "lang": "ru",
+        "text": "Такой страницы здесь нет"
+      },
+      {
+        "tag": "LI",
+        "lang": "en",
+        "text": "This page is not here.Ho"
+      }
+    ],
+    "hardcodedEnglishAria": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "Global Teknik — Gree Alanya"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mainnav",
+        "label": "Menü"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "themetog",
+        "label": "Temayı değiştir"
+      },
+      {
+        "tag": "NAV",
+        "cls": "lang",
+        "label": "Language"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "burger",
+        "label": "Menü"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mobnav",
+        "label": "Menü"
+      }
+    ],
+    "errState": null
+  },
+  "tr": {
+    "lang": "tr",
+    "title": "Alanya Gree Klima Yetkili Bayi ve Servisi | Global Teknik Klima",
+    "headings": [
+      {
+        "lvl": 1,
+        "text": "Alanya’da klimanıngüvenilir adresi",
+        "inHeader": true,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Montaj",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Bakım",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Temizlik",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Gaz dolumu",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Arıza & tamir",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Sökme & takma",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Otel, site ve işletmeler için tek çözüm ortağı",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "VRF sistemler",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Multi split",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Isı pompası",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Merkezi sistemler",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Ücretsiz keşif",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Projelendirme",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Satış",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Montaj",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Servis",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Kredi kartına taksit",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Eski klimanızı getirin",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Yetkili Bayi ve Servis",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Faturalı hizmet",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "7/24 teknik destek",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Uzman ekip",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Size uygun günü yazın, gerisini biz halledelim",
+        "inHeader": false,
+        "inFooter": false
+      }
+    ],
+    "landmarks": [
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "topbar"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mainnav"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Language",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "lang"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mobnav"
+      },
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "hero"
+      },
+      {
+        "tag": "div",
+        "role": "group",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "toggle"
+      },
+      {
+        "tag": "p",
+        "role": "alert",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "rf-err"
+      },
+      {
+        "tag": "footer",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "foot"
+      },
+      {
+        "tag": "div",
+        "role": "dialog",
+        "label": "Assistant",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "chatpanel"
+      }
+    ],
+    "imgs": [
+      {
+        "src": "/images/p-duvar.webp",
+        "alt": "Duvar tipi",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-salon.webp",
+        "alt": "Salon tipi",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-multi.webp",
+        "alt": "Multi sistem",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-home.webp",
+        "alt": "Home tipi",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-isipompasi.webp",
+        "alt": "Isı pompası",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-ticari.webp",
+        "alt": "Ticari & VRF",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-yedek.webp",
+        "alt": "Yedek parça",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/ba-cool.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/ba-hot.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/unit-teal.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 524,
+        "h": 452,
+        "decorative": true
+      }
+    ],
+    "iframes": [
+      {
+        "title": "Global Teknik — Alanya",
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1",
+        "ariaHidden": null
+      }
+    ],
+    "svgTotal": 15,
+    "svgNotHidden": [
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.mo-wa"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.wafab"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "BUTTON."
+      }
+    ],
+    "sectionsWithoutHeading": [
+      {
+        "id": "hizmetler",
+        "hasHeading": true,
+        "eyebrow": "Hizmetlerimiz",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "urunler",
+        "hasHeading": false,
+        "eyebrow": "Gree ürün ailesi",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "projeler",
+        "hasHeading": true,
+        "eyebrow": "Projeler ve İşletmeler",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "teknik",
+        "hasHeading": false,
+        "eyebrow": "Klimanızın içinde ne var?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "referanslar",
+        "hasHeading": false,
+        "eyebrow": "Sıcaktan serinliğe",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kesif",
+        "hasHeading": false,
+        "eyebrow": "Odanız kaç BTU’luk klima ister?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "neden",
+        "hasHeading": true,
+        "eyebrow": "Hizmet anlayışımız",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "yorumlar",
+        "hasHeading": false,
+        "eyebrow": "Müşterilerimiz ne diyor?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "randevu",
+        "hasHeading": true,
+        "eyebrow": "Randevu / Ücretsiz Keşif",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "hakkimizda",
+        "hasHeading": false,
+        "eyebrow": "Hakkımızda",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kontakt",
+        "hasHeading": false,
+        "eyebrow": "Bize ulaşın",
+        "eyebrowTag": "P"
+      }
+    ],
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Adınız*"
+        ],
+        "autocomplete": "name",
+        "inputmode": null,
+        "maxlength": "80",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "phone",
+        "type": "tel",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Telefon*"
+        ],
+        "autocomplete": "tel",
+        "inputmode": "tel",
+        "maxlength": "30",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "place",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Semt / Mahalle"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "Örn. Mahmutlar, Oba, Kestel…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "service",
+        "type": "select-one",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "KonuKlima alımıMontajBakım / TemizlikArıza / Servi"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 49
+        }
+      },
+      {
+        "name": "when",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Tercih ettiğiniz gün / saat"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "Örn. Cumartesi öğleden sonra",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 47
+        }
+      },
+      {
+        "name": "note",
+        "type": "textarea",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Kısa not (isteğe bağlı)"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "400",
+        "placeholder": "Oda sayısı, cihaz markası, kısa bilgi…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 70
+        }
+      },
+      {
+        "name": "website",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Web sitesi"
+        ],
+        "autocomplete": "off",
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": -1,
+        "rect": {
+          "w": 177,
+          "h": 21
+        }
+      },
+      {
+        "name": "consent",
+        "type": "checkbox",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "İletişim bilgilerimin talebimi yanıtlamak için kul"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 17,
+          "h": 17
+        }
+      }
+    ],
+    "err": {
+      "role": "alert",
+      "ariaLive": null,
+      "hidden": true,
+      "id": "reqErr"
+    },
+    "stars": [
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": "5,0 / 5 · 65 Google değerlendirmesi"
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      }
+    ],
+    "revEx": [],
+    "rating": {
+      "tag": "A",
+      "ariaLabel": "5,0 / 5 · 65 Google değerlendirmesi",
+      "text": "5,0★★★★★65 Google değerlendirmesi"
+    },
+    "cbody": {
+      "ariaLive": null,
+      "role": null,
+      "ariaAtomic": null
+    },
+    "cdisc": {
+      "text": "Bir yapay zekâ asistanıyla yazışıyorsunuz. Dilerseniz sizi bir uzmana bağlarız.",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "11.52px"
+    },
+    "langAttrs": [
+      {
+        "tag": "HTML",
+        "lang": "tr",
+        "text": "Alanya Gree Klima Yetkil"
+      }
+    ],
+    "hardcodedEnglishAria": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "Global Teknik — Gree Alanya"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mainnav",
+        "label": "Menü"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "themetog",
+        "label": "Temayı değiştir"
+      },
+      {
+        "tag": "NAV",
+        "cls": "lang",
+        "label": "Language"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "burger",
+        "label": "Menü"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mobnav",
+        "label": "Menü"
+      },
+      {
+        "tag": "A",
+        "cls": "ratingbig",
+        "label": "5,0 / 5 · 65 Google değerlendirmesi"
+      },
+      {
+        "tag": "UL",
+        "cls": "segs.shown",
+        "label": "Projeler ve İşletmeler"
+      },
+      {
+        "tag": "OL",
+        "cls": "flow",
+        "label": "Süreç"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "ba-range",
+        "label": "Sürükleyin"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Facebook"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Instagram"
+      },
+      {
+        "tag": "A",
+        "cls": "wafab",
+        "label": "WhatsApp"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chatfab",
+        "label": "Sorunuz mu var? Yazın."
+      },
+      {
+        "tag": "DIV",
+        "cls": "chatpanel",
+        "label": "Assistant"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "cclose",
+        "label": "×"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "label": "Sorunuzu yazın…"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "label": "Gönder"
+      }
+    ],
+    "errState": {
+      "errText": "⚠ Adınız · Telefon  —  ☐ İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.",
+      "errHidden": false,
+      "errRole": "alert",
+      "focusMovedTo": "name",
+      "fields": [
+        {
+          "name": "name",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "phone",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "place",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "service",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "when",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "note",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "website",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgb(118, 118, 118)"
+        },
+        {
+          "name": "consent",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "rgb(0, 0, 0)"
+        }
+      ]
+    }
+  },
+  "de": {
+    "lang": "de",
+    "title": "Klimaanlagen in Alanya — Verkauf, Montage & Wartung | Gree Vertragshändler",
+    "headings": [
+      {
+        "lvl": 1,
+        "text": "Ihre Klimaanlagein Alanya",
+        "inHeader": true,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Montage",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Wartung",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Reinigung",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Kältemittel nachfüllen",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Störung & Reparatur",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Demontage & Umsetzen",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Ein Partner für Hotels, Anlagen und Gewerbe",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "VRF-Systeme",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Multisplit",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Wärmepumpen",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Zentrale Systeme",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Kostenlose Besichtigung",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Planung",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Verkauf",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Montage",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Service",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Ratenzahlung per Karte",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Altgerät in Zahlung geben",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Händler und Service",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Rechnung und Garantie",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Deutschsprachiger Service",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Erfahrenes Team",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Nennen Sie Ihren Wunschtag — den Rest übernehmen wir",
+        "inHeader": false,
+        "inFooter": false
+      }
+    ],
+    "landmarks": [
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "topbar"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mainnav"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Language",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "lang"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mobnav"
+      },
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "hero"
+      },
+      {
+        "tag": "div",
+        "role": "group",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "toggle"
+      },
+      {
+        "tag": "p",
+        "role": "alert",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "rf-err"
+      },
+      {
+        "tag": "footer",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "foot"
+      },
+      {
+        "tag": "div",
+        "role": "dialog",
+        "label": "Assistant",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "chatpanel"
+      }
+    ],
+    "imgs": [
+      {
+        "src": "/images/p-duvar.webp",
+        "alt": "Wandgeräte",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-salon.webp",
+        "alt": "Standgeräte",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-multi.webp",
+        "alt": "Multisplit",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-home.webp",
+        "alt": "Home-Typ",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-isipompasi.webp",
+        "alt": "Wärmepumpen",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-ticari.webp",
+        "alt": "Gewerbe & VRF",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-yedek.webp",
+        "alt": "Ersatzteile",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/ba-cool.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/ba-hot.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/unit-teal.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 524,
+        "h": 452,
+        "decorative": true
+      }
+    ],
+    "iframes": [
+      {
+        "title": "Global Teknik — Alanya",
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1",
+        "ariaHidden": null
+      }
+    ],
+    "svgTotal": 15,
+    "svgNotHidden": [
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.mo-wa"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.wafab"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "BUTTON."
+      }
+    ],
+    "sectionsWithoutHeading": [
+      {
+        "id": "hizmetler",
+        "hasHeading": true,
+        "eyebrow": "Leistungen",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "urunler",
+        "hasHeading": false,
+        "eyebrow": "Gree-Programm",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "projeler",
+        "hasHeading": true,
+        "eyebrow": "Projekte und Gewerbe",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "teknik",
+        "hasHeading": false,
+        "eyebrow": "Was steckt in Ihrer Klimaanlage?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "referanslar",
+        "hasHeading": false,
+        "eyebrow": "Von der Hitze zur Kühle",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kesif",
+        "hasHeading": false,
+        "eyebrow": "Welche Größe braucht Ihr Raum?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "neden",
+        "hasHeading": true,
+        "eyebrow": "Wofür wir stehen",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "yorumlar",
+        "hasHeading": false,
+        "eyebrow": "Was unsere Kunden sagen",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "randevu",
+        "hasHeading": true,
+        "eyebrow": "Termin / Kostenlose Besichtigung",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "hakkimizda",
+        "hasHeading": false,
+        "eyebrow": "Über uns",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kontakt",
+        "hasHeading": false,
+        "eyebrow": "Kontakt",
+        "eyebrowTag": "P"
+      }
+    ],
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Ihr Name*"
+        ],
+        "autocomplete": "name",
+        "inputmode": null,
+        "maxlength": "80",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "phone",
+        "type": "tel",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Telefon*"
+        ],
+        "autocomplete": "tel",
+        "inputmode": "tel",
+        "maxlength": "30",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "place",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Stadtteil"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "z. B. Mahmutlar, Oba, Kestel…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "service",
+        "type": "select-one",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "AnliegenKlimakaufMontageWartung / ReinigungStörung"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 49
+        }
+      },
+      {
+        "name": "when",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Wunschtag / -zeit"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "Örn. Cumartesi öğleden sonra",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 47
+        }
+      },
+      {
+        "name": "note",
+        "type": "textarea",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Kurze Notiz (optional)"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "400",
+        "placeholder": "Anzahl Räume, Gerätemarke, kurze Info…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 70
+        }
+      },
+      {
+        "name": "website",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Web sitesi"
+        ],
+        "autocomplete": "off",
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": -1,
+        "rect": {
+          "w": 177,
+          "h": 21
+        }
+      },
+      {
+        "name": "consent",
+        "type": "checkbox",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Ich bin einverstanden, dass meine Kontaktdaten zur"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 17,
+          "h": 17
+        }
+      }
+    ],
+    "err": {
+      "role": "alert",
+      "ariaLive": null,
+      "hidden": true,
+      "id": "reqErr"
+    },
+    "stars": [
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": "5,0 / 5 · 65 Google-Bewertungen"
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      }
+    ],
+    "revEx": [
+      {
+        "text": "Beispiel",
+        "color": "rgb(167, 158, 144)",
+        "fontSize": "9.6px",
+        "warnVar": ""
+      }
+    ],
+    "rating": {
+      "tag": "A",
+      "ariaLabel": "5,0 / 5 · 65 Google-Bewertungen",
+      "text": "5,0★★★★★65 Google-Bewertungen"
+    },
+    "cbody": {
+      "ariaLive": null,
+      "role": null,
+      "ariaAtomic": null
+    },
+    "cdisc": {
+      "text": "Sie schreiben mit einem KI-Assistenten. Für ein persönliches Gespräch verbinden wir Sie je",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "11.52px"
+    },
+    "langAttrs": [
+      {
+        "tag": "HTML",
+        "lang": "de",
+        "text": "Klimaanlagen in Alanya —"
+      }
+    ],
+    "hardcodedEnglishAria": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "Global Teknik — Gree Alanya"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mainnav",
+        "label": "Menü"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "themetog",
+        "label": "Thema wechseln"
+      },
+      {
+        "tag": "NAV",
+        "cls": "lang",
+        "label": "Language"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "burger",
+        "label": "Menü"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mobnav",
+        "label": "Menü"
+      },
+      {
+        "tag": "A",
+        "cls": "ratingbig",
+        "label": "5,0 / 5 · 65 Google-Bewertungen"
+      },
+      {
+        "tag": "UL",
+        "cls": "segs.shown",
+        "label": "Projekte und Gewerbe"
+      },
+      {
+        "tag": "OL",
+        "cls": "flow",
+        "label": "Süreç"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "ba-range",
+        "label": "Ziehen"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Facebook"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Instagram"
+      },
+      {
+        "tag": "A",
+        "cls": "wafab",
+        "label": "WhatsApp"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chatfab",
+        "label": "Fragen? Schreiben Sie."
+      },
+      {
+        "tag": "DIV",
+        "cls": "chatpanel",
+        "label": "Assistant"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "cclose",
+        "label": "×"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "label": "Frage schreiben…"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "label": "Senden"
+      }
+    ],
+    "errState": {
+      "errText": "⚠ Ihr Name · Telefon  —  ☐ Ich bin einverstanden, dass meine Kontaktdaten zur Beantwortung meiner Anfrage genutzt werden.",
+      "errHidden": false,
+      "errRole": "alert",
+      "focusMovedTo": "name",
+      "fields": [
+        {
+          "name": "name",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "phone",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "place",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "service",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "when",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "note",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "website",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgb(118, 118, 118)"
+        },
+        {
+          "name": "consent",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "rgb(0, 0, 0)"
+        }
+      ]
+    }
+  },
+  "ru": {
+    "lang": "ru",
+    "title": "Кондиционеры Gree в Алании — продажа, монтаж, сервис | официальный дилер",
+    "headings": [
+      {
+        "lvl": 1,
+        "text": "Кондиционеры Greeв Алании",
+        "inHeader": true,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Монтаж «под ключ»",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Техобслуживание",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Чистка",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Заправка фреоном",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Диагностика и ремонт",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Демонтаж и перенос",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Один партнёр для отелей, комплексов и бизнеса",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Системы VRF",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Мульти-сплит",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Тепловые насосы",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Центральные системы",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Бесплатный замер",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Проектирование",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Продажа",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Монтаж",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Сервис",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Рассрочка по карте",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Сдайте старый кондиционер",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Дилер и сервис",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Договор и чек",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Русскоязычный сервис",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Опытная бригада",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Напишите удобный день — остальное сделаем мы",
+        "inHeader": false,
+        "inFooter": false
+      }
+    ],
+    "landmarks": [
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "topbar"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Меню",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mainnav"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Language",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "lang"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Меню",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mobnav"
+      },
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "hero"
+      },
+      {
+        "tag": "div",
+        "role": "group",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "toggle"
+      },
+      {
+        "tag": "p",
+        "role": "alert",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "rf-err"
+      },
+      {
+        "tag": "footer",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "foot"
+      },
+      {
+        "tag": "div",
+        "role": "dialog",
+        "label": "Assistant",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "chatpanel"
+      }
+    ],
+    "imgs": [
+      {
+        "src": "/images/p-duvar.webp",
+        "alt": "Настенные",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-salon.webp",
+        "alt": "Напольные",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-multi.webp",
+        "alt": "Мульти-сплит",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-home.webp",
+        "alt": "Home-серия",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-isipompasi.webp",
+        "alt": "Тепловые насосы",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-ticari.webp",
+        "alt": "Коммерч. и VRF",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-yedek.webp",
+        "alt": "Запчасти",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/ba-cool.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/ba-hot.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/unit-teal.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 524,
+        "h": 452,
+        "decorative": true
+      }
+    ],
+    "iframes": [
+      {
+        "title": "Global Teknik — Alanya",
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1",
+        "ariaHidden": null
+      }
+    ],
+    "svgTotal": 15,
+    "svgNotHidden": [
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.mo-wa"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.wafab"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "BUTTON."
+      }
+    ],
+    "sectionsWithoutHeading": [
+      {
+        "id": "hizmetler",
+        "hasHeading": true,
+        "eyebrow": "Услуги",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "urunler",
+        "hasHeading": false,
+        "eyebrow": "Модельный ряд Gree",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "projeler",
+        "hasHeading": true,
+        "eyebrow": "Проекты и бизнес",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "teknik",
+        "hasHeading": false,
+        "eyebrow": "Что внутри кондиционера?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "referanslar",
+        "hasHeading": false,
+        "eyebrow": "От жары к прохладе",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kesif",
+        "hasHeading": false,
+        "eyebrow": "Сколько BTU нужно вашей комнате?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "neden",
+        "hasHeading": true,
+        "eyebrow": "Как мы работаем",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "yorumlar",
+        "hasHeading": false,
+        "eyebrow": "Отзывы клиентов",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "randevu",
+        "hasHeading": true,
+        "eyebrow": "Запись / Бесплатный замер",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "hakkimizda",
+        "hasHeading": false,
+        "eyebrow": "О нас",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kontakt",
+        "hasHeading": false,
+        "eyebrow": "Связаться с нами",
+        "eyebrowTag": "P"
+      }
+    ],
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Ваше имя*"
+        ],
+        "autocomplete": "name",
+        "inputmode": null,
+        "maxlength": "80",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "phone",
+        "type": "tel",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Телефон*"
+        ],
+        "autocomplete": "tel",
+        "inputmode": "tel",
+        "maxlength": "30",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "place",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Район"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "Напр. Махмутлар, Оба, Кестель…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "service",
+        "type": "select-one",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "ТемаПокупка кондиционераМонтажОбслуживание / Чистк"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 49
+        }
+      },
+      {
+        "name": "when",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Предпочтительный день / время"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "Örn. Cumartesi öğleden sonra",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 47
+        }
+      },
+      {
+        "name": "note",
+        "type": "textarea",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Короткое примечание (по желанию)"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "400",
+        "placeholder": "Число комнат, марка устройства, детали…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 70
+        }
+      },
+      {
+        "name": "website",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Web sitesi"
+        ],
+        "autocomplete": "off",
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": -1,
+        "rect": {
+          "w": 177,
+          "h": 21
+        }
+      },
+      {
+        "name": "consent",
+        "type": "checkbox",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Согласен на использование моих контактов для ответ"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 17,
+          "h": 17
+        }
+      }
+    ],
+    "err": {
+      "role": "alert",
+      "ariaLive": null,
+      "hidden": true,
+      "id": "reqErr"
+    },
+    "stars": [
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": "5,0 / 5 · 65 отзывов в Google"
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      }
+    ],
+    "revEx": [
+      {
+        "text": "Beispiel",
+        "color": "rgb(167, 158, 144)",
+        "fontSize": "9.6px",
+        "warnVar": ""
+      }
+    ],
+    "rating": {
+      "tag": "A",
+      "ariaLabel": "5,0 / 5 · 65 отзывов в Google",
+      "text": "5,0★★★★★65 отзывов в Google"
+    },
+    "cbody": {
+      "ariaLive": null,
+      "role": null,
+      "ariaAtomic": null
+    },
+    "cdisc": {
+      "text": "Вы пишете ИИ-ассистенту. При желании соединим вас с мастером.",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "11.52px"
+    },
+    "langAttrs": [
+      {
+        "tag": "HTML",
+        "lang": "ru",
+        "text": "Кондиционеры Gree в Алан"
+      }
+    ],
+    "hardcodedEnglishAria": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "Global Teknik — Gree Alanya"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mainnav",
+        "label": "Меню"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "themetog",
+        "label": "Сменить тему"
+      },
+      {
+        "tag": "NAV",
+        "cls": "lang",
+        "label": "Language"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "burger",
+        "label": "Меню"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mobnav",
+        "label": "Меню"
+      },
+      {
+        "tag": "A",
+        "cls": "ratingbig",
+        "label": "5,0 / 5 · 65 отзывов в Google"
+      },
+      {
+        "tag": "UL",
+        "cls": "segs.shown",
+        "label": "Проекты и бизнес"
+      },
+      {
+        "tag": "OL",
+        "cls": "flow",
+        "label": "Süreç"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "ba-range",
+        "label": "Потяните"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Facebook"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Instagram"
+      },
+      {
+        "tag": "A",
+        "cls": "wafab",
+        "label": "WhatsApp"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chatfab",
+        "label": "Есть вопрос? Напишите."
+      },
+      {
+        "tag": "DIV",
+        "cls": "chatpanel",
+        "label": "Assistant"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "cclose",
+        "label": "×"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "label": "Напишите вопрос…"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "label": "Отправить"
+      }
+    ],
+    "errState": {
+      "errText": "⚠ Ваше имя · Телефон  —  ☐ Согласен на использование моих контактов для ответа на заявку.",
+      "errHidden": false,
+      "errRole": "alert",
+      "focusMovedTo": "name",
+      "fields": [
+        {
+          "name": "name",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "phone",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "place",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "service",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "when",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "note",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "website",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgb(118, 118, 118)"
+        },
+        {
+          "name": "consent",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "rgb(0, 0, 0)"
+        }
+      ]
+    }
+  },
+  "en": {
+    "lang": "en",
+    "title": "Air Conditioning in Alanya — Sales, Installation & Service | Gree Dealer",
+    "headings": [
+      {
+        "lvl": 1,
+        "text": "Air conditioningin Alanya",
+        "inHeader": true,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Installation",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Maintenance",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Cleaning",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Refrigerant top-up",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Fault & repair",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Removal & relocation",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "One partner for hotels, complexes and business",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "VRF systems",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Multi-split",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Heat pumps",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Central systems",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Free survey",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Design",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Sale",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Installation",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 4,
+        "text": "Service",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Card instalments",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Trade in your old unit",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Dealer & service",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Invoice & warranty",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "English-speaking service",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 3,
+        "text": "Experienced team",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Tell us your preferred day — we handle the rest",
+        "inHeader": false,
+        "inFooter": false
+      }
+    ],
+    "landmarks": [
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "topbar"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menu",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mainnav"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Language",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "lang"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menu",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mobnav"
+      },
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "hero"
+      },
+      {
+        "tag": "div",
+        "role": "group",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "toggle"
+      },
+      {
+        "tag": "p",
+        "role": "alert",
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "rf-err"
+      },
+      {
+        "tag": "footer",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "foot"
+      },
+      {
+        "tag": "div",
+        "role": "dialog",
+        "label": "Assistant",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "chatpanel"
+      }
+    ],
+    "imgs": [
+      {
+        "src": "/images/p-duvar.webp",
+        "alt": "Wall-mounted",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-salon.webp",
+        "alt": "Floor standing",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-multi.webp",
+        "alt": "Multi-split",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-home.webp",
+        "alt": "Home type",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-isipompasi.webp",
+        "alt": "Heat pumps",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-ticari.webp",
+        "alt": "Commercial & VRF",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/p-yedek.webp",
+        "alt": "Spare parts",
+        "hasAlt": true,
+        "w": 366,
+        "h": 269,
+        "decorative": false
+      },
+      {
+        "src": "/images/ba-cool.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/ba-hot.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 1130,
+        "h": 635,
+        "decorative": true
+      },
+      {
+        "src": "/images/unit-teal.webp",
+        "alt": "",
+        "hasAlt": true,
+        "w": 524,
+        "h": 452,
+        "decorative": true
+      }
+    ],
+    "iframes": [
+      {
+        "title": "Global Teknik — Alanya",
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1",
+        "ariaHidden": null
+      }
+    ],
+    "svgTotal": 15,
+    "svgNotHidden": [
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "SPAN.camp-ic"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "DIV.sdiv"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A."
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.mo-wa"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "A.wafab"
+      },
+      {
+        "ariaHidden": null,
+        "role": null,
+        "hasTitle": false,
+        "parent": "BUTTON."
+      }
+    ],
+    "sectionsWithoutHeading": [
+      {
+        "id": "hizmetler",
+        "hasHeading": true,
+        "eyebrow": "Services",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "urunler",
+        "hasHeading": false,
+        "eyebrow": "The Gree range",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "projeler",
+        "hasHeading": true,
+        "eyebrow": "Projects & Business",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "teknik",
+        "hasHeading": false,
+        "eyebrow": "What is inside your air conditioner?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "referanslar",
+        "hasHeading": false,
+        "eyebrow": "From heat to cool",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kesif",
+        "hasHeading": false,
+        "eyebrow": "What size does your room need?",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "neden",
+        "hasHeading": true,
+        "eyebrow": "What we stand for",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "yorumlar",
+        "hasHeading": false,
+        "eyebrow": "What our customers say",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "randevu",
+        "hasHeading": true,
+        "eyebrow": "Appointment / Free Survey",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "hakkimizda",
+        "hasHeading": false,
+        "eyebrow": "About us",
+        "eyebrowTag": "P"
+      },
+      {
+        "id": "kontakt",
+        "hasHeading": false,
+        "eyebrow": "Get in touch",
+        "eyebrowTag": "P"
+      }
+    ],
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Your name*"
+        ],
+        "autocomplete": "name",
+        "inputmode": null,
+        "maxlength": "80",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "phone",
+        "type": "tel",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Phone*"
+        ],
+        "autocomplete": "tel",
+        "inputmode": "tel",
+        "maxlength": "30",
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "place",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "District"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "e.g. Mahmutlar, Oba, Kestel…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 47
+        }
+      },
+      {
+        "name": "service",
+        "type": "select-one",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "TopicBuying a unitInstallationMaintenance / Cleani"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 277,
+          "h": 49
+        }
+      },
+      {
+        "name": "when",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Preferred day / time"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "60",
+        "placeholder": "Örn. Cumartesi öğleden sonra",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 47
+        }
+      },
+      {
+        "name": "note",
+        "type": "textarea",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Short note (optional)"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": "400",
+        "placeholder": "Number of rooms, unit brand, brief info…",
+        "tabIndex": 0,
+        "rect": {
+          "w": 569,
+          "h": 70
+        }
+      },
+      {
+        "name": "website",
+        "type": "text",
+        "required": false,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "Web sitesi"
+        ],
+        "autocomplete": "off",
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": -1,
+        "rect": {
+          "w": 177,
+          "h": 21
+        }
+      },
+      {
+        "name": "consent",
+        "type": "checkbox",
+        "required": true,
+        "ariaRequired": null,
+        "ariaInvalid": null,
+        "ariaDescribedby": null,
+        "id": null,
+        "labelledByFor": [
+          "I agree that my contact details may be used to ans"
+        ],
+        "autocomplete": null,
+        "inputmode": null,
+        "maxlength": null,
+        "placeholder": null,
+        "tabIndex": 0,
+        "rect": {
+          "w": 17,
+          "h": 17
+        }
+      }
+    ],
+    "err": {
+      "role": "alert",
+      "ariaLive": null,
+      "hidden": true,
+      "id": "reqErr"
+    },
+    "stars": [
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": "5,0 / 5 · 65 Google reviews"
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      },
+      {
+        "text": "★★★★★",
+        "ariaHidden": "true",
+        "parentLabel": null
+      }
+    ],
+    "revEx": [
+      {
+        "text": "Beispiel",
+        "color": "rgb(167, 158, 144)",
+        "fontSize": "9.6px",
+        "warnVar": ""
+      }
+    ],
+    "rating": {
+      "tag": "A",
+      "ariaLabel": "5,0 / 5 · 65 Google reviews",
+      "text": "5,0★★★★★65 Google reviews"
+    },
+    "cbody": {
+      "ariaLive": null,
+      "role": null,
+      "ariaAtomic": null
+    },
+    "cdisc": {
+      "text": "You are chatting with an AI assistant. We can connect you to a person anytime.",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "11.52px"
+    },
+    "langAttrs": [
+      {
+        "tag": "HTML",
+        "lang": "en",
+        "text": "Air Conditioning in Alan"
+      }
+    ],
+    "hardcodedEnglishAria": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "Global Teknik — Gree Alanya"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mainnav",
+        "label": "Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "themetog",
+        "label": "Switch theme"
+      },
+      {
+        "tag": "NAV",
+        "cls": "lang",
+        "label": "Language"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "burger",
+        "label": "Menu"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mobnav",
+        "label": "Menu"
+      },
+      {
+        "tag": "A",
+        "cls": "ratingbig",
+        "label": "5,0 / 5 · 65 Google reviews"
+      },
+      {
+        "tag": "UL",
+        "cls": "segs.shown",
+        "label": "Projects & Business"
+      },
+      {
+        "tag": "OL",
+        "cls": "flow",
+        "label": "Süreç"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "ba-range",
+        "label": "Drag"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Facebook"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Instagram"
+      },
+      {
+        "tag": "A",
+        "cls": "wafab",
+        "label": "WhatsApp"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chatfab",
+        "label": "Questions? Write to us."
+      },
+      {
+        "tag": "DIV",
+        "cls": "chatpanel",
+        "label": "Assistant"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "cclose",
+        "label": "×"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "label": "Type your question…"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "label": "Send"
+      }
+    ],
+    "errState": {
+      "errText": "⚠ Your name · Phone  —  ☐ I agree that my contact details may be used to answer my request.",
+      "errHidden": false,
+      "errRole": "alert",
+      "focusMovedTo": "name",
+      "fields": [
+        {
+          "name": "name",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "phone",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+        },
+        {
+          "name": "place",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "service",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "when",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "note",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgba(217, 194, 122, 0.32)"
+        },
+        {
+          "name": "website",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": false,
+          "borderColor": "rgb(118, 118, 118)"
+        },
+        {
+          "name": "consent",
+          "ariaInvalid": null,
+          "ariaDescribedby": null,
+          "userInvalid": true,
+          "borderColor": "rgb(0, 0, 0)"
+        }
+      ]
+    }
+  },
+  "kvkk": {
+    "lang": "tr",
+    "title": "KVKK Aydınlatma Metni | Global Teknik Klima",
+    "headings": [
+      {
+        "lvl": 1,
+        "text": "KVKK Aydınlatma Metni",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Veri sorumlusu",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Hangi verileri işliyoruz",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "İşleme amacı ve hukuki sebep",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Yurt dışına aktarım",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Saklama süresi",
+        "inHeader": false,
+        "inFooter": false
+      },
+      {
+        "lvl": 2,
+        "text": "Haklarınız (KVKK m. 11)",
+        "inHeader": false,
+        "inFooter": false
+      }
+    ],
+    "landmarks": [
+      {
+        "tag": "header",
+        "role": null,
+        "label": null,
+        "labelledby": null,
+        "isTopLevelHeader": true,
+        "cls": "topbar"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mainnav"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Language",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "lang"
+      },
+      {
+        "tag": "nav",
+        "role": null,
+        "label": "Menü",
+        "labelledby": null,
+        "isTopLevelHeader": false,
+        "cls": "mobnav"
+      }
+    ],
+    "imgs": [],
+    "iframes": [],
+    "svgTotal": 2,
+    "svgNotHidden": [],
+    "sectionsWithoutHeading": [],
+    "fields": null,
+    "err": null,
+    "stars": [],
+    "revEx": [],
+    "rating": null,
+    "cbody": null,
+    "cdisc": null,
+    "langAttrs": [
+      {
+        "tag": "HTML",
+        "lang": "tr",
+        "text": "KVKK Aydınlatma Metni | "
+      }
+    ],
+    "hardcodedEnglishAria": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "Global Teknik — Gree Alanya"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mainnav",
+        "label": "Menü"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "themetog",
+        "label": "Temayı değiştir"
+      },
+      {
+        "tag": "NAV",
+        "cls": "lang",
+        "label": "Language"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "burger",
+        "label": "Menü"
+      },
+      {
+        "tag": "NAV",
+        "cls": "mobnav",
+        "label": "Menü"
+      }
+    ],
+    "errState": null
+  }
+}

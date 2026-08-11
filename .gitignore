@@ -6,3 +6,6 @@ dist/
 .DS_Store
 .gstack/
 docs/Video+Skript/*.mp4
+# QA-Beweisbilder vom 11.08.2026: 123 MB, aus docs/qa-2026-08-11/skripte/ reproduzierbar.
+# Bewusst nicht versioniert — sie liegen auf der Platte, aber nicht in der Historie.
+docs/qa-2026-08-11/screenshots/

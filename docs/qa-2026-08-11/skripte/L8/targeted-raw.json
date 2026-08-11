@@ -1,0 +1,7586 @@
+[
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "--fg-mute body copy (.lede)",
+    "sel": "#urunler .lede",
+    "mode": "text",
+    "text": "Odanıza hangi cihazın uyduğunu, almadan ön",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 19.84,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      18,
+      20
+    ],
+    "bgShare": 0.21,
+    "fgPix": [
+      153,
+      158,
+      113
+    ],
+    "glyphN": 2830,
+    "samples": 13972,
+    "rect": {
+      "x": 154,
+      "y": 433.90625,
+      "w": 690.1875,
+      "h": 32.734375
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "--fg-mute body copy (.hint)",
+    "sel": "#kesif .hint",
+    "mode": "text",
+    "text": "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 15.2,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      134,
+      126,
+      115
+    ],
+    "glyphN": 2156,
+    "samples": 9592,
+    "rect": {
+      "x": 154,
+      "y": 437.40625,
+      "w": 493.6875,
+      "h": 25.078125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "--fg-mute card copy (.card p)",
+    "sel": "#hizmetler .card p",
+    "mode": "text",
+    "text": "Duvarı delmeden önce tesisatı arar, çevrey",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 15.04,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      117,
+      140,
+      139
+    ],
+    "glyphN": 4365,
+    "samples": 19778,
+    "rect": {
+      "x": 177,
+      "y": 413.203125,
+      "w": 320.65625,
+      "h": 74.4375
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "--fg-mute tile copy (.tile p)",
+    "sel": "#neden .tile p",
+    "mode": "text",
+    "text": "Gree’nin yetkilendirdiği satış ve teknik s",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      126,
+      136,
+      127
+    ],
+    "glyphN": 1342,
+    "samples": 5180,
+    "rect": {
+      "x": 175,
+      "y": 425.796875,
+      "w": 229,
+      "h": 47.53125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".kicker on .sec-alt (randevu)",
+    "sel": "#randevu .kicker",
+    "mode": "text",
+    "text": "Randevu / Ücretsiz Keşif",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      17,
+      18
+    ],
+    "bgShare": 0.28,
+    "fgPix": [
+      180,
+      161,
+      90
+    ],
+    "glyphN": 657,
+    "samples": 3120,
+    "rect": {
+      "x": 154,
+      "y": 440.78125,
+      "w": 460.6875,
+      "h": 19
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".kicker on .sec (projeler)",
+    "sel": "#projeler .kicker",
+    "mode": "text",
+    "text": "Projeler ve İşletmeler",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      15,
+      21,
+      21
+    ],
+    "bgShare": 0.48,
+    "fgPix": [
+      179,
+      161,
+      90
+    ],
+    "glyphN": 599,
+    "samples": 2816,
+    "rect": {
+      "x": 154,
+      "y": 440.125,
+      "w": 690.1875,
+      "h": 19
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".eyebrow section title",
+    "sel": "#hizmetler .eyebrow",
+    "mode": "text",
+    "text": "Hizmetlerimiz",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 41.6,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      234,
+      246,
+      244
+    ],
+    "glyphN": 2337,
+    "samples": 11600,
+    "rect": {
+      "x": 154,
+      "y": 427.5,
+      "w": 690.1875,
+      "h": 44.90625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".hero-kicker",
+    "sel": ".hero-kicker",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi · Alanya",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      21,
+      19,
+      20
+    ],
+    "bgShare": 0.03,
+    "fgPix": [
+      135,
+      128,
+      117
+    ],
+    "glyphN": 1053,
+    "samples": 4906,
+    "rect": {
+      "x": 374.109375,
+      "y": 181.71875,
+      "w": 600,
+      "h": 24.28125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "h1 line 2 (champagne)",
+    "sel": ".build .cool",
+    "mode": "text",
+    "text": "güvenilir adresi",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 96,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      18,
+      16,
+      17
+    ],
+    "bgShare": 0.01,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 10909,
+    "samples": 64233,
+    "rect": {
+      "x": 374.109375,
+      "y": 328.078125,
+      "w": 549.125,
+      "h": 94.078125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".btn-primary (form submit)",
+    "sel": "#reqForm .rf-submit",
+    "mode": "text",
+    "text": "WhatsApp’tan gönder",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      16,
+      13,
+      11
+    ],
+    "glyphN": 876,
+    "samples": 2256,
+    "rect": {
+      "x": 689.6875,
+      "y": 428.40625,
+      "w": 569.3125,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".btn-primary (calc CTA)",
+    "sel": "#ccta",
+    "mode": "text",
+    "text": "Sonucu WhatsApp’tan gönder",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      28,
+      13,
+      11
+    ],
+    "glyphN": 1231,
+    "samples": 4290,
+    "rect": {
+      "x": 181,
+      "y": 424.859375,
+      "w": 237.3125,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".btn secondary (hero)",
+    "sel": ".hero .cta .btn:not(.btn-primary)",
+    "mode": "text",
+    "text": "Ücretsiz keşif isteyin",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      38,
+      37,
+      36
+    ],
+    "bgShare": 0.03,
+    "fgPix": [
+      209,
+      220,
+      218
+    ],
+    "glyphN": 703,
+    "samples": 2662,
+    "rect": {
+      "x": 557.46875,
+      "y": 477.6875,
+      "w": 162.046875,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".crow .lab (accent micro-label)",
+    "sel": "#kontakt .crow .lab",
+    "mode": "text",
+    "text": "Hemen arayın",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      174,
+      161,
+      55
+    ],
+    "glyphN": 375,
+    "samples": 1350,
+    "rect": {
+      "x": 177,
+      "y": 441.71875,
+      "w": 110,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ab-since chip",
+    "sel": ".ab-since",
+    "mode": "text",
+    "text": "2021’den beri Alanya’da",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      160,
+      171,
+      90
+    ],
+    "glyphN": 652,
+    "samples": 2907,
+    "rect": {
+      "x": 154,
+      "y": 432.21875,
+      "w": 183.125,
+      "h": 35.65625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".warranty .wb badge",
+    "sel": ".warranty .wb",
+    "mode": "text",
+    "text": "6 yıla varan üretici garantisi",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 22.4,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      28,
+      39
+    ],
+    "bgShare": 0.27,
+    "fgPix": [
+      217,
+      194,
+      119
+    ],
+    "glyphN": 1479,
+    "samples": 6264,
+    "rect": {
+      "x": 181,
+      "y": 411.328125,
+      "w": 117.53125,
+      "h": 77.296875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".rev .ex example badge",
+    "sel": ".rev .ex",
+    "mode": "text",
+    "missing": "selector not present"
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".rev .stars",
+    "sel": ".rev .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 275,
+    "samples": 1420,
+    "rect": {
+      "x": 177,
+      "y": 438.5,
+      "w": 320.65625,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".step-n",
+    "sel": "#projeler .step-n",
+    "mode": "text",
+    "text": "01",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 16.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      205,
+      182,
+      114
+    ],
+    "glyphN": 74,
+    "samples": 336,
+    "rect": {
+      "x": 158,
+      "y": 430.3125,
+      "w": 40,
+      "h": 40
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".lang a[aria-current]",
+    "sel": ".lang a[aria-current=\"page\"]",
+    "mode": "text",
+    "text": "TR",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 12.16,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      29,
+      24,
+      18
+    ],
+    "glyphN": 82,
+    "samples": 288,
+    "rect": {
+      "x": 1132.9375,
+      "y": 13.96875,
+      "w": 35.796875,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".lang a (inactive)",
+    "sel": ".lang a:not([aria-current])",
+    "mode": "text",
+    "text": "DE",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      15,
+      12,
+      10
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      123,
+      115,
+      104
+    ],
+    "glyphN": 77,
+    "samples": 306,
+    "rect": {
+      "x": 1170.734375,
+      "y": 13.96875,
+      "w": 36.984375,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".mainnav a",
+    "sel": ".mainnav a",
+    "mode": "text",
+    "text": "Hizmetler",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 13.76,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      15,
+      12,
+      10
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      123,
+      115,
+      104
+    ],
+    "glyphN": 287,
+    "samples": 1060,
+    "rect": {
+      "x": 583.03125,
+      "y": 13.640625,
+      "w": 53.453125,
+      "h": 34.703125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".mobar a (call)",
+    "sel": ".mobar a:first-child",
+    "mode": "text",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".mobar .mo-wa",
+    "sel": ".mobar .mo-wa",
+    "mode": "text",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".trustchips span",
+    "sel": ".trustchips span",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      19,
+      20,
+      19
+    ],
+    "bgShare": 0.09,
+    "fgPix": [
+      119,
+      114,
+      104
+    ],
+    "glyphN": 631,
+    "samples": 2376,
+    "rect": {
+      "x": 374.109375,
+      "y": 474.859375,
+      "w": 153.609375,
+      "h": 32.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".rf label",
+    "sel": "#reqForm .rf > span",
+    "mode": "text",
+    "text": "Adınız",
+    "color": "rgb(220, 213, 203)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      28,
+      40
+    ],
+    "bgShare": 0.7,
+    "fgPix": [
+      171,
+      195,
+      167
+    ],
+    "glyphN": 189,
+    "samples": 817,
+    "rect": {
+      "x": 689.6875,
+      "y": 438.78125,
+      "w": 276.65625,
+      "h": 21.65625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".rf required asterisk",
+    "sel": "#reqForm .rf > span b",
+    "mode": "text",
+    "text": "*",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 13.12,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      28,
+      40
+    ],
+    "bgShare": 0.56,
+    "fgPix": [
+      205,
+      162,
+      73
+    ],
+    "glyphN": 25,
+    "samples": 152,
+    "rect": {
+      "x": 726.734375,
+      "y": 440.78125,
+      "w": 7.90625,
+      "h": 19
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".rf-consent text",
+    "sel": ".rf-consent span",
+    "mode": "text",
+    "text": "İletişim bilgilerimin talebimi yanıtlamak ",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 0.26,
+    "fgPix": [
+      118,
+      115,
+      120
+    ],
+    "glyphN": 1973,
+    "samples": 7562,
+    "rect": {
+      "x": 724.6875,
+      "y": 440.40625,
+      "w": 400.390625,
+      "h": 19.6875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".rf-hint",
+    "sel": ".rf-hint",
+    "mode": "text",
+    "text": "Form bilgilerinizi hazır bir WhatsApp mesa",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.48,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 0.9,
+    "fgPix": [
+      136,
+      119,
+      108
+    ],
+    "glyphN": 2204,
+    "samples": 8658,
+    "rect": {
+      "x": 689.6875,
+      "y": 440.40625,
+      "w": 569.3125,
+      "h": 18.71875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".foot legal link",
+    "sel": ".foot .fl a",
+    "mode": "text",
+    "text": "KVKK Aydınlatma Metni",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      14,
+      14
+    ],
+    "bgShare": 0.28,
+    "fgPix": [
+      133,
+      117,
+      107
+    ],
+    "glyphN": 602,
+    "samples": 2318,
+    "rect": {
+      "x": 154,
+      "y": 769.625,
+      "w": 121.984375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".foot copyright",
+    "sel": ".foot .fr",
+    "mode": "text",
+    "text": "© 2026 · Tüm hakları saklıdır.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      15,
+      14,
+      15
+    ],
+    "bgShare": 0.34,
+    "fgPix": [
+      95,
+      92,
+      65
+    ],
+    "glyphN": 664,
+    "samples": 2664,
+    "rect": {
+      "x": 154,
+      "y": 819.625,
+      "w": 341.796875,
+      "h": 20.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".exp-legend inactive name",
+    "sel": ".exp-legend li:not(.on) .txt b",
+    "mode": "text",
+    "text": "Fan",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 16,
+    "fontWeight": "500",
+    "opacityChain": 0.45,
+    "bg": [
+      17,
+      13,
+      11
+    ],
+    "bgShare": 0.43,
+    "fgPix": [
+      115,
+      118,
+      116
+    ],
+    "glyphN": 168,
+    "samples": 575,
+    "rect": {
+      "x": 868.875,
+      "y": 698.328125,
+      "w": 401.125,
+      "h": 26.390625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".exp-legend inactive text",
+    "sel": ".exp-legend li:not(.on) .txt span",
+    "mode": "text",
+    "text": "Duvara sabitlenen taşıyıcı. Doğru montajın",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 0.45,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.51,
+    "fgPix": [
+      68,
+      63,
+      57
+    ],
+    "glyphN": 1341,
+    "samples": 5820,
+    "rect": {
+      "x": 868.875,
+      "y": 529.859375,
+      "w": 401.125,
+      "h": 20.875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".exp-legend number",
+    "sel": ".exp-legend li:not(.on) .num",
+    "mode": "text",
+    "missing": true
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".exp-hint",
+    "sel": ".exp-hint",
+    "mode": "text",
+    "text": "Şematik gösterimdir.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.97,
+    "fgPix": [
+      82,
+      77,
+      69
+    ],
+    "glyphN": 573,
+    "samples": 2070,
+    "rect": {
+      "x": 169,
+      "y": 441.359375,
+      "w": 137.765625,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ba-lab before",
+    "sel": ".ba-lab-l",
+    "mode": "text",
+    "text": "Öncesi · 34°C",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      26,
+      26,
+      22
+    ],
+    "bgShare": 0.96,
+    "fgPix": [
+      193,
+      157,
+      37
+    ],
+    "glyphN": 437,
+    "samples": 1536,
+    "rect": {
+      "x": 171,
+      "y": 432.5625,
+      "w": 121.859375,
+      "h": 35
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ba-lab after",
+    "sel": ".ba-lab-r",
+    "mode": "text",
+    "text": "Sonrası · 22°C",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      26,
+      28,
+      26
+    ],
+    "bgShare": 0.1,
+    "fgPix": [
+      85,
+      194,
+      187
+    ],
+    "glyphN": 483,
+    "samples": 1664,
+    "rect": {
+      "x": 1138.796875,
+      "y": 432.5625,
+      "w": 130.203125,
+      "h": 35
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ba-ex example badge",
+    "sel": ".ba-ex",
+    "mode": "text",
+    "text": "Örnek görsel",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 9.6,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      26,
+      22
+    ],
+    "bgShare": 0.62,
+    "fgPix": [
+      122,
+      125,
+      94
+    ],
+    "glyphN": 327,
+    "samples": 1204,
+    "rect": {
+      "x": 171,
+      "y": 438.484375,
+      "w": 101.59375,
+      "h": 23.828125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".calc result value",
+    "sel": "#cbtu",
+    "mode": "text",
+    "text": "12.000",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 35.2,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      88,
+      199,
+      192
+    ],
+    "glyphN": 589,
+    "samples": 4042,
+    "rect": {
+      "x": 231.21875,
+      "y": 428.78125,
+      "w": 93.703125,
+      "h": 43
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".toggle button (off)",
+    "sel": ".toggle button:not(.on)",
+    "mode": "text",
+    "text": "Evet",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.4,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      167,
+      158,
+      144
+    ],
+    "glyphN": 158,
+    "samples": 500,
+    "rect": {
+      "x": 182,
+      "y": 427.78125,
+      "w": 68.921875,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".toggle button.on",
+    "sel": ".toggle button.on",
+    "mode": "text",
+    "text": "Hayır",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      16,
+      13,
+      28
+    ],
+    "glyphN": 215,
+    "samples": 680,
+    "rect": {
+      "x": 250.921875,
+      "y": 427.78125,
+      "w": 77.859375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ratingbig number",
+    "sel": ".ratingbig .rnum",
+    "mode": "text",
+    "text": "5,0",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 46.4,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      38,
+      29
+    ],
+    "bgShare": 0.09,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 487,
+    "samples": 3136,
+    "rect": {
+      "x": 393.109375,
+      "y": 472.703125,
+      "w": 55.875,
+      "h": 46.40625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ratingbig stars",
+    "sel": ".ratingbig .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 21.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      47,
+      45,
+      35
+    ],
+    "bgShare": 0.04,
+    "fgPix": [
+      201,
+      162,
+      39
+    ],
+    "glyphN": 557,
+    "samples": 3193,
+    "rect": {
+      "x": 462.984375,
+      "y": 438.96875,
+      "w": 180.65625,
+      "h": 21.125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ratingbig count",
+    "sel": ".ratingbig .rcount",
+    "mode": "text",
+    "text": "65 Google değerlendirmesi",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      41,
+      38,
+      29
+    ],
+    "bgShare": 0.09,
+    "fgPix": [
+      231,
+      243,
+      241
+    ],
+    "glyphN": 1244,
+    "samples": 3620,
+    "rect": {
+      "x": 462.984375,
+      "y": 438.09375,
+      "w": 180.65625,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".cdisc AI disclosure",
+    "sel": ".cdisc",
+    "mode": "text",
+    "text": "Bir yapay zekâ asistanıyla yazışıyorsunuz.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      117,
+      110,
+      99
+    ],
+    "glyphN": 1653,
+    "samples": 5712,
+    "rect": {
+      "x": 1041,
+      "y": 486,
+      "w": 378,
+      "h": 59
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".cchips suggestion",
+    "sel": "#cchips button",
+    "mode": "text",
+    "text": "Fiyat teklifi istiyorum",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 12.16,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      46,
+      39,
+      29
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      195,
+      173,
+      109
+    ],
+    "glyphN": 613,
+    "samples": 1872,
+    "rect": {
+      "x": 1057,
+      "y": 665,
+      "w": 129.78125,
+      "h": 34
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".ci-t .on (online)",
+    "sel": ".ci-t .on",
+    "mode": "text",
+    "text": "● çevrimiçi",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 10.88,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      15,
+      12
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      70,
+      153,
+      147
+    ],
+    "glyphN": 213,
+    "samples": 832,
+    "rect": {
+      "x": 1103,
+      "y": 453.21875,
+      "w": 101.296875,
+      "h": 13.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".cclose (x)",
+    "sel": "#cclose",
+    "mode": "text",
+    "text": "×",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 24,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      15,
+      12
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      167,
+      158,
+      144
+    ],
+    "glyphN": 78,
+    "samples": 378,
+    "rect": {
+      "x": 1371,
+      "y": 427,
+      "w": 32,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "chat bot bubble",
+    "sel": "#chatpanel .msg.bot .b",
+    "mode": "text",
+    "text": "Merhaba! Hangi odayı serinletmek istiyorsu",
+    "color": "rgb(220, 213, 203)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      187,
+      180,
+      172
+    ],
+    "glyphN": 1513,
+    "samples": 6270,
+    "rect": {
+      "x": 1057,
+      "y": 561,
+      "w": 311.390625,
+      "h": 68.15625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "chat input placeholder-ish (border)",
+    "sel": "#cin",
+    "mode": "text",
+    "missing": "no text node"
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".rf-err error text",
+    "sel": "#reqErr",
+    "mode": "text",
+    "text": "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler",
+    "color": "rgb(234, 61, 20)",
+    "fontSize": 13.44,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      48,
+      25,
+      19
+    ],
+    "bgShare": 0.53,
+    "fgPix": [
+      210,
+      49,
+      19
+    ],
+    "glyphN": 2291,
+    "samples": 10203,
+    "rect": {
+      "x": 689.6875,
+      "y": 429.40625,
+      "w": 569.3125,
+      "h": 42.171875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".wafab (WhatsApp FAB)",
+    "sel": ".wafab",
+    "mode": "shape",
+    "rect": {
+      "x": 1362,
+      "y": 762,
+      "w": 54,
+      "h": 54
+    },
+    "fill": [
+      37,
+      211,
+      102
+    ],
+    "outside": [
+      [
+        13,
+        11,
+        11
+      ],
+      [
+        13,
+        11,
+        10
+      ],
+      [
+        15,
+        12,
+        11
+      ]
+    ],
+    "icon": [
+      255,
+      255,
+      255
+    ],
+    "cssBg": "rgb(37, 211, 102)",
+    "cssColor": "rgb(255, 255, 255)"
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".chatfab",
+    "sel": "#chatfab",
+    "mode": "shape",
+    "rect": {
+      "x": 1207.984375,
+      "y": 836,
+      "w": 212.015625,
+      "h": 44
+    },
+    "fill": [
+      217,
+      194,
+      122
+    ],
+    "outside": [
+      [
+        20,
+        16,
+        13
+      ],
+      [
+        14,
+        12,
+        11
+      ],
+      [
+        14,
+        13,
+        13
+      ]
+    ],
+    "icon": [
+      11,
+      9,
+      9
+    ],
+    "cssBg": "rgb(217, 194, 122)",
+    "cssColor": "rgb(16, 13, 11)"
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "input border (--line-2)",
+    "sel": "#reqForm input[name=name]",
+    "mode": "border",
+    "rect": {
+      "x": 689.6875,
+      "y": 426.4375,
+      "w": 276.65625,
+      "h": 47
+    },
+    "borderColor": "oklab(0.653133 0.146559 0.114603 / 0.728627)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(16, 13, 11)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          25,
+          27,
+          37
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          175,
+          70,
+          35
+        ],
+        "out": [
+          25,
+          27,
+          39
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "select border",
+    "sel": "#reqForm select",
+    "mode": "border",
+    "rect": {
+      "x": 982.34375,
+      "y": 425.09375,
+      "w": 276.65625,
+      "h": 49
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(16, 13, 11)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          26,
+          26,
+          30
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          26,
+          26,
+          31
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "textarea border",
+    "sel": "#reqForm textarea",
+    "mode": "border",
+    "rect": {
+      "x": 689.6875,
+      "y": 415.40625,
+      "w": 569.3125,
+      "h": 70
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(16, 13, 11)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          27,
+          24,
+          26
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          80,
+          70,
+          46
+        ],
+        "out": [
+          26,
+          24,
+          28
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".toggle group border",
+    "sel": ".toggle",
+    "mode": "border",
+    "rect": {
+      "x": 181,
+      "y": 426.78125,
+      "w": 148.78125,
+      "h": 46
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          88,
+          76,
+          51
+        ],
+        "out": [
+          27,
+          22,
+          19
+        ],
+        "inn": [
+          217,
+          194,
+          122
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          27,
+          22,
+          19
+        ],
+        "out": [
+          27,
+          22,
+          19
+        ],
+        "inn": [
+          27,
+          22,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "themetog border",
+    "sel": "#themetog",
+    "mode": "border",
+    "rect": {
+      "x": 1074.9375,
+      "y": 12,
+      "w": 38,
+      "h": 38
+    },
+    "borderColor": "rgba(217, 194, 122, 0.16)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          15,
+          12,
+          10
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          15,
+          12,
+          10
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          47,
+          41,
+          28
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          15,
+          12,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "burger border",
+    "sel": "#burger",
+    "mode": "border",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "card border (--line)",
+    "sel": "#hizmetler .card",
+    "mode": "border",
+    "rect": {
+      "x": 154,
+      "y": 358.46875,
+      "w": 366.65625,
+      "h": 182.171875
+    },
+    "borderColor": "rgba(217, 194, 122, 0.16)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(23, 18, 15)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          23,
+          18,
+          15
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          23,
+          18,
+          15
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          23,
+          18,
+          15
+        ],
+        "out": [
+          14,
+          11,
+          9
+        ],
+        "inn": [
+          23,
+          18,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": "consent checkbox",
+    "sel": ".rf-consent input",
+    "mode": "border",
+    "rect": {
+      "x": 693.6875,
+      "y": 441.40625,
+      "w": 17,
+      "h": 17
+    },
+    "borderColor": "rgb(0, 0, 0)",
+    "borderWidth": "0px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": []
+  },
+  {
+    "theme": "dark",
+    "vp": "desktop",
+    "label": ".mobar top border",
+    "sel": ".mobar",
+    "mode": "border",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "--fg-mute body copy (.lede)",
+    "sel": "#urunler .lede",
+    "mode": "text",
+    "text": "Odanıza hangi cihazın uyduğunu, almadan ön",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 19.84,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      19,
+      23
+    ],
+    "bgShare": 0.19,
+    "fgPix": [
+      153,
+      158,
+      114
+    ],
+    "glyphN": 2844,
+    "samples": 13804,
+    "rect": {
+      "x": 24,
+      "y": 388.84375,
+      "w": 342,
+      "h": 65.46875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "--fg-mute body copy (.hint)",
+    "sel": "#kesif .hint",
+    "mode": "text",
+    "text": "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 15.2,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.87,
+    "fgPix": [
+      133,
+      125,
+      114
+    ],
+    "glyphN": 2157,
+    "samples": 9482,
+    "rect": {
+      "x": 24,
+      "y": 397.296875,
+      "w": 342,
+      "h": 50.15625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "--fg-mute card copy (.card p)",
+    "sel": "#hizmetler .card p",
+    "mode": "text",
+    "text": "Duvarı delmeden önce tesisatı arar, çevrey",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 15.04,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      126,
+      144,
+      127
+    ],
+    "glyphN": 4371,
+    "samples": 19668,
+    "rect": {
+      "x": 47,
+      "y": 372.421875,
+      "w": 296,
+      "h": 99.25
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "--fg-mute tile copy (.tile p)",
+    "sel": "#neden .tile p",
+    "mode": "text",
+    "text": "Gree’nin yetkilendirdiği satış ve teknik s",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      136,
+      127,
+      116
+    ],
+    "glyphN": 1327,
+    "samples": 5260,
+    "rect": {
+      "x": 45,
+      "y": 409.890625,
+      "w": 300,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".kicker on .sec-alt (randevu)",
+    "sel": "#randevu .kicker",
+    "mode": "text",
+    "text": "Randevu / Ücretsiz Keşif",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      19,
+      24
+    ],
+    "bgShare": 0.16,
+    "fgPix": [
+      176,
+      157,
+      101
+    ],
+    "glyphN": 686,
+    "samples": 3120,
+    "rect": {
+      "x": 24,
+      "y": 412.546875,
+      "w": 342,
+      "h": 19
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".kicker on .sec (projeler)",
+    "sel": "#projeler .kicker",
+    "mode": "text",
+    "text": "Projeler ve İşletmeler",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      15,
+      22,
+      23
+    ],
+    "bgShare": 0.18,
+    "fgPix": [
+      179,
+      161,
+      91
+    ],
+    "glyphN": 599,
+    "samples": 2816,
+    "rect": {
+      "x": 24,
+      "y": 412.828125,
+      "w": 342,
+      "h": 19
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".eyebrow section title",
+    "sel": "#hizmetler .eyebrow",
+    "mode": "text",
+    "text": "Hizmetlerimiz",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 27.2,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      234,
+      246,
+      244
+    ],
+    "glyphN": 1203,
+    "samples": 5016,
+    "rect": {
+      "x": 24,
+      "y": 406.921875,
+      "w": 342,
+      "h": 29.375
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".hero-kicker",
+    "sel": ".hero-kicker",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi · Alanya",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      13,
+      13,
+      18
+    ],
+    "bgShare": 0.05,
+    "fgPix": [
+      139,
+      132,
+      121
+    ],
+    "glyphN": 1057,
+    "samples": 4906,
+    "rect": {
+      "x": 0,
+      "y": 183.71875,
+      "w": 390,
+      "h": 24.28125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "h1 line 2 (champagne)",
+    "sel": ".build .cool",
+    "mode": "text",
+    "text": "güvenilir adresi",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 41.6,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      14,
+      14
+    ],
+    "bgShare": 0.1,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 2624,
+    "samples": 11900,
+    "rect": {
+      "x": 0,
+      "y": 276.75,
+      "w": 237.953125,
+      "h": 40.75
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".btn-primary (form submit)",
+    "sel": "#reqForm .rf-submit",
+    "mode": "text",
+    "text": "WhatsApp’tan gönder",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      16,
+      13,
+      28
+    ],
+    "glyphN": 892,
+    "samples": 2272,
+    "rect": {
+      "x": 51,
+      "y": 400.0625,
+      "w": 288,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".btn-primary (calc CTA)",
+    "sel": "#ccta",
+    "mode": "text",
+    "text": "Sonucu WhatsApp’tan gönder",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      28,
+      13,
+      11
+    ],
+    "glyphN": 1231,
+    "samples": 4290,
+    "rect": {
+      "x": 51,
+      "y": 396.828125,
+      "w": 237.3125,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".btn secondary (hero)",
+    "sel": ".hero .cta .btn:not(.btn-primary)",
+    "mode": "text",
+    "text": "Ücretsiz keşif isteyin",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      21,
+      18,
+      16
+    ],
+    "bgShare": 0.1,
+    "fgPix": [
+      205,
+      216,
+      214
+    ],
+    "glyphN": 685,
+    "samples": 2640,
+    "rect": {
+      "x": 183.359375,
+      "y": 397.3125,
+      "w": 162.046875,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".crow .lab (accent micro-label)",
+    "sel": "#kontakt .crow .lab",
+    "mode": "text",
+    "text": "Hemen arayın",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      174,
+      161,
+      55
+    ],
+    "glyphN": 375,
+    "samples": 1350,
+    "rect": {
+      "x": 47,
+      "y": 413.78125,
+      "w": 110,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ab-since chip",
+    "sel": ".ab-since",
+    "mode": "text",
+    "text": "2021’den beri Alanya’da",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      160,
+      171,
+      90
+    ],
+    "glyphN": 652,
+    "samples": 2907,
+    "rect": {
+      "x": 24,
+      "y": 404.25,
+      "w": 183.125,
+      "h": 35.65625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".warranty .wb badge",
+    "sel": ".warranty .wb",
+    "mode": "text",
+    "text": "6 yıla varan üretici garantisi",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 22.4,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      28,
+      39
+    ],
+    "bgShare": 0.17,
+    "fgPix": [
+      217,
+      194,
+      119
+    ],
+    "glyphN": 1481,
+    "samples": 6264,
+    "rect": {
+      "x": 51,
+      "y": 383.15625,
+      "w": 117.53125,
+      "h": 77.296875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".rev .ex example badge",
+    "sel": ".rev .ex",
+    "mode": "text",
+    "missing": "selector not present"
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".rev .stars",
+    "sel": ".rev .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 275,
+    "samples": 1420,
+    "rect": {
+      "x": 47,
+      "y": 409.703125,
+      "w": 296,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".step-n",
+    "sel": "#projeler .step-n",
+    "mode": "text",
+    "text": "01",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 16.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      217,
+      194,
+      90
+    ],
+    "glyphN": 70,
+    "samples": 336,
+    "rect": {
+      "x": 24,
+      "y": 402.46875,
+      "w": 40,
+      "h": 40
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".lang a[aria-current]",
+    "sel": ".lang a[aria-current=\"page\"]",
+    "mode": "text",
+    "text": "TR",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 12.16,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      29,
+      24,
+      18
+    ],
+    "glyphN": 82,
+    "samples": 288,
+    "rect": {
+      "x": 168.9375,
+      "y": 14.96875,
+      "w": 35.796875,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".lang a (inactive)",
+    "sel": ".lang a:not([aria-current])",
+    "mode": "text",
+    "text": "DE",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      123,
+      115,
+      104
+    ],
+    "glyphN": 77,
+    "samples": 306,
+    "rect": {
+      "x": 206.734375,
+      "y": 14.96875,
+      "w": 36.984375,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".mainnav a",
+    "sel": ".mainnav a",
+    "mode": "text",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".mobar a (call)",
+    "sel": ".mobar a:first-child",
+    "mode": "text",
+    "text": "Hemen arayın",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      228,
+      240,
+      238
+    ],
+    "glyphN": 534,
+    "samples": 1760,
+    "rect": {
+      "x": 0,
+      "y": 792.234375,
+      "w": 195,
+      "h": 51.765625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".mobar .mo-wa",
+    "sel": ".mobar .mo-wa",
+    "mode": "text",
+    "text": "WhatsApp",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 0.6,
+    "fgPix": [
+      20,
+      16,
+      12
+    ],
+    "glyphN": 448,
+    "samples": 1340,
+    "rect": {
+      "x": 195,
+      "y": 792.234375,
+      "w": 195,
+      "h": 51.765625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".trustchips span",
+    "sel": ".trustchips span",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.73,
+    "fgPix": [
+      120,
+      113,
+      103
+    ],
+    "glyphN": 631,
+    "samples": 2376,
+    "rect": {
+      "x": 0,
+      "y": 446.640625,
+      "w": 153.609375,
+      "h": 32.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".rf label",
+    "sel": "#reqForm .rf > span",
+    "mode": "text",
+    "text": "Adınız",
+    "color": "rgb(220, 213, 203)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      28,
+      40
+    ],
+    "bgShare": 0.69,
+    "fgPix": [
+      183,
+      178,
+      172
+    ],
+    "glyphN": 204,
+    "samples": 817,
+    "rect": {
+      "x": 51,
+      "y": 410.75,
+      "w": 288,
+      "h": 21.65625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".rf required asterisk",
+    "sel": "#reqForm .rf > span b",
+    "mode": "text",
+    "text": "*",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 13.12,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      28,
+      40
+    ],
+    "bgShare": 0.78,
+    "fgPix": [
+      157,
+      173,
+      109
+    ],
+    "glyphN": 24,
+    "samples": 152,
+    "rect": {
+      "x": 88.046875,
+      "y": 412.75,
+      "w": 7.90625,
+      "h": 19
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".rf-consent text",
+    "sel": ".rf-consent span",
+    "mode": "text",
+    "text": "İletişim bilgilerimin talebimi yanıtlamak ",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 0.93,
+    "fgPix": [
+      136,
+      119,
+      101
+    ],
+    "glyphN": 1960,
+    "samples": 7505,
+    "rect": {
+      "x": 86,
+      "y": 402.6875,
+      "w": 253,
+      "h": 39.375
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".rf-hint",
+    "sel": ".rf-hint",
+    "mode": "text",
+    "text": "Form bilgilerinizi hazır bir WhatsApp mesa",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.48,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      136,
+      119,
+      108
+    ],
+    "glyphN": 2185,
+    "samples": 8568,
+    "rect": {
+      "x": 51,
+      "y": 403.0625,
+      "w": 288,
+      "h": 37.4375
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".foot legal link",
+    "sel": ".foot .fl a",
+    "mode": "text",
+    "text": "KVKK Aydınlatma Metni",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.42,
+    "fgPix": [
+      115,
+      135,
+      106
+    ],
+    "glyphN": 602,
+    "samples": 2318,
+    "rect": {
+      "x": 24,
+      "y": 614.03125,
+      "w": 121.984375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".foot copyright",
+    "sel": ".foot .fr",
+    "mode": "text",
+    "text": "© 2026 · Tüm hakları saklıdır.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      15,
+      14,
+      15
+    ],
+    "bgShare": 0.2,
+    "fgPix": [
+      95,
+      92,
+      64
+    ],
+    "glyphN": 663,
+    "samples": 2664,
+    "rect": {
+      "x": 24,
+      "y": 664.03125,
+      "w": 341.796875,
+      "h": 20.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".exp-legend inactive name",
+    "sel": ".exp-legend li:not(.on) .txt b",
+    "mode": "text",
+    "text": "Gövde ve montaj plakası",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 16,
+    "fontWeight": "500",
+    "opacityChain": 0.45,
+    "bg": [
+      16,
+      13,
+      10
+    ],
+    "bgShare": 0.45,
+    "fgPix": [
+      213,
+      224,
+      222
+    ],
+    "glyphN": 66,
+    "samples": 3979,
+    "rect": {
+      "x": 76.078125,
+      "y": 792.234375,
+      "w": 273.921875,
+      "h": 26.390625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".exp-legend inactive text",
+    "sel": ".exp-legend li:not(.on) .txt span",
+    "mode": "text",
+    "missing": true
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".exp-legend number",
+    "sel": ".exp-legend li:not(.on) .num",
+    "mode": "text",
+    "missing": "selector not present"
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".exp-hint",
+    "sel": ".exp-hint",
+    "mode": "text",
+    "text": "Şematik gösterimdir.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.53,
+    "fgPix": [
+      83,
+      77,
+      69
+    ],
+    "glyphN": 573,
+    "samples": 2070,
+    "rect": {
+      "x": 39,
+      "y": 413.125,
+      "w": 137.765625,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ba-lab before",
+    "sel": ".ba-lab-l",
+    "mode": "text",
+    "text": "Öncesi · 34°C",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      27,
+      23
+    ],
+    "bgShare": 0.32,
+    "fgPix": [
+      195,
+      157,
+      37
+    ],
+    "glyphN": 438,
+    "samples": 1536,
+    "rect": {
+      "x": 41,
+      "y": 404.328125,
+      "w": 121.859375,
+      "h": 35
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ba-lab after",
+    "sel": ".ba-lab-r",
+    "mode": "text",
+    "text": "Sonrası · 22°C",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      28,
+      26
+    ],
+    "bgShare": 0.45,
+    "fgPix": [
+      85,
+      194,
+      187
+    ],
+    "glyphN": 483,
+    "samples": 1664,
+    "rect": {
+      "x": 218.796875,
+      "y": 404.328125,
+      "w": 130.203125,
+      "h": 35
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ba-ex example badge",
+    "sel": ".ba-ex",
+    "mode": "text",
+    "text": "Örnek görsel",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 9.6,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      26,
+      22
+    ],
+    "bgShare": 0.88,
+    "fgPix": [
+      122,
+      125,
+      94
+    ],
+    "glyphN": 327,
+    "samples": 1204,
+    "rect": {
+      "x": 41,
+      "y": 409.71875,
+      "w": 101.59375,
+      "h": 23.828125
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".calc result value",
+    "sel": "#cbtu",
+    "mode": "text",
+    "text": "12.000",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 35.2,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      88,
+      199,
+      192
+    ],
+    "glyphN": 589,
+    "samples": 4042,
+    "rect": {
+      "x": 101.21875,
+      "y": 400.75,
+      "w": 93.703125,
+      "h": 43
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".toggle button (off)",
+    "sel": ".toggle button:not(.on)",
+    "mode": "text",
+    "text": "Evet",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.4,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      167,
+      158,
+      144
+    ],
+    "glyphN": 158,
+    "samples": 500,
+    "rect": {
+      "x": 52,
+      "y": 399.75,
+      "w": 68.921875,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".toggle button.on",
+    "sel": ".toggle button.on",
+    "mode": "text",
+    "text": "Hayır",
+    "color": "rgb(16, 13, 11)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      217,
+      194,
+      122
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      16,
+      13,
+      28
+    ],
+    "glyphN": 215,
+    "samples": 680,
+    "rect": {
+      "x": 120.921875,
+      "y": 399.75,
+      "w": 77.859375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ratingbig number",
+    "sel": ".ratingbig .rnum",
+    "mode": "text",
+    "text": "5,0",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 32,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      35,
+      24
+    ],
+    "bgShare": 0.73,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 280,
+    "samples": 1521,
+    "rect": {
+      "x": 19,
+      "y": 451.109375,
+      "w": 38.53125,
+      "h": 32
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ratingbig stars",
+    "sel": ".ratingbig .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      35,
+      24
+    ],
+    "bgShare": 0.74,
+    "fgPix": [
+      201,
+      162,
+      39
+    ],
+    "glyphN": 349,
+    "samples": 1771,
+    "rect": {
+      "x": 71.53125,
+      "y": 413.59375,
+      "w": 152.5625,
+      "h": 16
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ratingbig count",
+    "sel": ".ratingbig .rcount",
+    "mode": "text",
+    "text": "65 Google değerlendirmesi",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 12.16,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      35,
+      24
+    ],
+    "bgShare": 0.76,
+    "fgPix": [
+      224,
+      236,
+      233
+    ],
+    "glyphN": 980,
+    "samples": 2736,
+    "rect": {
+      "x": 71.53125,
+      "y": 411.59375,
+      "w": 152.5625,
+      "h": 20.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".cdisc AI disclosure",
+    "sel": ".cdisc",
+    "mode": "text",
+    "text": "Bir yapay zekâ asistanıyla yazışıyorsunuz.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      22,
+      19
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      117,
+      110,
+      99
+    ],
+    "glyphN": 1653,
+    "samples": 5712,
+    "rect": {
+      "x": 13,
+      "y": 496,
+      "w": 364,
+      "h": 59
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".cchips suggestion",
+    "sel": "#cchips button",
+    "mode": "text",
+    "text": "Fiyat teklifi istiyorum",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 12.16,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      46,
+      39,
+      29
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      195,
+      173,
+      109
+    ],
+    "glyphN": 613,
+    "samples": 1872,
+    "rect": {
+      "x": 29,
+      "y": 675,
+      "w": 129.78125,
+      "h": 34
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".ci-t .on (online)",
+    "sel": ".ci-t .on",
+    "mode": "text",
+    "text": "● çevrimiçi",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 10.88,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      15,
+      12
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      70,
+      153,
+      147
+    ],
+    "glyphN": 213,
+    "samples": 832,
+    "rect": {
+      "x": 75,
+      "y": 463.21875,
+      "w": 101.296875,
+      "h": 13.046875
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".cclose (x)",
+    "sel": "#cclose",
+    "mode": "text",
+    "text": "×",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 24,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      20,
+      15,
+      12
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      167,
+      158,
+      144
+    ],
+    "glyphN": 78,
+    "samples": 378,
+    "rect": {
+      "x": 329,
+      "y": 437,
+      "w": 32,
+      "h": 44
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "chat bot bubble",
+    "sel": "#chatpanel .msg.bot .b",
+    "mode": "text",
+    "text": "Merhaba! Hangi odayı serinletmek istiyorsu",
+    "color": "rgb(220, 213, 203)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      18,
+      15
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      187,
+      180,
+      172
+    ],
+    "glyphN": 1513,
+    "samples": 6270,
+    "rect": {
+      "x": 29,
+      "y": 571,
+      "w": 298.796875,
+      "h": 68.15625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "chat input placeholder-ish (border)",
+    "sel": "#cin",
+    "mode": "text",
+    "missing": "no text node"
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".rf-err error text",
+    "sel": "#reqErr",
+    "mode": "text",
+    "text": "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler",
+    "color": "rgb(234, 61, 20)",
+    "fontSize": 13.44,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      48,
+      25,
+      19
+    ],
+    "bgShare": 0.95,
+    "fgPix": [
+      210,
+      50,
+      19
+    ],
+    "glyphN": 2233,
+    "samples": 10051,
+    "rect": {
+      "x": 51,
+      "y": 379.0625,
+      "w": 288,
+      "h": 86.515625
+    }
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".wafab (WhatsApp FAB)",
+    "sel": ".wafab",
+    "mode": "shape",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".chatfab",
+    "sel": "#chatfab",
+    "mode": "shape",
+    "rect": {
+      "x": 157.984375,
+      "y": 726,
+      "w": 212.015625,
+      "h": 44
+    },
+    "fill": [
+      217,
+      194,
+      122
+    ],
+    "outside": [
+      [
+        13,
+        13,
+        16
+      ],
+      [
+        14,
+        11,
+        11
+      ],
+      [
+        14,
+        13,
+        16
+      ]
+    ],
+    "icon": [
+      11,
+      9,
+      10
+    ],
+    "cssBg": "rgb(217, 194, 122)",
+    "cssColor": "rgb(16, 13, 11)"
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "input border (--line-2)",
+    "sel": "#reqForm input[name=name]",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 398.40625,
+      "w": 288,
+      "h": 47
+    },
+    "borderColor": "oklab(0.653133 0.146559 0.114603 / 0.728627)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(16, 13, 11)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          25,
+          27,
+          38
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          25,
+          28,
+          39
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "select border",
+    "sel": "#reqForm select",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 397.375,
+      "w": 288,
+      "h": 49
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(16, 13, 11)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          26,
+          25,
+          30
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          26,
+          25,
+          30
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "textarea border",
+    "sel": "#reqForm textarea",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 386.6875,
+      "w": 288,
+      "h": 70
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(16, 13, 11)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          80,
+          70,
+          46
+        ],
+        "out": [
+          27,
+          24,
+          24
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          16,
+          13,
+          11
+        ],
+        "out": [
+          26,
+          23,
+          24
+        ],
+        "inn": [
+          16,
+          13,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".toggle group border",
+    "sel": ".toggle",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 398.75,
+      "w": 148.78125,
+      "h": 46
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          88,
+          76,
+          51
+        ],
+        "out": [
+          27,
+          22,
+          19
+        ],
+        "inn": [
+          217,
+          194,
+          122
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          27,
+          22,
+          19
+        ],
+        "out": [
+          27,
+          22,
+          19
+        ],
+        "inn": [
+          27,
+          22,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "themetog border",
+    "sel": "#themetog",
+    "mode": "border",
+    "rect": {
+      "x": 122.9375,
+      "y": 13,
+      "w": 38,
+      "h": 38
+    },
+    "borderColor": "rgba(217, 194, 122, 0.16)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          15,
+          12,
+          10
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          15,
+          12,
+          10
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          47,
+          41,
+          28
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          15,
+          12,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "burger border",
+    "sel": "#burger",
+    "mode": "border",
+    "rect": {
+      "x": 330,
+      "y": 10,
+      "w": 44,
+      "h": 44
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          15,
+          12,
+          10
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          15,
+          12,
+          10
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          15,
+          12,
+          10
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          15,
+          12,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "card border (--line)",
+    "sel": "#hizmetler .card",
+    "mode": "border",
+    "rect": {
+      "x": 24,
+      "y": 318.6875,
+      "w": 342,
+      "h": 206.984375
+    },
+    "borderColor": "rgba(217, 194, 122, 0.16)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(23, 18, 15)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          54,
+          46,
+          32
+        ],
+        "out": [
+          15,
+          12,
+          10
+        ],
+        "inn": [
+          23,
+          18,
+          15
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          23,
+          18,
+          15
+        ],
+        "out": [
+          14,
+          11,
+          9
+        ],
+        "inn": [
+          23,
+          18,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": "consent checkbox",
+    "sel": ".rf-consent input",
+    "mode": "border",
+    "rect": {
+      "x": 55,
+      "y": 413.6875,
+      "w": 17,
+      "h": 17
+    },
+    "borderColor": "rgb(0, 0, 0)",
+    "borderWidth": "0px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": []
+  },
+  {
+    "theme": "dark",
+    "vp": "mobile",
+    "label": ".mobar top border",
+    "sel": ".mobar",
+    "mode": "border",
+    "rect": {
+      "x": 0,
+      "y": 791.234375,
+      "w": 390,
+      "h": 52.765625
+    },
+    "borderColor": "rgba(217, 194, 122, 0.32)",
+    "borderWidth": "1px",
+    "bgColor": "oklab(0.162043 0.00370679 0.00546186 / 0.92)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          196,
+          175,
+          110
+        ],
+        "out": [
+          12,
+          13,
+          17
+        ],
+        "inn": [
+          200,
+          179,
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "--fg-mute body copy (.lede)",
+    "sel": "#urunler .lede",
+    "mode": "text",
+    "text": "Odanıza hangi cihazın uyduğunu, almadan ön",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 19.84,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      230,
+      225,
+      219
+    ],
+    "bgShare": 0.3,
+    "fgPix": [
+      94,
+      94,
+      122
+    ],
+    "glyphN": 2781,
+    "samples": 13972,
+    "rect": {
+      "x": 154,
+      "y": 433.90625,
+      "w": 690.1875,
+      "h": 32.734375
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "--fg-mute body copy (.hint)",
+    "sel": "#kesif .hint",
+    "mode": "text",
+    "text": "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 15.2,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      136,
+      129,
+      121
+    ],
+    "glyphN": 2220,
+    "samples": 9592,
+    "rect": {
+      "x": 154,
+      "y": 437.40625,
+      "w": 493.6875,
+      "h": 25.078125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "--fg-mute card copy (.card p)",
+    "sel": "#hizmetler .card p",
+    "mode": "text",
+    "text": "Duvarı delmeden önce tesisatı arar, çevrey",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 15.04,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      177,
+      107,
+      83
+    ],
+    "glyphN": 4281,
+    "samples": 19778,
+    "rect": {
+      "x": 177,
+      "y": 413.203125,
+      "w": 320.65625,
+      "h": 74.4375
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "--fg-mute tile copy (.tile p)",
+    "sel": "#neden .tile p",
+    "mode": "text",
+    "text": "Gree’nin yetkilendirdiği satış ve teknik s",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      146,
+      107,
+      132
+    ],
+    "glyphN": 1312,
+    "samples": 5180,
+    "rect": {
+      "x": 175,
+      "y": 425.796875,
+      "w": 229,
+      "h": 47.53125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".kicker on .sec-alt (randevu)",
+    "sel": "#randevu .kicker",
+    "mode": "text",
+    "text": "Randevu / Ücretsiz Keşif",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      231,
+      226,
+      220
+    ],
+    "bgShare": 0.28,
+    "fgPix": [
+      152,
+      144,
+      95
+    ],
+    "glyphN": 649,
+    "samples": 3120,
+    "rect": {
+      "x": 154,
+      "y": 440.78125,
+      "w": 460.6875,
+      "h": 19
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".kicker on .sec (projeler)",
+    "sel": "#projeler .kicker",
+    "mode": "text",
+    "text": "Projeler ve İşletmeler",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      233,
+      233,
+      229
+    ],
+    "bgShare": 0.38,
+    "fgPix": [
+      194,
+      142,
+      46
+    ],
+    "glyphN": 584,
+    "samples": 2816,
+    "rect": {
+      "x": 154,
+      "y": 440.125,
+      "w": 690.1875,
+      "h": 19
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".eyebrow section title",
+    "sel": "#hizmetler .eyebrow",
+    "mode": "text",
+    "text": "Hizmetlerimiz",
+    "color": "rgb(20, 17, 16)",
+    "fontSize": 41.6,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      20,
+      17,
+      16
+    ],
+    "glyphN": 2244,
+    "samples": 11600,
+    "rect": {
+      "x": 154,
+      "y": 427.5,
+      "w": 690.1875,
+      "h": 44.90625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".hero-kicker",
+    "sel": ".hero-kicker",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi · Alanya",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      21,
+      19,
+      20
+    ],
+    "bgShare": 0.03,
+    "fgPix": [
+      135,
+      128,
+      117
+    ],
+    "glyphN": 1070,
+    "samples": 4906,
+    "rect": {
+      "x": 374.109375,
+      "y": 181.71875,
+      "w": 600,
+      "h": 24.28125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "h1 line 2 (champagne)",
+    "sel": ".build .cool",
+    "mode": "text",
+    "text": "güvenilir adresi",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 96,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      18,
+      16,
+      17
+    ],
+    "bgShare": 0.01,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 10876,
+    "samples": 64233,
+    "rect": {
+      "x": 374.109375,
+      "y": 328.078125,
+      "w": 549.125,
+      "h": 94.078125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".btn-primary (form submit)",
+    "sel": "#reqForm .rf-submit",
+    "mode": "text",
+    "text": "WhatsApp’tan gönder",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      255,
+      253,
+      249
+    ],
+    "glyphN": 876,
+    "samples": 2256,
+    "rect": {
+      "x": 689.6875,
+      "y": 428.40625,
+      "w": 569.3125,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".btn-primary (calc CTA)",
+    "sel": "#ccta",
+    "mode": "text",
+    "text": "Sonucu WhatsApp’tan gönder",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      250,
+      253,
+      249
+    ],
+    "glyphN": 1313,
+    "samples": 4290,
+    "rect": {
+      "x": 181,
+      "y": 424.859375,
+      "w": 237.3125,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".btn secondary (hero)",
+    "sel": ".hero .cta .btn:not(.btn-primary)",
+    "mode": "text",
+    "text": "Ücretsiz keşif isteyin",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      38,
+      37,
+      36
+    ],
+    "bgShare": 0.03,
+    "fgPix": [
+      209,
+      220,
+      218
+    ],
+    "glyphN": 703,
+    "samples": 2662,
+    "rect": {
+      "x": 557.46875,
+      "y": 477.6875,
+      "w": 162.046875,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".crow .lab (accent micro-label)",
+    "sel": "#kontakt .crow .lab",
+    "mode": "text",
+    "text": "Hemen arayın",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      205,
+      154,
+      98
+    ],
+    "glyphN": 371,
+    "samples": 1350,
+    "rect": {
+      "x": 177,
+      "y": 441.71875,
+      "w": 110,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ab-since chip",
+    "sel": ".ab-since",
+    "mode": "text",
+    "text": "2021’den beri Alanya’da",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      160,
+      150,
+      101
+    ],
+    "glyphN": 636,
+    "samples": 2907,
+    "rect": {
+      "x": 154,
+      "y": 432.21875,
+      "w": 183.125,
+      "h": 35.65625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".warranty .wb badge",
+    "sel": ".warranty .wb",
+    "mode": "text",
+    "text": "6 yıla varan üretici garantisi",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 22.4,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      243,
+      243,
+      244
+    ],
+    "bgShare": 0.48,
+    "fgPix": [
+      125,
+      95,
+      20
+    ],
+    "glyphN": 1460,
+    "samples": 6264,
+    "rect": {
+      "x": 181,
+      "y": 411.328125,
+      "w": 117.53125,
+      "h": 77.296875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".rev .ex example badge",
+    "sel": ".rev .ex",
+    "mode": "text",
+    "missing": "selector not present"
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".rev .stars",
+    "sel": ".rev .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      122,
+      95,
+      20
+    ],
+    "glyphN": 276,
+    "samples": 1420,
+    "rect": {
+      "x": 177,
+      "y": 438.5,
+      "w": 320.65625,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".step-n",
+    "sel": "#projeler .step-n",
+    "mode": "text",
+    "text": "01",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 16.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      137,
+      113,
+      46
+    ],
+    "glyphN": 70,
+    "samples": 336,
+    "rect": {
+      "x": 158,
+      "y": 430.3125,
+      "w": 40,
+      "h": 40
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".lang a[aria-current]",
+    "sel": ".lang a[aria-current=\"page\"]",
+    "mode": "text",
+    "text": "TR",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 12.16,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      251,
+      248,
+      241
+    ],
+    "glyphN": 87,
+    "samples": 288,
+    "rect": {
+      "x": 1132.9375,
+      "y": 13.96875,
+      "w": 35.796875,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".lang a (inactive)",
+    "sel": ".lang a:not([aria-current])",
+    "mode": "text",
+    "text": "DE",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      244,
+      238
+    ],
+    "bgShare": 0.99,
+    "fgPix": [
+      149,
+      142,
+      135
+    ],
+    "glyphN": 78,
+    "samples": 306,
+    "rect": {
+      "x": 1170.734375,
+      "y": 13.96875,
+      "w": 36.984375,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".mainnav a",
+    "sel": ".mainnav a",
+    "mode": "text",
+    "text": "Hizmetler",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 13.76,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      244,
+      238
+    ],
+    "bgShare": 0.92,
+    "fgPix": [
+      149,
+      142,
+      135
+    ],
+    "glyphN": 291,
+    "samples": 1060,
+    "rect": {
+      "x": 583.03125,
+      "y": 13.640625,
+      "w": 53.453125,
+      "h": 34.703125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".mobar a (call)",
+    "sel": ".mobar a:first-child",
+    "mode": "text",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".mobar .mo-wa",
+    "sel": ".mobar .mo-wa",
+    "mode": "text",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".trustchips span",
+    "sel": ".trustchips span",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      19,
+      20,
+      19
+    ],
+    "bgShare": 0.09,
+    "fgPix": [
+      121,
+      114,
+      105
+    ],
+    "glyphN": 626,
+    "samples": 2376,
+    "rect": {
+      "x": 374.109375,
+      "y": 474.859375,
+      "w": 153.609375,
+      "h": 32.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".rf label",
+    "sel": "#reqForm .rf > span",
+    "mode": "text",
+    "text": "Adınız",
+    "color": "rgb(42, 36, 30)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      242,
+      242,
+      243
+    ],
+    "bgShare": 0.32,
+    "fgPix": [
+      48,
+      106,
+      183
+    ],
+    "glyphN": 180,
+    "samples": 817,
+    "rect": {
+      "x": 689.6875,
+      "y": 438.78125,
+      "w": 276.65625,
+      "h": 21.65625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".rf required asterisk",
+    "sel": "#reqForm .rf > span b",
+    "mode": "text",
+    "text": "*",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 13.12,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      243,
+      243,
+      244
+    ],
+    "bgShare": 0.29,
+    "fgPix": [
+      163,
+      117,
+      97
+    ],
+    "glyphN": 23,
+    "samples": 152,
+    "rect": {
+      "x": 726.734375,
+      "y": 440.78125,
+      "w": 7.90625,
+      "h": 19
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".rf-consent text",
+    "sel": ".rf-consent span",
+    "mode": "text",
+    "text": "İletişim bilgilerimin talebimi yanıtlamak ",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 0.32,
+    "fgPix": [
+      181,
+      123,
+      138
+    ],
+    "glyphN": 1922,
+    "samples": 7562,
+    "rect": {
+      "x": 724.6875,
+      "y": 440.40625,
+      "w": 400.390625,
+      "h": 19.6875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".rf-hint",
+    "sel": ".rf-hint",
+    "mode": "text",
+    "text": "Form bilgilerinizi hazır bir WhatsApp mesa",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.48,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 0.93,
+    "fgPix": [
+      182,
+      134,
+      116
+    ],
+    "glyphN": 2168,
+    "samples": 8658,
+    "rect": {
+      "x": 689.6875,
+      "y": 440.40625,
+      "w": 569.3125,
+      "h": 18.71875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".foot legal link",
+    "sel": ".foot .fl a",
+    "mode": "text",
+    "text": "KVKK Aydınlatma Metni",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      244,
+      241,
+      237
+    ],
+    "bgShare": 0.55,
+    "fgPix": [
+      94,
+      136,
+      185
+    ],
+    "glyphN": 589,
+    "samples": 2318,
+    "rect": {
+      "x": 154,
+      "y": 769.625,
+      "w": 121.984375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".foot copyright",
+    "sel": ".foot .fr",
+    "mode": "text",
+    "text": "© 2026 · Tüm hakları saklıdır.",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      243,
+      241,
+      237
+    ],
+    "bgShare": 0.2,
+    "fgPix": [
+      185,
+      170,
+      163
+    ],
+    "glyphN": 647,
+    "samples": 2664,
+    "rect": {
+      "x": 154,
+      "y": 819.625,
+      "w": 341.796875,
+      "h": 20.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".exp-legend inactive name",
+    "sel": ".exp-legend li:not(.on) .txt b",
+    "mode": "text",
+    "text": "Fan",
+    "color": "rgb(20, 17, 16)",
+    "fontSize": 16,
+    "fontWeight": "500",
+    "opacityChain": 0.45,
+    "bg": [
+      244,
+      240,
+      234
+    ],
+    "bgShare": 0.51,
+    "fgPix": [
+      142,
+      138,
+      135
+    ],
+    "glyphN": 162,
+    "samples": 575,
+    "rect": {
+      "x": 868.875,
+      "y": 698.328125,
+      "w": 401.125,
+      "h": 26.390625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".exp-legend inactive text",
+    "sel": ".exp-legend li:not(.on) .txt span",
+    "mode": "text",
+    "text": "Duvara sabitlenen taşıyıcı. Doğru montajın",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 0.45,
+    "bg": [
+      245,
+      242,
+      236
+    ],
+    "bgShare": 0.47,
+    "fgPix": [
+      195,
+      190,
+      183
+    ],
+    "glyphN": 1220,
+    "samples": 5820,
+    "rect": {
+      "x": 868.875,
+      "y": 529.859375,
+      "w": 401.125,
+      "h": 20.875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".exp-legend number",
+    "sel": ".exp-legend li:not(.on) .num",
+    "mode": "text",
+    "missing": true
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".exp-hint",
+    "sel": ".exp-hint",
+    "mode": "text",
+    "text": "Şematik gösterimdir.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.88,
+    "fgPix": [
+      83,
+      77,
+      69
+    ],
+    "glyphN": 573,
+    "samples": 2070,
+    "rect": {
+      "x": 169,
+      "y": 441.359375,
+      "w": 137.765625,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ba-lab before",
+    "sel": ".ba-lab-l",
+    "mode": "text",
+    "text": "Öncesi · 34°C",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      26,
+      26,
+      22
+    ],
+    "bgShare": 0.96,
+    "fgPix": [
+      193,
+      157,
+      37
+    ],
+    "glyphN": 437,
+    "samples": 1536,
+    "rect": {
+      "x": 171,
+      "y": 432.5625,
+      "w": 121.859375,
+      "h": 35
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ba-lab after",
+    "sel": ".ba-lab-r",
+    "mode": "text",
+    "text": "Sonrası · 22°C",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      26,
+      28,
+      26
+    ],
+    "bgShare": 0.1,
+    "fgPix": [
+      85,
+      194,
+      187
+    ],
+    "glyphN": 483,
+    "samples": 1664,
+    "rect": {
+      "x": 1138.796875,
+      "y": 432.5625,
+      "w": 130.203125,
+      "h": 35
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ba-ex example badge",
+    "sel": ".ba-ex",
+    "mode": "text",
+    "text": "Örnek görsel",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 9.6,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      26,
+      22
+    ],
+    "bgShare": 0.62,
+    "fgPix": [
+      122,
+      125,
+      94
+    ],
+    "glyphN": 327,
+    "samples": 1204,
+    "rect": {
+      "x": 171,
+      "y": 438.484375,
+      "w": 101.59375,
+      "h": 23.828125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".calc result value",
+    "sel": "#cbtu",
+    "mode": "text",
+    "text": "12.000",
+    "color": "rgb(14, 58, 70)",
+    "fontSize": 35.2,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      14,
+      58,
+      70
+    ],
+    "glyphN": 596,
+    "samples": 4042,
+    "rect": {
+      "x": 231.21875,
+      "y": 428.78125,
+      "w": 93.703125,
+      "h": 43
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".toggle button (off)",
+    "sel": ".toggle button:not(.on)",
+    "mode": "text",
+    "text": "Evet",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 14.4,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      90,
+      81,
+      72
+    ],
+    "glyphN": 156,
+    "samples": 500,
+    "rect": {
+      "x": 182,
+      "y": 427.78125,
+      "w": 68.921875,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".toggle button.on",
+    "sel": ".toggle button.on",
+    "mode": "text",
+    "text": "Hayır",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      255,
+      253,
+      241
+    ],
+    "glyphN": 227,
+    "samples": 680,
+    "rect": {
+      "x": 250.921875,
+      "y": 427.78125,
+      "w": 77.859375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ratingbig number",
+    "sel": ".ratingbig .rnum",
+    "mode": "text",
+    "text": "5,0",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 46.4,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      38,
+      29
+    ],
+    "bgShare": 0.09,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 493,
+    "samples": 3136,
+    "rect": {
+      "x": 393.109375,
+      "y": 472.703125,
+      "w": 55.875,
+      "h": 46.40625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ratingbig stars",
+    "sel": ".ratingbig .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 21.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      47,
+      45,
+      35
+    ],
+    "bgShare": 0.04,
+    "fgPix": [
+      201,
+      162,
+      39
+    ],
+    "glyphN": 542,
+    "samples": 3193,
+    "rect": {
+      "x": 462.984375,
+      "y": 438.96875,
+      "w": 180.65625,
+      "h": 21.125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ratingbig count",
+    "sel": ".ratingbig .rcount",
+    "mode": "text",
+    "text": "65 Google değerlendirmesi",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      41,
+      38,
+      29
+    ],
+    "bgShare": 0.09,
+    "fgPix": [
+      231,
+      243,
+      241
+    ],
+    "glyphN": 1242,
+    "samples": 3620,
+    "rect": {
+      "x": 462.984375,
+      "y": 438.09375,
+      "w": 180.65625,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".cdisc AI disclosure",
+    "sel": ".cdisc",
+    "mode": "text",
+    "text": "Bir yapay zekâ asistanıyla yazışıyorsunuz.",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      163,
+      157,
+      150
+    ],
+    "glyphN": 1707,
+    "samples": 5712,
+    "rect": {
+      "x": 1041,
+      "y": 486,
+      "w": 378,
+      "h": 59
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".cchips suggestion",
+    "sel": "#cchips button",
+    "mode": "text",
+    "text": "Fiyat teklifi istiyorum",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 12.16,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      241,
+      237,
+      225
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      151,
+      130,
+      71
+    ],
+    "glyphN": 608,
+    "samples": 1872,
+    "rect": {
+      "x": 1057,
+      "y": 665,
+      "w": 129.78125,
+      "h": 34
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".ci-t .on (online)",
+    "sel": ".ci-t .on",
+    "mode": "text",
+    "text": "● çevrimiçi",
+    "color": "rgb(14, 58, 70)",
+    "fontSize": 10.88,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      237,
+      231,
+      222
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      95,
+      121,
+      126
+    ],
+    "glyphN": 209,
+    "samples": 832,
+    "rect": {
+      "x": 1103,
+      "y": 453.21875,
+      "w": 101.296875,
+      "h": 13.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".cclose (x)",
+    "sel": "#cclose",
+    "mode": "text",
+    "text": "×",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 24,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      237,
+      231,
+      222
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      90,
+      81,
+      72
+    ],
+    "glyphN": 80,
+    "samples": 378,
+    "rect": {
+      "x": 1371,
+      "y": 427,
+      "w": 32,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "chat bot bubble",
+    "sel": "#chatpanel .msg.bot .b",
+    "mode": "text",
+    "text": "Merhaba! Hangi odayı serinletmek istiyorsu",
+    "color": "rgb(42, 36, 30)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      109,
+      105,
+      99
+    ],
+    "glyphN": 1467,
+    "samples": 6270,
+    "rect": {
+      "x": 1057,
+      "y": 561,
+      "w": 311.390625,
+      "h": 68.15625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "chat input placeholder-ish (border)",
+    "sel": "#cin",
+    "mode": "text",
+    "missing": "no text node"
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".rf-err error text",
+    "sel": "#reqErr",
+    "mode": "text",
+    "text": "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler",
+    "color": "rgb(234, 61, 20)",
+    "fontSize": 13.44,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      253,
+      233,
+      225
+    ],
+    "bgShare": 0.49,
+    "fgPix": [
+      240,
+      119,
+      77
+    ],
+    "glyphN": 2353,
+    "samples": 10203,
+    "rect": {
+      "x": 689.6875,
+      "y": 429.40625,
+      "w": 569.3125,
+      "h": 42.171875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".wafab (WhatsApp FAB)",
+    "sel": ".wafab",
+    "mode": "shape",
+    "rect": {
+      "x": 1362,
+      "y": 762,
+      "w": 54,
+      "h": 54
+    },
+    "fill": [
+      37,
+      211,
+      102
+    ],
+    "outside": [
+      [
+        217,
+        214,
+        211
+      ],
+      [
+        220,
+        217,
+        212
+      ],
+      [
+        235,
+        232,
+        228
+      ]
+    ],
+    "icon": [
+      255,
+      255,
+      255
+    ],
+    "cssBg": "rgb(37, 211, 102)",
+    "cssColor": "rgb(255, 255, 255)"
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".chatfab",
+    "sel": "#chatfab",
+    "mode": "shape",
+    "rect": {
+      "x": 1207.984375,
+      "y": 836,
+      "w": 212.015625,
+      "h": 44
+    },
+    "fill": [
+      122,
+      95,
+      20
+    ],
+    "outside": [
+      [
+        231,
+        229,
+        225
+      ],
+      [
+        223,
+        221,
+        216
+      ],
+      [
+        228,
+        226,
+        223
+      ]
+    ],
+    "icon": [
+      255,
+      253,
+      249
+    ],
+    "cssBg": "rgb(122, 95, 20)",
+    "cssColor": "rgb(255, 253, 249)"
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "input border (--line-2)",
+    "sel": "#reqForm input[name=name]",
+    "mode": "border",
+    "rect": {
+      "x": 689.6875,
+      "y": 426.4375,
+      "w": 276.65625,
+      "h": 47
+    },
+    "borderColor": "oklab(0.54947 0.151462 0.100725 / 0.711373)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(246, 243, 238)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          243,
+          243,
+          244
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          212,
+          111,
+          87
+        ],
+        "out": [
+          242,
+          243,
+          244
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "select border",
+    "sel": "#reqForm select",
+    "mode": "border",
+    "rect": {
+      "x": 982.34375,
+      "y": 425.09375,
+      "w": 276.65625,
+      "h": 49
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(246, 243, 238)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          249,
+          248,
+          246
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          248,
+          247,
+          246
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "textarea border",
+    "sel": "#reqForm textarea",
+    "mode": "border",
+    "rect": {
+      "x": 689.6875,
+      "y": 415.40625,
+      "w": 569.3125,
+      "h": 70
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(246, 243, 238)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          251,
+          250,
+          248
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          183,
+          180,
+          175
+        ],
+        "out": [
+          249,
+          248,
+          246
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".toggle group border",
+    "sel": ".toggle",
+    "mode": "border",
+    "rect": {
+      "x": 181,
+      "y": 426.78125,
+      "w": 148.78125,
+      "h": 46
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          190,
+          187,
+          183
+        ],
+        "out": [
+          255,
+          253,
+          249
+        ],
+        "inn": [
+          122,
+          95,
+          20
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          255,
+          253,
+          249
+        ],
+        "out": [
+          255,
+          253,
+          249
+        ],
+        "inn": [
+          255,
+          253,
+          249
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "themetog border",
+    "sel": "#themetog",
+    "mode": "border",
+    "rect": {
+      "x": 1074.9375,
+      "y": 12,
+      "w": 38,
+      "h": 38
+    },
+    "borderColor": "rgba(20, 17, 16, 0.14)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          244,
+          239
+        ],
+        "out": [
+          246,
+          244,
+          239
+        ],
+        "inn": [
+          246,
+          244,
+          239
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          215,
+          212,
+          208
+        ],
+        "out": [
+          246,
+          244,
+          239
+        ],
+        "inn": [
+          246,
+          244,
+          239
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "burger border",
+    "sel": "#burger",
+    "mode": "border",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "card border (--line)",
+    "sel": "#hizmetler .card",
+    "mode": "border",
+    "rect": {
+      "x": 154,
+      "y": 358.46875,
+      "w": 366.65625,
+      "h": 182.171875
+    },
+    "borderColor": "rgba(20, 17, 16, 0.14)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(255, 253, 249)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          255,
+          253,
+          249
+        ],
+        "out": [
+          241,
+          238,
+          233
+        ],
+        "inn": [
+          255,
+          253,
+          249
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          255,
+          253,
+          249
+        ],
+        "out": [
+          237,
+          234,
+          229
+        ],
+        "inn": [
+          255,
+          253,
+          249
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": "consent checkbox",
+    "sel": ".rf-consent input",
+    "mode": "border",
+    "rect": {
+      "x": 693.6875,
+      "y": 441.40625,
+      "w": 17,
+      "h": 17
+    },
+    "borderColor": "rgb(0, 0, 0)",
+    "borderWidth": "0px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": []
+  },
+  {
+    "theme": "light",
+    "vp": "desktop",
+    "label": ".mobar top border",
+    "sel": ".mobar",
+    "mode": "border",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "--fg-mute body copy (.lede)",
+    "sel": "#urunler .lede",
+    "mode": "text",
+    "text": "Odanıza hangi cihazın uyduğunu, almadan ön",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 19.84,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      227,
+      223,
+      218
+    ],
+    "bgShare": 0.19,
+    "fgPix": [
+      137,
+      81,
+      94
+    ],
+    "glyphN": 2784,
+    "samples": 13804,
+    "rect": {
+      "x": 24,
+      "y": 388.84375,
+      "w": 342,
+      "h": 65.46875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "--fg-mute body copy (.hint)",
+    "sel": "#kesif .hint",
+    "mode": "text",
+    "text": "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 15.2,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 0.87,
+    "fgPix": [
+      137,
+      130,
+      123
+    ],
+    "glyphN": 2217,
+    "samples": 9482,
+    "rect": {
+      "x": 24,
+      "y": 397.296875,
+      "w": 342,
+      "h": 50.15625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "--fg-mute card copy (.card p)",
+    "sel": "#hizmetler .card p",
+    "mode": "text",
+    "text": "Duvarı delmeden önce tesisatı arar, çevrey",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 15.04,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      115,
+      124,
+      127
+    ],
+    "glyphN": 4301,
+    "samples": 19668,
+    "rect": {
+      "x": 47,
+      "y": 372.421875,
+      "w": 296,
+      "h": 99.25
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "--fg-mute tile copy (.tile p)",
+    "sel": "#neden .tile p",
+    "mode": "text",
+    "text": "Gree’nin yetkilendirdiği satış ve teknik s",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      137,
+      131,
+      123
+    ],
+    "glyphN": 1348,
+    "samples": 5260,
+    "rect": {
+      "x": 45,
+      "y": 409.890625,
+      "w": 300,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".kicker on .sec-alt (randevu)",
+    "sel": "#randevu .kicker",
+    "mode": "text",
+    "text": "Randevu / Ücretsiz Keşif",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      227,
+      222,
+      218
+    ],
+    "bgShare": 0.18,
+    "fgPix": [
+      162,
+      143,
+      94
+    ],
+    "glyphN": 671,
+    "samples": 3120,
+    "rect": {
+      "x": 24,
+      "y": 412.546875,
+      "w": 342,
+      "h": 19
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".kicker on .sec (projeler)",
+    "sel": "#projeler .kicker",
+    "mode": "text",
+    "text": "Projeler ve İşletmeler",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      231,
+      231,
+      227
+    ],
+    "bgShare": 0.18,
+    "fgPix": [
+      198,
+      143,
+      46
+    ],
+    "glyphN": 584,
+    "samples": 2816,
+    "rect": {
+      "x": 24,
+      "y": 412.828125,
+      "w": 342,
+      "h": 19
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".eyebrow section title",
+    "sel": "#hizmetler .eyebrow",
+    "mode": "text",
+    "text": "Hizmetlerimiz",
+    "color": "rgb(20, 17, 16)",
+    "fontSize": 27.2,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      20,
+      17,
+      16
+    ],
+    "glyphN": 1144,
+    "samples": 5016,
+    "rect": {
+      "x": 24,
+      "y": 406.921875,
+      "w": 342,
+      "h": 29.375
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".hero-kicker",
+    "sel": ".hero-kicker",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi · Alanya",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      13,
+      13,
+      18
+    ],
+    "bgShare": 0.05,
+    "fgPix": [
+      140,
+      132,
+      121
+    ],
+    "glyphN": 1040,
+    "samples": 4906,
+    "rect": {
+      "x": 0,
+      "y": 183.71875,
+      "w": 390,
+      "h": 24.28125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "h1 line 2 (champagne)",
+    "sel": ".build .cool",
+    "mode": "text",
+    "text": "güvenilir adresi",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 41.6,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      14,
+      14
+    ],
+    "bgShare": 0.1,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 2594,
+    "samples": 11900,
+    "rect": {
+      "x": 0,
+      "y": 276.75,
+      "w": 237.953125,
+      "h": 40.75
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".btn-primary (form submit)",
+    "sel": "#reqForm .rf-submit",
+    "mode": "text",
+    "text": "WhatsApp’tan gönder",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      246,
+      253,
+      249
+    ],
+    "glyphN": 892,
+    "samples": 2272,
+    "rect": {
+      "x": 51,
+      "y": 400.0625,
+      "w": 288,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".btn-primary (calc CTA)",
+    "sel": "#ccta",
+    "mode": "text",
+    "text": "Sonucu WhatsApp’tan gönder",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 14.72,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      250,
+      253,
+      249
+    ],
+    "glyphN": 1313,
+    "samples": 4290,
+    "rect": {
+      "x": 51,
+      "y": 396.828125,
+      "w": 237.3125,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".btn secondary (hero)",
+    "sel": ".hero .cta .btn:not(.btn-primary)",
+    "mode": "text",
+    "text": "Ücretsiz keşif isteyin",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      21,
+      18,
+      16
+    ],
+    "bgShare": 0.1,
+    "fgPix": [
+      205,
+      216,
+      214
+    ],
+    "glyphN": 681,
+    "samples": 2640,
+    "rect": {
+      "x": 183.359375,
+      "y": 397.3125,
+      "w": 162.046875,
+      "h": 50.28125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".crow .lab (accent micro-label)",
+    "sel": "#kontakt .crow .lab",
+    "mode": "text",
+    "text": "Hemen arayın",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      205,
+      154,
+      98
+    ],
+    "glyphN": 371,
+    "samples": 1350,
+    "rect": {
+      "x": 47,
+      "y": 413.78125,
+      "w": 110,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ab-since chip",
+    "sel": ".ab-since",
+    "mode": "text",
+    "text": "2021’den beri Alanya’da",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      160,
+      150,
+      101
+    ],
+    "glyphN": 636,
+    "samples": 2907,
+    "rect": {
+      "x": 24,
+      "y": 404.25,
+      "w": 183.125,
+      "h": 35.65625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".warranty .wb badge",
+    "sel": ".warranty .wb",
+    "mode": "text",
+    "text": "6 yıla varan üretici garantisi",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 22.4,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      243,
+      243,
+      244
+    ],
+    "bgShare": 0.41,
+    "fgPix": [
+      125,
+      95,
+      20
+    ],
+    "glyphN": 1460,
+    "samples": 6264,
+    "rect": {
+      "x": 51,
+      "y": 383.15625,
+      "w": 117.53125,
+      "h": 77.296875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".rev .ex example badge",
+    "sel": ".rev .ex",
+    "mode": "text",
+    "missing": "selector not present"
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".rev .stars",
+    "sel": ".rev .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 14.4,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      122,
+      95,
+      20
+    ],
+    "glyphN": 276,
+    "samples": 1420,
+    "rect": {
+      "x": 47,
+      "y": 409.703125,
+      "w": 296,
+      "h": 23.765625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".step-n",
+    "sel": "#projeler .step-n",
+    "mode": "text",
+    "text": "01",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 16.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      122,
+      104,
+      81
+    ],
+    "glyphN": 68,
+    "samples": 336,
+    "rect": {
+      "x": 24,
+      "y": 402.46875,
+      "w": 40,
+      "h": 40
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".lang a[aria-current]",
+    "sel": ".lang a[aria-current=\"page\"]",
+    "mode": "text",
+    "text": "TR",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 12.16,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      251,
+      248,
+      241
+    ],
+    "glyphN": 87,
+    "samples": 288,
+    "rect": {
+      "x": 168.9375,
+      "y": 14.96875,
+      "w": 35.796875,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".lang a (inactive)",
+    "sel": ".lang a:not([aria-current])",
+    "mode": "text",
+    "text": "DE",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      244,
+      239
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      149,
+      142,
+      135
+    ],
+    "glyphN": 78,
+    "samples": 306,
+    "rect": {
+      "x": 206.734375,
+      "y": 14.96875,
+      "w": 36.984375,
+      "h": 34.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".mainnav a",
+    "sel": ".mainnav a",
+    "mode": "text",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".mobar a (call)",
+    "sel": ".mobar a:first-child",
+    "mode": "text",
+    "text": "Hemen arayın",
+    "color": "rgb(20, 17, 16)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      27,
+      24,
+      23
+    ],
+    "glyphN": 511,
+    "samples": 1760,
+    "rect": {
+      "x": 0,
+      "y": 792.234375,
+      "w": 195,
+      "h": 51.765625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".mobar .mo-wa",
+    "sel": ".mobar .mo-wa",
+    "mode": "text",
+    "text": "WhatsApp",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 0.6,
+    "fgPix": [
+      252,
+      250,
+      244
+    ],
+    "glyphN": 487,
+    "samples": 1340,
+    "rect": {
+      "x": 195,
+      "y": 792.234375,
+      "w": 195,
+      "h": 51.765625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".trustchips span",
+    "sel": ".trustchips span",
+    "mode": "text",
+    "text": "Gree Yetkili Bayi ve Servisi",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.74,
+    "fgPix": [
+      120,
+      113,
+      103
+    ],
+    "glyphN": 630,
+    "samples": 2376,
+    "rect": {
+      "x": 0,
+      "y": 446.640625,
+      "w": 153.609375,
+      "h": 32.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".rf label",
+    "sel": "#reqForm .rf > span",
+    "mode": "text",
+    "text": "Adınız",
+    "color": "rgb(42, 36, 30)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      242,
+      242,
+      244
+    ],
+    "bgShare": 0.36,
+    "fgPix": [
+      117,
+      113,
+      110
+    ],
+    "glyphN": 197,
+    "samples": 817,
+    "rect": {
+      "x": 51,
+      "y": 410.75,
+      "w": 288,
+      "h": 21.65625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".rf required asterisk",
+    "sel": "#reqForm .rf > span b",
+    "mode": "text",
+    "text": "*",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 13.12,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      242,
+      242,
+      243
+    ],
+    "bgShare": 0.34,
+    "fgPix": [
+      125,
+      132,
+      139
+    ],
+    "glyphN": 24,
+    "samples": 152,
+    "rect": {
+      "x": 88.046875,
+      "y": 412.75,
+      "w": 7.90625,
+      "h": 19
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".rf-consent text",
+    "sel": ".rf-consent span",
+    "mode": "text",
+    "text": "İletişim bilgilerimin talebimi yanıtlamak ",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 13.12,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 0.95,
+    "fgPix": [
+      193,
+      129,
+      116
+    ],
+    "glyphN": 1936,
+    "samples": 7505,
+    "rect": {
+      "x": 86,
+      "y": 402.6875,
+      "w": 253,
+      "h": 39.375
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".rf-hint",
+    "sel": ".rf-hint",
+    "mode": "text",
+    "text": "Form bilgilerinizi hazır bir WhatsApp mesa",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.48,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 0.98,
+    "fgPix": [
+      126,
+      134,
+      171
+    ],
+    "glyphN": 2146,
+    "samples": 8568,
+    "rect": {
+      "x": 51,
+      "y": 403.0625,
+      "w": 288,
+      "h": 37.4375
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".foot legal link",
+    "sel": ".foot .fl a",
+    "mode": "text",
+    "text": "KVKK Aydınlatma Metni",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.8,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      246,
+      243,
+      238
+    ],
+    "bgShare": 0.49,
+    "fgPix": [
+      172,
+      121,
+      123
+    ],
+    "glyphN": 589,
+    "samples": 2318,
+    "rect": {
+      "x": 24,
+      "y": 614.03125,
+      "w": 121.984375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".foot copyright",
+    "sel": ".foot .fr",
+    "mode": "text",
+    "text": "© 2026 · Tüm hakları saklıdır.",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 12.16,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      244,
+      241,
+      237
+    ],
+    "bgShare": 0.19,
+    "fgPix": [
+      195,
+      162,
+      163
+    ],
+    "glyphN": 650,
+    "samples": 2664,
+    "rect": {
+      "x": 24,
+      "y": 664.03125,
+      "w": 341.796875,
+      "h": 20.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".exp-legend inactive name",
+    "sel": ".exp-legend li:not(.on) .txt b",
+    "mode": "text",
+    "text": "Fan",
+    "color": "rgb(20, 17, 16)",
+    "fontSize": 16,
+    "fontWeight": "500",
+    "opacityChain": 0.45,
+    "bg": [
+      244,
+      240,
+      234
+    ],
+    "bgShare": 0.42,
+    "fgPix": [
+      142,
+      139,
+      135
+    ],
+    "glyphN": 166,
+    "samples": 575,
+    "rect": {
+      "x": 76.078125,
+      "y": 691.09375,
+      "w": 273.921875,
+      "h": 26.390625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".exp-legend inactive text",
+    "sel": ".exp-legend li:not(.on) .txt span",
+    "mode": "text",
+    "missing": true
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".exp-legend number",
+    "sel": ".exp-legend li:not(.on) .num",
+    "mode": "text",
+    "missing": "selector not present"
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".exp-hint",
+    "sel": ".exp-hint",
+    "mode": "text",
+    "text": "Şematik gösterimdir.",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 10.56,
+    "fontWeight": "300",
+    "opacityChain": 0.7,
+    "bg": [
+      16,
+      13,
+      11
+    ],
+    "bgShare": 0.18,
+    "fgPix": [
+      89,
+      83,
+      75
+    ],
+    "glyphN": 573,
+    "samples": 2070,
+    "rect": {
+      "x": 39,
+      "y": 413.125,
+      "w": 137.765625,
+      "h": 17.421875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ba-lab before",
+    "sel": ".ba-lab-l",
+    "mode": "text",
+    "text": "Öncesi · 34°C",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      27,
+      27,
+      23
+    ],
+    "bgShare": 0.32,
+    "fgPix": [
+      195,
+      157,
+      37
+    ],
+    "glyphN": 438,
+    "samples": 1536,
+    "rect": {
+      "x": 41,
+      "y": 404.328125,
+      "w": 121.859375,
+      "h": 35
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ba-lab after",
+    "sel": ".ba-lab-r",
+    "mode": "text",
+    "text": "Sonrası · 22°C",
+    "color": "rgb(88, 199, 192)",
+    "fontSize": 11.52,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      23,
+      28,
+      26
+    ],
+    "bgShare": 0.45,
+    "fgPix": [
+      85,
+      194,
+      187
+    ],
+    "glyphN": 483,
+    "samples": 1664,
+    "rect": {
+      "x": 218.796875,
+      "y": 404.328125,
+      "w": 130.203125,
+      "h": 35
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ba-ex example badge",
+    "sel": ".ba-ex",
+    "mode": "text",
+    "text": "Örnek görsel",
+    "color": "rgb(167, 158, 144)",
+    "fontSize": 9.6,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      25,
+      26,
+      22
+    ],
+    "bgShare": 0.88,
+    "fgPix": [
+      122,
+      125,
+      94
+    ],
+    "glyphN": 327,
+    "samples": 1204,
+    "rect": {
+      "x": 41,
+      "y": 409.71875,
+      "w": 101.59375,
+      "h": 23.828125
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".calc result value",
+    "sel": "#cbtu",
+    "mode": "text",
+    "text": "12.000",
+    "color": "rgb(14, 58, 70)",
+    "fontSize": 35.2,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      14,
+      58,
+      70
+    ],
+    "glyphN": 596,
+    "samples": 4042,
+    "rect": {
+      "x": 101.21875,
+      "y": 400.75,
+      "w": 93.703125,
+      "h": 43
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".toggle button (off)",
+    "sel": ".toggle button:not(.on)",
+    "mode": "text",
+    "text": "Evet",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 14.4,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      90,
+      81,
+      72
+    ],
+    "glyphN": 156,
+    "samples": 500,
+    "rect": {
+      "x": 52,
+      "y": 399.75,
+      "w": 68.921875,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".toggle button.on",
+    "sel": ".toggle button.on",
+    "mode": "text",
+    "text": "Hayır",
+    "color": "rgb(255, 253, 249)",
+    "fontSize": 14.4,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      122,
+      95,
+      20
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      255,
+      253,
+      241
+    ],
+    "glyphN": 227,
+    "samples": 680,
+    "rect": {
+      "x": 120.921875,
+      "y": 399.75,
+      "w": 77.859375,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ratingbig number",
+    "sel": ".ratingbig .rnum",
+    "mode": "text",
+    "text": "5,0",
+    "color": "rgb(217, 194, 122)",
+    "fontSize": 32,
+    "fontWeight": "600",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      35,
+      24
+    ],
+    "bgShare": 0.74,
+    "fgPix": [
+      217,
+      194,
+      122
+    ],
+    "glyphN": 273,
+    "samples": 1521,
+    "rect": {
+      "x": 19,
+      "y": 451.109375,
+      "w": 38.53125,
+      "h": 32
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ratingbig stars",
+    "sel": ".ratingbig .stars",
+    "mode": "text",
+    "text": "★★★★★",
+    "color": "rgb(201, 162, 39)",
+    "fontSize": 16,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      35,
+      24
+    ],
+    "bgShare": 0.74,
+    "fgPix": [
+      201,
+      162,
+      39
+    ],
+    "glyphN": 345,
+    "samples": 1771,
+    "rect": {
+      "x": 71.53125,
+      "y": 413.59375,
+      "w": 152.5625,
+      "h": 16
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ratingbig count",
+    "sel": ".ratingbig .rcount",
+    "mode": "text",
+    "text": "65 Google değerlendirmesi",
+    "color": "rgb(234, 246, 244)",
+    "fontSize": 12.16,
+    "fontWeight": "500",
+    "opacityChain": 1,
+    "bg": [
+      40,
+      35,
+      24
+    ],
+    "bgShare": 0.76,
+    "fgPix": [
+      224,
+      236,
+      233
+    ],
+    "glyphN": 980,
+    "samples": 2736,
+    "rect": {
+      "x": 71.53125,
+      "y": 411.59375,
+      "w": 152.5625,
+      "h": 20.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".cdisc AI disclosure",
+    "sel": ".cdisc",
+    "mode": "text",
+    "text": "Bir yapay zekâ asistanıyla yazışıyorsunuz.",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 11.52,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      163,
+      157,
+      150
+    ],
+    "glyphN": 1707,
+    "samples": 5712,
+    "rect": {
+      "x": 13,
+      "y": 496,
+      "w": 364,
+      "h": 59
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".cchips suggestion",
+    "sel": "#cchips button",
+    "mode": "text",
+    "text": "Fiyat teklifi istiyorum",
+    "color": "rgb(122, 95, 20)",
+    "fontSize": 12.16,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      241,
+      237,
+      225
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      151,
+      130,
+      71
+    ],
+    "glyphN": 608,
+    "samples": 1872,
+    "rect": {
+      "x": 29,
+      "y": 675,
+      "w": 129.78125,
+      "h": 34
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".ci-t .on (online)",
+    "sel": ".ci-t .on",
+    "mode": "text",
+    "text": "● çevrimiçi",
+    "color": "rgb(14, 58, 70)",
+    "fontSize": 10.88,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      237,
+      231,
+      222
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      95,
+      121,
+      126
+    ],
+    "glyphN": 209,
+    "samples": 832,
+    "rect": {
+      "x": 75,
+      "y": 463.21875,
+      "w": 101.296875,
+      "h": 13.046875
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".cclose (x)",
+    "sel": "#cclose",
+    "mode": "text",
+    "text": "×",
+    "color": "rgb(90, 81, 72)",
+    "fontSize": 24,
+    "fontWeight": "400",
+    "opacityChain": 1,
+    "bg": [
+      237,
+      231,
+      222
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      90,
+      81,
+      72
+    ],
+    "glyphN": 80,
+    "samples": 378,
+    "rect": {
+      "x": 329,
+      "y": 437,
+      "w": 32,
+      "h": 44
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "chat bot bubble",
+    "sel": "#chatpanel .msg.bot .b",
+    "mode": "text",
+    "text": "Merhaba! Hangi odayı serinletmek istiyorsu",
+    "color": "rgb(42, 36, 30)",
+    "fontSize": 14.72,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      255,
+      253,
+      249
+    ],
+    "bgShare": 1,
+    "fgPix": [
+      109,
+      105,
+      99
+    ],
+    "glyphN": 1467,
+    "samples": 6270,
+    "rect": {
+      "x": 29,
+      "y": 571,
+      "w": 298.796875,
+      "h": 68.15625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "chat input placeholder-ish (border)",
+    "sel": "#cin",
+    "mode": "text",
+    "missing": "no text node"
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".rf-err error text",
+    "sel": "#reqErr",
+    "mode": "text",
+    "text": "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler",
+    "color": "rgb(234, 61, 20)",
+    "fontSize": 13.44,
+    "fontWeight": "300",
+    "opacityChain": 1,
+    "bg": [
+      253,
+      233,
+      225
+    ],
+    "bgShare": 0.91,
+    "fgPix": [
+      236,
+      104,
+      96
+    ],
+    "glyphN": 2389,
+    "samples": 10051,
+    "rect": {
+      "x": 51,
+      "y": 379.0625,
+      "w": 288,
+      "h": 86.515625
+    }
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".wafab (WhatsApp FAB)",
+    "sel": ".wafab",
+    "mode": "shape",
+    "missing": "not displayed at this viewport"
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".chatfab",
+    "sel": "#chatfab",
+    "mode": "shape",
+    "rect": {
+      "x": 157.984375,
+      "y": 726,
+      "w": 212.015625,
+      "h": 44
+    },
+    "fill": [
+      122,
+      95,
+      20
+    ],
+    "outside": [
+      [
+        218,
+        215,
+        213
+      ],
+      [
+        223,
+        221,
+        216
+      ],
+      [
+        227,
+        224,
+        222
+      ]
+    ],
+    "icon": [
+      255,
+      253,
+      249
+    ],
+    "cssBg": "rgb(122, 95, 20)",
+    "cssColor": "rgb(255, 253, 249)"
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "input border (--line-2)",
+    "sel": "#reqForm input[name=name]",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 398.40625,
+      "w": 288,
+      "h": 47
+    },
+    "borderColor": "oklab(0.54947 0.151462 0.100725 / 0.711373)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(246, 243, 238)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          243,
+          243,
+          244
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          242,
+          242,
+          243
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "select border",
+    "sel": "#reqForm select",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 397.375,
+      "w": 288,
+      "h": 49
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(246, 243, 238)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          249,
+          248,
+          246
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          247,
+          247,
+          246
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "textarea border",
+    "sel": "#reqForm textarea",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 386.6875,
+      "w": 288,
+      "h": 70
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(246, 243, 238)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          183,
+          180,
+          175
+        ],
+        "out": [
+          252,
+          251,
+          248
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          246,
+          243,
+          238
+        ],
+        "out": [
+          251,
+          250,
+          247
+        ],
+        "inn": [
+          246,
+          243,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".toggle group border",
+    "sel": ".toggle",
+    "mode": "border",
+    "rect": {
+      "x": 51,
+      "y": 398.75,
+      "w": 148.78125,
+      "h": 46
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          190,
+          187,
+          183
+        ],
+        "out": [
+          255,
+          253,
+          249
+        ],
+        "inn": [
+          122,
+          95,
+          20
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          255,
+          253,
+          249
+        ],
+        "out": [
+          255,
+          253,
+          249
+        ],
+        "inn": [
+          255,
+          253,
+          249
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "themetog border",
+    "sel": "#themetog",
+    "mode": "border",
+    "rect": {
+      "x": 122.9375,
+      "y": 13,
+      "w": 38,
+      "h": 38
+    },
+    "borderColor": "rgba(20, 17, 16, 0.14)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          244,
+          238
+        ],
+        "out": [
+          246,
+          244,
+          238
+        ],
+        "inn": [
+          246,
+          244,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          215,
+          212,
+          207
+        ],
+        "out": [
+          246,
+          243,
+          238
+        ],
+        "inn": [
+          246,
+          244,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "burger border",
+    "sel": "#burger",
+    "mode": "border",
+    "rect": {
+      "x": 330,
+      "y": 10,
+      "w": 44,
+      "h": 44
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          246,
+          244,
+          238
+        ],
+        "out": [
+          246,
+          244,
+          238
+        ],
+        "inn": [
+          246,
+          244,
+          238
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          246,
+          244,
+          238
+        ],
+        "out": [
+          246,
+          244,
+          238
+        ],
+        "inn": [
+          246,
+          244,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "card border (--line)",
+    "sel": "#hizmetler .card",
+    "mode": "border",
+    "rect": {
+      "x": 24,
+      "y": 318.6875,
+      "w": 342,
+      "h": 206.984375
+    },
+    "borderColor": "rgba(20, 17, 16, 0.14)",
+    "borderWidth": "1px",
+    "bgColor": "rgb(255, 253, 249)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          222,
+          219,
+          215
+        ],
+        "out": [
+          241,
+          238,
+          233
+        ],
+        "inn": [
+          255,
+          253,
+          249
+        ]
+      },
+      {
+        "side": "left",
+        "on": [
+          255,
+          253,
+          249
+        ],
+        "out": [
+          237,
+          234,
+          229
+        ],
+        "inn": [
+          255,
+          253,
+          249
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": "consent checkbox",
+    "sel": ".rf-consent input",
+    "mode": "border",
+    "rect": {
+      "x": 55,
+      "y": 413.6875,
+      "w": 17,
+      "h": 17
+    },
+    "borderColor": "rgb(0, 0, 0)",
+    "borderWidth": "0px",
+    "bgColor": "rgba(0, 0, 0, 0)",
+    "probes": []
+  },
+  {
+    "theme": "light",
+    "vp": "mobile",
+    "label": ".mobar top border",
+    "sel": ".mobar",
+    "mode": "border",
+    "rect": {
+      "x": 0,
+      "y": 791.234375,
+      "w": 390,
+      "h": 52.765625
+    },
+    "borderColor": "rgba(20, 17, 16, 0.28)",
+    "borderWidth": "1px",
+    "bgColor": "oklab(0.965073 0.00123549 0.00731134 / 0.92)",
+    "probes": [
+      {
+        "side": "top",
+        "on": [
+          110,
+          86,
+          18
+        ],
+        "out": [
+          210,
+          208,
+          205
+        ],
+        "inn": [
+          112,
+          87,
+          18
+        ]
+      }
+    ]
+  }
+]

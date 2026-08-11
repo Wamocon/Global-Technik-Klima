@@ -1,0 +1,135 @@
+[42m[1m astro [22m[49m [32mv7.0.7[39m [2mready in[22m 73 [2mms[22m
+[2m┃[22m Local    [36mhttp://localhost:4321/[39m
+[2m┃[22m Network  [2muse --host to expose[22m
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18776:3)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)
+TypeError [ERR_INVALID_FILE_URL_PATH]: File URL path must not include encoded \ or / characters
+    at getPathFromURLWin32 (node:internal/url:1468:15)
+    at fileURLToPath (node:internal/url:1614:35)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/astro/dist/core/preview/vite-plugin-astro-preview.js:63:30
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at viteHtmlFallbackMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:18764:12)
+    at call (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6871:5)
+    at next (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:6824:4)
+    at file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:19788:28
+    at viteAssetMiddleware (file:///D:/01%20Antigrafity%20Projekte/25%20Global-Technik-Klima/node_modules/vite/dist/node/chunks/node.js:35023:4)

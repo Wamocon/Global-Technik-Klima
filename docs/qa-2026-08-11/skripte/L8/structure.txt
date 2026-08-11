@@ -1,0 +1,617 @@
+
+########## 404  lang="tr" ##########
+HEADING OUTLINE (0 headings):
+   h1 count: 0 | level skips: none
+LANDMARKS: main=false | top-level <header>: topbar
+   <header.topbar> role=null label=null
+   <nav.mainnav> role=null label="Menü"
+   <nav.lang> role=null label="Language"
+   <nav.mobnav> role=null label="Menü"
+SECTIONS WITHOUT A REAL HEADING:
+IMAGES (0):
+IFRAMES: []
+SVGs total 2, without aria-hidden and without <title>: 0 -> []
+STARS: []
+RATING: null
+.rev .ex: []
+.cdisc: null
+#cbody live region: null
+aria-labels on page: [{"tag":"A","cls":"brand","label":"Global Teknik — Gree Alanya"},{"tag":"NAV","cls":"mainnav","label":"Menü"},{"tag":"BUTTON","cls":"themetog","label":"Temayı değiştir"},{"tag":"NAV","cls":"lang","label":"Language"},{"tag":"BUTTON","cls":"burger","label":"Menü"},{"tag":"NAV","cls":"mobnav","label":"Menü"}]
+
+########## tr  lang="tr" ##########
+HEADING OUTLINE (24 headings):
+   h1  "Alanya’da klimanıngüvenilir adresi" [inside <header> banner]
+       h3  "Montaj"   <<< LEVEL SKIP
+       h3  "Bakım"
+       h3  "Temizlik"
+       h3  "Gaz dolumu"
+       h3  "Arıza & tamir"
+       h3  "Sökme & takma"
+     h2  "Otel, site ve işletmeler için tek çözüm ortağı"
+       h3  "VRF sistemler"
+       h3  "Multi split"
+       h3  "Isı pompası"
+       h3  "Merkezi sistemler"
+         h4  "Ücretsiz keşif"
+         h4  "Projelendirme"
+         h4  "Satış"
+         h4  "Montaj"
+         h4  "Servis"
+       h3  "Kredi kartına taksit"
+       h3  "Eski klimanızı getirin"
+       h3  "Yetkili Bayi ve Servis"
+       h3  "Faturalı hizmet"
+       h3  "7/24 teknik destek"
+       h3  "Uzman ekip"
+     h2  "Size uygun günü yazın, gerisini biz halledelim"
+   h1 count: 1 | level skips: h1 -> h3 at "Montaj"
+LANDMARKS: main=false | top-level <header>: topbar, hero
+   <header.topbar> role=null label=null
+   <nav.mainnav> role=null label="Menü"
+   <nav.lang> role=null label="Language"
+   <nav.mobnav> role=null label="Menü"
+   <header.hero> role=null label=null
+   <div.toggle> role=group label=null
+   <p.rf-err> role=alert label=null
+   <footer.foot> role=null label=null
+   <div.chatpanel> role=dialog label="Assistant"
+SECTIONS WITHOUT A REAL HEADING:
+   #hizmetler: heading=true  de-facto title: <P> "Hizmetlerimiz"
+   #urunler: heading=false  de-facto title: <P> "Gree ürün ailesi"
+   #projeler: heading=true  de-facto title: <P> "Projeler ve İşletmeler"
+   #teknik: heading=false  de-facto title: <P> "Klimanızın içinde ne var?"
+   #referanslar: heading=false  de-facto title: <P> "Sıcaktan serinliğe"
+   #kesif: heading=false  de-facto title: <P> "Odanız kaç BTU’luk klima ister?"
+   #neden: heading=true  de-facto title: <P> "Hizmet anlayışımız"
+   #yorumlar: heading=false  de-facto title: <P> "Müşterilerimiz ne diyor?"
+   #randevu: heading=true  de-facto title: <P> "Randevu / Ücretsiz Keşif"
+   #hakkimizda: heading=false  de-facto title: <P> "Hakkımızda"
+   #kontakt: heading=false  de-facto title: <P> "Bize ulaşın"
+IMAGES (10):
+   alt="Duvar tipi" /images/p-duvar.webp
+   alt="Salon tipi" /images/p-salon.webp
+   alt="Multi sistem" /images/p-multi.webp
+   alt="Home tipi" /images/p-home.webp
+   alt="Isı pompası" /images/p-isipompasi.webp
+   alt="Ticari & VRF" /images/p-ticari.webp
+   alt="Yedek parça" /images/p-yedek.webp
+   alt="" /images/ba-cool.webp
+   alt="" /images/ba-hot.webp
+   alt="" /images/unit-teal.webp
+IFRAMES: [{"title":"Global Teknik — Alanya","src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1","ariaHidden":null}]
+SVGs total 15, without aria-hidden and without <title>: 11 -> [{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"A."}]
+STARS: [{"text":"★★★★★","ariaHidden":"true","parentLabel":"5,0 / 5 · 65 Google değerlendirmesi"},{"text":"★★★★★","ariaHidden":"true","parentLabel":null},{"text":"★★★★★","ariaHidden":"true","parentLabel":null},{"text":"★★★★★","ariaHidden":"true","parentLabel":null}]
+RATING: {"tag":"A","ariaLabel":"5,0 / 5 · 65 Google değerlendirmesi","text":"5,0★★★★★65 Google değerlendirmesi"}
+.rev .ex: []
+.cdisc: {"text":"Bir yapay zekâ asistanıyla yazışıyorsunuz. Dilerseniz sizi bir uzmana bağlarız.","bg":"rgba(0, 0, 0, 0)","fontSize":"11.52px"}
+#cbody live region: {"ariaLive":null,"role":null,"ariaAtomic":null}
+aria-labels on page: [{"tag":"A","cls":"brand","label":"Global Teknik — Gree Alanya"},{"tag":"NAV","cls":"mainnav","label":"Menü"},{"tag":"BUTTON","cls":"themetog","label":"Temayı değiştir"},{"tag":"NAV","cls":"lang","label":"Language"},{"tag":"BUTTON","cls":"burger","label":"Menü"},{"tag":"NAV","cls":"mobnav","label":"Menü"},{"tag":"A","cls":"ratingbig","label":"5,0 / 5 · 65 Google değerlendirmesi"},{"tag":"UL","cls":"segs.shown","label":"Projeler ve İşletmeler"},{"tag":"OL","cls":"flow","label":"Süreç"},{"tag":"INPUT","cls":"ba-range","label":"Sürükleyin"},{"tag":"A","cls":"","label":"Facebook"},{"tag":"A","cls":"","label":"Instagram"},{"tag":"A","cls":"wafab","label":"WhatsApp"},{"tag":"BUTTON","cls":"chatfab","label":"Sorunuz mu var? Yazın."},{"tag":"DIV","cls":"chatpanel","label":"Assistant"},{"tag":"BUTTON","cls":"cclose","label":"×"},{"tag":"INPUT","cls":"","label":"Sorunuzu yazın…"},{"tag":"BUTTON","cls":"","label":"Gönder"}]
+FORM FIELDS:
+   name      type=text      req=true aria-required=null aria-invalid=null aria-describedby=null label=["Adınız*"] ac=name 277x47
+   phone     type=tel       req=true aria-required=null aria-invalid=null aria-describedby=null label=["Telefon*"] ac=tel 277x47
+   place     type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Semt / Mahalle"] ac=null 277x47
+   service   type=select-one req=false aria-required=null aria-invalid=null aria-describedby=null label=["KonuKlima alımıMontajBakım / TemizlikArıza / Servi"] ac=null 277x49
+   when      type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Tercih ettiğiniz gün / saat"] ac=null 569x47
+   note      type=textarea  req=false aria-required=null aria-invalid=null aria-describedby=null label=["Kısa not (isteğe bağlı)"] ac=null 569x70
+   website   type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Web sitesi"] ac=off 177x21
+   consent   type=checkbox  req=true aria-required=null aria-invalid=null aria-describedby=null label=["İletişim bilgilerimin talebimi yanıtlamak için kul"] ac=null 17x17
+#reqErr: {"role":"alert","ariaLive":null,"hidden":true,"id":"reqErr"}
+AFTER EMPTY SUBMIT: {
+ "errText": "⚠ Adınız · Telefon  —  ☐ İletişim bilgilerimin talebimi yanıtlamak için kullanılmasını kabul ediyorum.",
+ "errHidden": false,
+ "errRole": "alert",
+ "focusMovedTo": "name",
+ "fields": [
+  {
+   "name": "name",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "phone",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "place",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "service",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "when",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "note",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "website",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgb(118, 118, 118)"
+  },
+  {
+   "name": "consent",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "rgb(0, 0, 0)"
+  }
+ ]
+}
+
+########## de  lang="de" ##########
+HEADING OUTLINE (24 headings):
+   h1  "Ihre Klimaanlagein Alanya" [inside <header> banner]
+       h3  "Montage"   <<< LEVEL SKIP
+       h3  "Wartung"
+       h3  "Reinigung"
+       h3  "Kältemittel nachfüllen"
+       h3  "Störung & Reparatur"
+       h3  "Demontage & Umsetzen"
+     h2  "Ein Partner für Hotels, Anlagen und Gewerbe"
+       h3  "VRF-Systeme"
+       h3  "Multisplit"
+       h3  "Wärmepumpen"
+       h3  "Zentrale Systeme"
+         h4  "Kostenlose Besichtigung"
+         h4  "Planung"
+         h4  "Verkauf"
+         h4  "Montage"
+         h4  "Service"
+       h3  "Ratenzahlung per Karte"
+       h3  "Altgerät in Zahlung geben"
+       h3  "Händler und Service"
+       h3  "Rechnung und Garantie"
+       h3  "Deutschsprachiger Service"
+       h3  "Erfahrenes Team"
+     h2  "Nennen Sie Ihren Wunschtag — den Rest übernehmen wir"
+   h1 count: 1 | level skips: h1 -> h3 at "Montage"
+LANDMARKS: main=false | top-level <header>: topbar, hero
+   <header.topbar> role=null label=null
+   <nav.mainnav> role=null label="Menü"
+   <nav.lang> role=null label="Language"
+   <nav.mobnav> role=null label="Menü"
+   <header.hero> role=null label=null
+   <div.toggle> role=group label=null
+   <p.rf-err> role=alert label=null
+   <footer.foot> role=null label=null
+   <div.chatpanel> role=dialog label="Assistant"
+SECTIONS WITHOUT A REAL HEADING:
+   #hizmetler: heading=true  de-facto title: <P> "Leistungen"
+   #urunler: heading=false  de-facto title: <P> "Gree-Programm"
+   #projeler: heading=true  de-facto title: <P> "Projekte und Gewerbe"
+   #teknik: heading=false  de-facto title: <P> "Was steckt in Ihrer Klimaanlage?"
+   #referanslar: heading=false  de-facto title: <P> "Von der Hitze zur Kühle"
+   #kesif: heading=false  de-facto title: <P> "Welche Größe braucht Ihr Raum?"
+   #neden: heading=true  de-facto title: <P> "Wofür wir stehen"
+   #yorumlar: heading=false  de-facto title: <P> "Was unsere Kunden sagen"
+   #randevu: heading=true  de-facto title: <P> "Termin / Kostenlose Besichtigung"
+   #hakkimizda: heading=false  de-facto title: <P> "Über uns"
+   #kontakt: heading=false  de-facto title: <P> "Kontakt"
+IMAGES (10):
+   alt="Wandgeräte" /images/p-duvar.webp
+   alt="Standgeräte" /images/p-salon.webp
+   alt="Multisplit" /images/p-multi.webp
+   alt="Home-Typ" /images/p-home.webp
+   alt="Wärmepumpen" /images/p-isipompasi.webp
+   alt="Gewerbe & VRF" /images/p-ticari.webp
+   alt="Ersatzteile" /images/p-yedek.webp
+   alt="" /images/ba-cool.webp
+   alt="" /images/ba-hot.webp
+   alt="" /images/unit-teal.webp
+IFRAMES: [{"title":"Global Teknik — Alanya","src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1","ariaHidden":null}]
+SVGs total 15, without aria-hidden and without <title>: 11 -> [{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"A."}]
+STARS: [{"text":"★★★★★","ariaHidden":"true","parentLabel":"5,0 / 5 · 65 Google-Bewertungen"},{"text":"★★★★★","ariaHidden":"true","parentLabel":null},{"text":"★★★★★","ariaHidden":"true","parentLabel":null}]
+RATING: {"tag":"A","ariaLabel":"5,0 / 5 · 65 Google-Bewertungen","text":"5,0★★★★★65 Google-Bewertungen"}
+.rev .ex: [{"text":"Beispiel","color":"rgb(167, 158, 144)","fontSize":"9.6px","warnVar":""}]
+.cdisc: {"text":"Sie schreiben mit einem KI-Assistenten. Für ein persönliches Gespräch verbinden wir Sie je","bg":"rgba(0, 0, 0, 0)","fontSize":"11.52px"}
+#cbody live region: {"ariaLive":null,"role":null,"ariaAtomic":null}
+aria-labels on page: [{"tag":"A","cls":"brand","label":"Global Teknik — Gree Alanya"},{"tag":"NAV","cls":"mainnav","label":"Menü"},{"tag":"BUTTON","cls":"themetog","label":"Thema wechseln"},{"tag":"NAV","cls":"lang","label":"Language"},{"tag":"BUTTON","cls":"burger","label":"Menü"},{"tag":"NAV","cls":"mobnav","label":"Menü"},{"tag":"A","cls":"ratingbig","label":"5,0 / 5 · 65 Google-Bewertungen"},{"tag":"UL","cls":"segs.shown","label":"Projekte und Gewerbe"},{"tag":"OL","cls":"flow","label":"Süreç"},{"tag":"INPUT","cls":"ba-range","label":"Ziehen"},{"tag":"A","cls":"","label":"Facebook"},{"tag":"A","cls":"","label":"Instagram"},{"tag":"A","cls":"wafab","label":"WhatsApp"},{"tag":"BUTTON","cls":"chatfab","label":"Fragen? Schreiben Sie."},{"tag":"DIV","cls":"chatpanel","label":"Assistant"},{"tag":"BUTTON","cls":"cclose","label":"×"},{"tag":"INPUT","cls":"","label":"Frage schreiben…"},{"tag":"BUTTON","cls":"","label":"Senden"}]
+FORM FIELDS:
+   name      type=text      req=true aria-required=null aria-invalid=null aria-describedby=null label=["Ihr Name*"] ac=name 277x47
+   phone     type=tel       req=true aria-required=null aria-invalid=null aria-describedby=null label=["Telefon*"] ac=tel 277x47
+   place     type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Stadtteil"] ac=null 277x47
+   service   type=select-one req=false aria-required=null aria-invalid=null aria-describedby=null label=["AnliegenKlimakaufMontageWartung / ReinigungStörung"] ac=null 277x49
+   when      type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Wunschtag / -zeit"] ac=null 569x47
+   note      type=textarea  req=false aria-required=null aria-invalid=null aria-describedby=null label=["Kurze Notiz (optional)"] ac=null 569x70
+   website   type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Web sitesi"] ac=off 177x21
+   consent   type=checkbox  req=true aria-required=null aria-invalid=null aria-describedby=null label=["Ich bin einverstanden, dass meine Kontaktdaten zur"] ac=null 17x17
+#reqErr: {"role":"alert","ariaLive":null,"hidden":true,"id":"reqErr"}
+AFTER EMPTY SUBMIT: {
+ "errText": "⚠ Ihr Name · Telefon  —  ☐ Ich bin einverstanden, dass meine Kontaktdaten zur Beantwortung meiner Anfrage genutzt werden.",
+ "errHidden": false,
+ "errRole": "alert",
+ "focusMovedTo": "name",
+ "fields": [
+  {
+   "name": "name",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "phone",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "place",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "service",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "when",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "note",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "website",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgb(118, 118, 118)"
+  },
+  {
+   "name": "consent",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "rgb(0, 0, 0)"
+  }
+ ]
+}
+
+########## ru  lang="ru" ##########
+HEADING OUTLINE (24 headings):
+   h1  "Кондиционеры Greeв Алании" [inside <header> banner]
+       h3  "Монтаж «под ключ»"   <<< LEVEL SKIP
+       h3  "Техобслуживание"
+       h3  "Чистка"
+       h3  "Заправка фреоном"
+       h3  "Диагностика и ремонт"
+       h3  "Демонтаж и перенос"
+     h2  "Один партнёр для отелей, комплексов и бизнеса"
+       h3  "Системы VRF"
+       h3  "Мульти-сплит"
+       h3  "Тепловые насосы"
+       h3  "Центральные системы"
+         h4  "Бесплатный замер"
+         h4  "Проектирование"
+         h4  "Продажа"
+         h4  "Монтаж"
+         h4  "Сервис"
+       h3  "Рассрочка по карте"
+       h3  "Сдайте старый кондиционер"
+       h3  "Дилер и сервис"
+       h3  "Договор и чек"
+       h3  "Русскоязычный сервис"
+       h3  "Опытная бригада"
+     h2  "Напишите удобный день — остальное сделаем мы"
+   h1 count: 1 | level skips: h1 -> h3 at "Монтаж «под ключ»"
+LANDMARKS: main=false | top-level <header>: topbar, hero
+   <header.topbar> role=null label=null
+   <nav.mainnav> role=null label="Меню"
+   <nav.lang> role=null label="Language"
+   <nav.mobnav> role=null label="Меню"
+   <header.hero> role=null label=null
+   <div.toggle> role=group label=null
+   <p.rf-err> role=alert label=null
+   <footer.foot> role=null label=null
+   <div.chatpanel> role=dialog label="Assistant"
+SECTIONS WITHOUT A REAL HEADING:
+   #hizmetler: heading=true  de-facto title: <P> "Услуги"
+   #urunler: heading=false  de-facto title: <P> "Модельный ряд Gree"
+   #projeler: heading=true  de-facto title: <P> "Проекты и бизнес"
+   #teknik: heading=false  de-facto title: <P> "Что внутри кондиционера?"
+   #referanslar: heading=false  de-facto title: <P> "От жары к прохладе"
+   #kesif: heading=false  de-facto title: <P> "Сколько BTU нужно вашей комнате?"
+   #neden: heading=true  de-facto title: <P> "Как мы работаем"
+   #yorumlar: heading=false  de-facto title: <P> "Отзывы клиентов"
+   #randevu: heading=true  de-facto title: <P> "Запись / Бесплатный замер"
+   #hakkimizda: heading=false  de-facto title: <P> "О нас"
+   #kontakt: heading=false  de-facto title: <P> "Связаться с нами"
+IMAGES (10):
+   alt="Настенные" /images/p-duvar.webp
+   alt="Напольные" /images/p-salon.webp
+   alt="Мульти-сплит" /images/p-multi.webp
+   alt="Home-серия" /images/p-home.webp
+   alt="Тепловые насосы" /images/p-isipompasi.webp
+   alt="Коммерч. и VRF" /images/p-ticari.webp
+   alt="Запчасти" /images/p-yedek.webp
+   alt="" /images/ba-cool.webp
+   alt="" /images/ba-hot.webp
+   alt="" /images/unit-teal.webp
+IFRAMES: [{"title":"Global Teknik — Alanya","src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1","ariaHidden":null}]
+SVGs total 15, without aria-hidden and without <title>: 11 -> [{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"A."}]
+STARS: [{"text":"★★★★★","ariaHidden":"true","parentLabel":"5,0 / 5 · 65 отзывов в Google"},{"text":"★★★★★","ariaHidden":"true","parentLabel":null},{"text":"★★★★★","ariaHidden":"true","parentLabel":null}]
+RATING: {"tag":"A","ariaLabel":"5,0 / 5 · 65 отзывов в Google","text":"5,0★★★★★65 отзывов в Google"}
+.rev .ex: [{"text":"Beispiel","color":"rgb(167, 158, 144)","fontSize":"9.6px","warnVar":""}]
+.cdisc: {"text":"Вы пишете ИИ-ассистенту. При желании соединим вас с мастером.","bg":"rgba(0, 0, 0, 0)","fontSize":"11.52px"}
+#cbody live region: {"ariaLive":null,"role":null,"ariaAtomic":null}
+aria-labels on page: [{"tag":"A","cls":"brand","label":"Global Teknik — Gree Alanya"},{"tag":"NAV","cls":"mainnav","label":"Меню"},{"tag":"BUTTON","cls":"themetog","label":"Сменить тему"},{"tag":"NAV","cls":"lang","label":"Language"},{"tag":"BUTTON","cls":"burger","label":"Меню"},{"tag":"NAV","cls":"mobnav","label":"Меню"},{"tag":"A","cls":"ratingbig","label":"5,0 / 5 · 65 отзывов в Google"},{"tag":"UL","cls":"segs.shown","label":"Проекты и бизнес"},{"tag":"OL","cls":"flow","label":"Süreç"},{"tag":"INPUT","cls":"ba-range","label":"Потяните"},{"tag":"A","cls":"","label":"Facebook"},{"tag":"A","cls":"","label":"Instagram"},{"tag":"A","cls":"wafab","label":"WhatsApp"},{"tag":"BUTTON","cls":"chatfab","label":"Есть вопрос? Напишите."},{"tag":"DIV","cls":"chatpanel","label":"Assistant"},{"tag":"BUTTON","cls":"cclose","label":"×"},{"tag":"INPUT","cls":"","label":"Напишите вопрос…"},{"tag":"BUTTON","cls":"","label":"Отправить"}]
+FORM FIELDS:
+   name      type=text      req=true aria-required=null aria-invalid=null aria-describedby=null label=["Ваше имя*"] ac=name 277x47
+   phone     type=tel       req=true aria-required=null aria-invalid=null aria-describedby=null label=["Телефон*"] ac=tel 277x47
+   place     type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Район"] ac=null 277x47
+   service   type=select-one req=false aria-required=null aria-invalid=null aria-describedby=null label=["ТемаПокупка кондиционераМонтажОбслуживание / Чистк"] ac=null 277x49
+   when      type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Предпочтительный день / время"] ac=null 569x47
+   note      type=textarea  req=false aria-required=null aria-invalid=null aria-describedby=null label=["Короткое примечание (по желанию)"] ac=null 569x70
+   website   type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Web sitesi"] ac=off 177x21
+   consent   type=checkbox  req=true aria-required=null aria-invalid=null aria-describedby=null label=["Согласен на использование моих контактов для ответ"] ac=null 17x17
+#reqErr: {"role":"alert","ariaLive":null,"hidden":true,"id":"reqErr"}
+AFTER EMPTY SUBMIT: {
+ "errText": "⚠ Ваше имя · Телефон  —  ☐ Согласен на использование моих контактов для ответа на заявку.",
+ "errHidden": false,
+ "errRole": "alert",
+ "focusMovedTo": "name",
+ "fields": [
+  {
+   "name": "name",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "phone",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "place",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "service",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "when",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "note",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "website",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgb(118, 118, 118)"
+  },
+  {
+   "name": "consent",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "rgb(0, 0, 0)"
+  }
+ ]
+}
+
+########## en  lang="en" ##########
+HEADING OUTLINE (24 headings):
+   h1  "Air conditioningin Alanya" [inside <header> banner]
+       h3  "Installation"   <<< LEVEL SKIP
+       h3  "Maintenance"
+       h3  "Cleaning"
+       h3  "Refrigerant top-up"
+       h3  "Fault & repair"
+       h3  "Removal & relocation"
+     h2  "One partner for hotels, complexes and business"
+       h3  "VRF systems"
+       h3  "Multi-split"
+       h3  "Heat pumps"
+       h3  "Central systems"
+         h4  "Free survey"
+         h4  "Design"
+         h4  "Sale"
+         h4  "Installation"
+         h4  "Service"
+       h3  "Card instalments"
+       h3  "Trade in your old unit"
+       h3  "Dealer & service"
+       h3  "Invoice & warranty"
+       h3  "English-speaking service"
+       h3  "Experienced team"
+     h2  "Tell us your preferred day — we handle the rest"
+   h1 count: 1 | level skips: h1 -> h3 at "Installation"
+LANDMARKS: main=false | top-level <header>: topbar, hero
+   <header.topbar> role=null label=null
+   <nav.mainnav> role=null label="Menu"
+   <nav.lang> role=null label="Language"
+   <nav.mobnav> role=null label="Menu"
+   <header.hero> role=null label=null
+   <div.toggle> role=group label=null
+   <p.rf-err> role=alert label=null
+   <footer.foot> role=null label=null
+   <div.chatpanel> role=dialog label="Assistant"
+SECTIONS WITHOUT A REAL HEADING:
+   #hizmetler: heading=true  de-facto title: <P> "Services"
+   #urunler: heading=false  de-facto title: <P> "The Gree range"
+   #projeler: heading=true  de-facto title: <P> "Projects & Business"
+   #teknik: heading=false  de-facto title: <P> "What is inside your air conditioner?"
+   #referanslar: heading=false  de-facto title: <P> "From heat to cool"
+   #kesif: heading=false  de-facto title: <P> "What size does your room need?"
+   #neden: heading=true  de-facto title: <P> "What we stand for"
+   #yorumlar: heading=false  de-facto title: <P> "What our customers say"
+   #randevu: heading=true  de-facto title: <P> "Appointment / Free Survey"
+   #hakkimizda: heading=false  de-facto title: <P> "About us"
+   #kontakt: heading=false  de-facto title: <P> "Get in touch"
+IMAGES (10):
+   alt="Wall-mounted" /images/p-duvar.webp
+   alt="Floor standing" /images/p-salon.webp
+   alt="Multi-split" /images/p-multi.webp
+   alt="Home type" /images/p-home.webp
+   alt="Heat pumps" /images/p-isipompasi.webp
+   alt="Commercial & VRF" /images/p-ticari.webp
+   alt="Spare parts" /images/p-yedek.webp
+   alt="" /images/ba-cool.webp
+   alt="" /images/ba-hot.webp
+   alt="" /images/unit-teal.webp
+IFRAMES: [{"title":"Global Teknik — Alanya","src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.1","ariaHidden":null}]
+SVGs total 15, without aria-hidden and without <title>: 11 -> [{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"SPAN.camp-ic"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"DIV.sdiv"},{"ariaHidden":null,"role":null,"hasTitle":false,"parent":"A."}]
+STARS: [{"text":"★★★★★","ariaHidden":"true","parentLabel":"5,0 / 5 · 65 Google reviews"},{"text":"★★★★★","ariaHidden":"true","parentLabel":null},{"text":"★★★★★","ariaHidden":"true","parentLabel":null}]
+RATING: {"tag":"A","ariaLabel":"5,0 / 5 · 65 Google reviews","text":"5,0★★★★★65 Google reviews"}
+.rev .ex: [{"text":"Beispiel","color":"rgb(167, 158, 144)","fontSize":"9.6px","warnVar":""}]
+.cdisc: {"text":"You are chatting with an AI assistant. We can connect you to a person anytime.","bg":"rgba(0, 0, 0, 0)","fontSize":"11.52px"}
+#cbody live region: {"ariaLive":null,"role":null,"ariaAtomic":null}
+aria-labels on page: [{"tag":"A","cls":"brand","label":"Global Teknik — Gree Alanya"},{"tag":"NAV","cls":"mainnav","label":"Menu"},{"tag":"BUTTON","cls":"themetog","label":"Switch theme"},{"tag":"NAV","cls":"lang","label":"Language"},{"tag":"BUTTON","cls":"burger","label":"Menu"},{"tag":"NAV","cls":"mobnav","label":"Menu"},{"tag":"A","cls":"ratingbig","label":"5,0 / 5 · 65 Google reviews"},{"tag":"UL","cls":"segs.shown","label":"Projects & Business"},{"tag":"OL","cls":"flow","label":"Süreç"},{"tag":"INPUT","cls":"ba-range","label":"Drag"},{"tag":"A","cls":"","label":"Facebook"},{"tag":"A","cls":"","label":"Instagram"},{"tag":"A","cls":"wafab","label":"WhatsApp"},{"tag":"BUTTON","cls":"chatfab","label":"Questions? Write to us."},{"tag":"DIV","cls":"chatpanel","label":"Assistant"},{"tag":"BUTTON","cls":"cclose","label":"×"},{"tag":"INPUT","cls":"","label":"Type your question…"},{"tag":"BUTTON","cls":"","label":"Send"}]
+FORM FIELDS:
+   name      type=text      req=true aria-required=null aria-invalid=null aria-describedby=null label=["Your name*"] ac=name 277x47
+   phone     type=tel       req=true aria-required=null aria-invalid=null aria-describedby=null label=["Phone*"] ac=tel 277x47
+   place     type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["District"] ac=null 277x47
+   service   type=select-one req=false aria-required=null aria-invalid=null aria-describedby=null label=["TopicBuying a unitInstallationMaintenance / Cleani"] ac=null 277x49
+   when      type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Preferred day / time"] ac=null 569x47
+   note      type=textarea  req=false aria-required=null aria-invalid=null aria-describedby=null label=["Short note (optional)"] ac=null 569x70
+   website   type=text      req=false aria-required=null aria-invalid=null aria-describedby=null label=["Web sitesi"] ac=off 177x21
+   consent   type=checkbox  req=true aria-required=null aria-invalid=null aria-describedby=null label=["I agree that my contact details may be used to ans"] ac=null 17x17
+#reqErr: {"role":"alert","ariaLive":null,"hidden":true,"id":"reqErr"}
+AFTER EMPTY SUBMIT: {
+ "errText": "⚠ Your name · Phone  —  ☐ I agree that my contact details may be used to answer my request.",
+ "errHidden": false,
+ "errRole": "alert",
+ "focusMovedTo": "name",
+ "fields": [
+  {
+   "name": "name",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "phone",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "oklab(0.817545 -0.00383893 0.095086 / 0.321569)"
+  },
+  {
+   "name": "place",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "service",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "when",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "note",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgba(217, 194, 122, 0.32)"
+  },
+  {
+   "name": "website",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": false,
+   "borderColor": "rgb(118, 118, 118)"
+  },
+  {
+   "name": "consent",
+   "ariaInvalid": null,
+   "ariaDescribedby": null,
+   "userInvalid": true,
+   "borderColor": "rgb(0, 0, 0)"
+  }
+ ]
+}
+
+########## kvkk  lang="tr" ##########
+HEADING OUTLINE (7 headings):
+   h1  "KVKK Aydınlatma Metni"
+     h2  "Veri sorumlusu"
+     h2  "Hangi verileri işliyoruz"
+     h2  "İşleme amacı ve hukuki sebep"
+     h2  "Yurt dışına aktarım"
+     h2  "Saklama süresi"
+     h2  "Haklarınız (KVKK m. 11)"
+   h1 count: 1 | level skips: none
+LANDMARKS: main=false | top-level <header>: topbar
+   <header.topbar> role=null label=null
+   <nav.mainnav> role=null label="Menü"
+   <nav.lang> role=null label="Language"
+   <nav.mobnav> role=null label="Menü"
+SECTIONS WITHOUT A REAL HEADING:
+IMAGES (0):
+IFRAMES: []
+SVGs total 2, without aria-hidden and without <title>: 0 -> []
+STARS: []
+RATING: null
+.rev .ex: []
+.cdisc: null
+#cbody live region: null
+aria-labels on page: [{"tag":"A","cls":"brand","label":"Global Teknik — Gree Alanya"},{"tag":"NAV","cls":"mainnav","label":"Menü"},{"tag":"BUTTON","cls":"themetog","label":"Temayı değiştir"},{"tag":"NAV","cls":"lang","label":"Language"},{"tag":"BUTTON","cls":"burger","label":"Menü"},{"tag":"NAV","cls":"mobnav","label":"Menü"}]

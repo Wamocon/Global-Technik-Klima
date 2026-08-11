@@ -1,0 +1,304 @@
+==================== TEXT ====================
+   --fg-mute body copy (.lede)        dark /desktop   7.05:1  need 4.5  AAA  19.84px/300  fg rgb(167, 158, 144) op1 -> rgb(153,158,113) on rgb(20,18,20)   "Odanıza hangi cihazın uyduğunu, almadan ön"
+   --fg-mute body copy (.hint)        dark /desktop   7.32:1  need 4.5  AAA  15.2px/300  fg rgb(167, 158, 144) op1 -> rgb(134,126,115) on rgb(16,13,11)   "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr"
+   --fg-mute card copy (.card p)      dark /desktop   7.02:1  need 4.5  AAA  15.04px/300  fg rgb(167, 158, 144) op1 -> rgb(117,140,139) on rgb(23,18,15)   "Duvarı delmeden önce tesisatı arar, çevrey"
+   --fg-mute tile copy (.tile p)      dark /desktop   7.02:1  need 4.5  AAA  14.4px/300  fg rgb(167, 158, 144) op1 -> rgb(126,136,127) on rgb(23,18,15)   "Gree’nin yetkilendirdiği satış ve teknik s"
+   .kicker on .sec-alt (randevu)      dark /desktop  10.68:1  need 4.5  AAA  11.52px/300  fg rgb(217, 194, 122) op1 -> rgb(180,161,90) on rgb(20,17,18)   "Randevu / Ücretsiz Keşif"
+   .kicker on .sec (projeler)         dark /desktop   10.5:1  need 4.5  AAA  11.52px/300  fg rgb(217, 194, 122) op1 -> rgb(179,161,90) on rgb(15,21,21)   "Projeler ve İşletmeler"
+   .eyebrow section title             dark /desktop  17.51:1  need 3  AAA  41.6px/600 LARGE  fg rgb(234, 246, 244) op1 -> rgb(234,246,244) on rgb(16,13,11)   "Hizmetlerimiz"
+   .hero-kicker                       dark /desktop   6.99:1  need 4.5  AA   14.72px/300  fg rgb(167, 158, 144) op1 -> rgb(135,128,117) on rgb(21,19,20)   "Gree Yetkili Bayi ve Servisi · Alanya"
+   h1 line 2 (champagne)              dark /desktop  10.78:1  need 3  AAA  96px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(18,16,17)   "güvenilir adresi"
+   .btn-primary (form submit)         dark /desktop  11.02:1  need 4.5  AAA  14.72px/500  fg rgb(16, 13, 11) op1 -> rgb(16,13,11) on rgb(217,194,122)   "WhatsApp’tan gönder"
+   .btn-primary (calc CTA)            dark /desktop  11.02:1  need 4.5  AAA  14.72px/500  fg rgb(16, 13, 11) op1 -> rgb(28,13,11) on rgb(217,194,122)   "Sonucu WhatsApp’tan gönder"
+   .btn secondary (hero)              dark /desktop  13.83:1  need 4.5  AAA  14.72px/300  fg rgb(234, 246, 244) op1 -> rgb(209,220,218) on rgb(38,37,36)   "Ücretsiz keşif isteyin"
+   .crow .lab (accent micro-label)    dark /desktop  10.57:1  need 4.5  AAA  10.56px/300  fg rgb(217, 194, 122) op1 -> rgb(174,161,55) on rgb(23,18,15)   "Hemen arayın"
+   .ab-since chip                     dark /desktop  11.02:1  need 4.5  AAA  13.12px/300  fg rgb(217, 194, 122) op1 -> rgb(160,171,90) on rgb(16,13,11)   "2021’den beri Alanya’da"
+   .warranty .wb badge                dark /desktop   9.66:1  need 4.5  AAA  22.4px/600  fg rgb(217, 194, 122) op1 -> rgb(217,194,119) on rgb(25,28,39)   "6 yıla varan üretici garantisi"
+   .rev .ex example badge             dark/desktop  -- selector not present
+   .rev .stars                        dark /desktop  10.57:1  need 4.5  AAA  14.4px/300  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(23,18,15)   "★★★★★"
+   .step-n                            dark /desktop  11.02:1  need 4.5  AAA  16.8px/300  fg rgb(217, 194, 122) op1 -> rgb(205,182,114) on rgb(16,13,11)   "01"
+   .lang a[aria-current]              dark /desktop  11.02:1  need 4.5  AAA  12.16px/500  fg rgb(16, 13, 11) op1 -> rgb(29,24,18) on rgb(217,194,122)   "TR"
+   .lang a (inactive)                 dark /desktop   7.37:1  need 4.5  AAA  12.16px/300  fg rgb(167, 158, 144) op1 -> rgb(123,115,104) on rgb(15,12,10)   "DE"
+   .mainnav a                         dark /desktop   7.37:1  need 4.5  AAA  13.76px/300  fg rgb(167, 158, 144) op1 -> rgb(123,115,104) on rgb(15,12,10)   "Hizmetler"
+   .mobar a (call)                    dark/desktop  -- not displayed at this viewport
+   .mobar .mo-wa                      dark/desktop  -- not displayed at this viewport
+   .trustchips span                   dark /desktop   6.98:1  need 4.5  AA   12.16px/300  fg rgb(167, 158, 144) op1 -> rgb(119,114,104) on rgb(19,20,19)   "Gree Yetkili Bayi ve Servisi"
+   .rf label                          dark /desktop  11.65:1  need 4.5  AAA  13.12px/300  fg rgb(220, 213, 203) op1 -> rgb(171,195,167) on rgb(25,28,40)   "Adınız"
+   .rf required asterisk              dark /desktop   9.65:1  need 4.5  AAA  13.12px/400  fg rgb(217, 194, 122) op1 -> rgb(205,162,73) on rgb(25,28,40)   "*"
+   .rf-consent text                   dark /desktop   6.78:1  need 4.5  AA   13.12px/300  fg rgb(167, 158, 144) op1 -> rgb(118,115,120) on rgb(27,22,19)   "İletişim bilgilerimin talebimi yanıtlamak "
+   .rf-hint                           dark /desktop   6.78:1  need 4.5  AA   12.48px/300  fg rgb(167, 158, 144) op1 -> rgb(136,119,108) on rgb(27,22,19)   "Form bilgilerinizi hazır bir WhatsApp mesa"
+   .foot legal link                   dark /desktop   7.27:1  need 4.5  AAA  12.8px/300  fg rgb(167, 158, 144) op1 -> rgb(133,117,107) on rgb(16,14,14)   "KVKK Aydınlatma Metni"
+   .foot copyright                    dark /desktop    4.1:1  need 4.5  FAIL  12.16px/300  fg rgb(167, 158, 144) op0.7 -> rgb(95,92,65) on rgb(15,14,15)   "© 2026 · Tüm hakları saklıdır."
+   .exp-legend inactive name          dark /desktop   4.21:1  need 4.5  FAIL  16px/500  fg rgb(234, 246, 244) op0.45 -> rgb(115,118,116) on rgb(17,13,11)   "Fan"
+   .exp-legend inactive text          dark /desktop   2.36:1  need 4.5  FAIL  14.4px/300  fg rgb(167, 158, 144) op0.45 -> rgb(68,63,57) on rgb(16,13,11)   "Duvara sabitlenen taşıyıcı. Doğru montajın"
+   .exp-legend number                 dark/desktop  -- true
+   .exp-hint                          dark /desktop   4.13:1  need 4.5  FAIL  10.56px/300  fg rgb(167, 158, 144) op0.7 -> rgb(82,77,69) on rgb(16,13,11)   "Şematik gösterimdir."
+   .ba-lab before                     dark /desktop   7.21:1  need 4.5  AAA  11.52px/500  fg rgb(201, 162, 39) op1 -> rgb(193,157,37) on rgb(26,26,22)   "Öncesi · 34°C"
+   .ba-lab after                      dark /desktop   8.45:1  need 4.5  AAA  11.52px/500  fg rgb(88, 199, 192) op1 -> rgb(85,194,187) on rgb(26,28,26)   "Sonrası · 22°C"
+   .ba-ex example badge               dark /desktop   6.61:1  need 4.5  AA   9.6px/300  fg rgb(167, 158, 144) op1 -> rgb(122,125,94) on rgb(25,26,22)   "Örnek görsel"
+   .calc result value                 dark /desktop   8.84:1  need 3  AAA  35.2px/400 LARGE  fg rgb(88, 199, 192) op1 -> rgb(88,199,192) on rgb(27,22,19)   "12.000"
+   .toggle button (off)               dark /desktop   6.78:1  need 4.5  AA   14.4px/400  fg rgb(167, 158, 144) op1 -> rgb(167,158,144) on rgb(27,22,19)   "Evet"
+   .toggle button.on                  dark /desktop  11.02:1  need 4.5  AAA  14.4px/500  fg rgb(16, 13, 11) op1 -> rgb(16,13,28) on rgb(217,194,122)   "Hayır"
+   .ratingbig number                  dark /desktop   8.63:1  need 3  AAA  46.4px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(40,38,29)   "5,0"
+   .ratingbig stars                   dark /desktop   5.71:1  need 4.5  AA   21.12px/300  fg rgb(201, 162, 39) op1 -> rgb(201,162,39) on rgb(47,45,35)   "★★★★★"
+   .ratingbig count                   dark /desktop  13.67:1  need 4.5  AAA  14.4px/500  fg rgb(234, 246, 244) op1 -> rgb(231,243,241) on rgb(41,38,29)   "65 Google değerlendirmesi"
+   .cdisc AI disclosure               dark /desktop   6.78:1  need 4.5  AA   11.52px/300  fg rgb(167, 158, 144) op1 -> rgb(117,110,99) on rgb(27,22,19)   "Bir yapay zekâ asistanıyla yazışıyorsunuz."
+   .cchips suggestion                 dark /desktop   8.39:1  need 4.5  AAA  12.16px/400  fg rgb(217, 194, 122) op1 -> rgb(195,173,109) on rgb(46,39,29)   "Fiyat teklifi istiyorum"
+   .ci-t .on (online)                 dark /desktop   9.38:1  need 4.5  AAA  10.88px/300  fg rgb(88, 199, 192) op1 -> rgb(70,153,147) on rgb(20,15,12)   "● çevrimiçi"
+   .cclose (x)                        dark /desktop   7.19:1  need 3  AAA  24px/400 LARGE  fg rgb(167, 158, 144) op1 -> rgb(167,158,144) on rgb(20,15,12)   "×"
+   chat bot bubble                    dark /desktop  12.77:1  need 4.5  AAA  14.72px/300  fg rgb(220, 213, 203) op1 -> rgb(187,180,172) on rgb(23,18,15)   "Merhaba! Hangi odayı serinletmek istiyorsu"
+   chat input placeholder-ish (border) dark/desktop  -- no text node
+   .rf-err error text                 dark /desktop   4.06:1  need 4.5  FAIL  13.44px/300  fg rgb(234, 61, 20) op1 -> rgb(210,49,19) on rgb(48,25,19)   "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler"
+   --fg-mute body copy (.lede)        dark /mobile    6.99:1  need 4.5  AA   19.84px/300  fg rgb(167, 158, 144) op1 -> rgb(153,158,114) on rgb(20,19,23)   "Odanıza hangi cihazın uyduğunu, almadan ön"
+   --fg-mute body copy (.hint)        dark /mobile    7.32:1  need 4.5  AAA  15.2px/300  fg rgb(167, 158, 144) op1 -> rgb(133,125,114) on rgb(16,13,11)   "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr"
+   --fg-mute card copy (.card p)      dark /mobile    7.02:1  need 4.5  AAA  15.04px/300  fg rgb(167, 158, 144) op1 -> rgb(126,144,127) on rgb(23,18,15)   "Duvarı delmeden önce tesisatı arar, çevrey"
+   --fg-mute tile copy (.tile p)      dark /mobile    7.02:1  need 4.5  AAA  14.4px/300  fg rgb(167, 158, 144) op1 -> rgb(136,127,116) on rgb(23,18,15)   "Gree’nin yetkilendirdiği satış ve teknik s"
+   .kicker on .sec-alt (randevu)      dark /mobile   10.52:1  need 4.5  AAA  11.52px/300  fg rgb(217, 194, 122) op1 -> rgb(176,157,101) on rgb(20,19,24)   "Randevu / Ücretsiz Keşif"
+   .kicker on .sec (projeler)         dark /mobile   10.41:1  need 4.5  AAA  11.52px/300  fg rgb(217, 194, 122) op1 -> rgb(179,161,91) on rgb(15,22,23)   "Projeler ve İşletmeler"
+   .eyebrow section title             dark /mobile   17.51:1  need 3  AAA  27.2px/600 LARGE  fg rgb(234, 246, 244) op1 -> rgb(234,246,244) on rgb(16,13,11)   "Hizmetlerimiz"
+   .hero-kicker                       dark /mobile    7.33:1  need 4.5  AAA  14.72px/300  fg rgb(167, 158, 144) op1 -> rgb(139,132,121) on rgb(13,13,18)   "Gree Yetkili Bayi ve Servisi · Alanya"
+   h1 line 2 (champagne)              dark /mobile   10.95:1  need 3  AAA  41.6px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(16,14,14)   "güvenilir adresi"
+   .btn-primary (form submit)         dark /mobile   11.02:1  need 4.5  AAA  14.72px/500  fg rgb(16, 13, 11) op1 -> rgb(16,13,28) on rgb(217,194,122)   "WhatsApp’tan gönder"
+   .btn-primary (calc CTA)            dark /mobile   11.02:1  need 4.5  AAA  14.72px/500  fg rgb(16, 13, 11) op1 -> rgb(28,13,11) on rgb(217,194,122)   "Sonucu WhatsApp’tan gönder"
+   .btn secondary (hero)              dark /mobile   16.86:1  need 4.5  AAA  14.72px/300  fg rgb(234, 246, 244) op1 -> rgb(205,216,214) on rgb(21,18,16)   "Ücretsiz keşif isteyin"
+   .crow .lab (accent micro-label)    dark /mobile   10.57:1  need 4.5  AAA  10.56px/300  fg rgb(217, 194, 122) op1 -> rgb(174,161,55) on rgb(23,18,15)   "Hemen arayın"
+   .ab-since chip                     dark /mobile   11.02:1  need 4.5  AAA  13.12px/300  fg rgb(217, 194, 122) op1 -> rgb(160,171,90) on rgb(16,13,11)   "2021’den beri Alanya’da"
+   .warranty .wb badge                dark /mobile    9.66:1  need 4.5  AAA  22.4px/600  fg rgb(217, 194, 122) op1 -> rgb(217,194,119) on rgb(25,28,39)   "6 yıla varan üretici garantisi"
+   .rev .ex example badge             dark/mobile  -- selector not present
+   .rev .stars                        dark /mobile   10.57:1  need 4.5  AAA  14.4px/300  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(23,18,15)   "★★★★★"
+   .step-n                            dark /mobile   11.02:1  need 4.5  AAA  16.8px/300  fg rgb(217, 194, 122) op1 -> rgb(217,194,90) on rgb(16,13,11)   "01"
+   .lang a[aria-current]              dark /mobile   11.02:1  need 4.5  AAA  12.16px/500  fg rgb(16, 13, 11) op1 -> rgb(29,24,18) on rgb(217,194,122)   "TR"
+   .lang a (inactive)                 dark /mobile    7.32:1  need 4.5  AAA  12.16px/300  fg rgb(167, 158, 144) op1 -> rgb(123,115,104) on rgb(16,13,11)   "DE"
+   .mainnav a                         dark/mobile  -- not displayed at this viewport
+   .mobar a (call)                    dark /mobile   17.51:1  need 4.5  AAA  14.4px/500  fg rgb(234, 246, 244) op1 -> rgb(228,240,238) on rgb(16,13,11)   "Hemen arayın"
+   .mobar .mo-wa                      dark /mobile   11.02:1  need 4.5  AAA  14.4px/500  fg rgb(16, 13, 11) op1 -> rgb(20,16,12) on rgb(217,194,122)   "WhatsApp"
+   .trustchips span                   dark /mobile    7.32:1  need 4.5  AAA  12.16px/300  fg rgb(167, 158, 144) op1 -> rgb(120,113,103) on rgb(16,13,11)   "Gree Yetkili Bayi ve Servisi"
+   .rf label                          dark /mobile   11.65:1  need 4.5  AAA  13.12px/300  fg rgb(220, 213, 203) op1 -> rgb(183,178,172) on rgb(25,28,40)   "Adınız"
+   .rf required asterisk              dark /mobile    9.65:1  need 4.5  AAA  13.12px/400  fg rgb(217, 194, 122) op1 -> rgb(157,173,109) on rgb(25,28,40)   "*"
+   .rf-consent text                   dark /mobile    6.78:1  need 4.5  AA   13.12px/300  fg rgb(167, 158, 144) op1 -> rgb(136,119,101) on rgb(27,22,19)   "İletişim bilgilerimin talebimi yanıtlamak "
+   .rf-hint                           dark /mobile    6.78:1  need 4.5  AA   12.48px/300  fg rgb(167, 158, 144) op1 -> rgb(136,119,108) on rgb(27,22,19)   "Form bilgilerinizi hazır bir WhatsApp mesa"
+   .foot legal link                   dark /mobile    7.32:1  need 4.5  AAA  12.8px/300  fg rgb(167, 158, 144) op1 -> rgb(115,135,106) on rgb(16,13,11)   "KVKK Aydınlatma Metni"
+   .foot copyright                    dark /mobile     4.1:1  need 4.5  FAIL  12.16px/300  fg rgb(167, 158, 144) op0.7 -> rgb(95,92,64) on rgb(15,14,15)   "© 2026 · Tüm hakları saklıdır."
+   .exp-legend inactive name          dark /mobile   14.34:1  need 4.5  AAA  16px/500  fg rgb(234, 246, 244) op0.45 -> rgb(213,224,222) on rgb(16,13,10)   "Gövde ve montaj plakası"
+   .exp-legend inactive text          dark/mobile  -- true
+   .exp-legend number                 dark/mobile  -- selector not present
+   .exp-hint                          dark /mobile    4.13:1  need 4.5  FAIL  10.56px/300  fg rgb(167, 158, 144) op0.7 -> rgb(83,77,69) on rgb(16,13,11)   "Şematik gösterimdir."
+   .ba-lab before                     dark /mobile    7.14:1  need 4.5  AAA  11.52px/500  fg rgb(201, 162, 39) op1 -> rgb(195,157,37) on rgb(27,27,23)   "Öncesi · 34°C"
+   .ba-lab after                      dark /mobile     8.5:1  need 4.5  AAA  11.52px/500  fg rgb(88, 199, 192) op1 -> rgb(85,194,187) on rgb(23,28,26)   "Sonrası · 22°C"
+   .ba-ex example badge               dark /mobile    6.61:1  need 4.5  AA   9.6px/300  fg rgb(167, 158, 144) op1 -> rgb(122,125,94) on rgb(25,26,22)   "Örnek görsel"
+   .calc result value                 dark /mobile    8.84:1  need 3  AAA  35.2px/400 LARGE  fg rgb(88, 199, 192) op1 -> rgb(88,199,192) on rgb(27,22,19)   "12.000"
+   .toggle button (off)               dark /mobile    6.78:1  need 4.5  AA   14.4px/400  fg rgb(167, 158, 144) op1 -> rgb(167,158,144) on rgb(27,22,19)   "Evet"
+   .toggle button.on                  dark /mobile   11.02:1  need 4.5  AAA  14.4px/500  fg rgb(16, 13, 11) op1 -> rgb(16,13,28) on rgb(217,194,122)   "Hayır"
+   .ratingbig number                  dark /mobile    8.89:1  need 3  AAA  32px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(40,35,24)   "5,0"
+   .ratingbig stars                   dark /mobile    6.46:1  need 4.5  AA   16px/300  fg rgb(201, 162, 39) op1 -> rgb(201,162,39) on rgb(40,35,24)   "★★★★★"
+   .ratingbig count                   dark /mobile   14.13:1  need 4.5  AAA  12.16px/500  fg rgb(234, 246, 244) op1 -> rgb(224,236,233) on rgb(40,35,24)   "65 Google değerlendirmesi"
+   .cdisc AI disclosure               dark /mobile    6.78:1  need 4.5  AA   11.52px/300  fg rgb(167, 158, 144) op1 -> rgb(117,110,99) on rgb(27,22,19)   "Bir yapay zekâ asistanıyla yazışıyorsunuz."
+   .cchips suggestion                 dark /mobile    8.39:1  need 4.5  AAA  12.16px/400  fg rgb(217, 194, 122) op1 -> rgb(195,173,109) on rgb(46,39,29)   "Fiyat teklifi istiyorum"
+   .ci-t .on (online)                 dark /mobile    9.38:1  need 4.5  AAA  10.88px/300  fg rgb(88, 199, 192) op1 -> rgb(70,153,147) on rgb(20,15,12)   "● çevrimiçi"
+   .cclose (x)                        dark /mobile    7.19:1  need 3  AAA  24px/400 LARGE  fg rgb(167, 158, 144) op1 -> rgb(167,158,144) on rgb(20,15,12)   "×"
+   chat bot bubble                    dark /mobile   12.77:1  need 4.5  AAA  14.72px/300  fg rgb(220, 213, 203) op1 -> rgb(187,180,172) on rgb(23,18,15)   "Merhaba! Hangi odayı serinletmek istiyorsu"
+   chat input placeholder-ish (border) dark/mobile  -- no text node
+   .rf-err error text                 dark /mobile    4.06:1  need 4.5  FAIL  13.44px/300  fg rgb(234, 61, 20) op1 -> rgb(210,50,19) on rgb(48,25,19)   "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler"
+   --fg-mute body copy (.lede)        light/desktop   5.97:1  need 4.5  AA   19.84px/300  fg rgb(90, 81, 72) op1 -> rgb(94,94,122) on rgb(230,225,219)   "Odanıza hangi cihazın uyduğunu, almadan ön"
+   --fg-mute body copy (.hint)        light/desktop   7.01:1  need 4.5  AAA  15.2px/300  fg rgb(90, 81, 72) op1 -> rgb(136,129,121) on rgb(246,243,238)   "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr"
+   --fg-mute card copy (.card p)      light/desktop   7.64:1  need 4.5  AAA  15.04px/300  fg rgb(90, 81, 72) op1 -> rgb(177,107,83) on rgb(255,253,249)   "Duvarı delmeden önce tesisatı arar, çevrey"
+   --fg-mute tile copy (.tile p)      light/desktop   7.64:1  need 4.5  AAA  14.4px/300  fg rgb(90, 81, 72) op1 -> rgb(146,107,132) on rgb(255,253,249)   "Gree’nin yetkilendirdiği satış ve teknik s"
+   .kicker on .sec-alt (randevu)      light/desktop   4.69:1  need 4.5  AA   11.52px/300  fg rgb(122, 95, 20) op1 -> rgb(152,144,95) on rgb(231,226,220)   "Randevu / Ücretsiz Keşif"
+   .kicker on .sec (projeler)         light/desktop   4.97:1  need 4.5  AA   11.52px/300  fg rgb(122, 95, 20) op1 -> rgb(194,142,46) on rgb(233,233,229)   "Projeler ve İşletmeler"
+   .eyebrow section title             light/desktop  16.98:1  need 3  AAA  41.6px/600 LARGE  fg rgb(20, 17, 16) op1 -> rgb(20,17,16) on rgb(246,243,238)   "Hizmetlerimiz"
+   .hero-kicker                       light/desktop   6.99:1  need 4.5  AA   14.72px/300  fg rgb(167, 158, 144) op1 -> rgb(135,128,117) on rgb(21,19,20)   "Gree Yetkili Bayi ve Servisi · Alanya"
+   h1 line 2 (champagne)              light/desktop  10.78:1  need 3  AAA  96px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(18,16,17)   "güvenilir adresi"
+   .btn-primary (form submit)         light/desktop   5.95:1  need 4.5  AA   14.72px/500  fg rgb(255, 253, 249) op1 -> rgb(255,253,249) on rgb(122,95,20)   "WhatsApp’tan gönder"
+   .btn-primary (calc CTA)            light/desktop   5.95:1  need 4.5  AA   14.72px/500  fg rgb(255, 253, 249) op1 -> rgb(250,253,249) on rgb(122,95,20)   "Sonucu WhatsApp’tan gönder"
+   .btn secondary (hero)              light/desktop  13.83:1  need 4.5  AAA  14.72px/300  fg rgb(234, 246, 244) op1 -> rgb(209,220,218) on rgb(38,37,36)   "Ücretsiz keşif isteyin"
+   .crow .lab (accent micro-label)    light/desktop   5.95:1  need 4.5  AA   10.56px/300  fg rgb(122, 95, 20) op1 -> rgb(205,154,98) on rgb(255,253,249)   "Hemen arayın"
+   .ab-since chip                     light/desktop   5.46:1  need 4.5  AA   13.12px/300  fg rgb(122, 95, 20) op1 -> rgb(160,150,101) on rgb(246,243,238)   "2021’den beri Alanya’da"
+   .warranty .wb badge                light/desktop   5.45:1  need 4.5  AA   22.4px/600  fg rgb(122, 95, 20) op1 -> rgb(125,95,20) on rgb(243,243,244)   "6 yıla varan üretici garantisi"
+   .rev .ex example badge             light/desktop  -- selector not present
+   .rev .stars                        light/desktop   5.95:1  need 4.5  AA   14.4px/300  fg rgb(122, 95, 20) op1 -> rgb(122,95,20) on rgb(255,253,249)   "★★★★★"
+   .step-n                            light/desktop   5.46:1  need 4.5  AA   16.8px/300  fg rgb(122, 95, 20) op1 -> rgb(137,113,46) on rgb(246,243,238)   "01"
+   .lang a[aria-current]              light/desktop   5.95:1  need 4.5  AA   12.16px/500  fg rgb(255, 253, 249) op1 -> rgb(251,248,241) on rgb(122,95,20)   "TR"
+   .lang a (inactive)                 light/desktop   7.06:1  need 4.5  AAA  12.16px/300  fg rgb(90, 81, 72) op1 -> rgb(149,142,135) on rgb(246,244,238)   "DE"
+   .mainnav a                         light/desktop   7.06:1  need 4.5  AAA  13.76px/300  fg rgb(90, 81, 72) op1 -> rgb(149,142,135) on rgb(246,244,238)   "Hizmetler"
+   .mobar a (call)                    light/desktop  -- not displayed at this viewport
+   .mobar .mo-wa                      light/desktop  -- not displayed at this viewport
+   .trustchips span                   light/desktop   6.98:1  need 4.5  AA   12.16px/300  fg rgb(167, 158, 144) op1 -> rgb(121,114,105) on rgb(19,20,19)   "Gree Yetkili Bayi ve Servisi"
+   .rf label                          light/desktop  13.71:1  need 4.5  AAA  13.12px/300  fg rgb(42, 36, 30) op1 -> rgb(48,106,183) on rgb(242,242,243)   "Adınız"
+   .rf required asterisk              light/desktop   5.45:1  need 4.5  AA   13.12px/400  fg rgb(122, 95, 20) op1 -> rgb(163,117,97) on rgb(243,243,244)   "*"
+   .rf-consent text                   light/desktop   7.64:1  need 4.5  AAA  13.12px/300  fg rgb(90, 81, 72) op1 -> rgb(181,123,138) on rgb(255,253,249)   "İletişim bilgilerimin talebimi yanıtlamak "
+   .rf-hint                           light/desktop   7.64:1  need 4.5  AAA  12.48px/300  fg rgb(90, 81, 72) op1 -> rgb(182,134,116) on rgb(255,253,249)   "Form bilgilerinizi hazır bir WhatsApp mesa"
+   .foot legal link                   light/desktop   6.89:1  need 4.5  AA   12.8px/300  fg rgb(90, 81, 72) op1 -> rgb(94,136,185) on rgb(244,241,237)   "KVKK Aydınlatma Metni"
+   .foot copyright                    light/desktop    3.4:1  need 4.5  FAIL  12.16px/300  fg rgb(90, 81, 72) op0.7 -> rgb(185,170,163) on rgb(243,241,237)   "© 2026 · Tüm hakları saklıdır."
+   .exp-legend inactive name          light/desktop   3.02:1  need 4.5  FAIL  16px/500  fg rgb(20, 17, 16) op0.45 -> rgb(142,138,135) on rgb(244,240,234)   "Fan"
+   .exp-legend inactive text          light/desktop   2.07:1  need 4.5  FAIL  14.4px/300  fg rgb(90, 81, 72) op0.45 -> rgb(195,190,183) on rgb(245,242,236)   "Duvara sabitlenen taşıyıcı. Doğru montajın"
+   .exp-legend number                 light/desktop  -- true
+   .exp-hint                          light/desktop   4.13:1  need 4.5  FAIL  10.56px/300  fg rgb(167, 158, 144) op0.7 -> rgb(83,77,69) on rgb(16,13,11)   "Şematik gösterimdir."
+   .ba-lab before                     light/desktop   7.21:1  need 4.5  AAA  11.52px/500  fg rgb(201, 162, 39) op1 -> rgb(193,157,37) on rgb(26,26,22)   "Öncesi · 34°C"
+   .ba-lab after                      light/desktop   8.45:1  need 4.5  AAA  11.52px/500  fg rgb(88, 199, 192) op1 -> rgb(85,194,187) on rgb(26,28,26)   "Sonrası · 22°C"
+   .ba-ex example badge               light/desktop   6.61:1  need 4.5  AA   9.6px/300  fg rgb(167, 158, 144) op1 -> rgb(122,125,94) on rgb(25,26,22)   "Örnek görsel"
+   .calc result value                 light/desktop  12.07:1  need 3  AAA  35.2px/400 LARGE  fg rgb(14, 58, 70) op1 -> rgb(14,58,70) on rgb(255,253,249)   "12.000"
+   .toggle button (off)               light/desktop   7.64:1  need 4.5  AAA  14.4px/400  fg rgb(90, 81, 72) op1 -> rgb(90,81,72) on rgb(255,253,249)   "Evet"
+   .toggle button.on                  light/desktop   5.95:1  need 4.5  AA   14.4px/500  fg rgb(255, 253, 249) op1 -> rgb(255,253,241) on rgb(122,95,20)   "Hayır"
+   .ratingbig number                  light/desktop   8.63:1  need 3  AAA  46.4px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(40,38,29)   "5,0"
+   .ratingbig stars                   light/desktop   5.71:1  need 4.5  AA   21.12px/300  fg rgb(201, 162, 39) op1 -> rgb(201,162,39) on rgb(47,45,35)   "★★★★★"
+   .ratingbig count                   light/desktop  13.67:1  need 4.5  AAA  14.4px/500  fg rgb(234, 246, 244) op1 -> rgb(231,243,241) on rgb(41,38,29)   "65 Google değerlendirmesi"
+   .cdisc AI disclosure               light/desktop   7.64:1  need 4.5  AAA  11.52px/300  fg rgb(90, 81, 72) op1 -> rgb(163,157,150) on rgb(255,253,249)   "Bir yapay zekâ asistanıyla yazışıyorsunuz."
+   .cchips suggestion                 light/desktop   5.16:1  need 4.5  AA   12.16px/400  fg rgb(122, 95, 20) op1 -> rgb(151,130,71) on rgb(241,237,225)   "Fiyat teklifi istiyorum"
+   .ci-t .on (online)                 light/desktop   9.98:1  need 4.5  AAA  10.88px/300  fg rgb(14, 58, 70) op1 -> rgb(95,121,126) on rgb(237,231,222)   "● çevrimiçi"
+   .cclose (x)                        light/desktop   6.32:1  need 3  AAA  24px/400 LARGE  fg rgb(90, 81, 72) op1 -> rgb(90,81,72) on rgb(237,231,222)   "×"
+   chat bot bubble                    light/desktop  15.09:1  need 4.5  AAA  14.72px/300  fg rgb(42, 36, 30) op1 -> rgb(109,105,99) on rgb(255,253,249)   "Merhaba! Hangi odayı serinletmek istiyorsu"
+   chat input placeholder-ish (border) light/desktop  -- no text node
+   .rf-err error text                 light/desktop   3.46:1  need 4.5  FAIL  13.44px/300  fg rgb(234, 61, 20) op1 -> rgb(240,119,77) on rgb(253,233,225)   "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler"
+   --fg-mute body copy (.lede)        light/mobile    5.85:1  need 4.5  AA   19.84px/300  fg rgb(90, 81, 72) op1 -> rgb(137,81,94) on rgb(227,223,218)   "Odanıza hangi cihazın uyduğunu, almadan ön"
+   --fg-mute body copy (.hint)        light/mobile    7.01:1  need 4.5  AAA  15.2px/300  fg rgb(90, 81, 72) op1 -> rgb(137,130,123) on rgb(246,243,238)   "Bu yaklaşık bir sonuçtur. Kesin ölçümü ücr"
+   --fg-mute card copy (.card p)      light/mobile    7.64:1  need 4.5  AAA  15.04px/300  fg rgb(90, 81, 72) op1 -> rgb(115,124,127) on rgb(255,253,249)   "Duvarı delmeden önce tesisatı arar, çevrey"
+   --fg-mute tile copy (.tile p)      light/mobile    7.64:1  need 4.5  AAA  14.4px/300  fg rgb(90, 81, 72) op1 -> rgb(137,131,123) on rgb(255,253,249)   "Gree’nin yetkilendirdiği satış ve teknik s"
+   .kicker on .sec-alt (randevu)      light/mobile    4.53:1  need 4.5  AA   11.52px/300  fg rgb(122, 95, 20) op1 -> rgb(162,143,94) on rgb(227,222,218)   "Randevu / Ücretsiz Keşif"
+   .kicker on .sec (projeler)         light/mobile    4.87:1  need 4.5  AA   11.52px/300  fg rgb(122, 95, 20) op1 -> rgb(198,143,46) on rgb(231,231,227)   "Projeler ve İşletmeler"
+   .eyebrow section title             light/mobile   16.98:1  need 3  AAA  27.2px/600 LARGE  fg rgb(20, 17, 16) op1 -> rgb(20,17,16) on rgb(246,243,238)   "Hizmetlerimiz"
+   .hero-kicker                       light/mobile    7.33:1  need 4.5  AAA  14.72px/300  fg rgb(167, 158, 144) op1 -> rgb(140,132,121) on rgb(13,13,18)   "Gree Yetkili Bayi ve Servisi · Alanya"
+   h1 line 2 (champagne)              light/mobile   10.95:1  need 3  AAA  41.6px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(16,14,14)   "güvenilir adresi"
+   .btn-primary (form submit)         light/mobile    5.95:1  need 4.5  AA   14.72px/500  fg rgb(255, 253, 249) op1 -> rgb(246,253,249) on rgb(122,95,20)   "WhatsApp’tan gönder"
+   .btn-primary (calc CTA)            light/mobile    5.95:1  need 4.5  AA   14.72px/500  fg rgb(255, 253, 249) op1 -> rgb(250,253,249) on rgb(122,95,20)   "Sonucu WhatsApp’tan gönder"
+   .btn secondary (hero)              light/mobile   16.86:1  need 4.5  AAA  14.72px/300  fg rgb(234, 246, 244) op1 -> rgb(205,216,214) on rgb(21,18,16)   "Ücretsiz keşif isteyin"
+   .crow .lab (accent micro-label)    light/mobile    5.95:1  need 4.5  AA   10.56px/300  fg rgb(122, 95, 20) op1 -> rgb(205,154,98) on rgb(255,253,249)   "Hemen arayın"
+   .ab-since chip                     light/mobile    5.46:1  need 4.5  AA   13.12px/300  fg rgb(122, 95, 20) op1 -> rgb(160,150,101) on rgb(246,243,238)   "2021’den beri Alanya’da"
+   .warranty .wb badge                light/mobile    5.45:1  need 4.5  AA   22.4px/600  fg rgb(122, 95, 20) op1 -> rgb(125,95,20) on rgb(243,243,244)   "6 yıla varan üretici garantisi"
+   .rev .ex example badge             light/mobile  -- selector not present
+   .rev .stars                        light/mobile    5.95:1  need 4.5  AA   14.4px/300  fg rgb(122, 95, 20) op1 -> rgb(122,95,20) on rgb(255,253,249)   "★★★★★"
+   .step-n                            light/mobile    5.46:1  need 4.5  AA   16.8px/300  fg rgb(122, 95, 20) op1 -> rgb(122,104,81) on rgb(246,243,238)   "01"
+   .lang a[aria-current]              light/mobile    5.95:1  need 4.5  AA   12.16px/500  fg rgb(255, 253, 249) op1 -> rgb(251,248,241) on rgb(122,95,20)   "TR"
+   .lang a (inactive)                 light/mobile    7.06:1  need 4.5  AAA  12.16px/300  fg rgb(90, 81, 72) op1 -> rgb(149,142,135) on rgb(246,244,239)   "DE"
+   .mainnav a                         light/mobile  -- not displayed at this viewport
+   .mobar a (call)                    light/mobile   16.98:1  need 4.5  AAA  14.4px/500  fg rgb(20, 17, 16) op1 -> rgb(27,24,23) on rgb(246,243,238)   "Hemen arayın"
+   .mobar .mo-wa                      light/mobile    5.95:1  need 4.5  AA   14.4px/500  fg rgb(255, 253, 249) op1 -> rgb(252,250,244) on rgb(122,95,20)   "WhatsApp"
+   .trustchips span                   light/mobile    7.32:1  need 4.5  AAA  12.16px/300  fg rgb(167, 158, 144) op1 -> rgb(120,113,103) on rgb(16,13,11)   "Gree Yetkili Bayi ve Servisi"
+   .rf label                          light/mobile   13.71:1  need 4.5  AAA  13.12px/300  fg rgb(42, 36, 30) op1 -> rgb(117,113,110) on rgb(242,242,244)   "Adınız"
+   .rf required asterisk              light/mobile     5.4:1  need 4.5  AA   13.12px/400  fg rgb(122, 95, 20) op1 -> rgb(125,132,139) on rgb(242,242,243)   "*"
+   .rf-consent text                   light/mobile    7.64:1  need 4.5  AAA  13.12px/300  fg rgb(90, 81, 72) op1 -> rgb(193,129,116) on rgb(255,253,249)   "İletişim bilgilerimin talebimi yanıtlamak "
+   .rf-hint                           light/mobile    7.64:1  need 4.5  AAA  12.48px/300  fg rgb(90, 81, 72) op1 -> rgb(126,134,171) on rgb(255,253,249)   "Form bilgilerinizi hazır bir WhatsApp mesa"
+   .foot legal link                   light/mobile    7.01:1  need 4.5  AAA  12.8px/300  fg rgb(90, 81, 72) op1 -> rgb(172,121,123) on rgb(246,243,238)   "KVKK Aydınlatma Metni"
+   .foot copyright                    light/mobile    3.41:1  need 4.5  FAIL  12.16px/300  fg rgb(90, 81, 72) op0.7 -> rgb(195,162,163) on rgb(244,241,237)   "© 2026 · Tüm hakları saklıdır."
+   .exp-legend inactive name          light/mobile    2.99:1  need 4.5  FAIL  16px/500  fg rgb(20, 17, 16) op0.45 -> rgb(142,139,135) on rgb(244,240,234)   "Fan"
+   .exp-legend inactive text          light/mobile  -- true
+   .exp-legend number                 light/mobile  -- selector not present
+   .exp-hint                          light/mobile    4.13:1  need 4.5  FAIL  10.56px/300  fg rgb(167, 158, 144) op0.7 -> rgb(89,83,75) on rgb(16,13,11)   "Şematik gösterimdir."
+   .ba-lab before                     light/mobile    7.14:1  need 4.5  AAA  11.52px/500  fg rgb(201, 162, 39) op1 -> rgb(195,157,37) on rgb(27,27,23)   "Öncesi · 34°C"
+   .ba-lab after                      light/mobile     8.5:1  need 4.5  AAA  11.52px/500  fg rgb(88, 199, 192) op1 -> rgb(85,194,187) on rgb(23,28,26)   "Sonrası · 22°C"
+   .ba-ex example badge               light/mobile    6.61:1  need 4.5  AA   9.6px/300  fg rgb(167, 158, 144) op1 -> rgb(122,125,94) on rgb(25,26,22)   "Örnek görsel"
+   .calc result value                 light/mobile   12.07:1  need 3  AAA  35.2px/400 LARGE  fg rgb(14, 58, 70) op1 -> rgb(14,58,70) on rgb(255,253,249)   "12.000"
+   .toggle button (off)               light/mobile    7.64:1  need 4.5  AAA  14.4px/400  fg rgb(90, 81, 72) op1 -> rgb(90,81,72) on rgb(255,253,249)   "Evet"
+   .toggle button.on                  light/mobile    5.95:1  need 4.5  AA   14.4px/500  fg rgb(255, 253, 249) op1 -> rgb(255,253,241) on rgb(122,95,20)   "Hayır"
+   .ratingbig number                  light/mobile    8.89:1  need 3  AAA  32px/600 LARGE  fg rgb(217, 194, 122) op1 -> rgb(217,194,122) on rgb(40,35,24)   "5,0"
+   .ratingbig stars                   light/mobile    6.46:1  need 4.5  AA   16px/300  fg rgb(201, 162, 39) op1 -> rgb(201,162,39) on rgb(40,35,24)   "★★★★★"
+   .ratingbig count                   light/mobile   14.13:1  need 4.5  AAA  12.16px/500  fg rgb(234, 246, 244) op1 -> rgb(224,236,233) on rgb(40,35,24)   "65 Google değerlendirmesi"
+   .cdisc AI disclosure               light/mobile    7.64:1  need 4.5  AAA  11.52px/300  fg rgb(90, 81, 72) op1 -> rgb(163,157,150) on rgb(255,253,249)   "Bir yapay zekâ asistanıyla yazışıyorsunuz."
+   .cchips suggestion                 light/mobile    5.16:1  need 4.5  AA   12.16px/400  fg rgb(122, 95, 20) op1 -> rgb(151,130,71) on rgb(241,237,225)   "Fiyat teklifi istiyorum"
+   .ci-t .on (online)                 light/mobile    9.98:1  need 4.5  AAA  10.88px/300  fg rgb(14, 58, 70) op1 -> rgb(95,121,126) on rgb(237,231,222)   "● çevrimiçi"
+   .cclose (x)                        light/mobile    6.32:1  need 3  AAA  24px/400 LARGE  fg rgb(90, 81, 72) op1 -> rgb(90,81,72) on rgb(237,231,222)   "×"
+   chat bot bubble                    light/mobile   15.09:1  need 4.5  AAA  14.72px/300  fg rgb(42, 36, 30) op1 -> rgb(109,105,99) on rgb(255,253,249)   "Merhaba! Hangi odayı serinletmek istiyorsu"
+   chat input placeholder-ish (border) light/mobile  -- no text node
+   .rf-err error text                 light/mobile    3.46:1  need 4.5  FAIL  13.44px/300  fg rgb(234, 61, 20) op1 -> rgb(236,104,96) on rgb(253,233,225)   "⚠ Adınız · Telefon  —  ☐ İletişim bilgiler"
+==================== NON-TEXT (1.4.11) ====================
+   .wafab (WhatsApp FAB)              dark /desktop fill rgb(37,211,102) vs page 9.9/9.9/9.82 :1 | icon rgb(255,255,255) vs fill 1.98:1 FAIL(1.4.11)
+   .chatfab                           dark /desktop fill rgb(217,194,122) vs page 10.77/11.1/11.04 :1 | icon rgb(11,9,9) vs fill 11.3:1 OK
+   input border (--line-2)            dark /desktop css oklab(0.653133 0.146559 0.114603 / 0.728627) 1px
+        top: border rgb(16,13,11) vs outside rgb(25,27,37) = 1.13:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.13:1 FAIL(1.4.11)
+        left: border rgb(175,70,35) vs outside rgb(25,27,39) = 3.03:1 ; vs inside rgb(16,13,11) = 3.43:1 -> best 3.43:1 OK
+   select border                      dark /desktop css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(16,13,11) vs outside rgb(26,26,30) = 1.12:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.12:1 FAIL(1.4.11)
+        left: border rgb(16,13,11) vs outside rgb(26,26,31) = 1.12:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.12:1 FAIL(1.4.11)
+   textarea border                    dark /desktop css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(16,13,11) vs outside rgb(27,24,26) = 1.1:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.1:1 FAIL(1.4.11)
+        left: border rgb(80,70,46) vs outside rgb(26,24,28) = 1.89:1 ; vs inside rgb(16,13,11) = 2.08:1 -> best 2.08:1 FAIL(1.4.11)
+   .toggle group border               dark /desktop css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(88,76,51) vs outside rgb(27,22,19) = 2.13:1 ; vs inside rgb(217,194,122) = 4.79:1 -> best 4.79:1 OK
+        left: border rgb(27,22,19) vs outside rgb(27,22,19) = 1:1 ; vs inside rgb(27,22,19) = 1:1 -> best 1:1 FAIL(1.4.11)
+   themetog border                    dark /desktop css rgba(217, 194, 122, 0.16) 1px
+        top: border rgb(15,12,10) vs outside rgb(15,12,10) = 1:1 ; vs inside rgb(15,12,10) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(47,41,28) vs outside rgb(15,12,10) = 1.35:1 ; vs inside rgb(15,12,10) = 1.35:1 -> best 1.35:1 FAIL(1.4.11)
+   burger border                      dark/desktop  -- not displayed at this viewport
+   card border (--line)               dark /desktop css rgba(217, 194, 122, 0.16) 1px
+        top: border rgb(23,18,15) vs outside rgb(15,12,10) = 1.05:1 ; vs inside rgb(23,18,15) = 1:1 -> best 1.05:1 FAIL(1.4.11)
+        left: border rgb(23,18,15) vs outside rgb(14,11,9) = 1.06:1 ; vs inside rgb(23,18,15) = 1:1 -> best 1.06:1 FAIL(1.4.11)
+   consent checkbox                   dark /desktop css rgb(0, 0, 0) 0px
+        
+   .mobar top border                  dark/desktop  -- not displayed at this viewport
+   .wafab (WhatsApp FAB)              dark/mobile  -- not displayed at this viewport
+   .chatfab                           dark /mobile  fill rgb(217,194,122) vs page 11.04/11.15/11.03 :1 | icon rgb(11,9,10) vs fill 11.3:1 OK
+   input border (--line-2)            dark /mobile  css oklab(0.653133 0.146559 0.114603 / 0.728627) 1px
+        top: border rgb(16,13,11) vs outside rgb(25,27,38) = 1.13:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.13:1 FAIL(1.4.11)
+        left: border rgb(16,13,11) vs outside rgb(25,28,39) = 1.14:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.14:1 FAIL(1.4.11)
+   select border                      dark /mobile  css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(16,13,11) vs outside rgb(26,25,30) = 1.11:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.11:1 FAIL(1.4.11)
+        left: border rgb(16,13,11) vs outside rgb(26,25,30) = 1.11:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.11:1 FAIL(1.4.11)
+   textarea border                    dark /mobile  css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(80,70,46) vs outside rgb(27,24,24) = 1.9:1 ; vs inside rgb(16,13,11) = 2.08:1 -> best 2.08:1 FAIL(1.4.11)
+        left: border rgb(16,13,11) vs outside rgb(26,23,24) = 1.09:1 ; vs inside rgb(16,13,11) = 1:1 -> best 1.09:1 FAIL(1.4.11)
+   .toggle group border               dark /mobile  css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(88,76,51) vs outside rgb(27,22,19) = 2.13:1 ; vs inside rgb(217,194,122) = 4.79:1 -> best 4.79:1 OK
+        left: border rgb(27,22,19) vs outside rgb(27,22,19) = 1:1 ; vs inside rgb(27,22,19) = 1:1 -> best 1:1 FAIL(1.4.11)
+   themetog border                    dark /mobile  css rgba(217, 194, 122, 0.16) 1px
+        top: border rgb(15,12,10) vs outside rgb(15,12,10) = 1:1 ; vs inside rgb(15,12,10) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(47,41,28) vs outside rgb(15,12,10) = 1.35:1 ; vs inside rgb(15,12,10) = 1.35:1 -> best 1.35:1 FAIL(1.4.11)
+   burger border                      dark /mobile  css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(15,12,10) vs outside rgb(15,12,10) = 1:1 ; vs inside rgb(15,12,10) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(15,12,10) vs outside rgb(15,12,10) = 1:1 ; vs inside rgb(15,12,10) = 1:1 -> best 1:1 FAIL(1.4.11)
+   card border (--line)               dark /mobile  css rgba(217, 194, 122, 0.16) 1px
+        top: border rgb(54,46,32) vs outside rgb(15,12,10) = 1.46:1 ; vs inside rgb(23,18,15) = 1.39:1 -> best 1.46:1 FAIL(1.4.11)
+        left: border rgb(23,18,15) vs outside rgb(14,11,9) = 1.06:1 ; vs inside rgb(23,18,15) = 1:1 -> best 1.06:1 FAIL(1.4.11)
+   consent checkbox                   dark /mobile  css rgb(0, 0, 0) 0px
+        
+   .mobar top border                  dark /mobile  css rgba(217, 194, 122, 0.32) 1px
+        top: border rgb(196,175,110) vs outside rgb(12,13,17) = 8.97:1 ; vs inside rgb(200,179,112) = 1.04:1 -> best 8.97:1 OK
+   .wafab (WhatsApp FAB)              light/desktop fill rgb(37,211,102) vs page 1.37/1.41/1.62 :1 | icon rgb(255,255,255) vs fill 1.98:1 FAIL(1.4.11)
+   .chatfab                           light/desktop fill rgb(122,95,20) vs page 4.8/4.45/4.67 :1 | icon rgb(255,253,249) vs fill 5.95:1 OK
+   input border (--line-2)            light/desktop css oklab(0.54947 0.151462 0.100725 / 0.711373) 1px
+        top: border rgb(246,243,238) vs outside rgb(243,243,244) = 1:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(212,111,87) vs outside rgb(242,243,244) = 3.04:1 ; vs inside rgb(246,243,238) = 3.05:1 -> best 3.05:1 OK
+   select border                      light/desktop css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(246,243,238) vs outside rgb(249,248,246) = 1.04:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1.04:1 FAIL(1.4.11)
+        left: border rgb(246,243,238) vs outside rgb(248,247,246) = 1.03:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1.03:1 FAIL(1.4.11)
+   textarea border                    light/desktop css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(246,243,238) vs outside rgb(251,250,248) = 1.06:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1.06:1 FAIL(1.4.11)
+        left: border rgb(183,180,175) vs outside rgb(249,248,246) = 1.95:1 ; vs inside rgb(246,243,238) = 1.87:1 -> best 1.95:1 FAIL(1.4.11)
+   .toggle group border               light/desktop css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(190,187,183) vs outside rgb(255,253,249) = 1.88:1 ; vs inside rgb(122,95,20) = 3.16:1 -> best 3.16:1 OK
+        left: border rgb(255,253,249) vs outside rgb(255,253,249) = 1:1 ; vs inside rgb(255,253,249) = 1:1 -> best 1:1 FAIL(1.4.11)
+   themetog border                    light/desktop css rgba(20, 17, 16, 0.14) 1px
+        top: border rgb(246,244,239) vs outside rgb(246,244,239) = 1:1 ; vs inside rgb(246,244,239) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(215,212,208) vs outside rgb(246,244,239) = 1.34:1 ; vs inside rgb(246,244,239) = 1.34:1 -> best 1.34:1 FAIL(1.4.11)
+   burger border                      light/desktop  -- not displayed at this viewport
+   card border (--line)               light/desktop css rgba(20, 17, 16, 0.14) 1px
+        top: border rgb(255,253,249) vs outside rgb(241,238,233) = 1.14:1 ; vs inside rgb(255,253,249) = 1:1 -> best 1.14:1 FAIL(1.4.11)
+        left: border rgb(255,253,249) vs outside rgb(237,234,229) = 1.18:1 ; vs inside rgb(255,253,249) = 1:1 -> best 1.18:1 FAIL(1.4.11)
+   consent checkbox                   light/desktop css rgb(0, 0, 0) 0px
+        
+   .mobar top border                  light/desktop  -- not displayed at this viewport
+   .wafab (WhatsApp FAB)              light/mobile  -- not displayed at this viewport
+   .chatfab                           light/mobile  fill rgb(122,95,20) vs page 4.22/4.45/4.6 :1 | icon rgb(255,253,249) vs fill 5.95:1 OK
+   input border (--line-2)            light/mobile  css oklab(0.54947 0.151462 0.100725 / 0.711373) 1px
+        top: border rgb(246,243,238) vs outside rgb(243,243,244) = 1:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(246,243,238) vs outside rgb(242,242,243) = 1.01:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1.01:1 FAIL(1.4.11)
+   select border                      light/mobile  css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(246,243,238) vs outside rgb(249,248,246) = 1.04:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1.04:1 FAIL(1.4.11)
+        left: border rgb(246,243,238) vs outside rgb(247,247,246) = 1.03:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1.03:1 FAIL(1.4.11)
+   textarea border                    light/mobile  css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(183,180,175) vs outside rgb(252,251,248) = 2:1 ; vs inside rgb(246,243,238) = 1.87:1 -> best 2:1 FAIL(1.4.11)
+        left: border rgb(246,243,238) vs outside rgb(251,250,247) = 1.06:1 ; vs inside rgb(246,243,238) = 1:1 -> best 1.06:1 FAIL(1.4.11)
+   .toggle group border               light/mobile  css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(190,187,183) vs outside rgb(255,253,249) = 1.88:1 ; vs inside rgb(122,95,20) = 3.16:1 -> best 3.16:1 OK
+        left: border rgb(255,253,249) vs outside rgb(255,253,249) = 1:1 ; vs inside rgb(255,253,249) = 1:1 -> best 1:1 FAIL(1.4.11)
+   themetog border                    light/mobile  css rgba(20, 17, 16, 0.14) 1px
+        top: border rgb(246,244,238) vs outside rgb(246,244,238) = 1:1 ; vs inside rgb(246,244,238) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(215,212,207) vs outside rgb(246,243,238) = 1.34:1 ; vs inside rgb(246,244,238) = 1.34:1 -> best 1.34:1 FAIL(1.4.11)
+   burger border                      light/mobile  css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(246,244,238) vs outside rgb(246,244,238) = 1:1 ; vs inside rgb(246,244,238) = 1:1 -> best 1:1 FAIL(1.4.11)
+        left: border rgb(246,244,238) vs outside rgb(246,244,238) = 1:1 ; vs inside rgb(246,244,238) = 1:1 -> best 1:1 FAIL(1.4.11)
+   card border (--line)               light/mobile  css rgba(20, 17, 16, 0.14) 1px
+        top: border rgb(222,219,215) vs outside rgb(241,238,233) = 1.19:1 ; vs inside rgb(255,253,249) = 1.36:1 -> best 1.36:1 FAIL(1.4.11)
+        left: border rgb(255,253,249) vs outside rgb(237,234,229) = 1.18:1 ; vs inside rgb(255,253,249) = 1:1 -> best 1.18:1 FAIL(1.4.11)
+   consent checkbox                   light/mobile  css rgb(0, 0, 0) 0px
+        
+   .mobar top border                  light/mobile  css rgba(20, 17, 16, 0.28) 1px
+        top: border rgb(110,86,18) vs outside rgb(210,208,205) = 4.54:1 ; vs inside rgb(112,87,18) = 1.02:1 -> best 4.54:1 OK

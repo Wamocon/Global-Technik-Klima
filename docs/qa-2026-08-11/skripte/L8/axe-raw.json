@@ -1,0 +1,3430 @@
+{
+  "out": [
+    {
+      "key": "tr|dark|desktop",
+      "id": "tr",
+      "url": "/",
+      "theme": "dark",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Duvarı delmeden önce tesisatı arar, çevreyi örteriz. Fayans, boru ya da sıva zarar görürse masrafı bizden. Biz giderken klima çalışır, ortalık tertemi",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Bakım</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Klimanızın uzun ömürlü ve verimli çalışması için düzenli bakım şart.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Temizlik</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 50
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#hizmetler\" data-astro-cid-hkbrpulz=\"\">Hizmetler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#urunler\" data-astro-cid-hkbrpulz=\"\">Ürünler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#projeler\" data-astro-cid-hkbrpulz=\"\">Projeler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#teknik\" data-astro-cid-hkbrpulz=\"\">Teknik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#kesif\" data-astro-cid-hkbrpulz=\"\">BTU Hesapla</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "tr|dark|mobile",
+      "id": "tr",
+      "url": "/",
+      "theme": "dark",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Duvarı delmeden önce tesisatı arar, çevreyi örteriz. Fayans, boru ya da sıva zarar görürse masrafı bizden. Biz giderken klima çalışır, ortalık tertemi",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Bakım</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Klimanızın uzun ömürlü ve verimli çalışması için düzenli bakım şart.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Temizlik</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 50
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Gree Yetkili Bayi ve Servisi · Alanya</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Alanya’da klimanın</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">Tüm duvar tipi modellerde inverter var. Sessiz çalışır, daha az elektrik harcar. Klima gazı olarak yeni nesil R32 kullanılıyor.</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "tr|light|desktop",
+      "id": "tr",
+      "url": "/",
+      "theme": "light",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Duvarı delmeden önce tesisatı arar, çevreyi örteriz. Fayans, boru ya da sıva zarar görürse masrafı bizden. Biz giderken klima çalışır, ortalık tertemi",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Bakım</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Klimanızın uzun ömürlü ve verimli çalışması için düzenli bakım şart.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Temizlik</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 50
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#hizmetler\" data-astro-cid-hkbrpulz=\"\">Hizmetler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#urunler\" data-astro-cid-hkbrpulz=\"\">Ürünler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#projeler\" data-astro-cid-hkbrpulz=\"\">Projeler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#teknik\" data-astro-cid-hkbrpulz=\"\">Teknik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/#kesif\" data-astro-cid-hkbrpulz=\"\">BTU Hesapla</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "tr|light|mobile",
+      "id": "tr",
+      "url": "/",
+      "theme": "light",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montaj</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Duvarı delmeden önce tesisatı arar, çevreyi örteriz. Fayans, boru ya da sıva zarar görürse masrafı bizden. Biz giderken klima çalışır, ortalık tertemi",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Bakım</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Klimanızın uzun ömürlü ve verimli çalışması için düzenli bakım şart.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Temizlik</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 50
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[href=\"/ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[href=\"/en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Gree Yetkili Bayi ve Servisi · Alanya</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Alanya’da klimanın</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">Tüm duvar tipi modellerde inverter var. Sessiz çalışır, daha az elektrik harcar. Klima gazı olarak yeni nesil R32 kullanılıyor.</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "de|dark|desktop",
+      "id": "de",
+      "url": "/de/",
+      "theme": "dark",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Vor dem Bohren suchen wir nach Leitungen und decken ab. Geht dabei eine Fliese, ein Rohr oder der Putz kaputt, bringen wir das auf unsere Kosten in Or",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Wartung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regelmäßige Wartung hält die Anlage effizient und langlebig.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Reinigung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#hizmetler\" data-astro-cid-hkbrpulz=\"\">Leistungen</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#urunler\" data-astro-cid-hkbrpulz=\"\">Produkte</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#projeler\" data-astro-cid-hkbrpulz=\"\">Projekte</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#teknik\" data-astro-cid-hkbrpulz=\"\">Technik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#kesif\" data-astro-cid-hkbrpulz=\"\">BTU-Rechner</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "de|dark|mobile",
+      "id": "de",
+      "url": "/de/",
+      "theme": "dark",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Vor dem Bohren suchen wir nach Leitungen und decken ab. Geht dabei eine Fliese, ein Rohr oder der Putz kaputt, bringen wir das auf unsere Kosten in Or",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Wartung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regelmäßige Wartung hält die Anlage effizient und langlebig.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Reinigung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/\"]",
+              "html": "<a href=\"/\" hreflang=\"tr\" data-astro-cid-hkbrpulz=\"\">TR</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Gree Vertragshändler und Servicepartner · Alanya</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Ihre Klimaanlage</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">Alle Wandgeräte arbeiten mit Inverter. Sie laufen leise und sparen Strom. Als Kältemittel dient R32, die aktuelle und umweltschonend",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "de|light|desktop",
+      "id": "de",
+      "url": "/de/",
+      "theme": "light",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Vor dem Bohren suchen wir nach Leitungen und decken ab. Geht dabei eine Fliese, ein Rohr oder der Putz kaputt, bringen wir das auf unsere Kosten in Or",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Wartung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regelmäßige Wartung hält die Anlage effizient und langlebig.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Reinigung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#hizmetler\" data-astro-cid-hkbrpulz=\"\">Leistungen</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#urunler\" data-astro-cid-hkbrpulz=\"\">Produkte</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#projeler\" data-astro-cid-hkbrpulz=\"\">Projekte</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#teknik\" data-astro-cid-hkbrpulz=\"\">Technik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"de#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/de#kesif\" data-astro-cid-hkbrpulz=\"\">BTU-Rechner</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "de|light|mobile",
+      "id": "de",
+      "url": "/de/",
+      "theme": "light",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Montage</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Vor dem Bohren suchen wir nach Leitungen und decken ab. Geht dabei eine Fliese, ein Rohr oder der Putz kaputt, bringen wir das auf unsere Kosten in Or",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Wartung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regelmäßige Wartung hält die Anlage effizient und langlebig.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Reinigung</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/\"]",
+              "html": "<a href=\"/\" hreflang=\"tr\" data-astro-cid-hkbrpulz=\"\">TR</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Gree Vertragshändler und Servicepartner · Alanya</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Ihre Klimaanlage</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">Alle Wandgeräte arbeiten mit Inverter. Sie laufen leise und sparen Strom. Als Kältemittel dient R32, die aktuelle und umweltschonend",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "ru|dark|desktop",
+      "id": "ru",
+      "url": "/ru/",
+      "theme": "dark",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Перед сверлением находим скрытые трубы и всё укрываем. Повредим плитку, трубу или штукатурку — исправим за свой счёт. Уходим тогда, когда кондиционер ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Техобслуживание</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Регулярное ТО — чтобы кондиционер работал дольше и экономичнее.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Чистка</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#hizmetler\" data-astro-cid-hkbrpulz=\"\">Услуги</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#urunler\" data-astro-cid-hkbrpulz=\"\">Товары</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#projeler\" data-astro-cid-hkbrpulz=\"\">Проекты</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#teknik\" data-astro-cid-hkbrpulz=\"\">Техника</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#kesif\" data-astro-cid-hkbrpulz=\"\">Расчёт BTU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "ru|dark|mobile",
+      "id": "ru",
+      "url": "/ru/",
+      "theme": "dark",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Перед сверлением находим скрытые трубы и всё укрываем. Повредим плитку, трубу или штукатурку — исправим за свой счёт. Уходим тогда, когда кондиционер ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Техобслуживание</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Регулярное ТО — чтобы кондиционер работал дольше и экономичнее.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Чистка</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/\"]",
+              "html": "<a href=\"/\" hreflang=\"tr\" data-astro-cid-hkbrpulz=\"\">TR</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Официальный дилер и сервис Gree · Алания</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Кондиционеры Gree</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">Все настенные модели инверторные — работают тихо и экономят электричество. Фреон R32: современное поколение, более безопасное для пр",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "ru|light|desktop",
+      "id": "ru",
+      "url": "/ru/",
+      "theme": "light",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Перед сверлением находим скрытые трубы и всё укрываем. Повредим плитку, трубу или штукатурку — исправим за свой счёт. Уходим тогда, когда кондиционер ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Техобслуживание</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Регулярное ТО — чтобы кондиционер работал дольше и экономичнее.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Чистка</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#hizmetler\" data-astro-cid-hkbrpulz=\"\">Услуги</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#urunler\" data-astro-cid-hkbrpulz=\"\">Товары</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#projeler\" data-astro-cid-hkbrpulz=\"\">Проекты</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#teknik\" data-astro-cid-hkbrpulz=\"\">Техника</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"ru#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/ru#kesif\" data-astro-cid-hkbrpulz=\"\">Расчёт BTU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "ru|light|mobile",
+      "id": "ru",
+      "url": "/ru/",
+      "theme": "light",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Монтаж «под ключ»</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Перед сверлением находим скрытые трубы и всё укрываем. Повредим плитку, трубу или штукатурку — исправим за свой счёт. Уходим тогда, когда кондиционер ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Техобслуживание</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Регулярное ТО — чтобы кондиционер работал дольше и экономичнее.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Чистка</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/\"]",
+              "html": "<a href=\"/\" hreflang=\"tr\" data-astro-cid-hkbrpulz=\"\">TR</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Официальный дилер и сервис Gree · Алания</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Кондиционеры Gree</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">Все настенные модели инверторные — работают тихо и экономят электричество. Фреон R32: современное поколение, более безопасное для пр",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "en|dark|desktop",
+      "id": "en",
+      "url": "/en/",
+      "theme": "dark",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Before drilling we trace what runs behind the wall and cover everything up. If a tile, a pipe or the plaster takes damage, we put it right at our own ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Maintenance</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regular servicing keeps the unit efficient and long-lasting.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Cleaning</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#hizmetler\" data-astro-cid-hkbrpulz=\"\">Services</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#urunler\" data-astro-cid-hkbrpulz=\"\">Products</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#projeler\" data-astro-cid-hkbrpulz=\"\">Projects</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#teknik\" data-astro-cid-hkbrpulz=\"\">Technology</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#kesif\" data-astro-cid-hkbrpulz=\"\">BTU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "en|dark|mobile",
+      "id": "en",
+      "url": "/en/",
+      "theme": "dark",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Before drilling we trace what runs behind the wall and cover everything up. If a tile, a pipe or the plaster takes damage, we put it right at our own ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Maintenance</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regular servicing keeps the unit efficient and long-lasting.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Cleaning</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/\"]",
+              "html": "<a href=\"/\" hreflang=\"tr\" data-astro-cid-hkbrpulz=\"\">TR</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Authorized Gree Dealer &amp; Service · Alanya</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Air conditioning</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">All wall units run on inverter technology: quiet, and easier on the electricity bill. The refrigerant is R32, the current and more e",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "en|light|desktop",
+      "id": "en",
+      "url": "/en/",
+      "theme": "light",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Before drilling we trace what runs behind the wall and cover everything up. If a tile, a pipe or the plaster takes damage, we put it right at our own ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Maintenance</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regular servicing keeps the unit efficient and long-lasting.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Cleaning</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#hizmetler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#hizmetler\" data-astro-cid-hkbrpulz=\"\">Services</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#urunler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#urunler\" data-astro-cid-hkbrpulz=\"\">Products</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#projeler\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#projeler\" data-astro-cid-hkbrpulz=\"\">Projects</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#teknik\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#teknik\" data-astro-cid-hkbrpulz=\"\">Technology</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"en#kesif\"][data-astro-cid-hkbrpulz=\"\"]",
+              "html": "<a href=\"/en#kesif\" data-astro-cid-hkbrpulz=\"\">BTU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 43
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "en|light|mobile",
+      "id": "en",
+      "url": "/en/",
+      "theme": "light",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Heading levels should only increase by one",
+          "nodes": [
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should not have more than one banner landmark",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  Document has more than one banner landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "nodes": [
+            {
+              "target": ".topbar",
+              "html": "<header class=\"topbar\" data-astro-cid-hkbrpulz=\"\">",
+              "summary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+              "html": "<div class=\"head shown\" data-reveal=\"\" data-astro-cid-7aropxhg=\"\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 18px); opacity: 0;\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Installation</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Before drilling we trace what runs behind the wall and cover everything up. If a tile, a pipe or the plaster takes damage, we put it right at our own ",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Maintenance</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+              "html": "<p data-astro-cid-7aropxhg=\"\">Regular servicing keeps the unit efficient and long-lasting.</p>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3",
+              "html": "<h3 data-astro-cid-7aropxhg=\"\">Cleaning</h3>",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 48
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/\"]",
+              "html": "<a href=\"/\" hreflang=\"tr\" data-astro-cid-hkbrpulz=\"\">TR</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": "a[href=\"/ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": ".hero-kicker",
+              "html": "<p class=\"hero-kicker\" data-astro-cid-xqifjfq3=\"\">Authorized Gree Dealer &amp; Service · Alanya</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".ln[data-astro-cid-xqifjfq3=\"\"]:nth-child(1) > span[data-astro-cid-xqifjfq3=\"\"]",
+              "html": "<span data-astro-cid-xqifjfq3=\"\">Air conditioning</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".note-line",
+              "html": "<p class=\"note-line\" data-astro-cid-7aropxhg=\"\">All wall units run on inverter technology: quiet, and easier on the electricity bill. The refrigerant is R32, the current and more e",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "count": 36
+        },
+        {
+          "id": "frame-tested",
+          "impact": "critical",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Frames should be tested with axe-core",
+          "nodes": [
+            {
+              "target": "iframe",
+              "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%",
+              "summary": "Fix all of the following:\n  The iframe still has to be tested with axe-core"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "kvkk|dark|desktop",
+      "id": "kvkk",
+      "url": "/kvkk",
+      "theme": "dark",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "article",
+              "html": "<article class=\"legal\" data-astro-cid-waosa6pj=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#hizmetler\"]",
+              "html": "<a href=\"/#hizmetler\" data-astro-cid-hkbrpulz=\"\">Hizmetler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#urunler\"]",
+              "html": "<a href=\"/#urunler\" data-astro-cid-hkbrpulz=\"\">Ürünler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#projeler\"]",
+              "html": "<a href=\"/#projeler\" data-astro-cid-hkbrpulz=\"\">Projeler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#teknik\"]",
+              "html": "<a href=\"/#teknik\" data-astro-cid-hkbrpulz=\"\">Teknik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#kesif\"]",
+              "html": "<a href=\"/#kesif\" data-astro-cid-hkbrpulz=\"\">BTU Hesapla</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 33
+        }
+      ]
+    },
+    {
+      "key": "kvkk|dark|mobile",
+      "id": "kvkk",
+      "url": "/kvkk",
+      "theme": "dark",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "article",
+              "html": "<article class=\"legal\" data-astro-cid-waosa6pj=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[hreflang=\"de\"][href$=\"kvkk\"]",
+              "html": "<a href=\"/de/kvkk\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[hreflang=\"ru\"][href$=\"kvkk\"]",
+              "html": "<a href=\"/ru/kvkk\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[hreflang=\"en\"][href$=\"kvkk\"]",
+              "html": "<a href=\"/en/kvkk\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "h1",
+              "html": "<h1 data-astro-cid-waosa6pj=\"\">KVKK Aydınlatma Metni</h1>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".upd",
+              "html": "<p class=\"upd\" data-astro-cid-waosa6pj=\"\">Son güncelleme: Temmuz 2026</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "section:nth-child(4) > h2",
+              "html": "<h2 data-astro-cid-waosa6pj=\"\">Veri sorumlusu</h2>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 25
+        }
+      ]
+    },
+    {
+      "key": "kvkk|light|desktop",
+      "id": "kvkk",
+      "url": "/kvkk",
+      "theme": "light",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "article",
+              "html": "<article class=\"legal\" data-astro-cid-waosa6pj=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#hizmetler\"]",
+              "html": "<a href=\"/#hizmetler\" data-astro-cid-hkbrpulz=\"\">Hizmetler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#urunler\"]",
+              "html": "<a href=\"/#urunler\" data-astro-cid-hkbrpulz=\"\">Ürünler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#projeler\"]",
+              "html": "<a href=\"/#projeler\" data-astro-cid-hkbrpulz=\"\">Projeler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#teknik\"]",
+              "html": "<a href=\"/#teknik\" data-astro-cid-hkbrpulz=\"\">Teknik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#kesif\"]",
+              "html": "<a href=\"/#kesif\" data-astro-cid-hkbrpulz=\"\">BTU Hesapla</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 33
+        }
+      ]
+    },
+    {
+      "key": "kvkk|light|mobile",
+      "id": "kvkk",
+      "url": "/kvkk",
+      "theme": "light",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "article",
+              "html": "<article class=\"legal\" data-astro-cid-waosa6pj=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[hreflang=\"de\"][href$=\"kvkk\"]",
+              "html": "<a href=\"/de/kvkk\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[hreflang=\"ru\"][href$=\"kvkk\"]",
+              "html": "<a href=\"/ru/kvkk\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[hreflang=\"en\"][href$=\"kvkk\"]",
+              "html": "<a href=\"/en/kvkk\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "h1",
+              "html": "<h1 data-astro-cid-waosa6pj=\"\">KVKK Aydınlatma Metni</h1>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".upd",
+              "html": "<p class=\"upd\" data-astro-cid-waosa6pj=\"\">Son güncelleme: Temmuz 2026</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "section:nth-child(4) > h2",
+              "html": "<h2 data-astro-cid-waosa6pj=\"\">Veri sorumlusu</h2>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 25
+        }
+      ]
+    },
+    {
+      "key": "404|dark|desktop",
+      "id": "404",
+      "url": "/definitely-not-a-page-xyz",
+      "theme": "dark",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "page-has-heading-one",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Page should contain a level-one heading",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix all of the following:\n  Page must have a level-one heading"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "section",
+              "html": "<section class=\"nf\" data-astro-cid-ibpinaeu=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "bypass",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag241"
+          ],
+          "help": "Page must have means to bypass repeated blocks",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix any of the following:\n  No valid skip link found\n  Page does not have a heading\n  Page does not have a landmark region"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#hizmetler\"]",
+              "html": "<a href=\"/#hizmetler\" data-astro-cid-hkbrpulz=\"\">Hizmetler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#urunler\"]",
+              "html": "<a href=\"/#urunler\" data-astro-cid-hkbrpulz=\"\">Ürünler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#projeler\"]",
+              "html": "<a href=\"/#projeler\" data-astro-cid-hkbrpulz=\"\">Projeler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#teknik\"]",
+              "html": "<a href=\"/#teknik\" data-astro-cid-hkbrpulz=\"\">Teknik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#kesif\"]",
+              "html": "<a href=\"/#kesif\" data-astro-cid-hkbrpulz=\"\">BTU Hesapla</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 12
+        }
+      ]
+    },
+    {
+      "key": "404|dark|mobile",
+      "id": "404",
+      "url": "/definitely-not-a-page-xyz",
+      "theme": "dark",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "page-has-heading-one",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Page should contain a level-one heading",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix all of the following:\n  Page must have a level-one heading"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "section",
+              "html": "<section class=\"nf\" data-astro-cid-ibpinaeu=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "bypass",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag241"
+          ],
+          "help": "Page must have means to bypass repeated blocks",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix any of the following:\n  No valid skip link found\n  Page does not have a heading\n  Page does not have a landmark region"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/de\"][hreflang=\"de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[href=\"/ru\"][hreflang=\"ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[href=\"/en\"][hreflang=\"en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "p",
+              "html": "<p class=\"code\" data-astro-cid-ibpinaeu=\"\">404</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "key": "404|light|desktop",
+      "id": "404",
+      "url": "/definitely-not-a-page-xyz",
+      "theme": "light",
+      "vp": "desktop",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "page-has-heading-one",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Page should contain a level-one heading",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix all of the following:\n  Page must have a level-one heading"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "section",
+              "html": "<section class=\"nf\" data-astro-cid-ibpinaeu=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "bypass",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag241"
+          ],
+          "help": "Page must have means to bypass repeated blocks",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 63px;\">",
+              "summary": "Fix any of the following:\n  No valid skip link found\n  Page does not have a heading\n  Page does not have a landmark region"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": ".bs",
+              "html": "<span class=\"bs\" data-astro-cid-hkbrpulz=\"\">Gree · Alanya</span>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#hizmetler\"]",
+              "html": "<a href=\"/#hizmetler\" data-astro-cid-hkbrpulz=\"\">Hizmetler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#urunler\"]",
+              "html": "<a href=\"/#urunler\" data-astro-cid-hkbrpulz=\"\">Ürünler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#projeler\"]",
+              "html": "<a href=\"/#projeler\" data-astro-cid-hkbrpulz=\"\">Projeler</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#teknik\"]",
+              "html": "<a href=\"/#teknik\" data-astro-cid-hkbrpulz=\"\">Teknik</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": ".mainnav > a[href$=\"/#kesif\"]",
+              "html": "<a href=\"/#kesif\" data-astro-cid-hkbrpulz=\"\">BTU Hesapla</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 12
+        }
+      ]
+    },
+    {
+      "key": "404|light|mobile",
+      "id": "404",
+      "url": "/definitely-not-a-page-xyz",
+      "theme": "light",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Document should have one main landmark",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "page-has-heading-one",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "Page should contain a level-one heading",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix all of the following:\n  Page must have a level-one heading"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "help": "All page content should be contained by landmarks",
+          "nodes": [
+            {
+              "target": "section",
+              "html": "<section class=\"nf\" data-astro-cid-ibpinaeu=\"\">",
+              "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ],
+          "count": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "bypass",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag241"
+          ],
+          "help": "Page must have means to bypass repeated blocks",
+          "nodes": [
+            {
+              "target": "html",
+              "html": "<html lang=\"tr\" data-astro-cid-hkbrpulz=\"\" data-theme=\"light\" class=\"\" style=\"--topbar-h: 65px;\">",
+              "summary": "Fix any of the following:\n  No valid skip link found\n  Page does not have a heading\n  Page does not have a landmark region"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": "a[href=\"/de\"][hreflang=\"de\"]",
+              "html": "<a href=\"/de\" hreflang=\"de\" data-astro-cid-hkbrpulz=\"\">DE</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[href=\"/ru\"][hreflang=\"ru\"]",
+              "html": "<a href=\"/ru\" hreflang=\"ru\" data-astro-cid-hkbrpulz=\"\">RU</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "a[href=\"/en\"][hreflang=\"en\"]",
+              "html": "<a href=\"/en\" hreflang=\"en\" data-astro-cid-hkbrpulz=\"\">EN</a>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": "p",
+              "html": "<p class=\"code\" data-astro-cid-ibpinaeu=\"\">404</p>",
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "key": "tr-OPEN|dark|mobile",
+      "id": "tr-open",
+      "theme": "dark",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "count": 1,
+          "targets": [
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3"
+          ]
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "count": 1,
+          "targets": [
+            ".topbar"
+          ]
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "count": 1,
+          "targets": [
+            ".topbar"
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "count": 50,
+          "targets": [
+            "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3"
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "key": "tr-OPEN|light|mobile",
+      "id": "tr-open",
+      "theme": "light",
+      "vp": "mobile",
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "count": 1,
+          "targets": [
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3"
+          ]
+        },
+        {
+          "id": "landmark-no-duplicate-banner",
+          "impact": "moderate",
+          "count": 1,
+          "targets": [
+            ".topbar"
+          ]
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "count": 1,
+          "targets": [
+            ".topbar"
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "count": 50,
+          "targets": [
+            "#hizmetler > .wrap > .head.shown[data-reveal=\"\"]",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > h3",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(1) > p",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > h3",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(2) > p",
+            ".card[data-reveal-group=\"hizmetler\"]:nth-child(3) > h3"
+          ]
+        }
+      ],
+      "incomplete": []
+    }
+  ],
+  "consoleErrors": {
+    "404|dark|desktop": [
+      "console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "404|dark|mobile": [
+      "console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "404|light|desktop": [
+      "console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "404|light|mobile": [
+      "console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  }
+}

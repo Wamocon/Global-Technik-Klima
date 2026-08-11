@@ -1,0 +1,17 @@
+import { chromium } from './pw.mjs'
+import { BASE, DIR, info } from './lib.mjs'
+const b = await chromium.launch()
+const ctx = await b.newContext({ viewport: { width: 1440, height: 900 } })
+const page = await ctx.newPage()
+await page.goto(BASE, { waitUntil: 'load' })
+await page.evaluate(() => document.getElementById('teknik').scrollIntoView())
+await page.waitForFunction(() => { const c = document.getElementById('expCanvas'); return c && c.width > 200 }, null, { timeout: 20000 })
+await page.waitForTimeout(1500)
+await page.screenshot({ path: `${DIR}/b13c-full-before.png` })
+await page.evaluate(() => { const c = document.getElementById('expCanvas'); const g = c.getContext('webgl2') || c.getContext('webgl'); g.getExtension('WEBGL_lose_context').loseContext() })
+await page.waitForTimeout(2500)
+await page.evaluate(() => document.getElementById('teknik').scrollIntoView())
+await page.screenshot({ path: `${DIR}/b13c-full-after.png` })
+const cs = await page.evaluate(() => { const c = document.getElementById('expCanvas'); const s = getComputedStyle(c); return { bg: s.backgroundColor, w: c.width, h: c.height, clientW: c.clientWidth } })
+info(JSON.stringify(cs))
+await b.close()
