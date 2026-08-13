@@ -89,7 +89,7 @@ const tr: HomeContent = {
     dealer: 'Gree Yetkili Bayi ve Servisi',
     rating: 'Google’da 65 değerlendirmede 5,0 puan',
     faturali: 'Faturalı hizmet',
-    emergency: '7/24 teknik destek',
+    emergency: 'WhatsApp 7/24',
     taksit: 'Kredi kartına taksit',
   },
   services: {
@@ -247,7 +247,7 @@ const ru: HomeContent = {
     eyebrow: 'Официальный дилер и сервис Gree · Алания',
     lines: ['Кондиционеры Gree', 'в Алании'],
     claim: 'Продажа, монтаж и сервис в одних руках — с договором и гарантией.',
-    sub: 'Говорим по-русски. Устанавливаем и обслуживаем кондиционеры Gree. Выезд на замер — бесплатно.',
+    sub: 'Консультация на русском в WhatsApp. Устанавливаем и обслуживаем кондиционеры Gree. Выезд на замер — бесплатно.',
     ctaPrimary: 'Написать в WhatsApp',
     ctaSecondary: 'Бесплатный замер',
     phoneLabel: 'Позвонить',
@@ -257,9 +257,9 @@ const ru: HomeContent = {
   trust: {
     dealer: 'Официальный дилер и сервис Gree',
     rating: '5,0 из 5 — 65 отзывов в Google',
-    lang: 'Говорим по-русски',
+    lang: 'Консультация на русском в WhatsApp',
     faturali: 'Договор и чек',
-    emergency: 'Техподдержка 7/24',
+    emergency: 'WhatsApp 24/7',
     taksit: 'Рассрочка по карте',
   },
   services: {
@@ -306,7 +306,7 @@ const ru: HomeContent = {
     tiles: [
       { title: 'Дилер и сервис', text: 'Официальные продажи и техсервис Gree.' },
       { title: 'Договор и чек', text: 'Официальный документ и полностью заполненная гарантия.' },
-      { title: 'Русскоязычный сервис', text: 'Объясним, установим и оформим гарантию на русском.' },
+      { title: 'Консультация на русском', text: 'Консультация на русском в WhatsApp.' },
       { title: 'Опытная бригада', text: 'Чистый и надёжный монтаж опытными мастерами.' },
     ],
   },
@@ -406,7 +406,7 @@ const de: HomeContent = {
     eyebrow: 'Gree Vertragshändler und Servicepartner · Alanya',
     lines: ['Ihre Klimaanlage', 'in Alanya'],
     claim: 'Verkauf, Montage und Service aus einer Hand. Mit Rechnung und Garantie.',
-    sub: 'Wir sprechen Deutsch. Montage und Wartung Ihrer Gree-Anlage. Die Besichtigung ist kostenlos.',
+    sub: 'Beratung auf Deutsch über WhatsApp. Montage und Wartung Ihrer Gree-Anlage. Die Besichtigung ist kostenlos.',
     ctaPrimary: 'Über WhatsApp schreiben',
     ctaSecondary: 'Kostenlose Besichtigung',
     phoneLabel: 'Anrufen',
@@ -416,9 +416,9 @@ const de: HomeContent = {
   trust: {
     dealer: 'Gree Vertragshändler und Servicepartner',
     rating: '5,0 von 5 · 65 Google-Bewertungen',
-    lang: 'Wir sprechen Deutsch',
+    lang: 'Beratung auf Deutsch über WhatsApp',
     faturali: 'Rechnung und Garantiepapiere',
-    emergency: '7/24 technischer Dienst',
+    emergency: 'WhatsApp rund um die Uhr',
     taksit: 'Ratenzahlung per Karte',
   },
   services: {
@@ -464,7 +464,7 @@ const de: HomeContent = {
     tiles: [
       { title: 'Händler und Service', text: 'Autorisierter Verkauf und technischer Service von Gree.' },
       { title: 'Rechnung und Garantie', text: 'Offizielle Rechnung und korrekt ausgefüllte Garantieurkunde.' },
-      { title: 'Deutschsprachiger Service', text: 'Beratung, Montage und Garantie auf Deutsch.' },
+      { title: 'Beratung auf Deutsch', text: 'Beratung auf Deutsch über WhatsApp.' },
       { title: 'Erfahrenes Team', text: 'Saubere, zuverlässige Montage durch erfahrene Monteure.' },
     ],
   },
@@ -564,7 +564,7 @@ const en: HomeContent = {
     eyebrow: 'Authorized Gree Dealer & Service · Alanya',
     lines: ['Air conditioning', 'in Alanya'],
     claim: 'Sales, installation and service from one hand. With invoice and warranty.',
-    sub: 'We speak English. Installation and maintenance of your Gree system. The site survey is free.',
+    sub: 'Advice in English via WhatsApp. Installation and maintenance of your Gree system. The site survey is free.',
     ctaPrimary: 'Message on WhatsApp',
     ctaSecondary: 'Free site survey',
     phoneLabel: 'Call',
@@ -574,9 +574,9 @@ const en: HomeContent = {
   trust: {
     dealer: 'Authorized Gree dealer & service',
     rating: '5.0 out of 5 · 65 Google reviews',
-    lang: 'We speak English',
+    lang: 'Advice in English via WhatsApp',
     faturali: 'Invoice & warranty papers',
-    emergency: '7/24 technical support',
+    emergency: 'WhatsApp 24/7',
     taksit: 'Card instalments',
   },
   services: {
@@ -622,7 +622,7 @@ const en: HomeContent = {
     tiles: [
       { title: 'Dealer & service', text: 'Authorized Gree sales and technical service.' },
       { title: 'Invoice & warranty', text: 'Official invoice and a correctly filled warranty card.' },
-      { title: 'English-speaking service', text: 'Advice, installation and warranty in English.' },
+      { title: 'Advice in English', text: 'Advice in English via WhatsApp.' },
       { title: 'Experienced team', text: 'Clean, reliable installation by experienced fitters.' },
     ],
   },
@@ -881,8 +881,17 @@ export const biz = {
    *             ist damit eine Übermittlung ins Ausland (KVKK Art. 9). Ein Wort hier
    *             umstellen, und der Rechtstext stimmt wieder — er sagt bereits, dass
    *             die Karte erst nach Zustimmung lädt.
+   *
+   * Steht seit dem Ultra-Prüflauf vom 11.08.2026 auf 'consent' (Befund C1). Der
+   * Demo-Wert 'embed' war keine Geschmacksfrage: legal.ts versprach an acht Stellen
+   * in vier Sprachen, die Karte lade erst nach Klick — sie lud beim Scrollen. Eine
+   * falsche Aussage in einem veröffentlichten Rechtstext über eine
+   * Auslandsübermittlung. scripts/guard.mjs bricht den Build jetzt, wenn hier wieder
+   * 'embed' steht; wer die Karte in einer Demo sofort sehen will, muss die acht
+   * Rechtstext-Stellen mit umschreiben — beides zugleich ist die eine unzulässige
+   * Variante.
    */
-  mapMode: 'embed' as 'embed' | 'consent',
+  mapMode: 'consent' as 'embed' | 'consent',
   // Exakte Karten-Einbettung von der Original-Seite (sein echter Google-Place-Eintrag).
   mapEmbed:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.132111032381!2d32.0081833!3d36.5509274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99ada3ddac53%3A0xa9a1e8359935df5a!2sAlanya%20Global%20Teknik%20-%20Gree%20klima%20alanya!5e0!3m2!1str!2str!4v1751437954026!5m2!1str!2str',

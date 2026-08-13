@@ -5,7 +5,8 @@ dort liegen Repro-Schritte, Messwerte und Begründung je Befund. **Dieses Dokume
 abzuarbeitende Liste.** Jede Nummer entspricht einer Prüfung in `scripts/qa-regression.mjs`.
 
 **Verdikt beim Prüflauf: 🚫 BLOCK.** Bestätigt: 58 · Widerlegt und verworfen: 61.
-**Stand der Behebung: 0 von 58 behoben** (Prüflauf 11.08.2026, 35 automatisierte Prüfungen: 35 offen).
+**Stand der Behebung: 2 von 58 behoben** — die beiden Blocker C1 und K1 (Nachprüfung 13.08.2026,
+35 automatisierte Prüfungen: 33 offen, 2 behoben). Guard, Abnahme und Bewegungstest grün.
 
 ---
 
@@ -42,7 +43,7 @@ darum jeden Befund selbst neu — verlasse dich darauf, nicht auf Zitate aus dem
 
 ## 🔴 Blockierend — vor dem Zeigen beim Kunden
 
-- [ ] **C1 · Karte lädt ohne die Zustimmung, die die Rechtstexte versprechen** (katastrophal)
+- [x] **C1 · Karte lädt ohne die Zustimmung, die die Rechtstexte versprechen** (katastrophal) — BEHOBEN 13.08.2026
   `src/content/home.ts:885` → `mapMode: 'consent'`. Der Zustimmungspfad ist bereits gebaut und in
   `acceptance.mjs` getestet, es ist wirklich nur das eine Wort.
   **Danach die Lücke schließen**, sonst kommt es zurück: in `scripts/guard.mjs` eine Regel, die den
@@ -53,7 +54,7 @@ darum jeden Befund selbst neu — verlasse dich darauf, nicht auf Zitate aus dem
   Rechtstext-Stellen umschreiben (`src/content/legal.ts` Zeilen 71, 140, 189, 248, 295, 354, 401, 458).
   Beides gleichzeitig stehen zu lassen ist die einzige nicht zulässige Variante.
 
-- [ ] **K1 · Gesperrte (⛔) Zusagen stehen live auf der Seite** (kritisch)
+- [x] **K1 · Gesperrte (⛔) Zusagen stehen live auf der Seite** (kritisch) — BEHOBEN 13.08.2026 (Zwischenstand, siehe Notiz unten)
   **Braucht eine Entscheidung, nicht nur Code.** `instruction.md §7 Frage 4` ist unbeantwortet:
   spricht ein Mensch im Betrieb Deutsch, oder läuft es über die Agentur?
   - Solange unbeantwortet: `src/content/home.ts:419` von `'Wir sprechen Deutsch'` auf

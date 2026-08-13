@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "npm run guard && astro build",
+    "postbuild": "node --experimental-strip-types scripts/guard.mjs --dist",
     "preview": "astro preview",
     "guard": "node --experimental-strip-types scripts/guard.mjs",
     "pseudo": "node scripts/pseudo.mjs",
